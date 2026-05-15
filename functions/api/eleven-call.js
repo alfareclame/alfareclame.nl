@@ -16,7 +16,8 @@
  *   - call_initiation          → telephony attempt log (ignored, ack 200)
  */
 
-const TIMESTAMP_TOLERANCE_SEC = 1800;
+const TIMESTAMP_TOLERANCE_SEC = 300; // 5-minute replay window (was 1800)
+const MAX_BODY_BYTES = 256 * 1024;   // ElevenLabs transcripts can be large
 
 function hexToBytes(hex) {
   if (!hex || hex.length % 2 !== 0) return null;
@@ -52,6 +53,9 @@ async function hmacSha256Hex(secret, message) {
   return bytesToHex(new Uint8Array(sig));
 }
 
+// Preserve the raw timestamp string for signature reconstruction — parseInt
+// would strip leading zeros and cause spurious 401s on signatures that signed
+// the original literal value.
 function parseSigHeader(header) {
   if (!header) return null;
   const parts = {};
@@ -61,20 +65,25 @@ function parseSigHeader(header) {
     parts[seg.slice(0, idx).trim()] = seg.slice(idx + 1).trim();
   }
   if (!parts.t || !parts.v0) return null;
-  return { ts: parseInt(parts.t, 10), v0: parts.v0 };
+  const tsNum = Number.parseInt(parts.t, 10);
+  if (!Number.isFinite(tsNum)) return null;
+  return { tsRaw: parts.t, tsNum, v0: parts.v0 };
 }
 
 async function verifySignature(rawBody, header, secret) {
   const parsed = parseSigHeader(header);
-  if (!parsed || Number.isNaN(parsed.ts)) return false;
+  if (!parsed) return false;
   const now = Math.floor(Date.now() / 1000);
-  if (Math.abs(now - parsed.ts) > TIMESTAMP_TOLERANCE_SEC) return false;
-  const expectedHex = await hmacSha256Hex(secret, `${parsed.ts}.${rawBody}`);
+  if (Math.abs(now - parsed.tsNum) > TIMESTAMP_TOLERANCE_SEC) return false;
+  const expectedHex = await hmacSha256Hex(secret, `${parsed.tsRaw}.${rawBody}`);
   const a = hexToBytes(expectedHex);
   const b = hexToBytes(parsed.v0);
   return timingSafeEqual(a, b);
 }
 
+// MarkdownV2 escape — regex-with-callback prepends literal backslash to every
+// Telegram-reserved char. Do NOT rewrite as a loop; that would re-escape
+// already-escaped backslashes and double-encode the output.
 function escapeMd(text) {
   if (text == null) return "";
   return String(text).replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, (m) => "\\" + m);
@@ -87,10 +96,15 @@ function clamp(s, max) {
 }
 
 function fmtDuration(secs) {
-  if (!secs || Number.isNaN(secs)) return "?";
+  if (!Number.isFinite(secs) || secs < 0) return "?";
   const m = Math.floor(secs / 60);
   const s = Math.floor(secs % 60);
   return `${m}m ${s}s`;
+}
+
+function fmtCost(cost) {
+  const n = Number(cost);
+  return Number.isFinite(n) ? `$${n.toFixed(3)}` : "?";
 }
 
 function buildTelegramMessage(payload) {
@@ -105,7 +119,7 @@ function buildTelegramMessage(payload) {
   const startTs = meta.start_time_unix_secs
     ? new Date(meta.start_time_unix_secs * 1000).toISOString().replace("T", " ").slice(0, 19) + " UTC"
     : "?";
-  const cost = meta.cost != null ? `$${Number(meta.cost).toFixed(3)}` : "?";
+  const cost = fmtCost(meta.cost);
   const status = clamp(data.status || "?", 40);
   const convId = clamp(data.conversation_id || "?", 80);
 
@@ -156,7 +170,18 @@ export async function onRequestPost({ request, env }) {
     return json(500, { ok: false, error: "server_misconfigured" });
   }
 
+  // Reject oversized payloads BEFORE buffering the body — HMAC verification
+  // runs after read, so we must guard against large unauthenticated bodies.
+  const declaredLen = parseInt(request.headers.get("Content-Length") || "0", 10);
+  if (declaredLen && declaredLen > MAX_BODY_BYTES) {
+    return json(413, { ok: false, error: "payload_too_large" });
+  }
+
   const rawBody = await request.text();
+  if (rawBody.length > MAX_BODY_BYTES) {
+    return json(413, { ok: false, error: "payload_too_large" });
+  }
+
   const sigHeader =
     request.headers.get("elevenlabs-signature") || request.headers.get("ElevenLabs-Signature");
 
@@ -196,7 +221,7 @@ export async function onRequestPost({ request, env }) {
     );
     const out = await tg.json();
     if (!out.ok) {
-      return json(502, { ok: false, error: "telegram_failed", detail: out.description });
+      return json(502, { ok: false, error: "telegram_failed" });
     }
   } catch {
     return json(502, { ok: false, error: "telegram_unreachable" });

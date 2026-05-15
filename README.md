@@ -1,6 +1,6 @@
 # alfareclame.nl
 
-> Signage & Digital Partner uit Rotterdam — sinds 2012
+> Reclamebureau Rotterdam — signage, digital & AI onder één dak. Sinds 2012.
 
 Productie-website voor [Alfa Reclame](https://alfareclame.nl) — Rotterdams bedrijf voor raambelettering, autoreclame, gevelreclame, grootformaat industrieel werk én professionele websites, AI-oplossingen en automatisering.
 

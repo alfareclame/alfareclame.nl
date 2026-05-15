@@ -99,6 +99,11 @@ Deze website bevat uitgebreide informatie over signage-diensten (raambelettering
 ## URLs
 
 - [Homepage](https://alfareclame.nl/) — alle diensten en portfolio
+- [Reclamebureau Rotterdam — pillar](https://alfareclame.nl/reclamebureau-rotterdam/) — complete gids full-service reclamebureau voor MKB
+- [AI voor MKB Nederland](https://alfareclame.nl/ai/) — pillar-gids AI implementatie voor het Nederlandse MKB
+- [AI voor horeca](https://alfareclame.nl/ai/voor-horeca.html) — 7 praktische AI-toepassingen voor horeca
+- [WhatsApp bestelbot restaurants](https://alfareclame.nl/ai/whatsapp-bestelbot-restaurant.html) — gids voor shoarma, pizzeria, bezorgzaken
+- [AI Readiness Check](https://alfareclame.nl/ai/readiness-check.html) — 7-vragen check, sector-specifiek
 - [Signage-diensten](https://alfareclame.nl/#diensten) — raambelettering, autoreclame, gevelreclame
 - [Digital & AI-diensten](https://alfareclame.nl/#digital) — websites, AI, automatisering
 - [Grootformaat & Havengebied](https://alfareclame.nl/#industrieel) — industrieel signage werk
