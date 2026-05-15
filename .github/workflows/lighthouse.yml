@@ -1,0 +1,74 @@
+name: Lighthouse CI
+
+# Elke push naar main + elke PR wordt getest op performance, SEO,
+# accessibility en best practices. Falende scores blokkeren de merge.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  lighthouse:
+    name: Audit performance, SEO, accessibility
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install static server
+        run: npm install -g serve@14
+
+      - name: Serve site in background
+        run: |
+          serve -s . -p 8080 &
+          sleep 3
+          curl -sSf http://localhost:8080 > /dev/null || (echo "Server failed to start" && exit 1)
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          urls: |
+            http://localhost:8080/
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          configPath: ./.lighthouserc.json
+
+      - name: Comment PR with Lighthouse scores
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            try {
+              const results = JSON.parse(fs.readFileSync('.lighthouseci/manifest.json'));
+              const first = results[0];
+              const summary = first.summary;
+              const body = `## 🚦 Lighthouse scores
+              
+              | Categorie | Score |
+              |-----------|-------|
+              | Performance | ${Math.round(summary.performance * 100)} |
+              | Accessibility | ${Math.round(summary.accessibility * 100)} |
+              | Best Practices | ${Math.round(summary['best-practices'] * 100)} |
+              | SEO | ${Math.round(summary.seo * 100)} |
+              
+              📊 [Volledig rapport](${first.url})`;
+              
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: body
+              });
+            } catch (e) {
+              console.log('Could not post Lighthouse comment:', e.message);
+            }

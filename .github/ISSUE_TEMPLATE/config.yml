@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Snelle vraag via WhatsApp
+    url: https://wa.me/31627246429
+    about: Voor klantvragen of snelle contactmomenten, niet voor code-issues
+  - name: 📧 E-mail voor offertes
+    url: mailto:info@alfareclame.nl
+    about: Voor offerteaanvragen en algemene business-vragen

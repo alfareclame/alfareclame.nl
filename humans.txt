@@ -1,0 +1,22 @@
+/* TEAM */
+Oprichter & Vakman: Alfa Reclame
+Locatie: Rotterdam, Nederland
+Contact: info@alfareclame.nl
+Sinds: 2012
+
+/* SITE */
+Last update: 2026-04-20
+Language: Nederlands (nl-NL)
+Standards: HTML5, CSS3, JavaScript (ES6+)
+Components: Responsive design, Schema.org JSON-LD, Semantic HTML
+Software: Custom-built, geen WordPress/framework — gebouwd door BSc Computer Engineer
+
+/* DIENSTEN */
+Signage: Raambelettering, autoreclame, gevelreclame, industrieel grootformaat
+Digital: Websites, AI-oplossingen, automatisering, maatwerk-software
+Werkgebied: Rotterdam & omgeving (signage) / Nederland (digital)
+
+/* ORGANISATIE */
+KvK: 88606902
+BTW: Geregistreerd
+Sinds: 2012

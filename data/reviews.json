@@ -1,0 +1,31 @@
+{
+  "_comment": "Review fotoğrafı eklemek için: 1) fotoğrafı public/images/reviews/ klasörüne yükle 2) aşağıdaki items listesinde ilgili review'un 'photo' alanını güncelle. Boş 'photo' bırakırsan otomatik harfli avatar gösterilir. ÖNEMLİ: Her müşterinin WhatsApp/e-mail üzerinden resmi onayını al (AVG/GDPR). Bu generic review'ları kendi GERÇEK müşteri review'larınla değiştirebilirsin — Google Maps'ten kopyalayıp buraya ekleyebilirsin.",
+  "rating": "4,9",
+  "ratingCount": 25,
+  "items": [
+    {
+      "id": "review-1",
+      "quote": "Snel, scherp geprijsd en kwaliteit top. Er wordt echt meegedacht. Mijn bus ziet er nu echt professioneel uit.",
+      "name": "Mehmet Ç.",
+      "company": "Transport & Installatie · Rotterdam",
+      "photo": "",
+      "stars": 5
+    },
+    {
+      "id": "review-2",
+      "quote": "Vraagprijs elders was €850. Bij Alfa Reclame €495. Zelfde kwaliteit, betere service. Zeker een aanrader.",
+      "name": "Paolo",
+      "company": "Horeca-ondernemer · Rotterdam",
+      "photo": "",
+      "stars": 5
+    },
+    {
+      "id": "review-3",
+      "quote": "Voor onze franchise-wagens een consistent ontwerp. Levert exact wat is afgesproken, elke keer weer.",
+      "name": "Nadia M.",
+      "company": "Retail-ondernemer · Rotterdam",
+      "photo": "",
+      "stars": 5
+    }
+  ]
+}

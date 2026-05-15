@@ -1,0 +1,4 @@
+Contact: mailto:info@alfareclame.nl
+Expires: 2027-04-20T00:00:00.000Z
+Preferred-Languages: nl, en
+Canonical: https://alfareclame.nl/.well-known/security.txt

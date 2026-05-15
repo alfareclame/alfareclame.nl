@@ -1,0 +1,36 @@
+name: HTML Validation
+
+# Valideert alle HTML-bestanden tegen W3C HTML5 specificatie.
+# Vangt kapotte tags, missende attributen en onjuiste structuur.
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  validate-html:
+    name: Valideer HTML5
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate HTML
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          root: .
+          css: false
+          extra: --also-check-css --Werror
+          blacklist: |
+            node_modules
+            .github
+            .well-known
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## HTML validatie voltooid" >> $GITHUB_STEP_SUMMARY
+          echo "Alle .html bestanden zijn gecontroleerd tegen W3C HTML5 specificatie." >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,50 @@
+name: Link Check
+
+# Scant alle links (intern en extern) op broken references.
+# Dode links schaden SEO en user experience.
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+  schedule:
+    # Weekelijks op maandag 06:00 UTC — externe links veranderen
+    - cron: '0 6 * * 1'
+
+jobs:
+  link-check:
+    name: Scan broken links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,204,301,302,403,429
+            --max-concurrency 5
+            --timeout 20
+            --retry-wait-time 3
+            --max-retries 2
+            --exclude-all-private
+            --exclude '^https?://(?:www\.)?(?:localhost|127\.0\.0\.1)'
+            --exclude 'wa\.me'
+            --exclude 'mailto:'
+            --exclude 'tel:'
+            'index.html' 'README.md' 'LAUNCH-GUIDE.md' 'INSTAGRAM-PHOTOS-GUIDE.md' 'CONTRIBUTING.md'
+          fail: true
+          output: ./lychee/out.md
+
+      - name: Upload link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: ./lychee/out.md
+          retention-days: 30

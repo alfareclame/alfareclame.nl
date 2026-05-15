@@ -1,0 +1,68 @@
+name: 🐛 Bug report
+description: Meld een probleem met de website
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor het melden van een bug! Vul onderstaand in.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Wat is het probleem?
+      description: Beschrijf wat er gebeurt en wat je verwachtte
+      placeholder: |
+        Op de homepage werkt het contactformulier niet — de submit knop doet niks.
+        
+        Ik verwachtte: email client opent met mijn bericht.
+        Wat er gebeurt: niks, button is dood.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproductiestappen
+      description: Hoe kunnen we het probleem reproduceren?
+      placeholder: |
+        1. Ga naar alfareclame.nl
+        2. Scroll naar contactformulier
+        3. Vul bericht in
+        4. Klik "Verstuur"
+        5. Niets gebeurt
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome (desktop)
+        - Chrome (mobile)
+        - Safari (desktop)
+        - Safari (mobile/iPhone)
+        - Firefox
+        - Edge
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Apparaat
+      options:
+        - Desktop/laptop
+        - Mobile telefoon
+        - Tablet
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optioneel)
+      description: Sleep hierheen om toe te voegen

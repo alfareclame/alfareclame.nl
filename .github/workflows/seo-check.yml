@@ -1,0 +1,215 @@
+name: SEO Quality Gate
+
+# Controleert sitemap.xml, robots.txt, schema.org JSON-LD, meta tags,
+# canonical URLs en alle belangrijke SEO-signalen.
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  seo-validation:
+    name: Valideer SEO-bestanden
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install validators
+        run: |
+          pip install --quiet lxml requests beautifulsoup4
+
+      - name: Validate sitemap.xml structure
+        run: |
+          python3 << 'EOF'
+          import xml.etree.ElementTree as ET
+          import sys
+          
+          try:
+              tree = ET.parse('sitemap.xml')
+              root = tree.getroot()
+              ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9',
+                    'img': 'http://www.google.com/schemas/sitemap-image/1.1'}
+              urls = root.findall('sm:url', ns)
+              print(f"✓ Sitemap valid — {len(urls)} URL(s) found")
+              
+              total_images = 0
+              for url in urls:
+                  loc = url.find('sm:loc', ns)
+                  if loc is None or not loc.text:
+                      print("✗ URL missing <loc> tag")
+                      sys.exit(1)
+                  images = url.findall('img:image', ns)
+                  total_images += len(images)
+              
+              print(f"✓ Image sitemap — {total_images} image(s) indexed")
+          except Exception as e:
+              print(f"✗ Sitemap validation failed: {e}")
+              sys.exit(1)
+          EOF
+
+      - name: Validate robots.txt syntax
+        run: |
+          python3 << 'EOF'
+          import sys
+          
+          required_directives = ['User-agent', 'Allow', 'Sitemap']
+          required_bots = ['Googlebot', 'GPTBot', 'ClaudeBot', 'PerplexityBot']
+          
+          with open('robots.txt') as f:
+              content = f.read()
+          
+          for directive in required_directives:
+              if directive not in content:
+                  print(f"✗ robots.txt missing required directive: {directive}")
+                  sys.exit(1)
+          print("✓ robots.txt has all required directives")
+          
+          for bot in required_bots:
+              if bot not in content:
+                  print(f"⚠ robots.txt missing bot: {bot}")
+              else:
+                  print(f"✓ Bot allowed: {bot}")
+          EOF
+
+      - name: Validate Schema.org JSON-LD
+        run: |
+          python3 << 'EOF'
+          import json
+          import re
+          import sys
+          from bs4 import BeautifulSoup
+          
+          with open('index.html') as f:
+              soup = BeautifulSoup(f, 'html.parser')
+          
+          scripts = soup.find_all('script', type='application/ld+json')
+          if not scripts:
+              print("✗ No JSON-LD schemas found")
+              sys.exit(1)
+          
+          schema_count = 0
+          type_counts = {}
+          for script in scripts:
+              try:
+                  data = json.loads(script.string)
+                  if '@graph' in data:
+                      for item in data['@graph']:
+                          t = item.get('@type', 'unknown')
+                          type_counts[t] = type_counts.get(t, 0) + 1
+                          schema_count += 1
+                  else:
+                      t = data.get('@type', 'unknown')
+                      type_counts[t] = type_counts.get(t, 0) + 1
+                      schema_count += 1
+              except json.JSONDecodeError as e:
+                  print(f"✗ Invalid JSON-LD: {e}")
+                  sys.exit(1)
+          
+          print(f"✓ Valid JSON-LD — {schema_count} schema(s) found")
+          for t, c in sorted(type_counts.items()):
+              print(f"  • {t}: {c}")
+          
+          required_types = ['Organization', 'LocalBusiness', 'WebSite', 'FAQPage']
+          for req in required_types:
+              if req not in type_counts:
+                  print(f"✗ Missing required schema type: {req}")
+                  sys.exit(1)
+          EOF
+
+      - name: Check critical meta tags
+        run: |
+          python3 << 'EOF'
+          import sys
+          from bs4 import BeautifulSoup
+          
+          with open('index.html') as f:
+              soup = BeautifulSoup(f, 'html.parser')
+          
+          required = {
+              'title': soup.find('title'),
+              'description': soup.find('meta', attrs={'name': 'description'}),
+              'canonical': soup.find('link', rel='canonical'),
+              'viewport': soup.find('meta', attrs={'name': 'viewport'}),
+              'og:title': soup.find('meta', attrs={'property': 'og:title'}),
+              'og:description': soup.find('meta', attrs={'property': 'og:description'}),
+              'og:image': soup.find('meta', attrs={'property': 'og:image'}),
+              'twitter:card': soup.find('meta', attrs={'name': 'twitter:card'}),
+              'h1': soup.find('h1'),
+          }
+          
+          failed = False
+          for name, elem in required.items():
+              if elem is None:
+                  print(f"✗ Missing: {name}")
+                  failed = True
+              else:
+                  print(f"✓ Found: {name}")
+          
+          # Title length check
+          title = soup.find('title')
+          if title and title.string:
+              length = len(title.string)
+              if length < 30 or length > 70:
+                  print(f"⚠ Title length suboptimal: {length} chars (ideal: 30-60)")
+              else:
+                  print(f"✓ Title length optimal: {length} chars")
+          
+          # Description length
+          desc = soup.find('meta', attrs={'name': 'description'})
+          if desc and desc.get('content'):
+              length = len(desc['content'])
+              if length < 120 or length > 180:
+                  print(f"⚠ Description length suboptimal: {length} chars (ideal: 120-160)")
+              else:
+                  print(f"✓ Description length optimal: {length} chars")
+          
+          # H1 count (must be exactly 1)
+          h1_count = len(soup.find_all('h1'))
+          if h1_count != 1:
+              print(f"✗ Page should have exactly 1 H1, found: {h1_count}")
+              failed = True
+          else:
+              print(f"✓ Exactly 1 H1 on page")
+          
+          # Images without alt
+          imgs_without_alt = [img for img in soup.find_all('img') if not img.get('alt')]
+          if imgs_without_alt:
+              print(f"⚠ {len(imgs_without_alt)} image(s) without alt attribute")
+          else:
+              print(f"✓ All <img> have alt attribute")
+          
+          if failed:
+              sys.exit(1)
+          EOF
+
+      - name: Verify modern SEO files
+        run: |
+          required_files=(
+            "sitemap.xml"
+            "robots.txt"
+            "llms.txt"
+            "humans.txt"
+            "manifest.json"
+            ".well-known/security.txt"
+          )
+          missing=0
+          for f in "${required_files[@]}"; do
+            if [ -f "$f" ]; then
+              echo "✓ $f exists"
+            else
+              echo "✗ Missing: $f"
+              missing=$((missing + 1))
+            fi
+          done
+          if [ $missing -gt 0 ]; then
+            exit 1
+          fi

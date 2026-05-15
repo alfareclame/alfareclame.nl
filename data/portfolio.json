@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "istanbul-reisbureau",
+      "name": "Istanbul Reisbureau",
+      "category": "Raambelettering",
+      "scope": "Turkish Airlines raamdecoratie — complete storefront met wereldbol-illustratie",
+      "image": "/public/images/portfolio/istanbul-reisbureau-montage.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "benjamin-furniture",
+      "name": "Benjamin Furniture",
+      "category": "Gevelreclame · 3D letters",
+      "scope": "Grootformaat geveltekens — neon-groene freesletters op bedrijfspand",
+      "image": "/public/images/portfolio/benjamin-furniture.jpg",
+      "theme": "pf-theme-yellow"
+    },
+    {
+      "id": "yilmaz-havalem",
+      "name": "Yılmaz & Havalem",
+      "category": "Gevelreclame · Complete storefront",
+      "scope": "Lichtbak, raambelettering en volledige huisstijl-uitvoering voor financieel adviescentrum",
+      "image": "/public/images/portfolio/yilmaz-havalem.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "cc-cable",
+      "name": "C&C Cable Communication",
+      "category": "Autoreclame",
+      "scope": "Ford Transit bedrijfswagen met klassieke belettering",
+      "image": "/public/images/portfolio/cc-cable-communication.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "i-bo",
+      "name": "I-BO Warmte Techniek",
+      "category": "Autoreclame",
+      "scope": "VW Transporter met dienstenlijst en partner-logo's (Vaillant, Remeha, Nefit, Intergas)",
+      "image": "/public/images/portfolio/i-bo-warmte-techniek.jpg",
+      "theme": "pf-theme-warm"
+    },
+    {
+      "id": "il-mare",
+      "name": "Il Mare Pizzeria",
+      "category": "Gevelreclame · Horeca",
+      "scope": "Lichtbak en raambelettering met pasta/pizza display",
+      "image": "/public/images/portfolio/il-mare-pizzeria.jpg",
+      "theme": "pf-theme-yellow"
+    },
+    {
+      "id": "barge-master",
+      "name": "Barge Master",
+      "category": "Grootformaat industrieel",
+      "scope": "Offshore crane-platform belettering in Rotterdamse haven — grootformaat B2B",
+      "image": "/public/images/portfolio/barge-master.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "iop-silo",
+      "name": "IOP Industrial",
+      "category": "Grootformaat industrieel",
+      "scope": "Logo-belettering op industriesilo — grootformaat werk op hoogte",
+      "image": "/public/images/portfolio/iop-silo.jpg",
+      "theme": "pf-theme-warm"
+    },
+    {
+      "id": "dermamedi",
+      "name": "DermaMedi Lijn",
+      "category": "Raambelettering · Zorg",
+      "scope": "Professionele raambelettering voor laser- en huidtherapie kliniek — inclusief openingstijden-paneel",
+      "image": "/public/images/portfolio/dermamedi-lijn.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "aras-partners",
+      "name": "Aras & Partners",
+      "category": "Raambelettering · Zakelijk",
+      "scope": "Klassieke gouden raambelettering voor administratiekantoor",
+      "image": "/public/images/portfolio/aras-partners.jpg",
+      "theme": "pf-theme-warm"
+    },
+    {
+      "id": "de-groene-tuin",
+      "name": "De Groene Tuin",
+      "category": "Gevelreclame · Educatie",
+      "scope": "Geveltekst met logo voor kinderdagverblijf & BSO",
+      "image": "/public/images/portfolio/de-groene-tuin.jpg",
+      "theme": "pf-theme-yellow"
+    },
+    {
+      "id": "diamor",
+      "name": "Diamor Jewellery",
+      "category": "Gevelreclame · Retail luxe",
+      "scope": "Lichtbak met logo voor sieraden- en horlogewinkel",
+      "image": "/public/images/portfolio/diamor-jewellery.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "oranje-stucadoor",
+      "name": "Oranje Stucadoor",
+      "category": "Autoreclame",
+      "scope": "VW Transporter met full-colour belettering voor stucadoorsbedrijf",
+      "image": "/public/images/portfolio/oranje-stucadoor.jpg",
+      "theme": "pf-theme-warm"
+    },
+    {
+      "id": "yohnny-cake",
+      "name": "Yohnny Cake",
+      "category": "Raambelettering · Horeca",
+      "scope": "Etalage-raambelettering voor antique & handmade café",
+      "image": "/public/images/portfolio/yohnny-cake.jpg",
+      "theme": "pf-theme-ink"
+    },
+    {
+      "id": "fietswinkel",
+      "name": "Fietswinkel Rotterdam",
+      "category": "Autoreclame",
+      "scope": "Mercedes Vito met grote web-URL in blauw over de zijkant",
+      "image": "/public/images/portfolio/fietswinkel-rotterdam.jpg",
+      "theme": "pf-theme-ink"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+name: ✨ Feature request
+description: Stel een nieuwe feature of verbetering voor
+title: "[Feature] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor het voorstellen van een verbetering!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welk probleem lost dit op?
+      description: Beschrijf de context — wat werkt nu niet goed of mist er?
+      placeholder: |
+        Bezoekers kunnen nu niet zien welke materialen we gebruiken voordat ze contact opnemen.
+        Dit kost conversie omdat mensen eerst willen vergelijken.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Voorgestelde oplossing
+      description: Hoe zou dit opgelost moeten worden?
+      placeholder: |
+        Een aparte Materialen-pagina met per merk (3M, Avery, Hexis) de specificaties
+        en voor- en nadelen.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Welk gedeelte van de site?
+      multiple: true
+      options:
+        - Homepage / Hero
+        - Signage diensten
+        - Digital & AI diensten
+        - Industrieel / Havengebied
+        - Portfolio
+        - Calculator
+        - Contact / Contactformulier
+        - FAQ
+        - Schema / SEO
+        - Performance
+        - Mobile / Responsive
+        - Anders
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioriteit (eigen inschatting)
+      options:
+        - 🔴 Hoog — blokkeert conversie of functionaliteit
+        - 🟡 Medium — verbetering met zichtbare impact
+        - 🟢 Laag — nice-to-have
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatieven overwogen?
+      description: Heb je andere oplossingen in gedachten gehad?
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockup of voorbeeld (optioneel)
+      description: Screenshots, tekeningen, links naar andere sites die dit goed doen

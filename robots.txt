@@ -1,0 +1,110 @@
+# ============================================================
+# robots.txt — Alfa Reclame (alfareclame.nl)
+# Rotterdam · Signage & Digital/AI Services
+# ============================================================
+
+# --- Search engines (expliciet toegestaan) ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# --- AI / LLM crawlers (expliciet toegestaan voor indexatie en training) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# --- Social media crawlers (voor link previews) ---
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# --- Default policy: alles is toegestaan ---
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# --- Sitemap locations ---
+Sitemap: https://alfareclame.nl/sitemap.xml
+
+# --- Host preference ---
+Host: https://alfareclame.nl

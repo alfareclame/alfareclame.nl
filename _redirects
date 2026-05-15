@@ -1,0 +1,12 @@
+# Oude WordPress URLs → nieuwe site
+/project/hemisferio    /    410
+/project/ethereum      /    410
+/diensten              /    301
+/over-ons              /    301
+/portfolio             /#werk    301
+/contact               /#contact    301
+/blog/*                /    301
+/author/*              /    410
+
+# Canonical: www → non-www (indien van toepassing)
+https://www.alfareclame.nl/*    https://alfareclame.nl/:splat    301!

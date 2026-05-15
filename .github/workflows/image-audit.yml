@@ -1,0 +1,74 @@
+name: Image Audit
+
+# Waarschuwt voor afbeeldingen die te groot zijn voor het web.
+# Grote afbeeldingen hurten PageSpeed score en mobile UX.
+
+on:
+  push:
+    branches: [main, staging]
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  image-size-check:
+    name: Audit image sizes
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check image sizes
+        run: |
+          WARN_SIZE=500000      # 500 KB — warning
+          FAIL_SIZE=2500000     # 2.5 MB — hard limit
+          
+          echo "## 🖼️ Image size audit" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| File | Size | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|--------|" >> $GITHUB_STEP_SUMMARY
+          
+          warn_count=0
+          fail_count=0
+          ok_count=0
+          
+          while IFS= read -r -d '' file; do
+            size=$(stat -c%s "$file")
+            size_kb=$((size / 1024))
+            
+            if [ "$size" -gt "$FAIL_SIZE" ]; then
+              echo "| $file | ${size_kb} KB | ❌ TOO LARGE |" >> $GITHUB_STEP_SUMMARY
+              fail_count=$((fail_count + 1))
+              echo "ERROR: $file is ${size_kb} KB (limit: 2500 KB)"
+            elif [ "$size" -gt "$WARN_SIZE" ]; then
+              echo "| $file | ${size_kb} KB | ⚠️ Large |" >> $GITHUB_STEP_SUMMARY
+              warn_count=$((warn_count + 1))
+              echo "WARN: $file is ${size_kb} KB (warning threshold: 500 KB)"
+            else
+              ok_count=$((ok_count + 1))
+            fi
+          done < <(find public/images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) -print0)
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Totaal:** $ok_count OK · $warn_count waarschuwingen · $fail_count fouten" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$fail_count" -gt 0 ]; then
+            echo "Image audit failed — verklein afbeeldingen boven 2.5 MB"
+            exit 1
+          fi
+          
+          echo "Image audit passed"
+
+      - name: Check for modern formats
+        run: |
+          jpg_count=$(find public/images -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) | wc -l)
+          webp_count=$(find public/images -type f -iname "*.webp" | wc -l)
+          
+          echo "## 📊 Image format distribution" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- JPG: $jpg_count" >> $GITHUB_STEP_SUMMARY
+          echo "- WebP: $webp_count" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$jpg_count" -gt 10 ] && [ "$webp_count" -eq 0 ]; then
+            echo "💡 Overweeg WebP te gebruiken voor betere compressie" >> $GITHUB_STEP_SUMMARY
+          fi

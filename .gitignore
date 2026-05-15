@@ -1,0 +1,94 @@
+# ============================================================
+# .gitignore — alfareclame.nl
+# ============================================================
+
+# ----- OS -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----- Editors & IDEs -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ----- Logs -----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----- Dependency directories -----
+node_modules/
+jspm_packages/
+bower_components/
+
+# ----- Build / cache outputs -----
+dist/
+build/
+.cache/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.output/
+.vercel/
+.netlify/
+
+# ----- Lighthouse CI -----
+.lighthouseci/
+lhci_reports/
+
+# ----- Wrangler / Cloudflare -----
+.wrangler/
+.dev.vars
+
+# ----- Environment variables -----
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
+# ----- Test coverage -----
+coverage/
+*.lcov
+.nyc_output/
+
+# ----- Temporary files -----
+*.tmp
+*.temp
+*.bak
+*~.nib
+tmp/
+temp/
+
+# ----- Archives (don't commit zips) -----
+*.zip
+*.tar.gz
+*.rar
+
+# ----- Local overrides -----
+local.config.*
+*.local
+
+# ----- Internal planning / build prompts (NOT for public repo) -----
+ALFA_RECLAME_BUILD_PROMPT.md
+INSTAGRAM-PHOTOS-GUIDE.md
+tasks/
