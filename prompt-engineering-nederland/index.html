@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<title>Prompt engineering Nederland voor MKB | Alfa Reclame</title>
+<meta name="description" content="Prompt engineering bureau voor het Nederlandse MKB. Custom AI-prompts voor GPT-4/5 en Claude — audit, design, chain-workflows en evaluatie. ROI-gericht, geen hype.">
+<meta name="keywords" content="prompt engineering nederland, prompt engineering bureau, ai prompt consultancy, prompt engineer mkb, custom prompts chatgpt bedrijf, claude prompt design nederland">
+<meta name="author" content="Alfa Reclame">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#1D1D1F">
+<meta name="color-scheme" content="light">
+
+<link rel="canonical" href="https://alfareclame.nl/prompt-engineering-nederland/">
+<link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/prompt-engineering-nederland/">
+<link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/prompt-engineering-nederland/">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/public/images/favicon-192.png">
+
+<meta property="og:site_name" content="Alfa Reclame">
+<meta property="og:title" content="Prompt engineering Nederland voor MKB — Alfa Reclame">
+<meta property="og:description" content="Custom AI-prompts voor GPT-4/5 en Claude. Prompt audit, chain-design en evaluatie voor het Nederlandse MKB. ROI-gericht, geen hype.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://alfareclame.nl/prompt-engineering-nederland/">
+<meta property="og:image" content="https://alfareclame.nl/public/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:locale" content="nl_NL">
+<meta property="article:published_time" content="2026-05-15T08:00:00+02:00">
+<meta property="article:modified_time" content="2026-05-15T08:00:00+02:00">
+<meta property="article:author" content="Alfa Reclame">
+<meta property="article:section" content="AI &amp; Digital">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Prompt engineering Nederland voor MKB — Alfa Reclame">
+<meta name="twitter:description" content="Custom AI-prompts voor GPT-4/5 en Claude. Audit, chain-design en evaluatie voor het Nederlandse MKB.">
+<meta name="twitter:image" content="https://alfareclame.nl/public/images/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://wa.me">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alfareclame.nl/prompt-engineering-nederland/#article",
+      "headline": "Prompt engineering Nederland — custom AI-prompts voor MKB",
+      "description": "Praktische prompt engineering services voor het Nederlandse MKB. GPT-4/5 en Claude expertise — prompt audit, chain-design, evaluatie. ROI-gericht, geen hype.",
+      "image": "https://alfareclame.nl/public/images/og-image.jpg",
+      "datePublished": "2026-05-15T08:00:00+02:00",
+      "dateModified": "2026-05-15T08:00:00+02:00",
+      "author": { "@id": "https://alfareclame.nl/#founder" },
+      "publisher": { "@id": "https://alfareclame.nl/#organization" },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://alfareclame.nl/prompt-engineering-nederland/"
+      },
+      "articleSection": "AI & Digital",
+      "inLanguage": "nl-NL",
+      "wordCount": 1280
+    },
+    {
+      "@type": "Service",
+      "@id": "https://alfareclame.nl/prompt-engineering-nederland/#service",
+      "name": "Prompt Engineering voor MKB",
+      "description": "Custom AI-prompt design, audit, chain-workflow engineering en evaluatie voor het Nederlandse MKB. Werkt met OpenAI GPT-4/5, Anthropic Claude Sonnet/Opus/Haiku en andere LLM-platformen.",
+      "provider": { "@id": "https://alfareclame.nl/#business" },
+      "areaServed": { "@type": "Country", "name": "Nederland" },
+      "serviceType": "Prompt Engineering",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Prompt Audit",
+          "price": "450",
+          "priceCurrency": "EUR",
+          "description": "Review van bestaande prompts met concrete verbetervoorstellen en herschreven versies."
+        },
+        {
+          "@type": "Offer",
+          "name": "Full Prompt Engineering Project",
+          "price": "1500",
+          "priceCurrency": "EUR",
+          "description": "Volledig traject: discovery, prompt design, chain-bouw, test-evaluatie en overdracht met training."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alfareclame.nl/" },
+        { "@type": "ListItem", "position": 2, "name": "AI & Digital", "item": "https://alfareclame.nl/ai/" },
+        { "@type": "ListItem", "position": 3, "name": "Prompt Engineering Nederland", "item": "https://alfareclame.nl/prompt-engineering-nederland/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wat is het verschil tussen prompt engineering en gewoon ChatGPT gebruiken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT gebruiken is het versturen van een vraag en hopen op een bruikbaar antwoord. Prompt engineering is het systematisch ontwerpen van instructies die herhaalbaar, specifiek en meetbaar correct zijn. Een goed ontworpen prompt definieert de rol van het model, de context, de outputstructuur, de randcases en de fallback-instructies. Het verschil in outputkwaliteit is in de praktijk substantieel — zeker wanneer de prompt geïntegreerd is in een workflow die honderden keren per week draait."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe garandeer je consistent AI-output?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consistentie wordt geborgd via drie mechanismen: (1) gestructureerde outputdefinitie met JSON Schema of Zod-validatie, zodat het model een voorspelbaar formaat produceert; (2) een evaluatie-harness met testcases die bij elke promptwijziging automatisch wordt uitgevoerd; (3) temperatuurinstelling en top-p/top-k parameters die de variabiliteit van het model beperken voor deterministische taken. Voor productie-workflows is monitoring van output-drift ook onderdeel van het traject."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Werken jullie met GPT of Claude?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beide. Wij werken met de OpenAI API (GPT-4o, GPT-4.1, GPT-4.5) en de Anthropic API (Claude Sonnet, Claude Opus, Claude Haiku). Welk model het beste past, hangt af van de use-case: Claude Opus presteert beter op complexe redeneeringstaken; GPT-4o is sterker in multimodale toepassingen; Haiku en GPT-4o-mini zijn goedkoper voor taken met hoge frequentie. Wij geven een onafhankelijke aanbeveling op basis van uw specifieke vereisten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke MKB-bedrijven hebben het meeste baat bij prompt engineering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bedrijven die al een AI-tool gebruiken maar inconsistente resultaten zien. Of bedrijven die een repetitieve workflow hebben — klantcommunicatie, documentverwerking, rapportgeneratie — en die willen automatiseren met AI. Hoe hoger het volume van de taak (meer dan twintig handelingen per dag), hoe sneller de investering in goede prompts terugverdiend is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe lang duurt een prompt engineering traject?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een prompt audit is doorgaans binnen vijf werkdagen afgerond. Een volledig prompt engineering project — van discovery tot evaluatie en overdracht — duurt twee tot vier weken, afhankelijk van de complexiteit van de use-case en de beschikbaarheid van testdata aan uw kant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hosten jullie ook de AI-infrastructuur of alleen prompt design?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wij leveren primair prompt design en chain-engineering. De prompts worden geïntegreerd in uw bestaande systeem of in een eenvoudige API-wrapper die wij opzetten. Voor hosting van volledige AI-infrastructuur werken wij samen met gespecialiseerde cloud-partners. Het startpunt is altijd de prompt-logica; de infrastructuur volgt die keuze."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat als de prompts in productie slechter gaan presteren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dat is een reëel risico bij modelupdates of veranderende invoerdata. Daarom leveren wij bij elk traject een evaluatie-harness: een set testcases waarmee u of wij promptprestaties periodiek kunnen meten en vergelijken met de baseline. Bij significante drift adviseren wij een gerichte herziening. Na oplevering zijn wij beschikbaar voor onderhoudscontracten op maandbasis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Werken jullie ook met andere AI-modellen dan OpenAI/Anthropic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Voor specifieke use-cases adviseren wij ook open-source modellen zoals Llama 3, Mistral of Gemma, met name wanneer data-privacy een vereiste is en inferentie on-premise of in een eigen cloud-omgeving moet draaien. De prompting-principes zijn grotendeels model-agnostisch, al zijn er per model specifieke aanpassingen nodig voor systeem-instructies en contextvenster-management."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --white: #FFFFFF;
+  --off-white: #FAFAFA;
+  --surface: #F5F5F7;
+  --ink: #1D1D1F;
+  --ink-muted: #6E6E73;
+  --ink-subtle: #86868B;
+  --rule: rgba(0, 0, 0, 0.08);
+  --rule-bold: rgba(0, 0, 0, 0.14);
+  --ai-accent: #4F46E5;
+  --ai-accent-bg: rgba(79, 70, 229, 0.06);
+  --ai-accent-border: rgba(79, 70, 229, 0.15);
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --serif: 'Crimson Pro', Georgia, serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; background: var(--white); }
+body { font-family: var(--sans); color: var(--ink); font-size: 17px; line-height: 1.5; background: var(--white); overflow-x: hidden; }
+
+/* NAV */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--rule);
+}
+.nav-inner {
+  max-width: 1240px; margin: 0 auto; padding: 16px 40px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.brand { display: inline-flex; align-items: center; text-decoration: none; }
+.brand-logo { height: 36px; width: auto; }
+.nav-links { display: flex; gap: 28px; font-size: 14px; }
+.nav-links a { color: var(--ink-muted); text-decoration: none; transition: color 0.2s; }
+.nav-links a:hover { color: var(--ink); }
+.nav-cta {
+  padding: 8px 18px; background: var(--ink); color: var(--white);
+  border-radius: 100px; font-size: 13px; font-weight: 500;
+  text-decoration: none; transition: all 0.2s;
+}
+.nav-cta:hover { transform: translateY(-1px); opacity: 0.9; }
+@media (max-width: 720px) {
+  .nav-inner { padding: 14px 24px; }
+  .nav-links { display: none; }
+}
+
+/* LAYOUT */
+main { padding-top: 72px; }
+.article-wrap { max-width: 740px; margin: 0 auto; padding: 80px 40px 40px; }
+@media (max-width: 720px) { .article-wrap { padding: 48px 24px 32px; } }
+
+/* BREADCRUMB */
+.breadcrumb {
+  font-size: 13px; color: var(--ink-subtle);
+  margin-bottom: 32px; letter-spacing: 0.02em;
+}
+.breadcrumb a { color: var(--ink-muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--ink); }
+.breadcrumb-sep { margin: 0 10px; color: var(--ink-subtle); }
+
+/* ARTICLE HEADER */
+.article-eyebrow {
+  font-size: 12px; font-weight: 500; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--ai-accent); margin-bottom: 24px;
+}
+.article-title {
+  font-size: clamp(36px, 5.5vw, 56px); line-height: 1.05;
+  font-weight: 500; letter-spacing: -0.03em;
+  margin-bottom: 28px; color: var(--ink);
+}
+.article-title .light { font-weight: 200; color: var(--ink-muted); }
+.article-lead {
+  font-size: 21px; line-height: 1.5;
+  color: var(--ink-muted); margin-bottom: 40px;
+  font-weight: 300; letter-spacing: -0.015em;
+}
+.article-meta {
+  display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+  padding: 20px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  margin-bottom: 48px; font-size: 13px; color: var(--ink-subtle);
+}
+.article-meta-item { display: inline-flex; align-items: center; gap: 8px; }
+.article-meta-item::before {
+  content: ''; width: 4px; height: 4px; border-radius: 50%;
+  background: var(--ink-subtle); display: inline-block;
+}
+.article-meta-item:first-child::before { display: none; }
+
+/* ARTICLE BODY */
+.article-body {
+  font-size: 18px; line-height: 1.7; color: var(--ink);
+}
+.article-body > * + * { margin-top: 1.4em; }
+.article-body > h2 + *, .article-body > h3 + * { margin-top: 0.8em; }
+.article-body h2 {
+  font-size: clamp(26px, 3.5vw, 34px); font-weight: 500;
+  letter-spacing: -0.02em; line-height: 1.2;
+  margin-top: 2.2em !important; margin-bottom: 0.4em;
+  color: var(--ink);
+}
+.article-body h3 {
+  font-size: 22px; font-weight: 500; letter-spacing: -0.015em;
+  line-height: 1.3; margin-top: 1.8em !important; margin-bottom: 0.3em;
+  color: var(--ink);
+}
+.article-body p { color: var(--ink); }
+.article-body a {
+  color: var(--ai-accent); text-decoration: underline;
+  text-decoration-thickness: 1px; text-underline-offset: 3px;
+  transition: all 0.15s;
+}
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body strong { font-weight: 600; color: var(--ink); }
+.article-body ul, .article-body ol { padding-left: 28px; color: var(--ink); }
+.article-body li { margin-bottom: 0.4em; line-height: 1.65; }
+.article-body blockquote {
+  border-left: 3px solid var(--ai-accent);
+  padding: 4px 0 4px 24px;
+  margin: 1.6em 0;
+  font-family: var(--serif);
+  font-style: italic; font-size: 22px; line-height: 1.4;
+  color: var(--ink-muted);
+}
+
+/* INLINE CTA */
+.inline-cta {
+  padding: 32px 36px; margin: 2.4em -8px;
+  background: var(--ai-accent-bg);
+  border: 1px solid var(--ai-accent-border);
+  border-radius: 16px;
+}
+.inline-cta-label {
+  font-size: 11px; font-weight: 500; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ai-accent); margin-bottom: 12px;
+}
+.inline-cta h4 {
+  font-size: 22px; font-weight: 500; letter-spacing: -0.015em;
+  line-height: 1.2; margin-bottom: 10px; color: var(--ink);
+}
+.inline-cta p {
+  font-size: 15px; color: var(--ink-muted); line-height: 1.5;
+  margin-bottom: 18px;
+}
+.inline-cta-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 22px; background: var(--ink); color: var(--white);
+  border-radius: 100px; font-size: 14px; font-weight: 500;
+  text-decoration: none; transition: all 0.2s;
+}
+.inline-cta-btn:hover { transform: translateY(-1px); background: var(--ai-accent); }
+
+/* CALLOUT BOX */
+.callout {
+  padding: 20px 24px; margin: 1.8em 0;
+  background: var(--surface); border-radius: 12px;
+  border-left: 3px solid var(--ai-accent);
+}
+.callout-label {
+  font-size: 11px; font-weight: 500; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ai-accent); margin-bottom: 8px;
+}
+.callout p:last-child { margin-bottom: 0; }
+.callout strong { color: var(--ink); }
+
+/* SERVICE CARDS */
+.service-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;
+  margin: 1.4em 0;
+}
+@media (max-width: 720px) { .service-grid { grid-template-columns: 1fr; } }
+.service-card {
+  padding: 24px; background: var(--surface); border-radius: 14px;
+  border: 1px solid transparent;
+}
+.service-card-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ai-accent); margin-bottom: 10px;
+}
+.service-card h4 {
+  font-size: 18px; font-weight: 500; letter-spacing: -0.01em;
+  line-height: 1.3; margin-bottom: 8px; color: var(--ink);
+}
+.service-card p {
+  font-size: 15px; color: var(--ink-muted); line-height: 1.55;
+}
+
+/* STACK TAGS */
+.stack-tags {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 1em 0;
+}
+.stack-tag {
+  padding: 6px 14px; background: var(--surface);
+  border: 1px solid var(--rule-bold);
+  border-radius: 100px; font-size: 13px; font-weight: 500;
+  color: var(--ink-muted); font-family: 'Courier New', monospace;
+  letter-spacing: 0.02em;
+}
+
+/* WORKFLOW STEPS */
+.steps { counter-reset: steps; margin: 1.6em 0; }
+.step {
+  counter-increment: steps;
+  padding: 24px 0 24px 64px; position: relative;
+  border-bottom: 1px solid var(--rule);
+}
+.step:last-child { border-bottom: none; }
+.step::before {
+  content: counter(steps);
+  position: absolute; left: 0; top: 24px;
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--ai-accent-bg); border: 1px solid var(--ai-accent-border);
+  color: var(--ai-accent); font-size: 15px; font-weight: 600;
+  display: flex; align-items: center; justify-content: center;
+}
+.step h4 {
+  font-size: 18px; font-weight: 500; margin-bottom: 8px;
+  letter-spacing: -0.01em; color: var(--ink);
+}
+.step p { font-size: 16px; color: var(--ink-muted); line-height: 1.6; }
+
+/* PRICING */
+.pricing-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;
+  margin: 1.4em 0;
+}
+@media (max-width: 720px) { .pricing-grid { grid-template-columns: 1fr; } }
+.pricing-card {
+  padding: 28px 24px; background: var(--surface); border-radius: 14px;
+  border: 1px solid var(--rule-bold);
+}
+.pricing-card.featured {
+  background: var(--ai-accent-bg); border-color: var(--ai-accent-border);
+}
+.pricing-name {
+  font-size: 13px; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ai-accent); margin-bottom: 8px;
+}
+.pricing-price {
+  font-size: 32px; font-weight: 500; letter-spacing: -0.03em;
+  color: var(--ink); margin-bottom: 4px;
+}
+.pricing-price span { font-size: 16px; font-weight: 400; color: var(--ink-muted); }
+.pricing-desc {
+  font-size: 15px; color: var(--ink-muted); line-height: 1.55;
+  margin-top: 12px;
+}
+
+/* FAQ */
+.faq { margin-top: 60px; }
+.faq-item {
+  border-bottom: 1px solid var(--rule); padding: 24px 0;
+}
+.faq-q {
+  font-size: 20px; font-weight: 500; letter-spacing: -0.015em;
+  line-height: 1.3; margin-bottom: 12px; color: var(--ink);
+}
+.faq-a {
+  font-size: 16px; line-height: 1.65; color: var(--ink-muted);
+}
+
+/* AUTHOR BOX */
+.author-box {
+  margin: 64px 0 32px; padding: 28px;
+  background: var(--surface); border-radius: 16px;
+  display: flex; gap: 20px; align-items: center;
+}
+.author-avatar {
+  width: 64px; height: 64px; border-radius: 50%;
+  background: var(--ink); color: var(--white);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; font-weight: 300; letter-spacing: -0.02em;
+  flex-shrink: 0;
+}
+.author-text h4 {
+  font-size: 16px; font-weight: 500; margin-bottom: 4px;
+  color: var(--ink);
+}
+.author-text p {
+  font-size: 14px; color: var(--ink-muted); line-height: 1.5;
+}
+
+/* RELATED */
+.related {
+  margin-top: 80px; padding-top: 48px;
+  border-top: 1px solid var(--rule);
+}
+.related-label {
+  font-size: 12px; font-weight: 500; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--ai-accent); margin-bottom: 24px;
+}
+.related-title {
+  font-size: 28px; font-weight: 500; letter-spacing: -0.02em;
+  line-height: 1.2; margin-bottom: 32px; color: var(--ink);
+}
+.related-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;
+}
+@media (max-width: 720px) { .related-grid { grid-template-columns: 1fr; } }
+.related-card {
+  padding: 24px; background: var(--surface); border-radius: 16px;
+  text-decoration: none; transition: all 0.25s;
+  border: 1px solid transparent;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.related-card:hover {
+  border-color: var(--ai-accent-border);
+  transform: translateY(-2px);
+  background: var(--white);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+.related-card-cat {
+  font-size: 11px; font-weight: 500; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ai-accent);
+}
+.related-card-title {
+  font-size: 18px; font-weight: 500; letter-spacing: -0.01em;
+  line-height: 1.3; color: var(--ink);
+}
+.related-card-desc {
+  font-size: 14px; color: var(--ink-muted); line-height: 1.5;
+}
+
+/* FINAL CTA */
+.final-cta {
+  margin: 80px 0 40px;
+  padding: 56px 48px;
+  background: var(--ink); color: var(--white);
+  border-radius: 24px; text-align: center;
+}
+.final-cta h3 {
+  font-size: clamp(28px, 4vw, 38px);
+  font-weight: 500; letter-spacing: -0.025em; line-height: 1.15;
+  margin-bottom: 16px;
+}
+.final-cta h3 .light { font-weight: 200; color: rgba(255,255,255,0.6); }
+.final-cta p {
+  font-size: 17px; color: rgba(255,255,255,0.7);
+  max-width: 500px; margin: 0 auto 32px; line-height: 1.5;
+}
+.final-cta-actions {
+  display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+}
+.btn-white {
+  padding: 14px 28px; background: var(--white); color: var(--ink);
+  border-radius: 100px; font-size: 14px; font-weight: 500;
+  text-decoration: none; transition: all 0.2s;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-white:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,255,255,0.15); }
+.btn-outline {
+  padding: 14px 28px; background: transparent; color: var(--white);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 100px; font-size: 14px; font-weight: 500;
+  text-decoration: none; transition: all 0.2s;
+}
+.btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.05); }
+@media (max-width: 720px) { .final-cta { padding: 40px 28px; } }
+
+/* FOOTER */
+footer {
+  padding: 48px 40px; border-top: 1px solid var(--rule);
+  text-align: center; font-size: 13px; color: var(--ink-subtle);
+}
+footer a { color: var(--ink-muted); text-decoration: none; }
+footer a:hover { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Hoofdnavigatie">
+  <div class="nav-inner">
+    <a href="/" class="brand" aria-label="Alfa Reclame">
+      <img src="/public/images/logo.jpg" alt="Alfa Reclame" class="brand-logo" width="140" height="36">
+    </a>
+    <div class="nav-links">
+      <a href="/#digital">Digital &amp; AI</a>
+      <a href="/#diensten">Signage</a>
+      <a href="/#werk">Werk</a>
+      <a href="/#over-ons">Over ons</a>
+    </div>
+    <a href="https://wa.me/31627246429" class="nav-cta">WhatsApp</a>
+  </div>
+</nav>
+
+<main>
+<article class="article-wrap">
+
+  <nav class="breadcrumb" aria-label="Kruimelpad">
+    <a href="/">Home</a><span class="breadcrumb-sep">/</span>
+    <a href="/ai/">AI &amp; Digital</a><span class="breadcrumb-sep">/</span>
+    <span>Prompt Engineering Nederland</span>
+  </nav>
+
+  <div class="article-eyebrow">&#8212; AI Prompt Consultancy voor het Nederlandse MKB</div>
+  <h1 class="article-title">
+    Prompt engineering Nederland <span class="light">&#8212; custom AI-prompts voor MKB</span>
+  </h1>
+
+  <p class="article-lead">
+    Praktische prompt engineering services, geen hype. Wij ontwerpen, testen en evalueren AI-prompts voor GPT-4/5 en Anthropic Claude &#8212; zodat uw AI-workflow consistent, meetbaar en schaalbaar is. Vanuit BSc Computer Engineer-achtergrond, gericht op ROI.
+  </p>
+
+  <div class="article-meta">
+    <span class="article-meta-item">Bijgewerkt mei 2026</span>
+    <span class="article-meta-item">8 minuten leestijd</span>
+    <span class="article-meta-item">Service-pagina</span>
+  </div>
+
+  <div class="article-body">
+
+    <p>Elke week starten tientallen Nederlandse MKB-bedrijven met ChatGPT of Claude. De meeste stoppen na een paar weken: de output is inconsistent, het model &#8220;begrijpt de context niet&#8221;, of de resultaten zijn bruikbaar voor enkelvoudig gebruik maar niet voor een workflow die elke dag tien, vijftig of driehonderd keer draait. Het probleem zit zelden in het model &#8212; het zit in de instructie.</p>
+
+    <p>Prompt engineering is het vakgebied dat dit probleem oplost. In Nederland is er vrijwel geen gespecialiseerde aanbieder voor het MKB-segment. Dit is onze pagina over wat wij doen, wanneer het zin heeft, en wat het kost.</p>
+
+    <h2>Wat is prompt engineering?</h2>
+
+    <p>Een prompt is de instructie die u aan een taalmodel geeft. Bij eenvoudig gebruik is dat een losse vraag in een chatvenster. Bij professioneel gebruik is het een gestructureerde set instructies die het model vertelt: wat zijn rol is, welke context relevant is, welk outputformaat vereist is, wat te doen bij randgevallen, en hoe te reageren wanneer de invoer onvolledig of tegenstrijdig is.</p>
+
+    <p>Prompt engineering is het systematisch ontwerpen en valideren van die instructies. Het omvat:</p>
+
+    <ul>
+      <li><strong>Roleframing</strong> &#8212; het model een specifieke expertrol geven die aansluit bij de taak</li>
+      <li><strong>Contextinjectie</strong> &#8212; relevante bedrijfsdata, regels of voorbeelden meegeven via few-shot of retrieval</li>
+      <li><strong>Outputstructurering</strong> &#8212; JSON Schema, gestructureerde secties of vaste antwoordpatronen defini&#235;ren</li>
+      <li><strong>Randcasehandling</strong> &#8212; instructies voor invoer die buiten scope valt, ontbrekende data of tegenstrijdige signalen</li>
+      <li><strong>Evaluatie</strong> &#8212; geautomatiseerde testcases die meten of de prompt doet wat hij moet doen</li>
+    </ul>
+
+    <blockquote>Het verschil tussen een losse ChatGPT-vraag en een productie-prompt is vergelijkbaar met het verschil tussen een mondelinge instructie en een gedocumenteerd bedrijfsproces.</blockquote>
+
+    <p>Dat laatste schaalt. Het eerste niet. Voor ons overzicht van bredere <a href="/ai/">AI-toepassingen voor het Nederlandse MKB</a> verwijzen wij naar de pillar-pagina.</p>
+
+    <h2>Wanneer heeft uw MKB-bedrijf prompt engineering nodig?</h2>
+
+    <p>Niet elk bedrijf heeft dit nodig. Hieronder vier situaties waar de investering structureel terugverdiend wordt.</p>
+
+    <h3>1. Repetitieve AI-workflows met volumevereisten</h3>
+
+    <p>Zodra een AI-taak meer dan twintig keer per dag wordt uitgevoerd &#8212; klantberichten opstellen, factuurdata extraheren, productbeschrijvingen genereren &#8212; loont het om de prompt eenmalig goed te engineeren. Een halvering van handmatige correcties bij honderd runs per dag levert snel meer op dan de initiële projectkosten.</p>
+
+    <h3>2. Inconsistente output van GPT of Claude</h3>
+
+    <p>Wanneer het model soms goed presteert en soms niet, ligt dat bijna altijd aan de prompt: te weinig context, te ruime instructie, geen expliciete outputdefinitie. Een gestructureerde prompt met temperatuurinstelling en output-validatie lost dit op in de meeste gevallen.</p>
+
+    <h3>3. Integratie met specifieke bedrijfsdata</h3>
+
+    <p>Wanneer het model moet werken met uw eigen data &#8212; productenlijst, contracttermen, klantsegmenten, interne procedures &#8212; is prompt engineering de verbindingslaag. Dit kan via few-shot-voorbeelden in de prompt, of via Retrieval-Augmented Generation (RAG) waarbij de relevante data dynamisch wordt ingeladen per aanroep.</p>
+
+    <h3>4. Escalerende kosten per AI-aanroep</h3>
+
+    <p>Grote contextvensters met onnodige informatie verhogen de kosten per API-call significant. Een geoptimaliseerde prompt is compacter, gerichter en goedkoper bij gelijk of beter resultaat. Op hoog volume kan dat een kostenreductie van twintig tot vijftig procent betekenen.</p>
+
+    <h2>Onze services</h2>
+
+    <p>Wij leveren vier typen prompt engineering engagements, afhankelijk van waar uw probleem zit.</p>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-card-label">Audit</div>
+        <h4>Prompt audit</h4>
+        <p>Wij reviewen uw bestaande prompts op structuur, consistentie, randcasehandling en kostineffici&#235;ntie. U ontvangt een schriftelijk rapport met prioritaire verbeterpunten en herschreven versies van de zwakste prompts.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card-label">Design</div>
+        <h4>Prompt design</h4>
+        <p>Wij bouwen nieuwe prompts voor een specifieke business use-case, van nul. Inclusief systeeminstructie, few-shot-voorbeelden, outputschema en fallback-instructies. Getest op een set representatieve invoergevallen.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card-label">Chain design</div>
+        <h4>Prompt chain design</h4>
+        <p>Voor multi-stap workflows: intake &#8594; analyse &#8594; verrijking &#8594; output. Wij ontwerpen de volledige keten, inclusief dataoverdracht tussen stappen, foutafhandeling en logging-strategie.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card-label">Kwaliteitsbewaking</div>
+        <h4>Evaluation harness</h4>
+        <p>Een geautomatiseerde testset die prompt-output meet op correctheid, volledigheid en format-compliance. Detecteert regressie bij modelupdates of promptwijzigingen voordat ze in productie gaan.</p>
+      </div>
+    </div>
+
+    <h3>Model selection advisory</h3>
+
+    <p>Naast prompt-engineering adviseren wij over modelkeuze. Niet elk model is even geschikt voor elke taak, en de kostenimplicaties van die keuze zijn substantieel:</p>
+
+    <ul>
+      <li><strong>GPT-4o / GPT-4.1</strong> &#8212; sterk in multimodale taken, breed inzetbaar, goede JSON-output betrouwbaarheid</li>
+      <li><strong>GPT-4.5 / GPT-5</strong> &#8212; voor taken die diep contextueel begrip en nuance vereisen</li>
+      <li><strong>Claude Opus</strong> &#8212; consistent sterk op complexe redenering, contractanalyse en lange documenten</li>
+      <li><strong>Claude Sonnet</strong> &#8212; beste prijs-kwaliteitsverhouding voor de meeste productie-workloads</li>
+      <li><strong>Claude Haiku / GPT-4o-mini</strong> &#8212; voor hoge-frequentie-taken waar snelheid en kosten prioriteit hebben</li>
+      <li><strong>On-device modellen</strong> (Llama, Mistral, Gemma) &#8212; voor data-privacy-gevoelige workloads zonder cloud-afhankelijkheid</li>
+    </ul>
+
+    <h2>Stack &amp; tools</h2>
+
+    <p>Wij werken met de volgende technische stack, afhankelijk van de vereisten van uw project:</p>
+
+    <div class="stack-tags">
+      <span class="stack-tag">OpenAI API</span>
+      <span class="stack-tag">Anthropic API</span>
+      <span class="stack-tag">LangChain</span>
+      <span class="stack-tag">JSON Schema</span>
+      <span class="stack-tag">Zod</span>
+      <span class="stack-tag">function calling</span>
+      <span class="stack-tag">structured outputs</span>
+      <span class="stack-tag">RAG</span>
+      <span class="stack-tag">few-shot prompting</span>
+      <span class="stack-tag">prompt templates</span>
+      <span class="stack-tag">variable injection</span>
+      <span class="stack-tag">LangSmith</span>
+      <span class="stack-tag">eval frameworks</span>
+      <span class="stack-tag">Python</span>
+      <span class="stack-tag">TypeScript</span>
+    </div>
+
+    <p>Voor projecten waarbij de prompts ge&#239;ntegreerd moeten worden in bestaande systemen, werken wij samen met uw technische team of leveren wij een zelfstandige API-wrapper op.</p>
+
+    <h2>Praktische voorbeelden voor het Nederlandse MKB</h2>
+
+    <p>Hieronder vier concrete voorbeelden van prompt engineering trajecten in MKB-sectoren die wij kennen. Voor uitgebreidere informatie over AI in de horecasector verwijzen wij naar <a href="/ai/voor-horeca.html">AI voor horeca</a>.</p>
+
+    <div class="callout">
+      <div class="callout-label">Voorbeeld &#8212; Horeca</div>
+      <p><strong>WhatsApp bestelbot voor een pizzeria:</strong> De prompt-keten verwerkt een inkomende besteltekst, extraheert product, hoeveelheid, adres en betaalvoorkeur via structured output, valideert de invoer en retourneert een gestandaardiseerde bevestiging. Randgevallen (onbekend product, onduidelijk adres, dubbele bestelling) worden apart afgehandeld via fallback-instructies. Zie ook het uitgebreide artikel over de <a href="/ai/whatsapp-bestelbot-restaurant.html">WhatsApp bestelbot voor restaurants</a>.</p>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">Voorbeeld &#8212; Administratiekantoor</div>
+      <p><strong>Factuurextractie-prompt:</strong> Een prompt die een PDF-tekst als invoer neemt en gestructureerde JSON retourneert: factuurnummer, datum, leverancier, regelitems met bedrag en btw-percentage, totaalbedrag en betalingstermijn. Gevalideerd via Zod-schema. Bij ontbrekende velden wordt een confidence-score meegegeven zodat het systeem weet welke extracties handmatige controle vereisen.</p>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">Voorbeeld &#8212; Juridisch</div>
+      <p><strong>Contractreview met afwijkingsdetectie:</strong> Een multi-stap chain die een contractdocument verdeelt in clausules, elke clausule vergelijkt met een referentiesjabloon en een rapport genereert met ge&#239;dentificeerde afwijkingen, het risiconiveau per afwijking en een samenvatting voor de behandelende jurist. Claude Opus blijkt voor dit gebruik-type beter te presteren dan GPT-4o op redeneeringsdiepte.</p>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">Voorbeeld &#8212; Beauty &amp; Wellness</div>
+      <p><strong>AI-receptionist met afspraakflow:</strong> Een conversatieprompt die inkomende chatberichten classificeert (nieuwe afspraak / wijziging / annulering / algemene vraag), de juiste informatie opvraagt via gestructureerde dialoogstappen en de uitkomst doorstuurt naar de afspraakapplicatie via function calling. Toon en stijl zijn via de systeeminstructie afgestemd op de huisstijl van de salon.</p>
+    </div>
+
+    <h2>Werkwijze in vier stappen</h2>
+
+    <div class="steps">
+      <div class="step">
+        <h4>Discovery</h4>
+        <p>Wij brengen de use-case in kaart: wat is de invoer, wat is de gewenste output, welke randgevallen bestaan, wat is het volume, en welke bestaande systemen moeten integreren. Op basis hiervan stellen wij een aanpak voor met tijdlijn en budget.</p>
+      </div>
+      <div class="step">
+        <h4>Design</h4>
+        <p>Wij ontwerpen de prompt-architectuur: systeeminstructies, contextinjectie, outputschema, fallback-logica. Bij chain-workflows ook de structuur van stap-naar-stap dataoverdracht. Tussentijdse versies worden gedeeld voor uw feedback.</p>
+      </div>
+      <div class="step">
+        <h4>Build &amp; Test</h4>
+        <p>De prompts worden gebouwd en getest op een representatieve set invoergevallen die u aanlevert of die wij samen samenstellen. Wij meten pass-rate, edge-case handling en outputkwaliteit. Iteraties op basis van testresultaten zijn inbegrepen.</p>
+      </div>
+      <div class="step">
+        <h4>Handover &amp; training</h4>
+        <p>U ontvangt de definitieve prompts, de bijbehorende documentatie en een evaluatie-harness om kwaliteit te blijven meten. Wij geven een korte overdrachtsessie zodat uw team zelf kleine aanpassingen kan maken. Optioneel onderhoudscontract voor monitoring en updates bij modelversies.</p>
+      </div>
+    </div>
+
+    <h2>Tarieven</h2>
+
+    <p>Wij werken met transparante, projectgebaseerde tarieven. Geen maandelijkse retainerfees voor diensten die u nooit terugleest.</p>
+
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-name">Prompt Audit</div>
+        <div class="pricing-price">vanaf &euro;450 <span>per audit</span></div>
+        <p class="pricing-desc">Review van bestaande prompts, schriftelijk rapport met verbeterpunten en herschreven versies van maximaal drie prompts. Doorlooptijd: vijf werkdagen.</p>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-name">Full project</div>
+        <div class="pricing-price">vanaf &euro;1.500 <span>per project</span></div>
+        <p class="pricing-desc">Volledig traject: discovery, prompt design, chain-bouw, testset, evaluatie-harness en overdracht met training. Doorlooptijd: twee tot vier weken. Op aanvraag voor enterprise-trajecten.</p>
+      </div>
+    </div>
+
+    <div class="inline-cta">
+      <div class="inline-cta-label">Gratis intake</div>
+      <h4>Weet u nog niet zeker of prompt engineering bij u past?</h4>
+      <p>Doe de AI Readiness Check in drie minuten. Zeven vragen over uw huidige AI-gebruik, uw processen en uw volume. U krijgt direct een concrete beoordeling terug.</p>
+      <a href="/ai/readiness-check.html" class="inline-cta-btn">AI Readiness Check starten</a>
+    </div>
+
+    <h2>Veelgestelde vragen</h2>
+
+    <div class="faq">
+      <div class="faq-item">
+        <div class="faq-q">Wat is het verschil tussen prompt engineering en gewoon ChatGPT gebruiken?</div>
+        <div class="faq-a">ChatGPT gebruiken is het versturen van een vraag en hopen op een bruikbaar antwoord. Prompt engineering is het systematisch ontwerpen van instructies die herhaalbaar, specifiek en meetbaar correct zijn. Een goed ontworpen prompt definieert de rol van het model, de context, de outputstructuur, de randcases en de fallback-instructies. Het verschil in outputkwaliteit is in de praktijk substantieel &#8212; zeker wanneer de prompt ge&#239;ntegreerd is in een workflow die honderden keren per week draait.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Hoe garandeer je consistent AI-output?</div>
+        <div class="faq-a">Consistentie wordt geborgd via drie mechanismen: (1) gestructureerde outputdefinitie met JSON Schema of Zod-validatie, zodat het model een voorspelbaar formaat produceert; (2) een evaluatie-harness met testcases die bij elke promptwijziging automatisch wordt uitgevoerd; (3) temperatuurinstelling en top-p/top-k parameters die de variabiliteit van het model beperken voor deterministische taken. Voor productie-workflows is monitoring van output-drift ook onderdeel van het traject.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Werken jullie met GPT of Claude?</div>
+        <div class="faq-a">Beide. Wij werken met de OpenAI API (GPT-4o, GPT-4.1, GPT-4.5) en de Anthropic API (Claude Sonnet, Claude Opus, Claude Haiku). Welk model het beste past, hangt af van de use-case: Claude Opus presteert beter op complexe redeneeringstaken; GPT-4o is sterker in multimodale toepassingen; Haiku en GPT-4o-mini zijn goedkoper voor taken met hoge frequentie. Wij geven een onafhankelijke aanbeveling op basis van uw specifieke vereisten.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Welke MKB-bedrijven hebben het meeste baat bij prompt engineering?</div>
+        <div class="faq-a">Bedrijven die al een AI-tool gebruiken maar inconsistente resultaten zien. Of bedrijven die een repetitieve workflow hebben &#8212; klantcommunicatie, documentverwerking, rapportgeneratie &#8212; en die willen automatiseren met AI. Hoe hoger het volume van de taak (meer dan twintig handelingen per dag), hoe sneller de investering in goede prompts terugverdiend is.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Hoe lang duurt een prompt engineering traject?</div>
+        <div class="faq-a">Een prompt audit is doorgaans binnen vijf werkdagen afgerond. Een volledig prompt engineering project &#8212; van discovery tot evaluatie en overdracht &#8212; duurt twee tot vier weken, afhankelijk van de complexiteit van de use-case en de beschikbaarheid van testdata aan uw kant.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Hosten jullie ook de AI-infrastructuur of alleen prompt design?</div>
+        <div class="faq-a">Wij leveren primair prompt design en chain-engineering. De prompts worden ge&#239;ntegreerd in uw bestaande systeem of in een eenvoudige API-wrapper die wij opzetten. Voor hosting van volledige AI-infrastructuur werken wij samen met gespecialiseerde cloud-partners. Het startpunt is altijd de prompt-logica; de infrastructuur volgt die keuze.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Wat als de prompts in productie slechter gaan presteren?</div>
+        <div class="faq-a">Dat is een re&#235;el risico bij modelupdates of veranderende invoerdata. Daarom leveren wij bij elk traject een evaluatie-harness: een set testcases waarmee u of wij promptprestaties periodiek kunnen meten en vergelijken met de baseline. Bij significante drift adviseren wij een gerichte herziening. Na oplevering zijn wij beschikbaar voor onderhoudscontracten op maandbasis.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Werken jullie ook met andere AI-modellen dan OpenAI/Anthropic?</div>
+        <div class="faq-a">Ja. Voor specifieke use-cases adviseren wij ook open-source modellen zoals Llama 3, Mistral of Gemma, met name wanneer data-privacy een vereiste is en inferentie on-premise of in een eigen cloud-omgeving moet draaien. De prompting-principes zijn grotendeels model-agnostisch, al zijn er per model specifieke aanpassingen nodig voor systeem-instructies en contextvenster-management.</div>
+      </div>
+    </div>
+
+    <div class="author-box">
+      <div class="author-avatar">AR</div>
+      <div class="author-text">
+        <h4>Alfa Reclame &#8212; AI Prompt Consultancy Nederland</h4>
+        <p>BSc Computer Engineer, oprichter van Alfa Reclame. Werkt dagelijks met de OpenAI en Anthropic API voor MKB-automatiseringsprojecten in Nederland. KvK 88606902. Rechtstreeks bereikbaar via WhatsApp of e-mail.</p>
+      </div>
+    </div>
+
+    <div class="final-cta">
+      <h3>Klaar om uw AI-workflow <span class="light">structureel te verbeteren?</span></h3>
+      <p>Stuur een bericht via het contactformulier of WhatsApp. Wij plannen een intake van twintig minuten en geven u een concrete beoordeling van uw situatie, zonder verplichtingen.</p>
+      <div class="final-cta-actions">
+        <a href="/#contact" class="btn-white">Stuur een bericht</a>
+        <a href="https://wa.me/31627246429?text=Hoi%20Alfa%20Reclame%2C%20ik%20heb%20de%20pagina%20over%20prompt%20engineering%20gelezen%20en%20wil%20graag%20een%20vrijblijvende%20intake%20plannen." class="btn-outline">Direct WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="related">
+      <div class="related-label">&#8212; Lees verder</div>
+      <h3 class="related-title">Gerelateerde artikelen</h3>
+      <div class="related-grid">
+        <a href="/ai/" class="related-card">
+          <span class="related-card-cat">AI &amp; Digital</span>
+          <span class="related-card-title">AI voor het Nederlandse MKB: complete gids 2026</span>
+          <span class="related-card-desc">Welke AI-toepassingen werken echt, wat kosten ze, en waar begin je als MKB-bedrijf?</span>
+        </a>
+        <a href="/ai/voor-horeca.html" class="related-card">
+          <span class="related-card-cat">Horeca</span>
+          <span class="related-card-title">AI voor horeca: 7 concrete toepassingen</span>
+          <span class="related-card-desc">Van WhatsApp bestelbot tot menuoptimalisatie voor horecaondernemers.</span>
+        </a>
+        <a href="/ai/whatsapp-bestelbot-restaurant.html" class="related-card">
+          <span class="related-card-cat">Horeca &middot; Use case</span>
+          <span class="related-card-title">WhatsApp bestelbot voor restaurants</span>
+          <span class="related-card-desc">Hoe werkt het, wat kost het en wat moet u weten voor implementatie?</span>
+        </a>
+        <a href="/reclamebureau-rotterdam/" class="related-card">
+          <span class="related-card-cat">Full-service</span>
+          <span class="related-card-title">Reclamebureau Rotterdam voor MKB</span>
+          <span class="related-card-desc">Signage, digital en AI onder één dak &#8212; complete dienstverlening voor het Rotterdamse MKB.</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</article>
+</main>
+
+<footer role="contentinfo">
+  <p>
+    <a href="/reclamebureau-rotterdam/">Reclamebureau Rotterdam</a> &middot;
+    <a href="/ai/">AI &amp; Digital</a> &middot;
+    <a href="/#diensten">Signage</a>
+  </p>
+  <p>
+    Blokfluit 31 &middot; 3068 KZ Rotterdam &middot; KvK 88606902 &middot;
+    <a href="tel:+31627246429">+31 6 27 24 64 29</a> &middot;
+    <a href="https://wa.me/31627246429">WhatsApp</a> &middot;
+    <a href="mailto:info@alfareclame.nl">info@alfareclame.nl</a>
+  </p>
+  <p>&copy; 2012&mdash;2026 <a href="/">Alfa Reclame</a> &middot; Prijzen exclusief BTW &middot; Geen gelieerde partner van OpenAI of Anthropic</p>
+</footer>
+
+<!-- ElevenLabs ConvAI Widget -->
+<elevenlabs-convai agent-id="agent_4201kq27rkf2fwkbvtpdn51es50a"></elevenlabs-convai>
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+<script>
+// Hide 'Powered by ElevenAgents / ElevenLabs' badge
+(function() {
+  const BADGE_CSS = `
+    a[href*="elevenlabs"], div:has(> a[href*="elevenlabs"]),
+    [class*="powered"], [class*="branding"], .powered-by, .branding,
+    [data-testid*="powered"], [data-testid*="brand"] {
+      display: none !important; visibility: hidden !important;
+      height: 0 !important; max-height: 0 !important;
+      overflow: hidden !important; pointer-events: none !important;
+      position: absolute !important; left: -9999px !important;
+    }
+  `;
+  function hideInRoot(root) {
+    if (!root.__badgeHidden) {
+      const s = document.createElement('style');
+      s.textContent = BADGE_CSS;
+      root.appendChild(s);
+      root.__badgeHidden = true;
+    }
+    root.querySelectorAll('a[href*="elevenlabs"]').forEach(a => {
+      a.style.setProperty('display', 'none', 'important');
+      a.style.setProperty('visibility', 'hidden', 'important');
+      if (a.parentElement) {
+        a.parentElement.style.setProperty('display', 'none', 'important');
+        a.parentElement.style.setProperty('visibility', 'hidden', 'important');
+      }
+    });
+  }
+  function attachToWidget() {
+    const widget = document.querySelector('elevenlabs-convai');
+    if (!widget) return;
+    function tryHide() {
+      if (widget.shadowRoot) {
+        hideInRoot(widget.shadowRoot);
+        new MutationObserver(() => hideInRoot(widget.shadowRoot))
+          .observe(widget.shadowRoot, { childList: true, subtree: true });
+      }
+    }
+    tryHide();
+    [100, 300, 600, 1000, 2000, 4000, 8000].forEach(t => setTimeout(tryHide, t));
+  }
+  if (customElements && customElements.whenDefined) {
+    customElements.whenDefined('elevenlabs-convai').then(attachToWidget);
+  }
+  attachToWidget();
+  document.addEventListener('DOMContentLoaded', attachToWidget);
+  window.addEventListener('load', attachToWidget);
+  new MutationObserver(attachToWidget)
+    .observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
+
+</body>
+</html>

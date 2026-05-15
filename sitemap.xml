@@ -13,6 +13,41 @@
   </url>
 
   <url>
+    <loc>https://alfareclame.nl/silobelettering/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/silobelettering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/silobelettering/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:title>IOP Industrial — silobelettering 30 meter hoogte</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/offshore-belettering/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/offshore-belettering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/offshore-belettering/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/barge-master.jpg</image:loc>
+      <image:title>Barge Master — offshore crane-platform belettering Rotterdamse haven</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/prompt-engineering-nederland/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/prompt-engineering-nederland/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/prompt-engineering-nederland/"/>
+  </url>
+
+  <url>
     <loc>https://alfareclame.nl/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
