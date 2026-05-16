@@ -1,12 +1,11 @@
-# Oude WordPress URLs → nieuwe site
-/project/hemisferio    /    410
-/project/ethereum      /    410
+# Oude WordPress URLs → nieuwe site (deprecated → homepage)
+/project/hemisferio    /    301
+/project/ethereum      /    301
 /diensten              /    301
 /over-ons              /    301
 /portfolio             /#werk    301
 /contact               /#contact    301
 /blog/*                /    301
-/author/*              /    410
+/author/*              /    301
 
-# Canonical: www → non-www (indien van toepassing)
-https://www.alfareclame.nl/*    https://alfareclame.nl/:splat    301!
+# www → apex redirect handled at Cloudflare zone (Bulk Redirects), not here

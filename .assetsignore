@@ -1,0 +1,21 @@
+# Cloudflare Workers static assets — exclude dev/repo files
+.git
+.git/**
+.github
+.github/**
+tasks
+tasks/**
+node_modules
+node_modules/**
+*.md
+.gitignore
+.editorconfig
+.lighthouserc.json
+.assetsignore
+wrangler.jsonc
+wrangler.toml
+.wrangler
+.wrangler/**
+functions
+functions/**
+ALFA_RECLAME_BUILD_PROMPT.md
