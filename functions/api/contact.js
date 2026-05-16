@@ -17,7 +17,7 @@ const ALLOWED_ORIGINS = [
   "https://alfareclame.nl",
   "https://www.alfareclame.nl",
 ];
-const PREVIEW_ORIGIN_RE = /^https:\/\/[a-z0-9-]+\.alfareclame-nl\.pages\.dev$/i;
+const PREVIEW_ORIGIN_RE = /^https:\/\/[a-z0-9-]+\.alfareclame-(pages|nl)\.pages\.dev$/i;
 
 function corsHeaders(origin) {
   const ok = origin && (ALLOWED_ORIGINS.includes(origin) || PREVIEW_ORIGIN_RE.test(origin));
