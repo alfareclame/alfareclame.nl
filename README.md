@@ -177,3 +177,42 @@ Deze repository is private en propriëtair. De inhoud (content, afbeeldingen, po
 - **E-mail:** info@alfareclame.nl
 - **KvK:** 88606902
 - **Locatie:** Rotterdam, Zuid-Holland, Nederland
+
+
+---
+
+## Backend & Environment
+
+Naast de statische pagina's draaien er twee Cloudflare Pages Functions onder `functions/api/`:
+
+- `POST /api/contact` — contactformulier → Telegram (validatie + per-IP rate-limit)
+- `POST /api/eleven-call` — ElevenLabs post-call webhook (HMAC-gevalideerd) → Telegram
+
+### Required environment variables
+
+Cloudflare Pages → Settings → Variables and Secrets:
+
+| Naam | Type | Beschrijving |
+|------|------|--------------|
+| `TELEGRAM_BOT_TOKEN` | Secret | Bot token van @BotFather |
+| `TELEGRAM_CHAT_ID` | Plaintext | Chat-ID waar leads naartoe gestuurd worden |
+| `ELEVENLABS_WEBHOOK_SECRET` | Secret | Shared secret voor ElevenLabs webhook HMAC |
+
+### KV bindings
+
+| Binding | Namespace | Doel |
+|---------|-----------|------|
+| `RATELIMIT_KV` | `alfareclame-ratelimit` | Per-IP rate-limit voor `/api/contact` (5 req / 10 min) |
+
+### Secret rotation
+
+- `ELEVENLABS_WEBHOOK_SECRET`: rouleren elke 6–12 maanden, of direct na vermoeden van compromittering. Synchroniseren met ElevenLabs Agent → Security → Post-call webhook.
+- `TELEGRAM_BOT_TOKEN`: alleen rouleren via @BotFather indien gelekt.
+
+### Lokaal testen van Functions
+
+```bash
+npx wrangler pages dev . --port 8080
+```
+
+Met binding-vlaggen voor lokale env vars; zie Wrangler docs.
