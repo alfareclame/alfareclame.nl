@@ -92,3 +92,6 @@ local.config.*
 ALFA_RECLAME_BUILD_PROMPT.md
 INSTAGRAM-PHOTOS-GUIDE.md
 tasks/
+
+# Faza 0.7 image optimization backup
+public/images.bak.*/
