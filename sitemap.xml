@@ -4,52 +4,8 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://alfareclame.nl/reclamebureau-rotterdam/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/reclamebureau-rotterdam/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/reclamebureau-rotterdam/"/>
-  </url>
-
-  <url>
-    <loc>https://alfareclame.nl/silobelettering/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/silobelettering/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/silobelettering/"/>
-    <image:image>
-      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
-      <image:title>IOP Industrial — silobelettering 30 meter hoogte</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://alfareclame.nl/offshore-belettering/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/offshore-belettering/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/offshore-belettering/"/>
-    <image:image>
-      <image:loc>https://alfareclame.nl/public/images/portfolio/barge-master.jpg</image:loc>
-      <image:title>Barge Master — offshore crane-platform belettering Rotterdamse haven</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://alfareclame.nl/prompt-engineering-nederland/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/prompt-engineering-nederland/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/prompt-engineering-nederland/"/>
-  </url>
-
-  <url>
     <loc>https://alfareclame.nl/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/"/>
@@ -58,7 +14,7 @@
     <image:image>
       <image:loc>https://alfareclame.nl/public/images/logo.jpg</image:loc>
       <image:title>Alfa Reclame — Reclamebureau Rotterdam</image:title>
-      <image:caption>Alfa Reclame logo — reclamebureau in Rotterdam voor signage, digital en AI</image:caption>
+      <image:caption>Alfa Reclame logo — reclamebureau in Rotterdam voor raambelettering, autoreclame en gevelreclame</image:caption>
     </image:image>
 
     <image:image>
@@ -192,39 +148,38 @@
   </url>
 
   <url>
-    <loc>https://alfareclame.nl/ai/readiness-check.html</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://alfareclame.nl/reclamebureau-rotterdam/</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/ai/readiness-check.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/ai/readiness-check.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/reclamebureau-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/reclamebureau-rotterdam/"/>
   </url>
 
   <url>
-    <loc>https://alfareclame.nl/ai/</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/ai/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/ai/"/>
-  </url>
-
-  <url>
-    <loc>https://alfareclame.nl/ai/voor-horeca.html</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://alfareclame.nl/silobelettering/</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/ai/voor-horeca.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/ai/voor-horeca.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/silobelettering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/silobelettering/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:title>IOP Industrial — silobelettering 30 meter hoogte</image:title>
+    </image:image>
   </url>
 
   <url>
-    <loc>https://alfareclame.nl/ai/whatsapp-bestelbot-restaurant.html</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://alfareclame.nl/offshore-belettering/</loc>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/ai/whatsapp-bestelbot-restaurant.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/ai/whatsapp-bestelbot-restaurant.html"/>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/offshore-belettering/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/offshore-belettering/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/barge-master.jpg</image:loc>
+      <image:title>Barge Master — offshore crane-platform belettering Rotterdamse haven</image:title>
+    </image:image>
   </url>
 
 </urlset>

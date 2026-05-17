@@ -1,6 +1,6 @@
 # ============================================================
 # robots.txt — Alfa Reclame (alfareclame.nl)
-# Rotterdam · Signage & Digital/AI Services
+# Rotterdam · Reclamebureau · Raambelettering, autoreclame, gevelreclame
 # ============================================================
 
 # --- Search engines (expliciet toegestaan) ---
@@ -96,12 +96,23 @@ Allow: /
 User-agent: TelegramBot
 Allow: /
 
-# --- Default policy: alles is toegestaan ---
+# --- Default policy: alles is toegestaan, AI/Digital paden geblokkeerd ---
 User-agent: *
 Allow: /
 Disallow: /data/
 Disallow: /.git/
 Disallow: /node_modules/
+Disallow: /ai/
+Disallow: /prompt-engineering-nederland/
+Disallow: /article-1-ai-voor-mkb-pillar-preview.html
+Disallow: /article-2-ai-voor-horeca-preview.html
+Disallow: /article-3-whatsapp-bestelbot-preview.html
+Disallow: /category/
+Disallow: /project/
+Disallow: /blog/
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
 
 # --- Sitemap locations ---
 Sitemap: https://alfareclame.nl/sitemap.xml

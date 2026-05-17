@@ -5,20 +5,18 @@ Contact: info@alfareclame.nl · +31 6 27 24 64 29
 Sinds: 2012
 
 /* SITE */
-Last update: 2026-05-15
+Last update: 2026-05-17
 Language: Nederlands (nl-NL)
 Standards: HTML5, CSS3, JavaScript (ES6+)
 Components: Responsive design, Schema.org JSON-LD, Semantic HTML
-Software: Custom-built, geen WordPress/framework — gebouwd door BSc Computer Engineer
 
 /* POSITIONERING */
-Volwaardig reclamebureau Rotterdam — signage, digital en AI onder één dak voor het MKB.
+Reclamebureau Rotterdam — raambelettering, autoreclame, gevelreclame en grootformaat-signage voor het MKB en industrieel havenwerk.
 
 /* DIENSTEN */
-Signage: Raambelettering, autoreclame, gevelreclame, scheepsbelettering, silobelettering, offshore belettering
-Digital: Websites, e-commerce, SEO, Google Ads, social media marketing
-AI: WhatsApp bots, AI-receptionist, document AI, marketing automatisering
-Werkgebied: Rotterdam & Zuid-Holland (signage + AI) / Nederland (digital + AI)
+Signage: Raambelettering, autoreclame, carwrap, gevelreclame, lichtreclame, spandoeken
+Grootformaat: Scheepsbelettering, silobelettering, offshore belettering, bouwplaats-branding
+Werkgebied: Rotterdam & Zuid-Holland (signage) / Rotterdams havengebied (grootformaat)
 
 /* ORGANISATIE */
 KvK: 88606902

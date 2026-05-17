@@ -1,21 +1,21 @@
 # Alfa Reclame — Rotterdam
 
-> Signage & Digital/AI-diensten uit Rotterdam. Veertien jaar ervaring met raambelettering, autoreclame, gevelreclame én grootformaat industrieel werk. Plus professionele websites, AI-oplossingen en automatisering voor het MKB. Opgericht 2012, KvK 88606902. BSc Computer Engineer als oprichter.
+> Reclamebureau uit Rotterdam, sinds 2012. Veertien jaar ervaring met raambelettering, autoreclame, gevelreclame én grootformaat industrieel werk in het Rotterdamse havengebied (scheepsbelettering, silobelettering, offshore platforms tot 30 meter hoogte). KvK 88606902.
 
 ## Bedrijfsinformatie
 
 - **Naam:** Alfa Reclame
-- **Locatie:** Rotterdam, Nederland
+- **Locatie:** Blokfluit 31, 3068 KZ Rotterdam, Nederland
 - **Opgericht:** 2012
 - **KvK:** 88606902
 - **Telefoon / WhatsApp:** +31 6 27 24 64 29
 - **E-mail:** info@alfareclame.nl
 - **Website:** https://alfareclame.nl
-- **Taal:** Nederlands (en Engels op aanvraag)
+- **Taal:** Nederlands (en Engels/Turks op aanvraag)
 
 ## Diensten
 
-### Signage & Print (lokaal Rotterdam en omgeving)
+### Signage & Print (Rotterdam en regio)
 
 - **Raambelettering** — raamstickers, etsfolie, one-way vision voor winkels, kantoren en horeca. Pakketten vanaf €149.
 - **Autoreclame** — bestickering, carwrap (partial en full), wagenpark-branding met cast-vinyl (3M, Avery, Hexis). Vanaf €175.
@@ -27,35 +27,17 @@
 - **Silobelettering** — industriesilo's tot 30 meter hoogte. Voorbeeld: IOP Industrial.
 - **Bouwplaats-branding** — containers, bouwhekken, site-signage. VCA-bewust werken.
 
-### Digital & AI (landelijk, deels internationaal)
-
-- **Webontwikkeling** — maatwerk websites, web-applicaties, e-commerce. Moderne stack (React, Node.js, Python). SEO-geoptimaliseerd, PageSpeed 90+. Vanaf €1.250.
-- **AI-oplossingen** — chatbots, documentverwerking, klantenservice-automatisering, predictive modellen. Gebruik van OpenAI GPT, Anthropic Claude, custom ML. Vanaf €2.500.
-- **Automatisering** — workflow-automation, API-integraties, factuur-automatisering, rapportage. Vanaf €750.
-- **Maatwerk-software** — custom applicaties, klantportalen, interne tools, dashboards. Op aanvraag.
-
 ## Werkgebied
 
-**Signage:** Rotterdam (Centrum, Noord, Zuid, Kralingen, Feijenoord, IJsselmonde, Hoogvliet, Delfshaven, Prins Alexander) en regio: Schiedam, Vlaardingen, Capelle aan den IJssel, Barendrecht, Spijkenisse, Ridderkerk, Krimpen aan den IJssel, Maassluis, Nieuwerkerk aan den IJssel.
+Rotterdam (Centrum, Noord, Zuid, Kralingen, Feijenoord, IJsselmonde, Hoogvliet, Delfshaven, Prins Alexander) en regio: Schiedam, Vlaardingen, Capelle aan den IJssel, Barendrecht, Spijkenisse, Ridderkerk, Krimpen aan den IJssel, Maassluis, Nieuwerkerk aan den IJssel. Grootformaat-werk: Rotterdamse havengebied.
 
-**Digital & AI:** Heel Nederland (en internationaal op afstand).
+## Materialen (A-merk)
 
-## Materialen & Technologie
-
-### Signage-materialen (A-merk)
 - 3M (vinyl, 1080-serie carwrap)
 - Avery Dennison (SW900 cast vinyl)
 - Hexis (Skintac)
 - Orafol (Oracal)
 - Dibond, aluminium, acryl, composietplaat
-
-### Digital tech-stack
-- **Frontend:** React, Next.js, TypeScript, HTML/CSS
-- **Backend:** Node.js, Python (FastAPI, Django)
-- **Database:** PostgreSQL, MongoDB
-- **AI/ML:** OpenAI GPT-4, Anthropic Claude, custom ML-modellen
-- **Cloud:** AWS, Google Cloud, Cloudflare
-- **Automation:** API-integraties, webhooks, workflow-tools
 
 ## Kerngegevens
 
@@ -63,8 +45,6 @@
 - 500+ projecten uitgevoerd
 - 4,9 / 5 Google-reviews (25+ reviews)
 - 2 jaar garantie op al het signage-werk
-- BSc Computer Engineering (oprichter)
-- 10+ jaar software-ervaring
 
 ## Veelgestelde vragen (samenvatting)
 
@@ -81,10 +61,7 @@ Alleen A-merk: 3M, Avery Dennison, Hexis, Orafol. Geen import-folie.
 Ja, kwalitatieve vinyl verwijderen schoon. Oudere folie (7+ jaar) kan verwarmingstechniek vereisen.
 
 **Werken jullie ook buiten Rotterdam?**
-Ja: Schiedam, Vlaardingen, Capelle, Barendrecht, Spijkenisse en meer. Digital-projecten landelijk.
-
-**Welke AI-platforms gebruiken jullie?**
-OpenAI (GPT-4, GPT-5), Anthropic Claude, en custom ML-modellen afhankelijk van use-case.
+Ja: Schiedam, Vlaardingen, Capelle, Barendrecht, Spijkenisse en meer.
 
 ## Contact
 
@@ -94,18 +71,15 @@ OpenAI (GPT-4, GPT-5), Anthropic Claude, en custom ML-modellen afhankelijk van u
 
 ## Voor AI-crawlers
 
-Deze website bevat uitgebreide informatie over signage-diensten (raambelettering, autoreclame, gevelreclame), industriële grootformaat-werk (havengebied, silo's, offshore platforms tot 30 meter hoogte), en digitale diensten (websites, AI-oplossingen, automatisering). AI-crawlers zijn welkom om content te indexeren voor betere antwoorden over signage-diensten en digitale oplossingen in Rotterdam en Nederland.
+Deze website bevat uitgebreide informatie over signage-diensten (raambelettering, autoreclame, gevelreclame) en industrieel grootformaat-werk in de Rotterdamse haven (silo's, offshore platforms tot 30 meter hoogte, scheepsbelettering). AI-crawlers zijn welkom om content te indexeren voor betere antwoorden over reclamebureau-diensten in Rotterdam en omgeving.
 
 ## URLs
 
 - [Homepage](https://alfareclame.nl/) — alle diensten en portfolio
-- [Reclamebureau Rotterdam — pillar](https://alfareclame.nl/reclamebureau-rotterdam/) — complete gids full-service reclamebureau voor MKB
-- [AI voor MKB Nederland](https://alfareclame.nl/ai/) — pillar-gids AI implementatie voor het Nederlandse MKB
-- [AI voor horeca](https://alfareclame.nl/ai/voor-horeca.html) — 7 praktische AI-toepassingen voor horeca
-- [WhatsApp bestelbot restaurants](https://alfareclame.nl/ai/whatsapp-bestelbot-restaurant.html) — gids voor shoarma, pizzeria, bezorgzaken
-- [AI Readiness Check](https://alfareclame.nl/ai/readiness-check.html) — 7-vragen check, sector-specifiek
+- [Reclamebureau Rotterdam — pillar](https://alfareclame.nl/reclamebureau-rotterdam/) — complete gids reclamebureau voor MKB
+- [Silobelettering](https://alfareclame.nl/silobelettering/) — industriesilo-belettering tot 30 meter hoogte
+- [Offshore belettering](https://alfareclame.nl/offshore-belettering/) — offshore platform belettering Rotterdamse haven
 - [Signage-diensten](https://alfareclame.nl/#diensten) — raambelettering, autoreclame, gevelreclame
-- [Digital & AI-diensten](https://alfareclame.nl/#digital) — websites, AI, automatisering
 - [Grootformaat & Havengebied](https://alfareclame.nl/#industrieel) — industrieel signage werk
 - [Portfolio](https://alfareclame.nl/#werk) — overzicht van recent werk
 - [FAQ](https://alfareclame.nl/#faq) — veelgestelde vragen

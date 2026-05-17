@@ -1,8 +1,8 @@
 # alfareclame.nl
 
-> Reclamebureau Rotterdam — signage, digital & AI onder één dak. Sinds 2012.
+> Reclamebureau Rotterdam — raambelettering, autoreclame, gevelreclame en grootformaat-signage. Sinds 2012.
 
-Productie-website voor [Alfa Reclame](https://alfareclame.nl) — Rotterdams bedrijf voor raambelettering, autoreclame, gevelreclame, grootformaat industrieel werk én professionele websites, AI-oplossingen en automatisering.
+Productie-website voor [Alfa Reclame](https://alfareclame.nl) — Rotterdams reclamebureau voor raambelettering, autoreclame, gevelreclame en grootformaat industrieel signage-werk in het havengebied.
 
 ---
 
@@ -131,10 +131,12 @@ De site is geoptimaliseerd voor:
 - `silobelettering industrie`
 - `offshore crane platform belettering`
 
-**Digital**
-- `website laten maken rotterdam`
-- `ai oplossingen mkb`
-- `automatisering voor bedrijven`
+**Lichtreclame & overig**
+- `lichtreclame rotterdam`
+- `spandoeken rotterdam`
+- `reclameborden rotterdam`
+- `doosletters rotterdam`
+- `bewegwijzering rotterdam`
 
 **SEO-inventaris**
 - 87 Schema.org `@type` entries
