@@ -792,61 +792,6 @@ footer a:hover { color: var(--ink); }
   <p>&copy; 2012&mdash;2026 <a href="/">Alfa Reclame</a></p>
 </footer>
 
-<!-- ElevenLabs ConvAI Widget -->
-<elevenlabs-convai agent-id="agent_4201kq27rkf2fwkbvtpdn51es50a"></elevenlabs-convai>
-<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
-<script>
-// Hide 'Powered by ElevenAgents / ElevenLabs' badge
-(function() {
-  const BADGE_CSS = `
-    a[href*="elevenlabs"], div:has(> a[href*="elevenlabs"]),
-    [class*="powered"], [class*="branding"], .powered-by, .branding,
-    [data-testid*="powered"], [data-testid*="brand"] {
-      display: none !important; visibility: hidden !important;
-      height: 0 !important; max-height: 0 !important;
-      overflow: hidden !important; pointer-events: none !important;
-      position: absolute !important; left: -9999px !important;
-    }
-  `;
-  function hideInRoot(root) {
-    if (!root.__badgeHidden) {
-      const s = document.createElement('style');
-      s.textContent = BADGE_CSS;
-      root.appendChild(s);
-      root.__badgeHidden = true;
-    }
-    root.querySelectorAll('a[href*="elevenlabs"]').forEach(a => {
-      a.style.setProperty('display', 'none', 'important');
-      a.style.setProperty('visibility', 'hidden', 'important');
-      if (a.parentElement) {
-        a.parentElement.style.setProperty('display', 'none', 'important');
-        a.parentElement.style.setProperty('visibility', 'hidden', 'important');
-      }
-    });
-  }
-  function attachToWidget() {
-    const widget = document.querySelector('elevenlabs-convai');
-    if (!widget) return;
-    function tryHide() {
-      if (widget.shadowRoot) {
-        hideInRoot(widget.shadowRoot);
-        new MutationObserver(() => hideInRoot(widget.shadowRoot))
-          .observe(widget.shadowRoot, { childList: true, subtree: true });
-      }
-    }
-    tryHide();
-    [100, 300, 600, 1000, 2000, 4000, 8000].forEach(t => setTimeout(tryHide, t));
-  }
-  if (customElements && customElements.whenDefined) {
-    customElements.whenDefined('elevenlabs-convai').then(attachToWidget);
-  }
-  attachToWidget();
-  document.addEventListener('DOMContentLoaded', attachToWidget);
-  window.addEventListener('load', attachToWidget);
-  new MutationObserver(attachToWidget)
-    .observe(document.documentElement, { childList: true, subtree: true });
-})();
-</script>
 
 </body>
 </html>
