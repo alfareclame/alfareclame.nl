@@ -90,8 +90,12 @@
 # WP /index.php/* prefix (3 URLs in GSC, mostly /index.php/category and /index.php/project)
 /index.php/*                 /                         301
 
-# Root-level legacy AI/digital posts (AR/VR content → AanloopAI)
-/how-to-use-ar-and-vr-in-digital-marketing/    https://aanloopai.nl/   301
-/how-to-use-ar-and-vr-in-digital-marketing     https://aanloopai.nl/   301
-/ar-en-vr-integratie/                          https://aanloopai.nl/   301
-/ar-en-vr-integratie                           https://aanloopai.nl/   301
+# Root-level legacy AI/digital posts (AR/VR + digital marketing → AanloopAI)
+/how-to-use-ar-and-vr-in-digital-marketing/        https://aanloopai.nl/   301
+/how-to-use-ar-and-vr-in-digital-marketing         https://aanloopai.nl/   301
+/ar-en-vr-integratie/                              https://aanloopai.nl/   301
+/ar-en-vr-integratie                               https://aanloopai.nl/   301
+/overcoming-digital-transformation-challenges/     https://aanloopai.nl/   301
+/overcoming-digital-transformation-challenges      https://aanloopai.nl/   301
+/maximizing-roi-with-data-driven-marketing-campaigns/    https://aanloopai.nl/   301
+/maximizing-roi-with-data-driven-marketing-campaigns     https://aanloopai.nl/   301
