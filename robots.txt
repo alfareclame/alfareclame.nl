@@ -113,6 +113,8 @@ Disallow: /blog/
 Disallow: /wp-admin/
 Disallow: /wp-content/
 Disallow: /wp-includes/
+Disallow: /portfolio_category/
+Disallow: /index.php/
 
 # --- Sitemap locations ---
 Sitemap: https://alfareclame.nl/sitemap.xml

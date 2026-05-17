@@ -81,3 +81,17 @@
 /feed/*                        /   301
 /comments/feed/                /   301
 /xmlrpc.php                    /   301
+
+# === Faza 0.5 v2 — GSC Not Indexed cleanup (2026-05-17) ===
+
+# WP portfolio_category prefix (2 URLs in GSC) — direct to /#werk, no chained 301
+/portfolio_category/*        /#werk                    301
+
+# WP /index.php/* prefix (3 URLs in GSC, mostly /index.php/category and /index.php/project)
+/index.php/*                 /                         301
+
+# Root-level legacy AI/digital posts (AR/VR content → AanloopAI)
+/how-to-use-ar-and-vr-in-digital-marketing/    https://aanloopai.nl/   301
+/how-to-use-ar-and-vr-in-digital-marketing     https://aanloopai.nl/   301
+/ar-en-vr-integratie/                          https://aanloopai.nl/   301
+/ar-en-vr-integratie                           https://aanloopai.nl/   301
