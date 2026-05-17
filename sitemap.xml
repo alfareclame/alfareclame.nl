@@ -182,4 +182,26 @@
     </image:image>
   </url>
 
+  <url>
+    <loc>https://alfareclame.nl/raambelettering-rotterdam/</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg</image:loc>
+      <image:title>Yohnny Cake — raambelettering cafe etalage Rotterdam</image:title>
+      <image:caption>Handlettered raambelettering op etalageraam van cafe Yohnny Cake in Rotterdam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/raambelettering/raambelettering-aras-partners-accountant-rotterdam.jpg</image:loc>
+      <image:title>ARAS &amp; Partners — gilded etsfolie accountantskantoor Rotterdam</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/raambelettering/raambelettering-dermamedi-voorzijde-rotterdam.jpg</image:loc>
+      <image:title>DermaMedi — full-color print raambelettering zorgkliniek Rotterdam</image:title>
+    </image:image>
+  </url>
+
 </urlset>
