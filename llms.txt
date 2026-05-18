@@ -88,8 +88,13 @@ Deze website bevat uitgebreide informatie over signage-diensten (raambelettering
 - [Bestickering Rotterdam](https://alfareclame.nl/bestickering-rotterdam/) — hub voor voertuig-, raam-, wand-, vloer- en object-bestickering vanaf €149
 - [Silobelettering](https://alfareclame.nl/silobelettering/) — industriesilo-belettering tot 30 meter hoogte
 - [Offshore belettering](https://alfareclame.nl/offshore-belettering/) — offshore platform belettering Rotterdamse haven
-- [Signage-diensten](https://alfareclame.nl/#diensten) — raambelettering, autoreclame, gevelreclame
-- [Grootformaat & Havengebied](https://alfareclame.nl/#industrieel) — industrieel signage werk
-- [Portfolio](https://alfareclame.nl/#werk) — overzicht van recent werk
-- [FAQ](https://alfareclame.nl/#faq) — veelgestelde vragen
-- [Contact](https://alfareclame.nl/#contact) — offerte aanvragen
+- [Diensten — overzicht](https://alfareclame.nl/diensten/) — hub linkt naar alle 7 signage-disciplines
+- [Werkwijze](https://alfareclame.nl/werkwijze/) — 7 stappen van offerte tot oplevering
+- [Over ons](https://alfareclame.nl/over-ons/) — 14 jaar vakmanschap, waarden, werkgebied, KvK
+- [Portfolio](https://alfareclame.nl/portfolio/) — 29 afgeronde projecten in 4 categorieën
+- [Materialen](https://alfareclame.nl/materialen/) — A-merk vinyl 3M / Avery / Hexis / Orafol, LED, dibond
+- [Branches](https://alfareclame.nl/branches/) — signage per branche (horeca, retail, zorg, bouw, logistiek, industrieel)
+- [Reviews](https://alfareclame.nl/reviews/) — 4.9★ uit 25+ Google-reviews, trust signals
+- [FAQ](https://alfareclame.nl/faq/) — 30+ veelgestelde vragen, 6 categorieën
+- [Contact](https://alfareclame.nl/contact/) — WhatsApp, telefoon, e-mail, formulier, openingstijden, locatie
+- [Offerte aanvragen](https://alfareclame.nl/offerte/) — calculator + transparante prijspakketten €149-€9995
