@@ -496,15 +496,32 @@
 <style>
 :root {
   --white: #FFFFFF;
-  --off-white: #FAFAFA;
-  --surface: #F5F5F7;
+  --off-white: #FFFFFF;
+  --surface: #FFFFFF;
   --ink: #1D1D1F;
+  --ink-on-tint: #1D1D1F;
   --ink-muted: #6E6E73;
   --ink-subtle: #86868B;
   --rule: rgba(0, 0, 0, 0.06);
   --rule-bold: rgba(0, 0, 0, 0.12);
   --brand: #FFE500;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+
+  /* Pastel tint palette — soft, modern, distinguishable */
+  --tint-sun:     #FFF7CC;   /* yellow-cream — ties to brand #FFE500 */
+  --tint-coral:   #FFE4DA;   /* soft warm coral */
+  --tint-sky:     #E1EEFB;   /* soft sky blue */
+  --tint-mint:    #DDF3E4;   /* soft mint green */
+  --tint-lavender:#ECE2F5;   /* soft lavender */
+  --tint-peach:   #FFEAC9;   /* soft peach */
+
+  /* Borders for tinted cards (slightly darker than tint) */
+  --tint-sun-edge:     #F5DC7A;
+  --tint-coral-edge:   #F0B8A6;
+  --tint-sky-edge:     #B8D5F0;
+  --tint-mint-edge:    #A8DCB8;
+  --tint-lavender-edge:#C8B4E0;
+  --tint-peach-edge:   #F0C885;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -695,7 +712,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .btn-ghost:hover {
   border-color: var(--ink);
-  background: var(--surface);
+  background: rgba(0, 0, 0, 0.04);
 }
 .btn-arrow {
   transition: transform 0.25s ease;
@@ -804,7 +821,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   gap: 20px;
 }
 .service-card {
-  background: var(--surface);
+  background: var(--tint-sun);
   border-radius: 24px;
   padding: 80px 60px;
   display: grid;
@@ -816,8 +833,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   overflow: hidden;
   transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1);
 }
-.service-card:nth-child(2) { background: #F5EFEA; }
-.service-card:nth-child(3) { background: #EEF0F3; }
+.service-card:nth-child(1) { background: var(--tint-sun); border: 1px solid var(--tint-sun-edge); }
+.service-card:nth-child(2) { background: var(--tint-coral); border: 1px solid var(--tint-coral-edge); }
+.service-card:nth-child(3) { background: var(--tint-sky); border: 1px solid var(--tint-sky-edge); }
 .service-content-left .service-eyebrow {
   font-size: 14px;
   font-weight: 500;
@@ -1108,7 +1126,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ========== PROCESS ========== */
 .process {
   padding: 160px 40px;
-  background: var(--surface);
+  background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .process-inner {
   max-width: 1240px;
@@ -1157,6 +1176,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .reviews {
   padding: 160px 40px;
   background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .reviews-inner {
   max-width: 1240px;
@@ -1223,7 +1243,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   height: 48px;
   border-radius: 50%;
   flex-shrink: 0;
-  background: var(--surface);
+  background: rgba(0, 0, 0, 0.06);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1372,7 +1392,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .intro-visual {
   aspect-ratio: 4/5;
-  background: var(--surface);
+  background: var(--tint-sky);
   border-radius: 16px;
   position: relative;
   overflow: hidden;
@@ -1420,7 +1440,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .intro-badge {
   padding: 8px 14px;
-  background: var(--surface);
+  background: var(--tint-mint);
+  border: 1px solid var(--tint-mint-edge);
   border-radius: 999px;
   font-size: 13px;
   font-weight: 500;
@@ -1486,7 +1507,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ========== MATERIALS ========== */
 .materials {
   padding: 140px 40px;
-  background: var(--surface);
+  background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .materials-inner {
   max-width: 1240px;
@@ -1531,7 +1553,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .material-brand {
   padding: 4px 10px;
-  background: var(--surface);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   font-size: 12px;
   color: var(--ink);
@@ -1542,6 +1564,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .sectors {
   padding: 140px 40px;
   background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .sectors-grid {
   display: grid;
@@ -1551,10 +1574,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .sector {
   padding: 40px 32px;
-  background: var(--surface);
+  background: var(--tint-mint);
   border-radius: 16px;
   transition: transform 0.3s ease;
 }
+.sector:nth-child(1) { background: var(--tint-mint); border: 1px solid var(--tint-mint-edge); }
+.sector:nth-child(2) { background: var(--tint-peach); border: 1px solid var(--tint-peach-edge); }
+.sector:nth-child(3) { background: var(--tint-lavender); border: 1px solid var(--tint-lavender-edge); }
+.sector:nth-child(4) { background: var(--tint-sky); border: 1px solid var(--tint-sky-edge); }
+.sector:nth-child(5) { background: var(--tint-coral); border: 1px solid var(--tint-coral-edge); }
+.sector:nth-child(6) { background: var(--tint-sun); border: 1px solid var(--tint-sun-edge); }
 .sector:hover { transform: translateY(-4px); }
 .sector-label {
   font-size: 11px;
@@ -1587,7 +1616,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ========== WERKGEBIED ========== */
 .werkgebied {
   padding: 140px 40px;
-  background: var(--surface);
+  background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .werkgebied-inner {
   max-width: 1240px;
@@ -1631,6 +1661,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .garantie {
   padding: 140px 40px;
   background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .garantie-inner {
   max-width: 1240px;
@@ -1647,8 +1678,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border-radius: 16px;
 }
 .garantie-col-yes {
-  background: var(--surface);
-  border: 1px solid var(--rule-bold);
+  background: var(--tint-mint);
+  border: 1px solid var(--tint-mint-edge);
 }
 .garantie-col-no {
   background: var(--white);
@@ -1701,7 +1732,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ========== FAQ ========== */
 .faq {
   padding: 140px 40px;
-  background: var(--surface);
+  background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .faq-inner {
   max-width: 920px;
@@ -2003,7 +2035,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .comparison-table {
   margin-top: 60px;
-  background: var(--surface);
+  background: rgba(0, 0, 0, 0.025);
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid var(--rule-bold);
@@ -2218,7 +2250,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ========== CONTACT FORM ========== */
 .contact-form {
   padding: 140px 40px;
-  background: var(--surface);
+  background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .contact-form-inner {
   max-width: 1080px;
@@ -2394,7 +2427,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ========== PARTNERS ========== */
 .partners {
   padding: 100px 40px;
-  background: var(--surface);
+  background: var(--white);
+  border-top: 1px solid var(--rule);
 }
 .partners-inner {
   max-width: 1240px;
@@ -2605,7 +2639,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border-radius: 16px;
   overflow: hidden;
   aspect-ratio: 3 / 4;
-  background: var(--surface);
+  background: rgba(0, 0, 0, 0.06);
 }
 .material-tile img {
   width: 100%;
