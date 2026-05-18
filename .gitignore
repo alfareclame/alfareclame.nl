@@ -78,6 +78,7 @@ coverage/
 *~.nib
 tmp/
 temp/
+tmp-*/
 
 # ----- Archives (don't commit zips) -----
 *.zip
