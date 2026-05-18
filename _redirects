@@ -99,3 +99,10 @@
 /overcoming-digital-transformation-challenges      https://aanloopai.nl/   301
 /maximizing-roi-with-data-driven-marketing-campaigns/    https://aanloopai.nl/   301
 /maximizing-roi-with-data-driven-marketing-campaigns     https://aanloopai.nl/   301
+
+# === Ahrefs audit 2026-05-17 — CF Pages SPA-fallback soft-200 cleanup ===
+# /drukkerij-rotterdam served homepage HTML (200) via SPA fallback — duplicate content risk.
+# Alfa Reclame outsources print to drukkerij partners; not a drukkerij itself.
+/drukkerij-rotterdam       /   301
+/drukkerij-rotterdam/      /   301
+/drukkerij-rotterdam/*     /   301
