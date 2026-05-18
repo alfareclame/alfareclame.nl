@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ========== PRIMARY META ========== -->
+<title>Signage per Branche — Horeca, Retail, Zorg &amp; Industrie | Alfa Reclame</title>
+<meta name="description" content="Alfa Reclame Rotterdam levert branche-specifieke signage: raambelettering voor horeca, autoreclame voor bouwers, gevelreclame voor retail, wayfinding voor zorgklinieken en fleet wraps voor logistiek.">
+<meta name="keywords" content="signage horeca Rotterdam, raambelettering zorgkliniek, autoreclame bouwbedrijf Rotterdam, fleet wrap logistiek, gevelreclame retail Rotterdam, industriele belettering haven, bedrijfswagenbelettering Rotterdam">
+<meta name="author" content="Alfa Reclame">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#1D1D1F">
+<meta name="format-detection" content="telephone=yes">
+
+<!-- ========== GEO META ========== -->
+<meta name="geo.region" content="NL-ZH">
+<meta name="geo.placename" content="Rotterdam">
+<meta name="geo.position" content="51.9244;4.4777">
+<meta name="ICBM" content="51.9244, 4.4777">
+
+<!-- ========== CANONICAL & ALTERNATES ========== -->
+<link rel="canonical" href="https://alfareclame.nl/branches/">
+<link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/branches/">
+<link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/branches/">
+
+<!-- ========== FAVICONS ========== -->
+<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/public/images/favicon-512.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="shortcut icon" href="/public/images/favicon-32.png">
+<meta name="apple-mobile-web-app-title" content="Alfa Reclame">
+
+<!-- ========== OPEN GRAPH ========== -->
+<meta property="og:site_name" content="Alfa Reclame">
+<meta property="og:title" content="Signage per Branche — Horeca, Retail, Zorg &amp; Industrie | Alfa Reclame">
+<meta property="og:description" content="Alfa Reclame Rotterdam verzorgt branche-specifieke signage voor horeca, retail, zorg, accountancy, bouw, logistiek en industrie. Vraag direct een offerte aan.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alfareclame.nl/branches/">
+<meta property="og:image" content="https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg">
+<meta property="og:image:secure_url" content="https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="nl_NL">
+
+<!-- ========== TWITTER CARDS ========== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Signage per Branche — Horeca, Retail, Zorg &amp; Industrie | Alfa Reclame">
+<meta name="twitter:description" content="Branche-specifieke signage van Alfa Reclame Rotterdam: horeca, retail, zorg, bouw, logistiek en haven. 14 jaar ervaring, 2 jaar garantie.">
+<meta name="twitter:image" content="https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg">
+
+<!-- ========== FONTS ========== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Crimson+Pro:ital@1&display=swap">
+
+<!-- ========== STYLESHEET ========== -->
+<link rel="stylesheet" href="/public/css/huisstijl.css">
+
+<!-- ========== PAGE-SPECIFIC STYLES ========== -->
+<style>
+  /* Branch grid: 3 cols desktop, 2 tablet, 1 phone */
+  .branches-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+
+  /* Pill row for use-cases */
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+  }
+
+  .pill {
+    display: inline-block;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: var(--surface-mute);
+    color: var(--ink-muted);
+    padding: 4px 10px;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--rule-bold);
+    white-space: nowrap;
+  }
+
+  /* Branch card: photo top + body */
+  .branch-card {
+    background: var(--surface);
+    border: 1px solid var(--ink);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+
+  .branch-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .branch-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--brand);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform var(--transition-base);
+    z-index: 1;
+  }
+
+  .branch-card:hover::before {
+    transform: scaleX(1);
+  }
+
+  .branch-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    background: var(--brand);
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+    z-index: 2;
+  }
+
+  .branch-card__image-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
+
+  .branch-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform var(--transition-slow);
+  }
+
+  .branch-card:hover .branch-card__image {
+    transform: scale(1.03);
+  }
+
+  .branch-card__body {
+    padding: var(--space-5);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .branch-card__title {
+    font-size: var(--text-h3);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .branch-card__desc {
+    font-size: var(--text-base);
+    color: var(--ink-muted);
+    line-height: var(--lh-base);
+    flex: 1;
+  }
+
+  /* Niche-cases tiles */
+  .niche-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  .niche-tile {
+    background: var(--surface);
+    border: 1px solid var(--rule-bold);
+    border-radius: var(--radius-md);
+    padding: var(--space-5) var(--space-4);
+    text-align: center;
+  }
+
+  .niche-tile__name {
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: var(--space-2);
+  }
+
+  .niche-tile__sub {
+    font-size: var(--text-xs);
+    color: var(--ink-muted);
+    line-height: 1.45;
+  }
+
+  @media (max-width: 880px) {
+    .branches-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .branches-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .branch-card:hover .branch-card__image {
+      transform: none;
+    }
+  }
+</style>
+
+<!-- ========== JSON-LD STRUCTURED DATA ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://alfareclame.nl/branches/#webpage",
+      "url": "https://alfareclame.nl/branches/",
+      "name": "Signage per Branche — Horeca, Retail, Zorg & Industrie | Alfa Reclame",
+      "description": "Alfa Reclame Rotterdam levert branche-specifieke signage voor horeca, retail, zorg, accountancy, bouw, logistiek en industrie. 14 jaar ervaring, 2 jaar garantie.",
+      "inLanguage": "nl-NL",
+      "isPartOf": {
+        "@id": "https://alfareclame.nl/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://alfareclame.nl/branches/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://alfareclame.nl/branches/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alfareclame.nl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Branches",
+          "item": "https://alfareclame.nl/branches/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://alfareclame.nl/branches/#branchelist",
+      "name": "Branches die Alfa Reclame bedient",
+      "description": "Zeven sectoren waarvoor Alfa Reclame Rotterdam branche-specifieke signage levert.",
+      "numberOfItems": 7,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Horeca",
+          "description": "Raambelettering openingstijden, menu-stickers, lichtbak gevelreclame voor restaurants, cafes, pizzerias en bars."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Retail en winkels",
+          "description": "Etalage-stickers, LED-lichtbak, vloervinyl wayfinding voor boetieken, juweliers en retail."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Zorg en klinieken",
+          "description": "Etsfolie privacy, wayfinding, raambelettering openingstijden voor fysiotherapie, tandarts, huisarts en klinieken."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Accountancy en juridisch",
+          "description": "Gilded etsfolie premium, kantoorraam-belettering subtiel voor administratiekantoren, advocaten en notarissen."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Bouw en installatie",
+          "description": "Bedrijfswagen-belettering, bouwhek-banners, container-branding voor bouwbedrijven, installateurs en schilders."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Logistiek en transport",
+          "description": "Fleet wraps, bakwagen-belettering, multi-vehicle rollouts voor koeriers, transport en logistiek."
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Industrieel en haven",
+          "description": "Grootformaat belettering, hoogwerkers, VCA-bewust voor havengebied, offshore, silos en scheepsbelettering."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alfareclame.nl/branches/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Waarom is branche-specifieke signage belangrijk voor mijn bedrijf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elke branche heeft eigen eisen: horecabedrijven moeten voldoen aan gemeentelijke horecavergunningen voor verlichte gevelreclame, zorginstellingen kiezen voor rustige etsfolie die privacy waarborgt, en bouwbedrijven hebben weerbestendige folie nodig voor voertuigen en bouwketen. Door de juiste materiaalkeuze en toon per branche zorgt Alfa Reclame dat uw signage zowel visueel als juridisch op orde is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Heeft Alfa Reclame ervaring met signage voor zorgklinieken in Rotterdam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Alfa Reclame heeft meerdere zorgpraktijken in Rotterdam voorzien van raambelettering, etsfolie voor privacyglas en informatieve wayfinding-stickers. Wij houden rekening met de uitstraling die past bij een professionele zorgomgeving: strak, informatief en rustig van kleur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan Alfa Reclame een complete vloot van meerdere bedrijfswagens inbeleteren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zeker. Onze fleet wrap-service is geschikt voor vloten van twee tot honderd voertuigen. Wij ontwerpen een consistent sjabloon dat aansluit op uw huisstijl en monteren per batch zodat uw wagenpark zo min mogelijk stilstaat. Multi-vehicle rollouts plannen wij in overleg met uw planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke vergunningen zijn nodig voor gevelreclame in Rotterdam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Voor permanente gevelreclame groter dan 0,5 m2 is in Rotterdam doorgaans een omgevingsvergunning vereist. Voor tijdelijke stickers, etsfolie op ramen en kleine logos op gevels is vaak geen vergunning nodig. Alfa Reclame adviseert u over de lokale regelgeving en kan de vergunningsaanvraag begeleiden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Levert Alfa Reclame ook signage voor grootformaat industriele objecten zoals silos of schepen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Alfa Reclame heeft ervaring met grootformaat belettering op industriele objecten zoals silos, containers en scheepsrompen. Wij werken met hoogwerkers en VCA-gecertificeerde monteurs die gewend zijn te werken op hoogte en in havenomgevingen. De folies zijn bestand tegen zoute zeelucht, extreme temperaturen en UV-belasting."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<!-- Skip link -->
+<a class="skip-link" href="#main">Ga naar hoofdinhoud</a>
+
+<!-- ========================================================
+     NAVIGATIE
+     ======================================================== -->
+<header class="nav" role="banner">
+  <div class="nav__inner">
+    <a class="nav__logo" href="/" aria-label="Alfa Reclame homepage">
+      <img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="80" height="40" loading="eager" decoding="async">
+    </a>
+
+    <nav class="nav__links" role="navigation" aria-label="Hoofdnavigatie">
+      <a class="nav__link" href="/diensten/">Diensten</a>
+      <a class="nav__link" href="/raambelettering-rotterdam/">Raambelettering</a>
+      <a class="nav__link" href="/autoreclame-rotterdam/">Autoreclame</a>
+      <a class="nav__link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
+      <a class="nav__link nav__link--active" href="/branches/" aria-current="page">Branches</a>
+      <a class="nav__link" href="/reclamebureau-rotterdam/">Over ons</a>
+    </nav>
+
+    <div class="nav__cta">
+      <a class="btn btn-primary btn--sm" href="tel:+31624741597" aria-label="Bel Alfa Reclame direct op +31 6 24 74 15 97">
+        Bel ons
+      </a>
+    </div>
+
+    <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-nav" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile nav drawer -->
+<nav class="nav__mobile" id="mobile-nav" role="navigation" aria-label="Mobiele navigatie">
+  <a class="nav__mobile-link" href="/">Home</a>
+  <a class="nav__mobile-link" href="/diensten/">Alle Diensten</a>
+  <a class="nav__mobile-link" href="/raambelettering-rotterdam/">Raambelettering</a>
+  <a class="nav__mobile-link" href="/autoreclame-rotterdam/">Autoreclame</a>
+  <a class="nav__mobile-link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
+  <a class="nav__mobile-link" href="/lichtreclame-rotterdam/">Lichtreclame</a>
+  <a class="nav__mobile-link" href="/doosletters-rotterdam/">Doosletters</a>
+  <a class="nav__mobile-link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a>
+  <a class="nav__mobile-link" href="/bestickering-rotterdam/">Bestickering</a>
+  <a class="nav__mobile-link" href="/branches/">Branches</a>
+  <a class="nav__mobile-link" href="/reclamebureau-rotterdam/">Over ons</a>
+  <div style="margin-top:24px;">
+    <a class="btn btn-primary" href="tel:+31624741597">Bel +31 6 24 74 15 97</a>
+  </div>
+</nav>
+
+<!-- ========================================================
+     MAIN CONTENT
+     ======================================================== -->
+<main id="main">
+
+  <!-- BREADCRUMB -->
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Kruimelpad">
+      <span class="breadcrumb__item">
+        <a class="breadcrumb__link" href="/">Home</a>
+      </span>
+      <span class="breadcrumb__item">
+        <span class="breadcrumb__current">Branches</span>
+      </span>
+    </nav>
+  </div>
+
+  <!-- ====================================================
+       HERO
+       ==================================================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <span class="hero__eyebrow">Branches &middot; 7 sectoren &middot; Rotterdam</span>
+        <h1 class="hero__title" id="hero-title">Signage per branche &mdash; van horeca tot havenwerk</h1>
+        <p class="hero__lead">
+          Elk bedrijf is anders. Een pizzeria vraagt om andere reclame dan een advocatenkantoor, en een containerbedrijf in de haven stelt andere eisen dan een huisartsenpraktijk. Alfa Reclame Rotterdam denkt per branche mee over vergunningen, materiaal en boodschap.
+        </p>
+        <div class="hero__cta-row">
+          <a class="btn btn-primary" href="tel:+31624741597">
+            Bel +31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97
+          </a>
+          <a class="btn btn-secondary" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer">
+            WhatsApp ons
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <img
+          class="hero__photo hero__photo--tall"
+          src="/public/images/portfolio/yohnny-cake.jpg"
+          alt="Raambelettering Rotterdam voor Yohnny Cake bakkerij, folieteksten op winkelpui"
+          width="380" height="460"
+          loading="eager" decoding="async">
+        <img
+          class="hero__photo"
+          src="/public/images/portfolio/il-mare-pizzeria.jpg"
+          alt="Lichtreclame Rotterdam voor Il Mare Pizzeria, verlicht geveluithangbord"
+          width="380" height="220"
+          loading="lazy" decoding="async">
+        <img
+          class="hero__photo"
+          src="/public/images/portfolio/i-bo-warmte-techniek.jpg"
+          alt="Autoreclame Rotterdam voor I-BO Warmte Techniek, bedrijfswagenbelettering"
+          width="380" height="220"
+          loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       PILLAR INTRO — waarom branche-specifieke aanpak
+       ==================================================== -->
+  <section class="section section-soft stripe-top" aria-labelledby="pillar-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Branche-aanpak</span>
+        <h2 class="section-title" id="pillar-title">Waarom branche-specifieke signage werkt</h2>
+        <p class="section-subtitle">
+          Niet elke sector vraagt hetzelfde. Wij stemmen materiaal, toon en techniek af op uw branche.
+        </p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start;">
+        <div>
+          <p>
+            Signage is meer dan een sticker of een bord. Het is de eerste indruk die een klant of bewoner van u krijgt, nog voor hij of zij uw pand betreedt. Die indruk moet kloppen bij uw branche. Een lichtbak met felle kleuren past bij een horecazaak op de Oudedijk, maar zou op de gevel van een notariskantoor vreemd ogen. Omgekeerd geldt dat een subtiele etsfolie met goudkleurig logo prachtig staat bij een accountantskantoor, maar als te terughoudend wordt ervaren bij een sport- of evenementenlocatie.
+          </p>
+          <p>
+            Alfa Reclame Rotterdam heeft in meer dan veertien jaar zaken gedaan met ondernemers uit vrijwel alle sectoren van de Rotterdamse economie. Die ervaring heeft ons geleerd dat drie factoren sterk branche-afhankelijk zijn: de vergunningssituatie, de materiaalkeuze en de visuele tone-of-voice. Voor elke sector weten wij welke aanvragen de gemeente verwacht, welke folie de omgeving aankan en welke typografie en kleurstelling geloofwaardig overkomt bij de doelgroep.
+          </p>
+        </div>
+        <div>
+          <p>
+            Neem vergunningen: voor verlichte gevelreclame in de horecagebieden van Rotterdam-Centrum of Rotterdam-Zuid gelden gemeentelijke richtlijnen rond formaat, lichtsterkte en plaatsingshoek. Voor industrieel gebruik in de havens gelden VCA-eisen bij het werken op hoogte. Wij begeleiden u door beide trajecten en zorgen dat de montage aan alle regels voldoet.
+          </p>
+          <p>
+            Ook de materiaalkeuze verschilt per sector. Voertuigfolie voor een bestelwagen die dagelijks rijdt op zoute kustroutes vraagt om een andere specificatie dan raamfolie voor een rustige huisartsenpraktijk. En de boodschap op een bouwhekbanner moet op dertig meter leesbaar zijn, terwijl een menukaart-sticker op ooghoogte wordt bekeken door een klant die al voor de deur staat.
+          </p>
+          <p>
+            Hieronder vindt u de zeven branches waarvoor Alfa Reclame Rotterdam de meeste ervaring en referenties heeft, elk met concrete toepassingen en materiaaladviezen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       7 BRANCHE CARDS IN GRID
+       ==================================================== -->
+  <section class="section" aria-labelledby="branches-grid-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Zeven sectoren</span>
+        <h2 class="section-title" id="branches-grid-title">Onze branches</h2>
+        <p class="section-subtitle">
+          Herkenbare voorbeeldprojecten per sector, met concrete toepassingen en materiaalinformatie.
+        </p>
+      </div>
+
+      <div class="branches-grid" role="list">
+
+        <!-- ===== 1. HORECA ===== -->
+        <article class="branch-card" role="listitem" id="horeca">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/il-mare-pizzeria.jpg"
+              alt="Lichtreclame Rotterdam voor Il Mare Pizzeria, verlicht geveluithangbord boven horecapui"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Horeca</h3>
+            <p class="branch-card__desc">
+              Restaurants, caf&eacute;s, pizzeria's, lunchrooms en bars in Rotterdam staan bloot aan de scherpste concurrentie van de stad. Uw gevel en etalage moeten direct duidelijk maken wat u aanbiedt en waarom de voorbijganger voor u kiest. Alfa Reclame helpt horecaondernemers met opvallende raambelettering voor openingstijden en menuinformatie, menu-stickers op ramen en deuren, verlichte lichtbakken die ook na donker zichtbaar zijn, en gevelreclame die past binnen de horecavergunning van de gemeente Rotterdam. Wij kennen de eisen voor beschermde stads- en dorpsgezichten en adviseren welke folie bestand is tegen vetdamp en intensieve reiniging in een keukenomgeving.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen horeca">
+              <span class="pill">Raambelettering</span>
+              <span class="pill">Lichtbak</span>
+              <span class="pill">Menu-stickers</span>
+              <span class="pill">Openingstijden</span>
+              <span class="pill">Gevelreclame</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== 2. RETAIL & WINKELS ===== -->
+        <article class="branch-card" role="listitem" id="retail">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/diamor-jewellery.jpg"
+              alt="Raambelettering Rotterdam voor Diamor Jewellery, gouden folieteksten op juweliersetalage"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Retail &amp; winkels</h3>
+            <p class="branch-card__desc">
+              Boetieken, juweliers, modezaken, tabakswinkels en gespecialiseerde detailhandelaren hebben een etalage die verleidt, informeert en uitnodigt. Alfa Reclame levert etalage-stickers en raamfolies in elke kleur, transparantiegraad en finishtype: van glanzend tot mat, van spiegelfolie tot etsfolie. Voor retailers die hun winkelruimte maximaal willen benutten verzorgen wij ook vloervinyl voor wayfinding, LED-lichtbakken met verwisselbaar drukwerk en gevelreclame die zichtbaar is tot op de hoek van de straat. Een goed ingerichte etalage houdt passanten langer voor het raam, wat direct bijdraagt aan uw omzet en naamsbekendheid in de buurt.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen retail">
+              <span class="pill">Etalage-stickers</span>
+              <span class="pill">LED-lichtbak</span>
+              <span class="pill">Vloervinyl</span>
+              <span class="pill">Etsfolie</span>
+              <span class="pill">Gevelletters</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== 3. ZORG & KLINIEKEN ===== -->
+        <article class="branch-card" role="listitem" id="zorg">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/dermamedi-lijn.jpg"
+              alt="Raambelettering Rotterdam voor DermaMedi zorgkliniek, strakke etsfolie op gevelraam"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Zorg &amp; klinieken</h3>
+            <p class="branch-card__desc">
+              Fysiotherapiepraktijken, tandartsen, huisartsenpraktijken, schoonheidsklinieken en gespecialiseerde zorgcentra in Rotterdam vragen om een rustige, professionele uitstraling die vertrouwen uitstraalt. Alfa Reclame levert etsfolie voor privacyglas in wachtkamers en behandelkamers, zodat pati&euml;nten beschermd zijn zonder dat de ruimte donker wordt. Daarnaast verzorgen wij duidelijke wayfinding-stickers voor corridors en ingangen, raambelettering met openingstijden en contactgegevens, en infoborden met behandelaarinformatie. Wij kiezen bewust ingetogen kleurstellingen en rustige typografie die past bij de uitstraling van een zorgprofessional.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen zorg">
+              <span class="pill">Etsfolie privacy</span>
+              <span class="pill">Wayfinding</span>
+              <span class="pill">Openingstijden</span>
+              <span class="pill">Infoborden</span>
+              <span class="pill">Raamfolie</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== 4. ACCOUNTANCY & JURIDISCH ===== -->
+        <article class="branch-card" role="listitem" id="accountancy">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/aras-partners.jpg"
+              alt="Kantoorraam-belettering Rotterdam voor Aras Partners administratiekantoor, subtiele goudkleurige folietekst"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Accountancy &amp; juridisch</h3>
+            <p class="branch-card__desc">
+              Administratiekantoren, accountantsbureaus, advocatenkantoren en notarissen in Rotterdam communiceren op een specifieke manier met hun cli&euml;nten: serieus, betrouwbaar en gedegen. Die uitstraling begint al bij de gevel en de ramen. Alfa Reclame levert premium etsfolie met een goudkleurige glans of zilveren mat-finish, kantoorraam-belettering in subtiele kleuren die de firmanaam en het rechtsgebied toont, en receptiebordering voor een representatieve binnenkomst. Wij adviseren bewust terughoudend kleurgebruik: geen felle kleuren of drukke achtergronden, maar een verfijnde typografische uitvoering die aansluit bij de serieuze aard van uw dienstverlening.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen accountancy en juridisch">
+              <span class="pill">Etsfolie premium</span>
+              <span class="pill">Goudfolie</span>
+              <span class="pill">Kantoorbelettering</span>
+              <span class="pill">Receptiebord</span>
+              <span class="pill">Naamplaat</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== 5. BOUW & INSTALLATIE ===== -->
+        <article class="branch-card" role="listitem" id="bouw">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/bouwcontainers.jpg"
+              alt="Container-branding Rotterdam voor bouwbedrijf, bestickering bouwketen op bouwlocatie"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Bouw &amp; installatie</h3>
+            <p class="branch-card__desc">
+              Bouwbedrijven, aannemers, installateurs voor CV, elektra en water, schilders en stucadoors in Rotterdam rijden dagelijks door de stad met hun wagenpark en werken op locaties die zichtbaar zijn voor honderden passanten. Dat is gratis advertentieruimte die veel bedrijven onbenut laten. Alfa Reclame levert professionele bedrijfswagen-belettering voor bestelbussen en vrachtwagens, bouwhek-banners in groot formaat die uw project zichtbaar maken tijdens de bouw, en container-branding voor opslagketen op de bouwplaats. Wij werken met weerbestendige buitenfolie die bestand is tegen modder, afwasmiddelen en frequente wasbeurten op autowassen.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen bouw en installatie">
+              <span class="pill">Bedrijfswagenbelettering</span>
+              <span class="pill">Bouwhekbanner</span>
+              <span class="pill">Container-branding</span>
+              <span class="pill">Bestelbusfolie</span>
+              <span class="pill">Weerbestendig</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== 6. LOGISTIEK & TRANSPORT ===== -->
+        <article class="branch-card" role="listitem" id="logistiek">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/cc-cable-communication.jpg"
+              alt="Fleet wrap Rotterdam voor CC Cable Communication, complete vlootbelettering bestelwagens"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Logistiek &amp; transport</h3>
+            <p class="branch-card__desc">
+              Koeriers, transportbedrijven, logistieke dienstverleners en magazijnoperators in de regio Rotterdam hebben &eacute;&eacute;n gemeenschappelijk kenmerk: hun voertuigen zijn voortdurend in beweging en zichtbaar in de openbare ruimte. Een professioneel ingebeleterde vloot versterkt het vertrouwen van opdrachtgevers en maakt indruk bij afleverpunten. Alfa Reclame levert complete fleet wraps waarbij alle voertuigen in dezelfde stijl worden uitgevoerd, bakwagen-belettering voor grotere transportwagens en vrachtwagens, en multi-vehicle rollouts waarbij wij de planning zo inrichten dat voertuigen zo kort mogelijk buiten gebruik zijn. Wij zorgen voor een consistent eindresultaat, ook als de vloot in fases wordt vernieuwd.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen logistiek en transport">
+              <span class="pill">Fleet wrap</span>
+              <span class="pill">Bakwagenbelettering</span>
+              <span class="pill">Multi-vehicle</span>
+              <span class="pill">Huisstijl-rollout</span>
+              <span class="pill">Vrachtwagen</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- ===== 7. INDUSTRIEEL & HAVEN ===== -->
+        <article class="branch-card" role="listitem" id="industrieel">
+          <div class="branch-card__image-wrap">
+            <img
+              class="branch-card__image"
+              src="/public/images/portfolio/iop-silo.jpg"
+              alt="Silobelettering Rotterdam voor IOP Silo, grootformaat industriele belettering op silowand"
+              width="600" height="450"
+              loading="lazy" decoding="async">
+          </div>
+          <div class="branch-card__body">
+            <h3 class="branch-card__title">Industrieel &amp; haven</h3>
+            <p class="branch-card__desc">
+              Het havengebied van Rotterdam, de industrieterreinen rond de stad en grootschalige productielocaties stellen de zwaarste eisen aan signage. Materialen moeten zoute zeelucht, extreme temperatuurwisselingen en intensieve reiniging kunnen doorstaan. Alfa Reclame levert grootformaat belettering voor silo's, bunkers, overslagloodsen en scheepsrompen, waarbij wij werken met hoogwerkers en VCA-gecertificeerde monteurs. Onze folies zijn UV-bestendig, zoutbestendig en geschikt voor substraten als geschilderd staal, beton en kunststof. Wij plannen de montage in overleg met uw veiligheidsco&ouml;rdinator zodat alles in &eacute;&eacute;n vlotte operatie verloopt.
+            </p>
+            <div class="pill-row" aria-label="Toepassingen industrieel en haven">
+              <span class="pill">Grootformaat</span>
+              <span class="pill">Silobelettering</span>
+              <span class="pill">Scheepsbelettering</span>
+              <span class="pill">Hoogwerker</span>
+              <span class="pill">VCA-bewust</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       NICHE-CASES
+       ==================================================== -->
+  <section class="section section-soft" aria-labelledby="niche-title">
+    <div class="container">
+      <div class="section-header" style="max-width:720px;">
+        <span class="eyebrow">Meer sectoren</span>
+        <h2 class="section-title" id="niche-title">Speciale branches die wij ook bedienen</h2>
+        <p class="section-subtitle">
+          Naast de zeven hoofdsectoren heeft Alfa Reclame Rotterdam ook ervaring met kleinere en specifieke niches.
+        </p>
+      </div>
+
+      <p style="max-width:72ch; color:var(--ink-muted); line-height:var(--lh-base);">
+        De Rotterdamse economie is divers en Alfa Reclame groeit mee. Naast de zeven hoofdsectoren hebben wij in de loop der jaren ook signage gerealiseerd voor sportverenigingen die hun kantine en trainingsveld wilden aankleden met banners, vlaggen en raamdecoratie. Voetbalverenigingen zoals Sancak SV Be&#351;ikta&#351; weten dat een goed ingericht clubhuis bijdraagt aan het gevoel van trots en saamhorigheid onder leden. Kinderdagverblijven zoals De Groene Tuin zoeken kleurrijke maar veilige raamdecoratie die peuters en kleuters uitnodigt en ouders geruststelt over de warme sfeer binnen. Kerken en non-profitorganisaties willen met een bescheiden budget toch een professionele uitstraling realiseren op hun gevel of in hun ontmoetingsruimte. Evenementenlocaties en festivals hebben tijdelijke banners, vloerstickers en verwijderbare raamdecoratie nodig voor een speciale beurs of themavond. En dienstverlenende bedrijven zoals schoonmaak- en beveiligingsdiensten willen hun voertuigen en kantoren van een uniforme huisstijl voorzien. Voor elk van deze niches geldt: Alfa Reclame denkt mee en biedt een oplossing op maat, ongeacht het budget of de complexiteit van de opdracht.
+      </p>
+
+      <div class="niche-grid" role="list" aria-label="Speciale branches">
+
+        <div class="niche-tile" role="listitem">
+          <div class="niche-tile__name">Sport &amp; verenigingen</div>
+          <div class="niche-tile__sub">Kantine-belettering, tribünebanners, voertuigstickers voor clubwagens</div>
+        </div>
+
+        <div class="niche-tile" role="listitem">
+          <div class="niche-tile__name">Kinderdagverblijven</div>
+          <div class="niche-tile__sub">Kleurrijke raamdecoratie, veilige folie, speelruimte-wayfinding</div>
+        </div>
+
+        <div class="niche-tile" role="listitem">
+          <div class="niche-tile__name">Kerken &amp; non-profit</div>
+          <div class="niche-tile__sub">Budgetvriendelijke gevelletters, informatieve raamfolie, evenementenbanners</div>
+        </div>
+
+        <div class="niche-tile" role="listitem">
+          <div class="niche-tile__name">Evenementen &amp; beurzen</div>
+          <div class="niche-tile__sub">Tijdelijke vloerstickers, roll-up banners, verwijderbare raamdecoratie</div>
+        </div>
+
+        <div class="niche-tile" role="listitem">
+          <div class="niche-tile__name">Schoonmaak &amp; facilitair</div>
+          <div class="niche-tile__sub">Bedrijfswagenfolie, uniforme vlootbranding, weerbestendige buitenstickers</div>
+        </div>
+
+        <div class="niche-tile" role="listitem">
+          <div class="niche-tile__name">Beveiliging</div>
+          <div class="niche-tile__sub">Voertuigbelettering conform huisstijl, reflecterende folie voor nachtwerk</div>
+        </div>
+
+      </div>
+
+      <div style="margin-top: var(--space-6);">
+        <p style="max-width:64ch; color:var(--ink-muted); line-height:var(--lh-base); margin-bottom:var(--space-5);">
+          Zit uw branche er niet bij? Neem toch contact op. Wij beoordelen elke aanvraag op zijn eigen merites en geven u eerlijk advies over haalbaarheid, materiaalkeuze en budget.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FAQ
+       ==================================================== -->
+  <section class="section" aria-labelledby="faq-title">
+    <div class="container--narrow">
+      <div class="section-header">
+        <span class="eyebrow">Veelgestelde vragen</span>
+        <h2 class="section-title" id="faq-title">Branche-specifieke vragen</h2>
+      </div>
+
+      <div class="faq" role="list">
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-1">
+            Waarom is branche-specifieke signage belangrijk voor mijn bedrijf?
+            <span class="faq__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq__answer" id="faq-1" role="region" hidden>
+            <p>
+              Elke branche heeft eigen eisen: horecabedrijven moeten voldoen aan gemeentelijke horecavergunningen voor verlichte gevelreclame, zorginstellingen kiezen voor rustige etsfolie die privacy waarborgt, en bouwbedrijven hebben weerbestendige folie nodig voor voertuigen en bouwketen. Door de juiste materiaalkeuze en visuele toon per branche zorgt Alfa Reclame dat uw signage zowel visueel als juridisch op orde is en het vertrouwen van uw doelgroep wekt.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-2">
+            Heeft Alfa Reclame ervaring met signage voor zorgklinieken in Rotterdam?
+            <span class="faq__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq__answer" id="faq-2" role="region" hidden>
+            <p>
+              Ja. Alfa Reclame heeft meerdere zorgpraktijken in Rotterdam voorzien van raambelettering, etsfolie voor privacyglas en informatieve wayfinding-stickers. Wij houden rekening met de uitstraling die past bij een professionele zorgomgeving: strak, informatief en rustig van kleur. Uw pati&euml;nten voelen zich welkom en uw gevel straalt betrouwbaarheid uit.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-3">
+            Kan Alfa Reclame een complete vloot van meerdere bedrijfswagens inbeleteren?
+            <span class="faq__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq__answer" id="faq-3" role="region" hidden>
+            <p>
+              Zeker. Onze fleet wrap-service is geschikt voor vloten van twee tot honderd voertuigen. Wij ontwerpen een consistent sjabloon dat aansluit op uw huisstijl en monteren per batch zodat uw wagenpark zo min mogelijk stilstaat. Multi-vehicle rollouts plannen wij in overleg met uw eigen planning, zodat uw logistieke operatie zo min mogelijk hinder ondervindt.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-4">
+            Welke vergunningen zijn nodig voor gevelreclame in Rotterdam?
+            <span class="faq__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq__answer" id="faq-4" role="region" hidden>
+            <p>
+              Voor permanente gevelreclame groter dan 0,5 m&sup2; is in Rotterdam doorgaans een omgevingsvergunning vereist. Voor tijdelijke stickers, etsfolie op ramen en kleine logo's op gevels is vaak geen vergunning nodig. Alfa Reclame adviseert u over de lokale regelgeving en kan de vergunningsaanvraag begeleiden, zodat u zeker weet dat uw reclame aan alle gemeentelijke eisen voldoet.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-5">
+            Levert Alfa Reclame ook signage voor grootformaat industri&euml;le objecten zoals silo's of schepen?
+            <span class="faq__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq__answer" id="faq-5" role="region" hidden>
+            <p>
+              Ja. Alfa Reclame heeft ervaring met grootformaat belettering op industri&euml;le objecten zoals silo's, containers en scheepsrompen. Wij werken met hoogwerkers en VCA-gecertificeerde monteurs die gewend zijn te werken op hoogte en in havenomgevingen. De folies die wij gebruiken zijn bestand tegen zoute zeelucht, extreme temperaturen en UV-belasting, zodat uw belettering ook na jaren nog scherp oogt.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FINAL CTA
+       ==================================================== -->
+  <section class="section section-dark" aria-labelledby="cta-title">
+    <div class="container" style="text-align:center;">
+      <span class="eyebrow" style="color:var(--brand);">Uw branche, onze expertise</span>
+      <h2 class="section-title" id="cta-title" style="color:var(--surface); display:flex; justify-content:center; align-items:center;">
+        Klaar voor signage die bij uw sector past?
+      </h2>
+      <p style="color:rgba(255,255,255,0.65); font-size:18px; max-width:56ch; margin:0 auto var(--space-7);">
+        Bekijk al onze diensten of neem direct contact op. Wij bezoeken uw locatie gratis en stellen een offerte op maat op.
+      </p>
+      <div class="btn-row" style="justify-content:center; margin-bottom:var(--space-6);">
+        <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App Alfa Reclame via WhatsApp">
+          WhatsApp ons
+        </a>
+        <a class="btn btn--lg" href="tel:+31624741597" style="background:var(--surface); color:var(--ink); border-color:var(--surface);">
+          +31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97
+        </a>
+        <a class="btn btn-secondary btn--lg" href="/diensten/" style="border-color:rgba(255,255,255,0.35); color:rgba(255,255,255,0.85);">
+          Alle diensten bekijken
+        </a>
+      </div>
+      <p style="color:rgba(255,255,255,0.35); font-size:13px;">
+        Gemiddelde responstijd: &lt;&nbsp;1 werkdag &middot; Gratis locatiebezoek &middot; Vaste offerte zonder verborgen kosten
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========================================================
+     FOOTER
+     ======================================================== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+
+      <!-- Brand column -->
+      <div class="footer__brand">
+        <img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="88" height="44" loading="lazy" decoding="async">
+        <p class="footer__tagline">Your Print &amp; Sign Partner</p>
+        <p style="font-size:13px; color:rgba(255,255,255,0.45); max-width:280px; line-height:1.6;">
+          Reclamebureau in Rotterdam Zuidoost, gespecialiseerd in signage voor het MKB. KvK:&nbsp;88606902.
+        </p>
+      </div>
+
+      <!-- Diensten column -->
+      <div>
+        <p class="footer__heading">Diensten</p>
+        <ul class="footer__links">
+          <li><a class="footer__link" href="/raambelettering-rotterdam/">Raambelettering</a></li>
+          <li><a class="footer__link" href="/autoreclame-rotterdam/">Autoreclame</a></li>
+          <li><a class="footer__link" href="/gevelreclame-rotterdam/">Gevelreclame</a></li>
+          <li><a class="footer__link" href="/lichtreclame-rotterdam/">Lichtreclame</a></li>
+          <li><a class="footer__link" href="/doosletters-rotterdam/">Doosletters</a></li>
+          <li><a class="footer__link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a></li>
+          <li><a class="footer__link" href="/bestickering-rotterdam/">Bestickering</a></li>
+        </ul>
+      </div>
+
+      <!-- Werkgebied column -->
+      <div>
+        <p class="footer__heading">Werkgebied</p>
+        <ul class="footer__links">
+          <li><span class="footer__link">Rotterdam Centrum</span></li>
+          <li><span class="footer__link">Rotterdam Zuid</span></li>
+          <li><span class="footer__link">Rotterdam Noord</span></li>
+          <li><span class="footer__link">Schiedam</span></li>
+          <li><span class="footer__link">Capelle a/d IJssel</span></li>
+          <li><span class="footer__link">Ridderkerk</span></li>
+          <li><span class="footer__link">Barendrecht</span></li>
+        </ul>
+      </div>
+
+      <!-- Contact column -->
+      <div>
+        <p class="footer__heading">Contact</p>
+        <div class="footer__contact-item">
+          <span aria-hidden="true">&#9990;</span>
+          <a href="tel:+31624741597" class="footer__accent">+31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97</a>
+        </div>
+        <div class="footer__contact-item">
+          <span aria-hidden="true">&#9993;</span>
+          <a href="mailto:info@alfareclame.nl">info@alfareclame.nl</a>
+        </div>
+        <div class="footer__contact-item">
+          <span aria-hidden="true">&#9679;</span>
+          <address style="font-style:normal;">
+            Blokfluit 31<br>
+            3068 KZ Rotterdam
+          </address>
+        </div>
+        <div style="margin-top:20px;">
+          <a class="btn btn-whatsapp btn--sm" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App ons via WhatsApp">
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bar">
+      <p class="footer__copy">&copy; 2026 Alfa Reclame Rotterdam. Alle rechten voorbehouden.</p>
+      <nav class="footer__bar-links" aria-label="Juridische navigatie">
+        <a class="footer__bar-link" href="/privacybeleid/">Privacybeleid</a>
+        <a class="footer__bar-link" href="/algemene-voorwaarden/">Algemene voorwaarden</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- ========================================================
+     JAVASCRIPT — nav toggle + FAQ accordion
+     ======================================================== -->
+<script>
+(function () {
+  'use strict';
+
+  /* --- Mobile nav toggle --- */
+  var toggle = document.getElementById('nav-toggle');
+  var mobileNav = document.getElementById('mobile-nav');
+
+  if (toggle && mobileNav) {
+    toggle.addEventListener('click', function () {
+      var isOpen = mobileNav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      toggle.setAttribute('aria-label', isOpen ? 'Menu sluiten' : 'Menu openen');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!toggle.contains(e.target) && !mobileNav.contains(e.target) && mobileNav.classList.contains('is-open')) {
+        mobileNav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Menu openen');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+
+  /* --- FAQ accordion --- */
+  var faqItems = document.querySelectorAll('.faq__item');
+
+  faqItems.forEach(function (item) {
+    var btn = item.querySelector('.faq__question');
+    var answer = item.querySelector('.faq__answer');
+    var icon = item.querySelector('.faq__icon');
+
+    if (!btn || !answer) return;
+
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if (answer.hasAttribute('hidden')) {
+        answer.removeAttribute('hidden');
+      } else {
+        answer.setAttribute('hidden', '');
+      }
+      if (icon) icon.textContent = isOpen ? '−' : '+';
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

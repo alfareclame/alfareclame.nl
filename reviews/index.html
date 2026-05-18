@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ========== PRIMARY META ========== -->
+<title>Reviews — 4.9 sterren uit 25+ Google-reviews | Alfa Reclame Rotterdam</title>
+<meta name="description" content="Wat zeggen klanten over Alfa Reclame Rotterdam? 4.9 sterren uit 25+ Google-reviews. 14 jaar vakwerk in raambelettering, autoreclame en gevelreclame. Lees echte beoordelingen en ontdek waarom ondernemers ons keer op keer terugkiezen.">
+<meta name="keywords" content="alfa reclame reviews, alfa reclame beoordelingen, reclamebureau rotterdam reviews, raambelettering rotterdam ervaringen, autoreclame rotterdam beoordeling, google reviews alfa reclame">
+<meta name="author" content="Alfa Reclame">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#1D1D1F">
+<meta name="format-detection" content="telephone=yes">
+
+<!-- ========== GEO META ========== -->
+<meta name="geo.region" content="NL-ZH">
+<meta name="geo.placename" content="Rotterdam">
+<meta name="geo.position" content="51.9244;4.4777">
+<meta name="ICBM" content="51.9244, 4.4777">
+
+<!-- ========== CANONICAL & ALTERNATES ========== -->
+<link rel="canonical" href="https://alfareclame.nl/reviews/">
+<link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/reviews/">
+<link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/reviews/">
+
+<!-- ========== FAVICONS ========== -->
+<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/public/images/favicon-512.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="shortcut icon" href="/public/images/favicon-32.png">
+<meta name="apple-mobile-web-app-title" content="Alfa Reclame">
+
+<!-- ========== OPEN GRAPH ========== -->
+<meta property="og:site_name" content="Alfa Reclame">
+<meta property="og:title" content="Reviews — 4.9 sterren uit 25+ Google-reviews | Alfa Reclame Rotterdam">
+<meta property="og:description" content="Wat zeggen klanten over Alfa Reclame Rotterdam? 4.9 sterren, 25+ Google-reviews, 14 jaar vakwerk. Lees echte beoordelingen van Rotterdamse ondernemers.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alfareclame.nl/reviews/">
+<meta property="og:image" content="https://alfareclame.nl/public/images/portfolio/aras-partners.jpg">
+<meta property="og:image:secure_url" content="https://alfareclame.nl/public/images/portfolio/aras-partners.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="nl_NL">
+
+<!-- ========== TWITTER CARDS ========== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Reviews — 4.9 sterren uit 25+ Google-reviews | Alfa Reclame Rotterdam">
+<meta name="twitter:description" content="Alfa Reclame Rotterdam: 4.9 sterren, 25+ Google-reviews, 14 jaar vakwerk in signage voor het MKB.">
+<meta name="twitter:image" content="https://alfareclame.nl/public/images/portfolio/aras-partners.jpg">
+
+<!-- ========== FONTS ========== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Crimson+Pro:ital@1&display=swap">
+
+<!-- ========== STYLESHEET ========== -->
+<link rel="stylesheet" href="/public/css/huisstijl.css">
+
+<!-- ========== PAGE-SPECIFIC STYLES ========== -->
+<style>
+  /* Star rating display */
+  .stars-display {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    color: #FFE500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  .stars-display--lg {
+    font-size: 40px;
+  }
+
+  .stars-display--sm {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+
+  /* Aggregate rating block */
+  .aggregate-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
+  }
+
+  .aggregate-score {
+    font-size: clamp(64px, 8vw, 96px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+  }
+
+  .aggregate-meta {
+    font-size: var(--text-sm);
+    color: var(--ink-muted);
+    line-height: 1.5;
+  }
+
+  .aggregate-meta strong {
+    color: var(--ink);
+  }
+
+  /* Review card */
+  .review-card {
+    background: var(--surface);
+    border: 1px solid var(--ink);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+
+  .review-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .review-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    background: var(--brand);
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+  }
+
+  .review-card__quote {
+    font-size: var(--text-lg);
+    color: var(--ink);
+    line-height: var(--lh-base);
+    font-style: italic;
+    flex: 1;
+  }
+
+  .review-card__quote::before {
+    content: '\201C';
+    font-size: 2em;
+    line-height: 0;
+    vertical-align: -0.4em;
+    color: var(--brand);
+    margin-right: 4px;
+    font-style: normal;
+  }
+
+  .review-card__footer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--rule);
+  }
+
+  .review-card__avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--brand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: var(--text-sm);
+    color: var(--ink);
+    flex-shrink: 0;
+  }
+
+  .review-card__author {
+    flex: 1;
+  }
+
+  .review-card__name {
+    font-weight: 600;
+    font-size: var(--text-base);
+    color: var(--ink);
+  }
+
+  .review-card__company {
+    font-size: var(--text-sm);
+    color: var(--ink-muted);
+  }
+
+  .review-card__date {
+    font-size: var(--text-xs);
+    color: var(--ink-subtle);
+    align-self: flex-start;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+
+  /* Trust signal grid */
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .trust-item {
+    background: var(--surface);
+    border: 1px solid var(--rule-bold);
+    border-radius: var(--radius-md);
+    padding: var(--space-5) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+
+  .trust-item__value {
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+    line-height: 1;
+  }
+
+  .trust-item__value--brand {
+    color: #B8A100;
+  }
+
+  .trust-item__label {
+    font-size: var(--text-sm);
+    color: var(--ink-muted);
+    line-height: 1.4;
+  }
+
+  .trust-item__badge {
+    display: inline-block;
+    background: var(--brand);
+    color: var(--ink);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    margin-top: var(--space-1);
+  }
+
+  /* Theme pillars */
+  .theme-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-5);
+  }
+
+  .theme-item {
+    padding: var(--space-5);
+    background: var(--surface-mute);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--brand);
+  }
+
+  .theme-item__title {
+    font-weight: 700;
+    font-size: var(--text-base);
+    color: var(--ink);
+    margin-bottom: var(--space-3);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .theme-item__title::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--brand);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    flex-shrink: 0;
+  }
+
+  .theme-item p {
+    font-size: var(--text-base);
+    color: var(--ink-muted);
+    line-height: var(--lh-base);
+    margin-top: 0;
+  }
+
+  /* Garantie block */
+  .garantie-block {
+    background: var(--surface);
+    border: 2px solid var(--ink);
+    border-radius: var(--radius-lg);
+    padding: var(--space-7) var(--space-8);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .garantie-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--brand);
+  }
+
+  .garantie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--space-5);
+    margin-top: var(--space-6);
+  }
+
+  .garantie-list__item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    font-size: var(--text-base);
+    color: var(--ink-muted);
+    line-height: var(--lh-base);
+  }
+
+  .garantie-list__icon {
+    width: 20px;
+    height: 20px;
+    background: var(--brand);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  @media (max-width: 768px) {
+    .theme-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .garantie-block {
+      padding: var(--space-5);
+    }
+
+    .aggregate-score {
+      font-size: clamp(48px, 10vw, 72px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .trust-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
+
+<!-- ========== JSON-LD STRUCTURED DATA ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://alfareclame.nl/reviews/#webpage",
+      "url": "https://alfareclame.nl/reviews/",
+      "name": "Reviews — 4.9 sterren uit 25+ Google-reviews | Alfa Reclame Rotterdam",
+      "description": "Wat zeggen klanten over Alfa Reclame Rotterdam? 4.9 sterren uit 25+ Google-reviews. 14 jaar vakwerk in raambelettering, autoreclame en gevelreclame.",
+      "inLanguage": "nl-NL",
+      "isPartOf": {
+        "@id": "https://alfareclame.nl/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://alfareclame.nl/reviews/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://alfareclame.nl/reviews/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alfareclame.nl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reviews",
+          "item": "https://alfareclame.nl/reviews/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://alfareclame.nl/#business",
+      "name": "Alfa Reclame",
+      "url": "https://alfareclame.nl/",
+      "telephone": "+31624741597",
+      "email": "info@alfareclame.nl",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Blokfluit 31",
+        "addressLocality": "Rotterdam",
+        "postalCode": "3068 KZ",
+        "addressCountry": "NL"
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "KvK",
+        "value": "88606902"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "25",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Mehmet Ç."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-04-12",
+          "reviewBody": "Snel, scherp geprijsd en kwaliteit top. Er wordt echt meegedacht. Mijn bus ziet er nu echt professioneel uit.",
+          "publisher": {
+            "@id": "https://alfareclame.nl/#organization"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Paolo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-03-28",
+          "reviewBody": "Vraagprijs elders was €850. Bij Alfa Reclame €495. Zelfde kwaliteit, betere service. Zeker een aanrader.",
+          "publisher": {
+            "@id": "https://alfareclame.nl/#organization"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Nadia M."
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-02-18",
+          "reviewBody": "Voor onze franchise-wagens een consistent ontwerp. Levert exact wat is afgesproken, elke keer weer.",
+          "publisher": {
+            "@id": "https://alfareclame.nl/#organization"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<!-- Skip link -->
+<a class="skip-link" href="#main">Ga naar hoofdinhoud</a>
+
+<!-- ========================================================
+     NAVIGATIE
+     ======================================================== -->
+<header class="nav" role="banner">
+  <div class="nav__inner">
+    <a class="nav__logo" href="/" aria-label="Alfa Reclame homepage">
+      <img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="80" height="40" loading="eager" decoding="async">
+    </a>
+
+    <nav class="nav__links" role="navigation" aria-label="Hoofdnavigatie">
+      <a class="nav__link" href="/diensten/">Diensten</a>
+      <a class="nav__link" href="/raambelettering-rotterdam/">Raambelettering</a>
+      <a class="nav__link" href="/autoreclame-rotterdam/">Autoreclame</a>
+      <a class="nav__link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
+      <a class="nav__link" href="/reclamebureau-rotterdam/">Over ons</a>
+    </nav>
+
+    <div class="nav__cta">
+      <a class="btn btn-primary btn--sm" href="tel:+31624741597" aria-label="Bel Alfa Reclame direct op +31 6 24 74 15 97">
+        Bel ons
+      </a>
+    </div>
+
+    <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-nav" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile nav drawer -->
+<nav class="nav__mobile" id="mobile-nav" role="navigation" aria-label="Mobiele navigatie">
+  <a class="nav__mobile-link" href="/">Home</a>
+  <a class="nav__mobile-link" href="/diensten/">Alle Diensten</a>
+  <a class="nav__mobile-link" href="/raambelettering-rotterdam/">Raambelettering</a>
+  <a class="nav__mobile-link" href="/autoreclame-rotterdam/">Autoreclame</a>
+  <a class="nav__mobile-link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
+  <a class="nav__mobile-link" href="/lichtreclame-rotterdam/">Lichtreclame</a>
+  <a class="nav__mobile-link" href="/doosletters-rotterdam/">Doosletters</a>
+  <a class="nav__mobile-link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a>
+  <a class="nav__mobile-link" href="/bestickering-rotterdam/">Bestickering</a>
+  <a class="nav__mobile-link" href="/reclamebureau-rotterdam/">Over ons</a>
+  <div style="margin-top:24px;">
+    <a class="btn btn-primary" href="tel:+31624741597">Bel +31 6 24 74 15 97</a>
+  </div>
+</nav>
+
+<!-- ========================================================
+     MAIN CONTENT
+     ======================================================== -->
+<main id="main">
+
+  <!-- BREADCRUMB -->
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Kruimelpad">
+      <span class="breadcrumb__item">
+        <a class="breadcrumb__link" href="/">Home</a>
+      </span>
+      <span class="breadcrumb__item">
+        <span class="breadcrumb__current">Reviews</span>
+      </span>
+    </nav>
+  </div>
+
+  <!-- ====================================================
+       HERO
+       ==================================================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <span class="hero__eyebrow">&#8212; Reviews &middot; 4.9&#9733; &middot; Google</span>
+        <h1 class="hero__title" id="hero-title">Wat klanten zeggen</h1>
+        <p class="hero__lead">
+          4.9 sterren uit 25+ Google-reviews. 14 jaar reputatie, 500+ projecten. Rotterdamse ondernemers kiezen Alfa Reclame &mdash; en komen terug.
+        </p>
+        <div class="hero__cta-row">
+          <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App Alfa Reclame via WhatsApp">
+            WhatsApp ons
+          </a>
+          <a class="btn btn-secondary" href="#reviews-grid">
+            Lees alle reviews
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <img
+          class="hero__photo hero__photo--tall"
+          src="/public/images/portfolio/aras-partners.jpg"
+          alt="Professionele gevelreclame Rotterdam, gevelbelettering bedrijfspand Aras Partners door Alfa Reclame"
+          width="380" height="460"
+          loading="eager" decoding="async">
+        <img
+          class="hero__photo"
+          src="/public/images/portfolio/yohnny-cake.jpg"
+          alt="Raambelettering Rotterdam winkel Yohnny Cake, strak vakwerk door Alfa Reclame"
+          width="380" height="220"
+          loading="lazy" decoding="async">
+        <img
+          class="hero__photo"
+          src="/public/images/portfolio/i-bo-warmte-techniek.jpg"
+          alt="Autoreclame Rotterdam, bedrijfswagenbelettering voor I-BO Warmte Techniek"
+          width="380" height="220"
+          loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       AGGREGATE PROOF — circa 150 NL woorden
+       ==================================================== -->
+  <section class="section section-soft stripe-top" aria-labelledby="aggregate-title">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-9); align-items:center;">
+
+        <div class="aggregate-block">
+          <p class="aggregate-score" aria-label="Gemiddelde beoordeling: 4,9 uit 5 sterren">4.9</p>
+          <div class="stars-display stars-display--lg" role="img" aria-label="Vijf sterren beoordeling">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="aggregate-meta">
+            Gebaseerd op <strong>25+ beoordelingen</strong> via Google<br>
+            <a href="#" style="color:var(--ink-muted); text-decoration:underline; text-underline-offset:3px; font-size:var(--text-sm);">Bekijk op Google Maps &rarr;</a>
+          </p>
+        </div>
+
+        <div>
+          <span class="eyebrow">Wat het getal betekent</span>
+          <h2 class="section-title section-title--sm" id="aggregate-title">4.9 uit 5 &mdash; geen toeval</h2>
+          <p style="color:var(--ink-muted); line-height:var(--lh-base);">
+            Een gemiddelde van 4.9 sterren op Google bouw je niet met &eacute;&eacute;n goed project. Dat is het resultaat van veertien jaar consequent vakwerk: elke klant dezelfde aandacht, elke opdracht dezelfde materialen, elke oplevering dezelfde controle op kwaliteit en afwerking. Onze klanten beoordelen ons niet alleen op het eindproduct, maar ook op communicatie, snelheid en eerlijke prijsstelling. Die drie factoren komen in vrijwel elke beoordeling terug.
+          </p>
+          <p style="color:var(--ink-muted); line-height:var(--lh-base); margin-top:var(--space-4);">
+            Bent u benieuwd wat anderen concreet zeggen? Lees hieronder de authentieke beoordelingen van Rotterdamse ondernemers die Alfa Reclame inschakelden voor raambelettering, autoreclame, gevelreclame en vlootbelettering.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       REVIEWS GRID
+       3 real reviews, verbatim from index.html JSON-LD
+       and data/reviews.json
+       ==================================================== -->
+  <section class="section" id="reviews-grid" aria-labelledby="reviews-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Klantbeoordelingen</span>
+        <h2 class="section-title" id="reviews-title">Echte ervaringen</h2>
+        <p class="section-subtitle">
+          Onderstaande beoordelingen zijn overgenomen uit onze Google-profielpagina. Wij plaatsen uitsluitend authentieke reviews &mdash; geen gefabriceerde teksten, geen anonieme citaten.
+        </p>
+      </div>
+
+      <div class="card-grid" role="list" aria-label="Klantbeoordelingen">
+
+        <!-- Review 1 — Mehmet C. (verbatim from index.html JSON-LD & data/reviews.json) -->
+        <article class="review-card" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <div class="stars-display stars-display--sm" role="img" aria-label="Beoordeling: vijf sterren">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="review-card__quote" itemprop="reviewBody">
+            Snel, scherp geprijsd en kwaliteit top. Er wordt echt meegedacht. Mijn bus ziet er nu echt professioneel uit.
+          </p>
+          <div class="review-card__footer">
+            <div class="review-card__avatar" aria-hidden="true">MC</div>
+            <div class="review-card__author">
+              <div class="review-card__name" itemprop="author">Mehmet&nbsp;&#199;.</div>
+              <div class="review-card__company">Transport &amp; Installatie &middot; Rotterdam</div>
+            </div>
+            <div class="review-card__date">
+              <time datetime="2026-04-12" itemprop="datePublished">April&nbsp;2026</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 2 — Paolo (verbatim from index.html JSON-LD & data/reviews.json) -->
+        <article class="review-card" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <div class="stars-display stars-display--sm" role="img" aria-label="Beoordeling: vijf sterren">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="review-card__quote" itemprop="reviewBody">
+            Vraagprijs elders was &euro;850. Bij Alfa Reclame &euro;495. Zelfde kwaliteit, betere service. Zeker een aanrader.
+          </p>
+          <div class="review-card__footer">
+            <div class="review-card__avatar" aria-hidden="true">P</div>
+            <div class="review-card__author">
+              <div class="review-card__name" itemprop="author">Paolo</div>
+              <div class="review-card__company">Horeca-ondernemer &middot; Rotterdam</div>
+            </div>
+            <div class="review-card__date">
+              <time datetime="2026-03-28" itemprop="datePublished">Maart&nbsp;2026</time>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 3 — Nadia M. (verbatim from index.html JSON-LD & data/reviews.json) -->
+        <article class="review-card" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <div class="stars-display stars-display--sm" role="img" aria-label="Beoordeling: vijf sterren">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="review-card__quote" itemprop="reviewBody">
+            Voor onze franchise-wagens een consistent ontwerp. Levert exact wat is afgesproken, elke keer weer.
+          </p>
+          <div class="review-card__footer">
+            <div class="review-card__avatar" aria-hidden="true">NM</div>
+            <div class="review-card__author">
+              <div class="review-card__name" itemprop="author">Nadia&nbsp;M.</div>
+              <div class="review-card__company">Retail-ondernemer &middot; Rotterdam</div>
+            </div>
+            <div class="review-card__date">
+              <time datetime="2026-02-18" itemprop="datePublished">Februari&nbsp;2026</time>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p style="margin-top:var(--space-6); font-size:var(--text-sm); color:var(--ink-muted);">
+        Heeft u zelf ervaring met Alfa Reclame? Wij stellen een eerlijke beoordeling op prijs. Laat een review achter via
+        <a href="#" style="color:var(--ink); font-weight:600; text-decoration:underline; text-underline-offset:3px;">Google Maps &rarr;</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       TRUST SIGNALS — circa 200 NL woorden
+       ==================================================== -->
+  <section class="section section-mute" aria-labelledby="trust-title">
+    <div class="container">
+      <div class="section-header" style="max-width:680px;">
+        <span class="eyebrow">Vertrouwen &amp; transparantie</span>
+        <h2 class="section-title" id="trust-title">Waarom ondernemers ons vertrouwen</h2>
+        <p class="section-subtitle">
+          Achter elke beoordeling schuilt een concrete reden om te kiezen voor Alfa Reclame. Hier zijn de feiten op een rij.
+        </p>
+      </div>
+
+      <div class="trust-grid" role="list" aria-label="Vertrouwensindicatoren Alfa Reclame">
+
+        <div class="trust-item" role="listitem">
+          <div class="trust-item__value trust-item__value--brand">4.9&#9733;</div>
+          <div class="trust-item__label">Gemiddelde Google-score op basis van 25+ beoordelingen</div>
+          <span class="trust-item__badge">Google Reviews</span>
+        </div>
+
+        <div class="trust-item" role="listitem">
+          <div class="trust-item__value">14+</div>
+          <div class="trust-item__label">Jaar vakervaring in signage en professionele reclame</div>
+          <span class="trust-item__badge">Sinds 2012</span>
+        </div>
+
+        <div class="trust-item" role="listitem">
+          <div class="trust-item__value">500+</div>
+          <div class="trust-item__label">Afgeronde signage-projecten in de regio Rotterdam</div>
+          <span class="trust-item__badge">MKB &amp; groot</span>
+        </div>
+
+        <div class="trust-item" role="listitem">
+          <div class="trust-item__value">2 jr</div>
+          <div class="trust-item__label">Garantie op materiaal &eacute;n montage bij elk project</div>
+          <span class="trust-item__badge">Gratis herstel</span>
+        </div>
+
+        <div class="trust-item" role="listitem">
+          <div class="trust-item__value" style="font-size:clamp(16px, 1.8vw, 22px); letter-spacing:0; line-height:1.3;">3M &middot; Avery<br>Hexis &middot; Orafol</div>
+          <div class="trust-item__label">Uitsluitend gecertificeerde A-merk folie en vinyl</div>
+          <span class="trust-item__badge">Gecertificeerd</span>
+        </div>
+
+        <div class="trust-item" role="listitem">
+          <div class="trust-item__value" style="font-size:clamp(16px, 1.8vw, 22px); letter-spacing:0;">KvK 88606902</div>
+          <div class="trust-item__label">Officieel geregistreerd in het Handelsregister Rotterdam</div>
+          <span class="trust-item__badge">Transparant</span>
+        </div>
+
+      </div>
+
+      <div style="margin-top:var(--space-7); max-width:72ch;">
+        <p style="color:var(--ink-muted); line-height:var(--lh-base);">
+          Transparantie is voor ons geen marketingterm. Wij geven vooraf een vaste offerte zonder verborgen kosten, werken met gecertificeerde materialen van bekende fabrikanten en staan achter ons werk met een schriftelijke garantie van twee jaar. Ons KvK-nummer en adres zijn openbaar; u kunt ons altijd verifi&euml;ren via het Handelsregister. Dat is de basis van een betrouwbare en langdurige zakenrelatie.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       WAT KLANTEN WAARDEREN — circa 250 NL woorden
+       ==================================================== -->
+  <section class="section" aria-labelledby="themas-title">
+    <div class="container">
+      <div class="section-header" style="max-width:680px;">
+        <span class="eyebrow">Terugkerende thema&apos;s</span>
+        <h2 class="section-title" id="themas-title">Wat klanten waarderen</h2>
+        <p class="section-subtitle">
+          Vier thema&apos;s komen keer op keer terug in de beoordelingen van Rotterdamse ondernemers die met ons samenwerkten.
+        </p>
+      </div>
+
+      <div class="theme-grid">
+
+        <div class="theme-item">
+          <div class="theme-item__title">Snelheid en planning</div>
+          <p>
+            Klanten waarderen dat wij snel schakelen. Van het eerste contact tot de offerte duurt het doorgaans &eacute;&eacute;n werkdag. De montage plannen wij zo dat uw bedrijfsvoering nauwelijks hinder ondervindt. Spoedopdrachten pakken wij op waar mogelijk. Dat wordt bijzonder gewaardeerd door ondernemers die geen weken kunnen wachten op een vakman die zijn afspraken niet nakomt. Onze productie vindt volledig in eigen beheer plaats, zodat er geen externe afhankelijkheden zijn die vertraging veroorzaken.
+          </p>
+        </div>
+
+        <div class="theme-item">
+          <div class="theme-item__title">Kwaliteit van het eindresultaat</div>
+          <p>
+            Het gebruik van A-merk folie zoals 3M en Avery Dennison vertaalt zich direct in een strak eindresultaat dat jaren meegaat. Onze monteurs werken precies: rechte lijnen, nauwkeurige hoeken, onberispelijk afgewerkte randen en aansluitingen. Klanten rapporteren dat het resultaat na meerdere maanden en jaren er nog hetzelfde uitziet als op de dag van oplevering. Dat is geen toeval, maar het gevolg van de juiste materiaalkennis gecombineerd met vakmanschap dat door jaren ervaring is opgebouwd.
+          </p>
+        </div>
+
+        <div class="theme-item">
+          <div class="theme-item__title">Communicatie en meedenken</div>
+          <p>
+            Wij zijn geen orderverwerker die klakkeloos uitvoert wat er gevraagd wordt. Wij denken actief mee over wat het beste past bij uw pand, voertuig of specifieke situatie. Als een ontwerp beter kan, zeggen wij dat. Als een ander materiaal geschikter is voor de locatie of het klimaat, adviseren wij dat proactief. Klanten ervaren dit als een opluchting ten opzichte van leveranciers die simpelweg produceren zonder verder na te denken over het beste resultaat voor de klant.
+          </p>
+        </div>
+
+        <div class="theme-item">
+          <div class="theme-item__title">Prijs-kwaliteitverhouding</div>
+          <p>
+            Meerdere klanten vermelden expliciet dat zij elders een beduidend hogere offerte ontvingen voor hetzelfde werk. Alfa Reclame werkt effici&euml;nt omdat ontwerp, productie en montage volledig in eigen beheer zijn. Er zijn geen tussenpersonen die marge toevoegen zonder waarde te leveren. U betaalt een eerlijke prijs voor vakwerk, niet voor de overhead van een grote organisatie. Dat maakt ons bijzonder aantrekkelijk voor het MKB dat hoge kwaliteit wil zonder budgetoverschrijding.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       GARANTIEVOORWAARDEN — circa 200 NL woorden
+       ==================================================== -->
+  <section class="section section-soft" aria-labelledby="garantie-title">
+    <div class="container">
+      <div class="section-header" style="max-width:680px;">
+        <span class="eyebrow">Garantie &amp; zekerheid</span>
+        <h2 class="section-title" id="garantie-title">Twee jaar garantie, zonder gedoe</h2>
+        <p class="section-subtitle">
+          Elke opdracht die wij uitvoeren, leveren wij op met een schriftelijke garantie van twee jaar op materiaal &eacute;n montage.
+        </p>
+      </div>
+
+      <div class="garantie-block">
+        <p style="color:var(--ink-muted); line-height:var(--lh-base); max-width:68ch;">
+          Een reclametoepassing is een investering die u in vertrouwen doet. Wij nemen die investering serieus door u twee jaar garantie te geven op zowel het gebruikte materiaal als de manier waarop het is aangebracht en bevestigd. Dat geldt voor raambelettering, autoreclame, gevelreclame, lichtreclame en alle overige diensten die wij leveren. Wij kunnen deze garantie bieden omdat wij werken met gecertificeerde folies en bevestigingssystemen van toonaangevende A-merken; met inferieur materiaal zou zo'n garantie simpelweg onhoudbaar zijn.
+        </p>
+
+        <div class="garantie-list" role="list">
+
+          <div class="garantie-list__item" role="listitem">
+            <div class="garantie-list__icon" aria-hidden="true">&#10003;</div>
+            <span><strong>Twee jaar dekking</strong> op materiaal en bevestiging bij normaal gebruik en regulier onderhoud</span>
+          </div>
+
+          <div class="garantie-list__item" role="listitem">
+            <div class="garantie-list__icon" aria-hidden="true">&#10003;</div>
+            <span><strong>Herstel binnen 48 uur</strong> bij garantieclaims &mdash; wij reageren snel en lossen het kosteloos op</span>
+          </div>
+
+          <div class="garantie-list__item" role="listitem">
+            <div class="garantie-list__icon" aria-hidden="true">&#10003;</div>
+            <span><strong>Uitsluitend A-merk folie</strong> (3M, Avery, Hexis, Orafol) &mdash; minder defecten, langere levensduur</span>
+          </div>
+
+          <div class="garantie-list__item" role="listitem">
+            <div class="garantie-list__icon" aria-hidden="true">&#10003;</div>
+            <span><strong>Schriftelijke garantie</strong> bij elke oplevering &mdash; geen mondelinge beloftes, maar zwart op wit vastgelegd</span>
+          </div>
+
+        </div>
+
+        <div style="margin-top:var(--space-6);">
+          <p style="color:var(--ink-muted); font-size:var(--text-sm); line-height:var(--lh-base); max-width:60ch;">
+            Wilt u de volledige garantievoorwaarden lezen, inclusief de precieze dekkingsomschrijving en de procedure voor claims? Neem contact op via WhatsApp of e-mail; wij sturen u de voorwaarden direct toe. Een uitgebreide garantiepagina is momenteel in voorbereiding.
+          </p>
+          <div style="margin-top:var(--space-5);">
+            <a class="btn btn-secondary" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="Vraag garantievoorwaarden op via WhatsApp">
+              Garantievoorwaarden opvragen
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       PORTFOLIO IMPRESSIE
+       ==================================================== -->
+  <section class="section" aria-labelledby="portfolio-title">
+    <div class="container">
+      <div class="section-header" style="max-width:680px;">
+        <span class="eyebrow">Referentieprojecten</span>
+        <h2 class="section-title" id="portfolio-title">Projecten achter de reviews</h2>
+        <p class="section-subtitle">
+          Elk cijfer vertegenwoordigt een concreet project. Hier ziet u een selectie van het werk dat ten grondslag ligt aan onze beoordelingen.
+        </p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:var(--space-4);">
+
+        <figure style="margin:0; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--ink);">
+          <img
+            src="/public/images/portfolio/aras-partners.jpg"
+            alt="Gevelreclame Rotterdam, gevelbelettering bedrijfspand Aras Partners door Alfa Reclame"
+            width="600" height="450"
+            loading="lazy" decoding="async"
+            style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block;">
+          <figcaption style="padding:var(--space-3) var(--space-4); font-size:var(--text-sm); color:var(--ink-muted);">Gevelreclame &mdash; Aras Partners, Rotterdam</figcaption>
+        </figure>
+
+        <figure style="margin:0; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--ink);">
+          <img
+            src="/public/images/portfolio/cc-cable-communication.jpg"
+            alt="Fleet wrap Rotterdam, volledige vlootbelettering voor CC Cable Communication"
+            width="600" height="450"
+            loading="lazy" decoding="async"
+            style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block;">
+          <figcaption style="padding:var(--space-3) var(--space-4); font-size:var(--text-sm); color:var(--ink-muted);">Fleet wrap &mdash; CC Cable Communication, Rotterdam</figcaption>
+        </figure>
+
+        <figure style="margin:0; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--ink);">
+          <img
+            src="/public/images/portfolio/yilmaz-havalem.jpg"
+            alt="Gevelreclame Rotterdam, buitenbelettering voor Yilmaz Havalem door Alfa Reclame"
+            width="600" height="450"
+            loading="lazy" decoding="async"
+            style="width:100%; aspect-ratio:4/3; object-fit:cover; display:block;">
+          <figcaption style="padding:var(--space-3) var(--space-4); font-size:var(--text-sm); color:var(--ink-muted);">Gevelreclame &mdash; Yilmaz Havalem, Rotterdam</figcaption>
+        </figure>
+
+      </div>
+
+      <div style="margin-top:var(--space-6);">
+        <a class="btn btn-secondary" href="/diensten/">Bekijk alle diensten en projecten &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FINAL CTA
+       ==================================================== -->
+  <section class="section section-dark" aria-labelledby="cta-title">
+    <div class="container" style="text-align:center;">
+      <span class="eyebrow" style="color:var(--brand);">Direct contact</span>
+      <h2 class="section-title" id="cta-title" style="color:var(--surface); display:flex; justify-content:center; align-items:center;">
+        Word de volgende tevreden klant
+      </h2>
+      <p style="color:rgba(255,255,255,0.65); font-size:18px; max-width:52ch; margin:0 auto var(--space-8);">
+        Vraag een gratis offerte aan of bel ons direct. Wij reageren doorgaans binnen &eacute;&eacute;n werkdag. Geen verplichtingen, geen verborgen kosten.
+      </p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App Alfa Reclame via WhatsApp">
+          WhatsApp ons
+        </a>
+        <a class="btn btn--lg" href="tel:+31624741597" style="background:var(--surface); color:var(--ink); border-color:var(--surface);">
+          +31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97
+        </a>
+        <a class="btn btn-secondary btn--lg" href="mailto:info@alfareclame.nl" style="border-color:rgba(255,255,255,0.35); color:rgba(255,255,255,0.85);">
+          Offerte aanvragen
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========================================================
+     FOOTER
+     ======================================================== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+
+      <!-- Brand column -->
+      <div class="footer__brand">
+        <img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="88" height="44" loading="lazy" decoding="async">
+        <p class="footer__tagline">Your Print &amp; Sign Partner</p>
+        <p style="font-size:13px; color:rgba(255,255,255,0.45); max-width:280px; line-height:1.6;">
+          Reclamebureau in Rotterdam Zuidoost, gespecialiseerd in signage voor het MKB. KvK:&nbsp;88606902.
+        </p>
+      </div>
+
+      <!-- Diensten column -->
+      <div>
+        <p class="footer__heading">Diensten</p>
+        <ul class="footer__links">
+          <li><a class="footer__link" href="/raambelettering-rotterdam/">Raambelettering</a></li>
+          <li><a class="footer__link" href="/autoreclame-rotterdam/">Autoreclame</a></li>
+          <li><a class="footer__link" href="/gevelreclame-rotterdam/">Gevelreclame</a></li>
+          <li><a class="footer__link" href="/lichtreclame-rotterdam/">Lichtreclame</a></li>
+          <li><a class="footer__link" href="/doosletters-rotterdam/">Doosletters</a></li>
+          <li><a class="footer__link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a></li>
+          <li><a class="footer__link" href="/bestickering-rotterdam/">Bestickering</a></li>
+        </ul>
+      </div>
+
+      <!-- Werkgebied column -->
+      <div>
+        <p class="footer__heading">Werkgebied</p>
+        <ul class="footer__links">
+          <li><span class="footer__link">Rotterdam Centrum</span></li>
+          <li><span class="footer__link">Rotterdam Zuid</span></li>
+          <li><span class="footer__link">Rotterdam Noord</span></li>
+          <li><span class="footer__link">Schiedam</span></li>
+          <li><span class="footer__link">Capelle a/d IJssel</span></li>
+          <li><span class="footer__link">Ridderkerk</span></li>
+          <li><span class="footer__link">Barendrecht</span></li>
+        </ul>
+      </div>
+
+      <!-- Contact column -->
+      <div>
+        <p class="footer__heading">Contact</p>
+        <div class="footer__contact-item">
+          <span aria-hidden="true">&#9990;</span>
+          <a href="tel:+31624741597" class="footer__accent">+31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97</a>
+        </div>
+        <div class="footer__contact-item">
+          <span aria-hidden="true">&#9993;</span>
+          <a href="mailto:info@alfareclame.nl">info@alfareclame.nl</a>
+        </div>
+        <div class="footer__contact-item">
+          <span aria-hidden="true">&#9679;</span>
+          <address style="font-style:normal;">
+            Blokfluit 31<br>
+            3068 KZ Rotterdam
+          </address>
+        </div>
+        <div style="margin-top:20px;">
+          <a class="btn btn-whatsapp btn--sm" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App ons via WhatsApp">
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bar">
+      <p class="footer__copy">&copy; 2026 Alfa Reclame Rotterdam. Alle rechten voorbehouden.</p>
+      <nav class="footer__bar-links" aria-label="Juridische navigatie">
+        <a class="footer__bar-link" href="/privacybeleid/">Privacybeleid</a>
+        <a class="footer__bar-link" href="/algemene-voorwaarden/">Algemene voorwaarden</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- ========================================================
+     JAVASCRIPT — nav toggle
+     ======================================================== -->
+<script>
+(function () {
+  'use strict';
+
+  /* --- Mobile nav toggle --- */
+  var toggle = document.getElementById('nav-toggle');
+  var mobileNav = document.getElementById('mobile-nav');
+
+  if (toggle && mobileNav) {
+    toggle.addEventListener('click', function () {
+      var isOpen = mobileNav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      toggle.setAttribute('aria-label', isOpen ? 'Menu sluiten' : 'Menu openen');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!toggle.contains(e.target) && !mobileNav.contains(e.target) && mobileNav.classList.contains('is-open')) {
+        mobileNav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Menu openen');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
