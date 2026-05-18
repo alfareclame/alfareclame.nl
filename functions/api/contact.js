@@ -1,11 +1,15 @@
 /**
  * POST /api/contact
- * Receives contact form submission, validates, forwards to Telegram.
+ * Receives contact form submission, validates, forwards to Telegram and
+ * (optionally) sends a copy via Brevo transactional email to info@alfareclame.nl.
  *
  * Env vars (Cloudflare Pages dashboard):
- *   - TELEGRAM_BOT_TOKEN  (required)
- *   - TELEGRAM_CHAT_ID    (required)
- *   - RATELIMIT_KV        (optional KV binding for per-IP rate limit)
+ *   - TELEGRAM_BOT_TOKEN   (required)
+ *   - TELEGRAM_CHAT_ID     (required)
+ *   - BREVO_API_KEY        (optional — when set, also emails info@alfareclame.nl)
+ *   - BREVO_TO_EMAIL       (optional — overrides info@alfareclame.nl as recipient)
+ *   - BREVO_FROM_EMAIL     (optional — overrides noreply@alfareclame.nl as sender)
+ *   - RATELIMIT_KV         (optional KV binding for per-IP rate limit)
  */
 
 const MAX_BODY_BYTES = 8 * 1024;
@@ -145,7 +149,50 @@ export async function onRequestPost({ request, env }) {
     .filter(Boolean)
     .join("\n");
 
-  try {
+  // Plain-text and HTML bodies for the email copy (no Telegram MarkdownV2 escapes).
+  const plainLines = [
+    "Nieuwe offerte-aanvraag via website",
+    "",
+    `Naam:      ${name}`,
+    email ? `E-mail:    ${email}` : null,
+    phone ? `Telefoon:  ${phone}` : null,
+    subject ? `Onderwerp: ${subject}` : null,
+    "",
+    "Bericht:",
+    message,
+    "",
+    `${ts} | ${country} | ${ip}`,
+    sourceUrl ? `Bron: ${sourceUrl}` : null,
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+  const htmlEscape = (s) =>
+    String(s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+
+  const htmlBody = `
+<!doctype html>
+<html lang="nl"><body style="font-family: -apple-system, Segoe UI, Inter, sans-serif; color:#1D1D1F; max-width:640px; margin:0 auto; padding:24px;">
+  <h2 style="margin:0 0 16px 0;">Nieuwe offerte-aanvraag</h2>
+  <table style="border-collapse:collapse; width:100%;">
+    <tr><td style="padding:6px 12px 6px 0; color:#6E6E73; vertical-align:top; width:120px;">Naam</td><td style="padding:6px 0; font-weight:600;">${htmlEscape(name)}</td></tr>
+    ${email ? `<tr><td style="padding:6px 12px 6px 0; color:#6E6E73; vertical-align:top;">E-mail</td><td style="padding:6px 0;"><a href="mailto:${htmlEscape(email)}">${htmlEscape(email)}</a></td></tr>` : ""}
+    ${phone ? `<tr><td style="padding:6px 12px 6px 0; color:#6E6E73; vertical-align:top;">Telefoon</td><td style="padding:6px 0;"><a href="tel:${htmlEscape(phone)}">${htmlEscape(phone)}</a></td></tr>` : ""}
+    ${subject ? `<tr><td style="padding:6px 12px 6px 0; color:#6E6E73; vertical-align:top;">Onderwerp</td><td style="padding:6px 0;">${htmlEscape(subject)}</td></tr>` : ""}
+  </table>
+  <h3 style="margin:24px 0 8px 0;">Bericht</h3>
+  <div style="white-space:pre-wrap; background:#FAFAFA; border:1px solid rgba(0,0,0,0.06); border-radius:8px; padding:16px;">${htmlEscape(message)}</div>
+  <p style="margin-top:24px; color:#86868B; font-size:13px;">
+    ${htmlEscape(ts)} &middot; ${htmlEscape(country)} &middot; ${htmlEscape(ip)}<br>
+    ${sourceUrl ? `Bron: <a href="${htmlEscape(sourceUrl)}">${htmlEscape(sourceUrl)}</a>` : ""}
+  </p>
+</body></html>`;
+
+  async function sendTelegram() {
     const tg = await fetch(
       `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
       {
@@ -161,7 +208,43 @@ export async function onRequestPost({ request, env }) {
     );
     const out = await tg.json();
     if (!out.ok) {
-      return json(502, { ok: false, error: "telegram_failed" }, origin);
+      throw new Error("telegram_failed");
+    }
+  }
+
+  async function sendBrevoEmail() {
+    if (!env.BREVO_API_KEY) return; // silent skip when not configured
+    const to = env.BREVO_TO_EMAIL || "info@alfareclame.nl";
+    const from = env.BREVO_FROM_EMAIL || "noreply@alfareclame.nl";
+    const res = await fetch("https://api.brevo.com/v3/smtp/email", {
+      method: "POST",
+      headers: {
+        "api-key": env.BREVO_API_KEY,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+      body: JSON.stringify({
+        sender: { name: "Alfa Reclame Website", email: from },
+        to: [{ email: to, name: "Marco" }],
+        replyTo: email ? { email, name: name || "Website bezoeker" } : undefined,
+        subject: `Offerte-aanvraag — ${name}${subject ? " · " + subject : ""}`,
+        textContent: plainLines,
+        htmlContent: htmlBody,
+      }),
+    });
+    if (!res.ok) {
+      // Don't fail the request — Telegram is primary, email is best-effort.
+      // Brevo error body intentionally swallowed; spam logs aren't useful here.
+      return;
+    }
+  }
+
+  try {
+    // Telegram is primary; Brevo is best-effort and runs in parallel.
+    const [tgResult] = await Promise.allSettled([sendTelegram(), sendBrevoEmail()]);
+    if (tgResult.status === "rejected") {
+      const err = tgResult.reason?.message === "telegram_failed" ? "telegram_failed" : "telegram_unreachable";
+      return json(502, { ok: false, error: err }, origin);
     }
   } catch {
     return json(502, { ok: false, error: "telegram_unreachable" }, origin);
