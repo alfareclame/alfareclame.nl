@@ -270,4 +270,22 @@
     </image:image>
   </url>
 
+  <url>
+    <loc>https://alfareclame.nl/doosletters-rotterdam/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/doosletters-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/doosletters-rotterdam/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:title>Yılmaz &amp; Havalem — channel letters gevelreclame Rotterdam</image:title>
+      <image:caption>Channel letters (doosletters) op gevel van financieel adviescentrum Yılmaz &amp; Havalem in Rotterdam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:title>Benjamin Furniture — gefreesde gevelletters Rotterdam</image:title>
+    </image:image>
+  </url>
+
 </urlset>
