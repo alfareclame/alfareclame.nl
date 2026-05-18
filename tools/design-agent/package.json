@@ -1,0 +1,20 @@
+{
+  "name": "alfareclame-design-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous Claude Sonnet 4.6 agent that iteratively refines alfareclame.nl homepage design via 21st.dev SDK.",
+  "type": "module",
+  "scripts": {
+    "agent": "tsx agent.ts",
+    "login": "npx @21st-sdk/cli login",
+    "deploy": "npx @21st-sdk/cli deploy"
+  },
+  "dependencies": {
+    "@21st-sdk/agent": "latest",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
