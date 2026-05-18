@@ -2524,6 +2524,231 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .service-features { padding: 20px 0; }
   .service-meta { flex-direction: column; gap: 12px; }
 }
+
+/* ========== HERO COLLAGE ========== */
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1240px;
+  width: 100%;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+.hero-text { /* left column */ }
+.hero-collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  height: 520px;
+  align-content: start;
+}
+.hero-collage-main {
+  grid-column: 1 / -1;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 296px;
+}
+.hero-collage-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hero-collage-thumb {
+  border-radius: 12px;
+  overflow: hidden;
+  height: 212px;
+}
+.hero-collage-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 900px) {
+  .hero-layout { grid-template-columns: 1fr; text-align: center; gap: 40px; }
+  .hero-collage { display: none; }
+  .hero-sub { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; }
+}
+
+/* ========== SERVICE PHOTO ========== */
+.service-photo {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  flex-shrink: 0;
+}
+.service-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.2, 0, 0, 1);
+}
+.service-card:hover .service-photo img { transform: scale(1.03); }
+
+/* ========== MATERIAL PHOTO TILES ========== */
+.materials-grid-visual {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 60px;
+}
+.material-tile {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  background: var(--surface);
+}
+.material-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.2, 0, 0, 1);
+}
+.material-tile:hover img { transform: scale(1.04); }
+.material-tile-meta {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 20px 20px 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.82));
+  color: #fff;
+}
+.material-tile-label {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+.material-tile-brands {
+  font-size: 11px;
+  opacity: 0.75;
+  line-height: 1.4;
+}
+@media (max-width: 900px) {
+  .materials-grid-visual { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ========== SECTOR PHOTO CARDS ========== */
+.sector-photo {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+.sector-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.2, 0, 0, 1);
+}
+.sector:hover .sector-photo img { transform: scale(1.04); }
+.sector-body {
+  padding: 28px 28px 32px;
+}
+.sector-with-photo {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* ========== INSTAGRAM SOCIAL GRID ========== */
+.social-proof {
+  padding: 140px 40px;
+  background: var(--white);
+}
+.social-proof-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.social-proof-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.social-proof-header h2 {
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.social-proof-header h2 .light {
+  font-weight: 200;
+  color: var(--ink-muted);
+}
+.social-proof-header p {
+  font-size: 18px;
+  color: var(--ink-muted);
+  max-width: 560px;
+  margin: 0 auto 12px;
+}
+.social-proof-cta {
+  font-size: 13px;
+  color: var(--ink-muted);
+  margin-bottom: 48px;
+  text-align: center;
+}
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.social-grid .tile {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 12px;
+  display: block;
+  text-decoration: none;
+}
+.social-grid .tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 400ms ease;
+}
+.social-grid .tile:hover img { transform: scale(1.04); }
+.social-grid .tile .meta {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 20px 16px 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+  color: #fff;
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+.social-grid .tile:hover .meta { opacity: 1; }
+.meta-name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+.meta-badge {
+  display: inline-block;
+  font-size: 11px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-weight: 500;
+}
+@media (max-width: 880px) {
+  .social-grid { grid-template-columns: repeat(2, 1fr); padding: 0; }
+  .social-proof { padding: 80px 24px; }
+}
 </style>
 </head>
 <body>
@@ -2547,24 +2772,48 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 <main>
 <section class="hero" aria-label="Introductie Alfa Reclame — Reclamebureau Rotterdam">
   <div class="hero-bg" aria-hidden="true"></div>
-  <div class="hero-inner">
-    <div class="hero-eyebrow">— Reclamebureau · Rotterdam · sinds 2012</div>
-    <h1>
-      <span class="word">Reclamebureau</span><br>
-      <span class="word light">voor het</span>
-      <span class="word">Rotterdamse MKB.</span>
-    </h1>
-    <p class="hero-sub">
-      Volwaardig reclamebureau in Rotterdam — raambelettering, autoreclame, gevelreclame en lichtreclame voor het MKB. Plus specialistisch grootformaat-werk in het Rotterdamse havengebied: scheepsbelettering, silobelettering en offshore platforms. Veertien jaar vakwerk, twee jaar garantie, eerlijke prijzen vanaf €89.
-    </p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary" aria-label="Vraag een gratis offerte aan">
-        Offerte aanvragen
-        <span class="btn-arrow" aria-hidden="true">→</span>
-      </a>
-      <a href="#werk" class="btn btn-ghost" aria-label="Bekijk ons portfolio">
-        Bekijk het werk
-      </a>
+  <div class="hero-inner" style="width:100%; display:flex; justify-content:center;">
+    <div class="hero-layout">
+      <div class="hero-text">
+        <div class="hero-eyebrow">— Reclamebureau · Rotterdam · sinds 2012</div>
+        <h1>
+          <span class="word">Reclamebureau</span><br>
+          <span class="word light">voor het</span>
+          <span class="word">Rotterdamse MKB.</span>
+        </h1>
+        <p class="hero-sub">
+          Volwaardig reclamebureau in Rotterdam — raambelettering, autoreclame, gevelreclame en lichtreclame voor het MKB. Plus specialistisch grootformaat-werk in het Rotterdamse havengebied: scheepsbelettering, silobelettering en offshore platforms. Veertien jaar vakwerk, twee jaar garantie, eerlijke prijzen vanaf €89.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" aria-label="Vraag een gratis offerte aan">
+            Offerte aanvragen
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#werk" class="btn btn-ghost" aria-label="Bekijk ons portfolio">
+            Bekijk het werk
+          </a>
+        </div>
+      </div>
+      <div class="hero-collage" aria-hidden="true">
+        <div class="hero-collage-main">
+          <img src="/public/images/portfolio/yilmaz-havalem.jpg"
+               alt="Yilmaz Havalem Rotterdam — complete gevelreclame met doosletters en verlicht bord"
+               width="600" height="296"
+               decoding="async" fetchpriority="high">
+        </div>
+        <div class="hero-collage-thumb">
+          <img src="/public/images/portfolio/yohnny-cake.jpg"
+               alt="Yohnny Cake Rotterdam — handlettered raambelettering etalage cafe"
+               width="294" height="212"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="hero-collage-thumb">
+          <img src="/public/images/portfolio/i-bo-warmte-techniek.jpg"
+               alt="I-BO Warmte Techniek Rotterdam — VW Transporter bedrijfswagen belettering installateur"
+               width="294" height="212"
+               loading="lazy" decoding="async">
+        </div>
+      </div>
     </div>
   </div>
   <div class="hero-scroll" aria-hidden="true">Scroll</div>
@@ -2627,6 +2876,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   <div class="service-stack">
     <div class="service-card reveal">
       <div class="service-content-left">
+        <div class="service-photo">
+          <img src="/public/images/portfolio/yohnny-cake.jpg"
+               alt="Yohnny Cake Rotterdam — handlettered raambelettering etalage cafe"
+               width="800" height="500"
+               loading="lazy" decoding="async">
+        </div>
         <div class="service-eyebrow">01 · Meest gevraagd</div>
         <h3 class="service-title"><a href="/raambelettering-rotterdam/" style="color:inherit;text-decoration:none;">Raambelettering</a></h3>
         <p class="service-desc">Raamstickers, folies en etsfolie voor winkels, restaurants en kantoren in Rotterdam. Van ontwerp tot vakkundige montage op locatie — bubbelvrij, strak uitgelijnd, met twee jaar garantie. <a href="/raambelettering-rotterdam/">Bekijk de complete raambelettering-pagina</a>.</p>
@@ -2677,6 +2932,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
     <div class="service-card reveal">
       <div class="service-content-left">
+        <div class="service-photo">
+          <img src="/public/images/portfolio/i-bo-warmte-techniek.jpg"
+               alt="I-BO Warmte Techniek Rotterdam — VW Transporter bedrijfswagen belettering installateur"
+               width="800" height="500"
+               loading="lazy" decoding="async">
+        </div>
         <div class="service-eyebrow">02 · Voor ondernemers onderweg</div>
         <h3 class="service-title">Autoreclame</h3>
         <p class="service-desc">Bestickering, carwrap en wagenpark-branding in Rotterdam. Van één bestelbus tot een volledige vloot met consistent ontwerp — elke auto een rijdende reclamebord voor je bedrijf.</p>
@@ -2727,6 +2988,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
     <div class="service-card reveal">
       <div class="service-content-left">
+        <div class="service-photo">
+          <img src="/public/images/portfolio/benjamin-furniture.jpg"
+               alt="Benjamin Furniture Rotterdam — 3D freesletters gevelreclame bedrijfspand"
+               width="800" height="500"
+               loading="lazy" decoding="async">
+        </div>
         <div class="service-eyebrow">03 · Opvallen op straat</div>
         <h3 class="service-title">Gevelreclame</h3>
         <p class="service-desc">Reclameborden, spandoeken en lichtbakken voor winkels en panden in Rotterdam. Duurzame materialen en weerbestendige afwerking — jouw gevel wordt je beste etalage.</p>
@@ -2846,37 +3113,45 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
       <h2 class="section-title">Alleen het beste materiaal, <span class="light">geen compromissen.</span></h2>
       <p class="section-sub">Wij werken uitsluitend met A-merk materialen van gevestigde leveranciers. Zo garanderen we kleurvastheid, hechting en een lange levensduur bij elk project.</p>
     </div>
-    <div class="materials-grid">
-      <div class="material-card reveal">
-        <div class="material-card-num">01 — Raamfolie</div>
-        <h3>Voor raambelettering</h3>
-        <p>Hoogwaardige zelfklevende folie in mat, glans of etsfolie-uitvoering. UV-bestendig voor vijf tot zeven jaar buitengebruik. Krasvast en bestand tegen reinigingsmiddelen.</p>
-        <div class="material-brands">
-          <span class="material-brand">3M</span>
-          <span class="material-brand">Avery Dennison</span>
-          <span class="material-brand">Hexis</span>
-          <span class="material-brand">Orafol</span>
+    <div class="materials-grid-visual">
+      <div class="material-tile reveal">
+        <img src="/public/images/portfolio/oranje-stucadoor.jpg"
+             alt="Oranje Stucadoor Rotterdam — cast-vinyl autoreclame full-colour bestelbus"
+             width="400" height="533"
+             loading="lazy" decoding="async">
+        <div class="material-tile-meta">
+          <div class="material-tile-label">Cast-vinyl</div>
+          <div class="material-tile-brands">3M 1080 · Avery SW900 · Hexis Skintac · Orafol</div>
         </div>
       </div>
-      <div class="material-card reveal">
-        <div class="material-card-num">02 — Carwrap-vinyl</div>
-        <h3>Voor autoreclame</h3>
-        <p>Cast-vinyl is vormbaar over rondingen en complexe vormen — onmisbaar voor kwalitatieve car wraps. Beschermt de onderliggende autolak en is verwijderbaar zonder schade.</p>
-        <div class="material-brands">
-          <span class="material-brand">3M 1080 Series</span>
-          <span class="material-brand">Avery SW900</span>
-          <span class="material-brand">Hexis Skintac</span>
+      <div class="material-tile reveal">
+        <img src="/public/images/portfolio/il-mare-pizzeria.jpg"
+             alt="Il Mare Pizzeria Rotterdam — LED lichtbak horeca gevelreclame"
+             width="400" height="533"
+             loading="lazy" decoding="async">
+        <div class="material-tile-meta">
+          <div class="material-tile-label">LED &amp; Lichtbak</div>
+          <div class="material-tile-brands">Osram LED · Acryl · Aluminium frame</div>
         </div>
       </div>
-      <div class="material-card reveal">
-        <div class="material-card-num">03 — Bordmaterialen</div>
-        <h3>Voor gevelreclame</h3>
-        <p>Dibond (aluminium composiet) voor vlakke, weerbestendige borden. Aluminium voor premium uitstraling. Acryl voor lichtbakken en verlichte reclame. Alles op maat.</p>
-        <div class="material-brands">
-          <span class="material-brand">Dibond</span>
-          <span class="material-brand">Aluminium</span>
-          <span class="material-brand">Acryl</span>
-          <span class="material-brand">LED lichtbak</span>
+      <div class="material-tile reveal">
+        <img src="/public/images/portfolio/benjamin-furniture.jpg"
+             alt="Benjamin Furniture Rotterdam — 3D freesletters gevelreclame bedrijfspand"
+             width="400" height="533"
+             loading="lazy" decoding="async">
+        <div class="material-tile-meta">
+          <div class="material-tile-label">3D Freesletters</div>
+          <div class="material-tile-brands">Dibond · Aluminium composiet · Acryl</div>
+        </div>
+      </div>
+      <div class="material-tile reveal">
+        <img src="/public/images/portfolio/aras-partners.jpg"
+             alt="Aras &amp; Partners Rotterdam — gilded etsfolie raambelettering accountancy kantoor"
+             width="400" height="533"
+             loading="lazy" decoding="async">
+        <div class="material-tile-meta">
+          <div class="material-tile-label">Etsfolie &amp; Gilded</div>
+          <div class="material-tile-brands">3M · Avery Dennison · Hexis · Orafol</div>
         </div>
       </div>
     </div>
@@ -2891,41 +3166,89 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
       <h2 class="section-title">Van horeca tot advocatenkantoor. <span class="light">Voor elke branche een passend resultaat.</span></h2>
     </div>
     <div class="sectors-grid">
-      <div class="sector reveal">
-        <div class="sector-label">Horeca & Restaurant</div>
-        <h3>Opvallen vanaf de straat</h3>
-        <p class="sector-example">Voorbeeld: <strong>Il Mare Pizzeria</strong> — lichtbak, raambelettering en pasta/pizza display.</p>
-        <div class="sector-services">Raambelettering · Gevelborden · Menu displays · Lichtbakken</div>
+      <div class="sector sector-with-photo reveal">
+        <div class="sector-photo">
+          <img src="/public/images/portfolio/il-mare-pizzeria.jpg"
+               alt="Il Mare Pizzeria Rotterdam — LED lichtbak horeca gevelreclame en raambelettering"
+               width="600" height="375"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="sector-body">
+          <div class="sector-label">Horeca &amp; Restaurant</div>
+          <h3>Opvallen vanaf de straat</h3>
+          <p class="sector-example">Voorbeeld: <strong>Il Mare Pizzeria</strong> — lichtbak, raambelettering en pasta/pizza display.</p>
+          <div class="sector-services">Raambelettering · Gevelborden · Menu displays · Lichtbakken</div>
+        </div>
       </div>
-      <div class="sector reveal">
-        <div class="sector-label">Retail & Winkels</div>
-        <h3>Professionele uitstraling</h3>
-        <p class="sector-example">Voorbeeld: <strong>Diamor Jewellery</strong> — lichtbak met logo voor luxe sieradenwinkel.</p>
-        <div class="sector-services">Raambelettering · Lichtbakken · Etalage-stickers</div>
+      <div class="sector sector-with-photo reveal">
+        <div class="sector-photo">
+          <img src="/public/images/portfolio/diamor-jewellery.jpg"
+               alt="Diamor Jewellery Rotterdam — LED lichtbak retail sieradenwinkel gevelreclame"
+               width="600" height="375"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="sector-body">
+          <div class="sector-label">Retail &amp; Winkels</div>
+          <h3>Professionele uitstraling</h3>
+          <p class="sector-example">Voorbeeld: <strong>Diamor Jewellery</strong> — lichtbak met logo voor luxe sieradenwinkel.</p>
+          <div class="sector-services">Raambelettering · Lichtbakken · Etalage-stickers</div>
+        </div>
       </div>
-      <div class="sector reveal">
-        <div class="sector-label">Transport & Installatie</div>
-        <h3>Rijdende reclame</h3>
-        <p class="sector-example">Voorbeeld: <strong>I-BO Warmte Techniek</strong> — VW Transporter met dienstenlijst en partner-logo's.</p>
-        <div class="sector-services">Bestelbus · Vrachtwagen · Volledig wagenpark</div>
+      <div class="sector sector-with-photo reveal">
+        <div class="sector-photo">
+          <img src="/public/images/portfolio/dermamedi-lijn.jpg"
+               alt="DermaMedi Lijn Rotterdam — professionele raambelettering zorgkliniek mediscentrum"
+               width="600" height="375"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="sector-body">
+          <div class="sector-label">Beauty, Zorg &amp; Kliniek</div>
+          <h3>Vertrouwde uitstraling</h3>
+          <p class="sector-example">Voorbeeld: <strong>DermaMedi Lijn</strong> — professionele raambelettering met openingstijden-paneel.</p>
+          <div class="sector-services">Raambelettering · Etsfolie voor privacy · Openingstijden-display</div>
+        </div>
       </div>
-      <div class="sector reveal">
-        <div class="sector-label">Beauty, Zorg & Kliniek</div>
-        <h3>Vertrouwde uitstraling</h3>
-        <p class="sector-example">Voorbeeld: <strong>DermaMedi Lijn</strong> — professionele raambelettering met openingstijden-paneel.</p>
-        <div class="sector-services">Raambelettering · Etsfolie voor privacy · Openingstijden-display</div>
+      <div class="sector sector-with-photo reveal">
+        <div class="sector-photo">
+          <img src="/public/images/portfolio/aras-partners.jpg"
+               alt="Aras &amp; Partners Rotterdam — gilded etsfolie raambelettering accountancy kantoor"
+               width="600" height="375"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="sector-body">
+          <div class="sector-label">Accountancy &amp; Zakelijk</div>
+          <h3>Stijlvol en discreet</h3>
+          <p class="sector-example">Voorbeeld: <strong>Aras &amp; Partners</strong> — klassieke gouden etsfolie-belettering voor administratiekantoor.</p>
+          <div class="sector-services">Kantoorraambelettering · Etsfolie · Naamborden</div>
+        </div>
       </div>
-      <div class="sector reveal">
-        <div class="sector-label">Zakelijk & Kantoor</div>
-        <h3>Stijlvol en discreet</h3>
-        <p class="sector-example">Voorbeeld: <strong>Aras & Partners</strong> — klassieke gouden raambelettering voor administratiekantoor.</p>
-        <div class="sector-services">Kantoorraambelettering · Etsfolie · Naamborden</div>
+      <div class="sector sector-with-photo reveal">
+        <div class="sector-photo">
+          <img src="/public/images/portfolio/bouwcontainers.jpg"
+               alt="Bouwcontainers Rotterdam — bouwplaatsbelettering containers site-branding signage"
+               width="600" height="375"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="sector-body">
+          <div class="sector-label">Bouw &amp; Installatie</div>
+          <h3>Zichtbaar op de bouwplaats</h3>
+          <p class="sector-example">Voorbeeld: <strong>Bouwcontainers Rotterdam</strong> — gevelbelettering en site-branding op bouwcontainers.</p>
+          <div class="sector-services">Containerbelettering · Bouwhekken · Site-branding</div>
+        </div>
       </div>
-      <div class="sector reveal">
-        <div class="sector-label">Industrie & Grootformaat</div>
-        <h3>Werken op 30m hoogte</h3>
-        <p class="sector-example">Voorbeeld: <strong>Barge Master</strong> (offshore crane-platform) en <strong>IOP Industrial</strong> (industriesilo) — grootformaat werk in de Rotterdamse haven.</p>
-        <div class="sector-services">Scheepsbelettering · Silobelettering · Offshore platforms · Bouwplaats-branding</div>
+      <div class="sector sector-with-photo reveal">
+        <div class="sector-photo">
+          <img src="/public/images/portfolio/cc-cable-communication.jpg"
+               alt="CC Cable Communication Rotterdam — Ford Transit fleet belettering logistiek"
+               width="600" height="375"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="sector-body">
+          <div class="sector-label">Logistiek &amp; Fleet</div>
+          <h3>Rijdende reclame</h3>
+          <p class="sector-example">Voorbeeld: <strong>CC Cable Communication</strong> — Ford Transit fleet met consistente huisstijl-belettering.</p>
+          <div class="sector-services">Bestelbus · Vrachtwagen · Volledig wagenpark</div>
+        </div>
       </div>
     </div>
   </div>
@@ -3345,6 +3668,110 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     <p style="margin-top: 32px; font-size: 14px; color: var(--ink-muted); max-width: 720px; margin-left: auto; margin-right: auto;">
       Voor de productie werken wij samen met twee vaste drukkerspartners in Rotterdam — geselecteerd op basis van kwaliteit, levertijd en consistente kleurreproductie. Namen op aanvraag.
     </p>
+  </div>
+</section>
+
+<!-- ========== SOCIAL PROOF GRID ========== -->
+<section class="social-proof" id="social-bewijs">
+  <div class="social-proof-inner">
+    <div class="social-proof-header reveal">
+      <div class="section-label">— Vers opgeleverd werk</div>
+      <h2>Recent uit Rotterdam — <span class="light">werk op de werkvloer.</span></h2>
+      <p>Vers afgeleverd. Klikken voor projecten in onze portfolio.</p>
+    </div>
+    <p class="social-proof-cta">Wilt u uw project hier zien? WhatsApp <a href="https://wa.me/31624741597" style="color:var(--ink);border-bottom:1px solid var(--rule-bold);">+31 6 24 74 15 97</a>.</p>
+    <div class="social-grid">
+      <a href="#werk" class="tile" aria-label="Benjamin Furniture Rotterdam — 3D freesletters gevelreclame">
+        <img src="/public/images/portfolio/benjamin-furniture.jpg"
+             alt="Benjamin Furniture Rotterdam — 3D freesletters gevelreclame bedrijfspand"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">Benjamin Furniture</div>
+          <span class="meta-badge">Gevelreclame</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="Yilmaz Havalem Rotterdam — complete gevelreclame">
+        <img src="/public/images/portfolio/yilmaz-havalem.jpg"
+             alt="Yilmaz Havalem Rotterdam — complete gevelreclame met doosletters en verlicht bord"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">Yilmaz Havalem</div>
+          <span class="meta-badge">Gevelreclame</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="Yohnny Cake Rotterdam — raambelettering cafe">
+        <img src="/public/images/portfolio/yohnny-cake.jpg"
+             alt="Yohnny Cake Rotterdam — handlettered raambelettering etalage cafe"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">Yohnny Cake</div>
+          <span class="meta-badge">Raambelettering</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="I-BO Warmte Techniek Rotterdam — fleet belettering">
+        <img src="/public/images/portfolio/i-bo-warmte-techniek.jpg"
+             alt="I-BO Warmte Techniek Rotterdam — VW Transporter bedrijfswagen belettering installateur"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">I-BO Warmte Techniek</div>
+          <span class="meta-badge">Autoreclame</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="DermaMedi Lijn Rotterdam — zorgkliniek raambelettering">
+        <img src="/public/images/portfolio/dermamedi-lijn.jpg"
+             alt="DermaMedi Lijn Rotterdam — professionele raambelettering zorgkliniek mediscentrum"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">DermaMedi Lijn</div>
+          <span class="meta-badge">Raambelettering</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="Diamor Jewellery Rotterdam — LED lichtbak">
+        <img src="/public/images/portfolio/diamor-jewellery.jpg"
+             alt="Diamor Jewellery Rotterdam — LED lichtbak retail sieradenwinkel gevelreclame"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">Diamor Jewellery</div>
+          <span class="meta-badge">Lichtreclame</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="Aras &amp; Partners Rotterdam — etsfolie accountancy">
+        <img src="/public/images/portfolio/aras-partners.jpg"
+             alt="Aras &amp; Partners Rotterdam — gilded etsfolie raambelettering accountancy kantoor"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">Aras &amp; Partners</div>
+          <span class="meta-badge">Etsfolie</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="Il Mare Pizzeria Rotterdam — lichtbak horeca">
+        <img src="/public/images/portfolio/il-mare-pizzeria.jpg"
+             alt="Il Mare Pizzeria Rotterdam — LED lichtbak horeca gevelreclame en raambelettering"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">Il Mare Pizzeria</div>
+          <span class="meta-badge">Lichtreclame</span>
+        </div>
+      </a>
+      <a href="#werk" class="tile" aria-label="IOP Industrial Rotterdam — silobelettering">
+        <img src="/public/images/portfolio/iop-silo.jpg"
+             alt="IOP Industrial Rotterdam — grootformaat logo op industriesilo havengebied"
+             width="400" height="400"
+             loading="lazy" decoding="async">
+        <div class="meta">
+          <div class="meta-name">IOP Industrial · Silo</div>
+          <span class="meta-badge">Grootformaat</span>
+        </div>
+      </a>
+    </div>
   </div>
 </section>
 
