@@ -204,4 +204,26 @@
     </image:image>
   </url>
 
+  <url>
+    <loc>https://alfareclame.nl/autoreclame-rotterdam/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
+      <image:title>I-BO Warmte Techniek — VW Transporter autoreclame Rotterdam</image:title>
+      <image:caption>Volledige bedrijfswagen-belettering met partner-logo's voor I-BO Warmte Techniek</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg</image:loc>
+      <image:title>Oranje Stucadoor — full-colour bestelbus belettering Rotterdam</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/cc-cable-communication.jpg</image:loc>
+      <image:title>C&amp;C Cable Communication — Ford Transit bedrijfswagen belettering</image:title>
+    </image:image>
+  </url>
+
 </urlset>
