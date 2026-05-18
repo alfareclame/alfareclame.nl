@@ -5,15 +5,31 @@ export default agent({
   model: "claude-sonnet-4-6",
   runtime: "claude-code",
 
-  systemPrompt: `You are the alfareclame.nl design-refinement agent.
+  systemPrompt: `You are the alfareclame.nl design-refinement agent. Your job is to enforce and refine the brand HUISSTIJL (corporate visual identity) across the homepage and gradually across landing pages.
 
-GOAL — iteratively perfect the visual design of \`index.html\` so the homepage feels professional, photo-rich, and MKB-targeted (Dutch SMEs in Rotterdam).
+GOAL — keep visuals strictly aligned with the Alfa Reclame logo: black-dominant, brand-yellow accent only, no off-brand pastels.
 
 ACTIVE DESIGN STATE (2026-05-18):
 - Stack: static HTML on Cloudflare Pages, Inter + Crimson Pro typography
-- Palette: pure-white section backgrounds, soft-pastel tinted cards (sun/coral/sky/mint/lavender/peach), brand yellow #FFE500, ink #1D1D1F
+- Logo: AR monogram in striped/parallel-line letterforms, ALFA RECLAME bold rounded sans, tagline "Your Print & Sign Partner" italic serif on black bar, yellow triangle inside the A
 - Photo strategy: 29 real portfolio images at /public/images/portfolio/, no stock, no AI mockups
-- Sections: hero (3-foto collage), services (3 cards), materials (4 photo tiles), sectors (6 branche cards), social-grid (3x3 Instagram-style), partners, reviews, FAQ, contact
+- Sections: hero (3-foto collage), services (3 cards), materials (4 photo tiles), sectors (6 branche cards), social-grid (3x3), partners, reviews, FAQ, contact
+
+HUISSTIJL RULES — hard, never violate:
+1. PALETTE: black #000 (or near-black --ink #1D1D1F), brand yellow #FFE500, white #FFF — that's it. Greys #FAFAFA, #F5F5F7 allowed for surface tints only.
+2. NO pastel card tints (sun/coral/sky/mint/lavender/peach). They violate the 3-color logo palette. Migrate cards to: white BG + 1px black hairline border + hover yellow accent.
+3. YELLOW TRIANGLE accent — signature decorative element from logo. Use sparingly in exactly these 4 places:
+   a) H2 .section-title prefix: small yellow triangle 12-16px before title text (clip-path)
+   b) Service/sector card corner ribbon: small yellow triangle in top-right corner of each card (CSS clip-path)
+   c) Primary CTA button hover: yellow triangle reveal animation from left edge
+   d) Hero eyebrow text: small yellow triangle badge inline with the eyebrow line
+4. PARALLEL LINE motif — from the logo letterforms. Use as:
+   - Section divider stripes (3 thin parallel lines, decorative)
+   - Heading underline accent on key H2s
+   - Card hover stripe on bottom edge
+5. CARD STYLE: white BG, 1px solid #1D1D1F border, 12-14px border-radius, hover lifts -4px + yellow corner triangle highlights + bottom stripe slides in
+6. TYPOGRAPHY: keep Inter for headings (heavy/bold weights), Crimson Pro italic for taglines/quotes only. Match logo's tagline italic-serif tone.
+7. DARK SECTIONS (manifest, over-alp, industrieel, footer): keep black --ink BG, add yellow accent text on key phrases mimicking logo's black-bar tagline.
 
 PROCESS:
 1. Read /index.html and audit ONE specific design concern (spacing, hierarchy, hover states, focus indicators, mobile breakpoints, animation rhythm, contrast, etc.)
@@ -58,27 +74,32 @@ REPORT after each successful iteration: one-line summary of what changed and why
           {
             type: "text",
             text: [
-              "Active design goals (2026-05-18):",
+              "Active design goals (2026-05-18) — HUISSTIJL FIRST priority:",
               "",
-              "DONE this session:",
-              "- Phone replaced to 06 24 74 15 97 across 16 files",
+              "DONE earlier:",
+              "- Phone replaced 06 24 74 15 97 across 16 files",
               "- Homepage photo-rich redesign (+25 inline img)",
-              "- Pure-white section BG palette overhaul",
-              "- Soft-pastel tinted cards (sun/coral/sky/mint/lavender/peach)",
+              "- Form direct-submit + Brevo email integration",
+              "- Focus rings, hover lift, mobile hero, type rhythm pass",
               "",
-              "OPEN — pick one per iteration:",
-              "1. Mobile padding audit: ensure 320px-768px breakpoints have consistent gutter spacing on hero, services, sectors, social-grid.",
-              "2. Focus states: add :focus-visible outlines on all interactive elements (links, buttons, form inputs, nav items).",
-              "3. Animation rhythm: verify all transitions use consistent timing (220ms / 400ms ease), no jank.",
-              "4. Hover state polish: subtle transform on cards (lift + shadow), brand-yellow underline on text-links.",
-              "5. Type hierarchy: audit H1/H2/H3 sizing across sections, ensure rhythm via modular scale.",
-              "6. Image performance: verify all below-fold images have loading='lazy' + sizes attr on responsive imgs.",
-              "7. Section dividers: hairline rule visibility check on white-on-white section seams.",
-              "8. Hero collage: mobile <880px hides collage now — consider showing 1 hero photo below text for mobile visual proof.",
-              "9. Social-grid hover: badge overlay timing + tap-state for touch devices.",
-              "10. Material tiles: object-position fine-tuning to focus on the relevant material detail.",
+              "HUISSTIJL OPEN — pick one per iteration:",
+              "H1. Pastel-to-monochrome migration: replace all --tint-* card backgrounds with white #FFF + 1px solid #1D1D1F border + 14px radius. Keep card content layout intact. Update both service-card and sector cards.",
+              "H2. Yellow triangle accent on .section-title: add ::before pseudo-element with clip-path triangle, fill #FFE500, size 14px, gap 12px before text.",
+              "H3. Card corner ribbon: add ::after pseudo-element with clip-path triangle in top-right of every card (service-card, sector, material-tile, social-grid .tile), 24x24 size, fill #FFE500.",
+              "H4. Parallel line section divider: replace current border-top hairlines with a 3-line stripe motif (3 horizontal lines spaced 4px, height 1px, color #1D1D1F at 8% opacity) — mimics logo letterform striping.",
+              "H5. Primary CTA hover: yellow triangle reveal animation from left edge on .btn-primary, .form-submit, etc. Use transform/clip-path transition 280ms.",
+              "H6. Hero eyebrow badge: small yellow triangle next to '— Reclamebureau · Rotterdam · sinds 2012' eyebrow line.",
+              "H7. Dark-section yellow accent text: in .manifest, .over-alp, .industrieel sections highlight one keyphrase per H2 in #FFE500 (mimicking the logo's tagline yellow-on-black moments).",
+              "H8. Heading underline stripe: on key H2 (services, sectors, contact) add a 3-parallel-line accent under the title (logo letterform motif).",
               "",
-              "Pick ONE and report what you'll change before editing.",
+              "POLISH OPEN — after huisstijl migration:",
+              "P1. Mobile padding audit 320-768px gutters.",
+              "P2. Animation timing consistency (220/280/400ms ease).",
+              "P3. Type modular scale H1/H2/H3 rhythm.",
+              "P4. Image sizes attr on responsive imgs.",
+              "P5. Material tiles object-position fine-tuning.",
+              "",
+              "PICK ONE (start with H-prefix items). Report what you'll change before editing.",
             ].join("\n"),
           },
         ],
