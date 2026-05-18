@@ -4574,7 +4574,7 @@ document.querySelectorAll('#calc-extras .calculator-option').forEach(opt => {
   });
 });
 
-// ===== Contact form — POST /api/contact (Telegram), mailto fallback on failure =====
+// ===== Contact form — POST /api/contact (Telegram), direct submission only (no mailto fallback) =====
 const contactForm = document.getElementById('contactForm');
 const contactStatus = document.getElementById('contactFormStatus');
 const DEFAULT_STATUS_TEXT = contactStatus ? contactStatus.textContent : '';
@@ -4585,10 +4585,17 @@ function setStatus(msg, kind) {
   contactStatus.dataset.state = kind || '';
 }
 
-function buildMailtoFallback(name, phone, email, service, message) {
-  const body = `Nieuwe offerte-aanvraag:\n\nNaam: ${name}\nTelefoon: ${phone}\nE-mail: ${email}\nType project: ${service}\n\nBericht:\n${message}`;
-  return `mailto:info@alfareclame.nl?subject=${encodeURIComponent('Offerte-aanvraag via website — ' + name)}&body=${encodeURIComponent(body)}`;
-}
+const ERROR_MESSAGES = {
+  rate_limited: 'Te veel aanvragen achter elkaar. Probeer over 10 minuten opnieuw, of bel ons direct op 06 24 74 15 97.',
+  invalid_email: 'Het opgegeven e-mailadres is ongeldig.',
+  missing_fields: 'Vul minimaal uw naam, een bericht en een telefoonnummer of e-mailadres in.',
+  payload_too_large: 'Uw bericht is te lang. Kort het in tot circa 4000 tekens.',
+  telegram_failed: 'Tijdelijk technisch probleem met versturen. Bel of WhatsApp ons direct op 06 24 74 15 97.',
+  telegram_unreachable: 'Tijdelijk technisch probleem. Bel of WhatsApp ons direct op 06 24 74 15 97.',
+  server_misconfigured: 'Server tijdelijk niet beschikbaar. Bel of WhatsApp ons direct op 06 24 74 15 97.',
+  network: 'Geen verbinding. Controleer uw internet en probeer opnieuw. Of bel direct: 06 24 74 15 97.',
+  default: 'Versturen mislukt. Probeer het opnieuw of bel ons direct op 06 24 74 15 97.',
+};
 
 if (contactForm) {
   contactForm.addEventListener('submit', async (e) => {
@@ -4621,7 +4628,7 @@ if (contactForm) {
     }
     setStatus('Bezig met versturen…', 'pending');
 
-    let delivered = false;
+    let result = { ok: false, error: 'default' };
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -4629,26 +4636,19 @@ if (contactForm) {
         body: JSON.stringify(payload),
       });
       const out = await res.json().catch(() => ({}));
-      if (res.ok && out.ok) {
-        delivered = true;
-      }
+      result.ok = !!(res.ok && out.ok);
+      result.error = out.error || (res.ok ? null : 'default');
     } catch (_) {
-      delivered = false;
+      result.ok = false;
+      result.error = 'network';
     }
 
-    if (delivered) {
+    if (result.ok) {
       setStatus('Bedankt! Uw aanvraag is verstuurd. We reageren binnen één werkdag.', 'success');
       contactForm.reset();
     } else {
-      const mailtoLink = buildMailtoFallback(
-        payload.name || '(geen naam)',
-        payload.phone || '(geen telefoon)',
-        payload.email || '(geen e-mail)',
-        payload.subject || '(niet gekozen)',
-        payload.message,
-      );
-      setStatus('Versturen mislukt — uw e-mailprogramma wordt geopend als alternatief.', 'error');
-      window.location.href = mailtoLink;
+      const msg = ERROR_MESSAGES[result.error] || ERROR_MESSAGES.default;
+      setStatus(msg, 'error');
     }
 
     if (submitBtn) {
