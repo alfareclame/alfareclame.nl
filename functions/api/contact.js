@@ -13,7 +13,7 @@
  */
 
 const MAX_BODY_BYTES = 8 * 1024;
-const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_MAX = 15;
 const RATE_LIMIT_WINDOW_SEC = 600;
 
 // Multi-origin CORS: apex + www + Pages preview deploys.
@@ -122,11 +122,16 @@ export async function onRequestPost({ request, env }) {
   const message = clamp(data.message, 4000);
   const sourceUrl = clamp(data.source_url || request.headers.get("Referer"), 300);
 
-  if (!name || !message || (!email && !phone)) {
+  if (!name || !message || !email || !phone) {
     return json(400, { ok: false, error: "missing_fields" }, origin);
   }
-  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
     return json(400, { ok: false, error: "invalid_email" }, origin);
+  }
+  // Phone validation: digits-only count must be >= 8 (handles +31 6 ..., 06-..., spaces, parens).
+  const phoneDigits = phone.replace(/\D/g, "");
+  if (phoneDigits.length < 8 || phoneDigits.length > 18) {
+    return json(400, { ok: false, error: "invalid_phone" }, origin);
   }
 
   const country = request.headers.get("CF-IPCountry") || "??";

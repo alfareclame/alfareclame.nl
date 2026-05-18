@@ -4236,13 +4236,13 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
             <input type="text" id="fn" name="name" placeholder="Uw naam">
           </div>
           <div class="form-field">
-            <label for="ft">Telefoon</label>
-            <input type="tel" id="ft" name="phone" placeholder="06 — of WhatsApp nummer">
+            <label for="ft">Telefoon *</label>
+            <input type="tel" id="ft" name="phone" placeholder="06 — of WhatsApp nummer" required inputmode="tel" autocomplete="tel">
           </div>
         </div>
         <div class="form-field">
-          <label for="fe">E-mail</label>
-          <input type="email" id="fe" name="email" placeholder="optioneel">
+          <label for="fe">E-mail *</label>
+          <input type="email" id="fe" name="email" placeholder="naam@bedrijf.nl" required autocomplete="email">
         </div>
         <div class="form-field">
           <label for="fs">Type project</label>
@@ -4588,7 +4588,8 @@ function setStatus(msg, kind) {
 const ERROR_MESSAGES = {
   rate_limited: 'Te veel aanvragen achter elkaar. Probeer over 10 minuten opnieuw, of bel ons direct op 06 24 74 15 97.',
   invalid_email: 'Het opgegeven e-mailadres is ongeldig.',
-  missing_fields: 'Vul minimaal uw naam, een bericht en een telefoonnummer of e-mailadres in.',
+  invalid_phone: 'Het opgegeven telefoonnummer is ongeldig.',
+  missing_fields: 'Vul alle velden in: naam, telefoon, e-mail en bericht.',
   payload_too_large: 'Uw bericht is te lang. Kort het in tot circa 4000 tekens.',
   telegram_failed: 'Tijdelijk technisch probleem met versturen. Bel of WhatsApp ons direct op 06 24 74 15 97.',
   telegram_unreachable: 'Tijdelijk technisch probleem. Bel of WhatsApp ons direct op 06 24 74 15 97.',
@@ -4612,12 +4613,17 @@ if (contactForm) {
       _hp: (fd.get('_hp') || '').toString(),
     };
 
-    if (!payload.message || !payload.name) {
-      setStatus('Vul minimaal uw naam en bericht in.', 'error');
+    if (!payload.name || !payload.email || !payload.phone || !payload.message) {
+      setStatus('Vul alle velden in: naam, telefoon, e-mail en bericht.', 'error');
       return;
     }
-    if (!payload.email && !payload.phone) {
-      setStatus('Geef een e-mailadres of telefoonnummer op.', 'error');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(payload.email)) {
+      setStatus('Het opgegeven e-mailadres is ongeldig.', 'error');
+      return;
+    }
+    const phoneDigits = payload.phone.replace(/\D/g, '');
+    if (phoneDigits.length < 8 || phoneDigits.length > 18) {
+      setStatus('Het opgegeven telefoonnummer is ongeldig.', 'error');
       return;
     }
 
