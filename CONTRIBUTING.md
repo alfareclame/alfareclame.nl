@@ -236,5 +236,5 @@ git push origin main
 ## ❓ Vragen
 
 - **Over code / workflow:** open een issue met label `question`
-- **Over business / klant:** WhatsApp +31 6 27 24 64 29
+- **Over business / klant:** WhatsApp +31 6 24 74 15 97
 - **Security issue:** zie `SECURITY.md` (niet via issues)

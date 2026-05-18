@@ -175,7 +175,7 @@ Deze repository is private en propriëtair. De inhoud (content, afbeeldingen, po
 
 ## 📞 Contact
 
-- **WhatsApp:** [+31 6 27 24 64 29](https://wa.me/31627246429)
+- **WhatsApp:** [+31 6 24 74 15 97](https://wa.me/31624741597)
 - **E-mail:** info@alfareclame.nl
 - **KvK:** 88606902
 - **Locatie:** Rotterdam, Zuid-Holland, Nederland
