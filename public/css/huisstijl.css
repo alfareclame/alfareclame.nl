@@ -617,7 +617,7 @@ h6, .h6 {
 .footer__tagline {
   font-family: var(--font-serif);
   font-style: italic;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.7);
   font-size: var(--text-base);
   margin-top: var(--space-2);
   margin-bottom: var(--space-5);
