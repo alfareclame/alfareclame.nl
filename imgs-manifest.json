@@ -1,0 +1,645 @@
+{
+  "public/images/portfolio/aras-partners.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/barge-master-container.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/barge-master-detail.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/barge-master.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/benjamin-furniture.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/bouwcontainers-2.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/bouwcontainers.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/cc-cable-communication.jpg": {
+    "orig": [
+      1080,
+      1080
+    ],
+    "variants": {
+      "480": [
+        480,
+        480
+      ],
+      "960": [
+        960,
+        960
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/de-groene-tuin.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/dermamedi-lijn.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/diamor-jewellery.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/fietswinkel-rotterdam.jpg": {
+    "orig": [
+      960,
+      720
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/garage-rijnmond.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/i-bo-warmte-techniek.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/il-mare-pizzeria.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/iop-silo-detail.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/iop-silo-montage.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/iop-silo.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/istanbul-reisbureau-montage.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/istanbul-reisbureau.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/kantoor-kaplan.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/oranje-stucadoor.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/rondo.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/sancak-banners.jpg": {
+    "orig": [
+      960,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        640
+      ],
+      "960": null,
+      "1440": null
+    }
+  },
+  "public/images/portfolio/sancak-sv-besiktas.jpg": {
+    "orig": [
+      1280,
+      1280
+    ],
+    "variants": {
+      "480": [
+        480,
+        480
+      ],
+      "960": [
+        960,
+        960
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/sowieso-geslaagd.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/tabakshop-oudedijk.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/yilmaz-havalem.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/portfolio/yohnny-cake.jpg": {
+    "orig": [
+      1280,
+      960
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": null
+    }
+  },
+  "public/images/raambelettering/raambelettering-aras-partners-accountant-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-aras-partners-voorzijde-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-dermamedi-voorzijde-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-kinderdagverblijf-groene-tuin-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-lijn-2-mediscentrum-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-yohnny-cake-detail-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  },
+  "public/images/raambelettering/raambelettering-yohnny-cake-straatzicht-rotterdam.jpg": {
+    "orig": [
+      1600,
+      1200
+    ],
+    "variants": {
+      "480": [
+        480,
+        360
+      ],
+      "960": [
+        960,
+        720
+      ],
+      "1440": [
+        1440,
+        1080
+      ]
+    }
+  }
+}
