@@ -112,14 +112,11 @@ jobs:
           for script in scripts:
               try:
                   data = json.loads(script.string)
-                  if '@graph' in data:
-                      for item in data['@graph']:
-                          t = item.get('@type', 'unknown')
+                  items = data['@graph'] if isinstance(data, dict) and '@graph' in data else [data]
+                  for item in items:
+                      raw = item.get('@type', 'unknown') if isinstance(item, dict) else 'unknown'
+                      for t in (raw if isinstance(raw, list) else [raw]):
                           type_counts[t] = type_counts.get(t, 0) + 1
-                          schema_count += 1
-                  else:
-                      t = data.get('@type', 'unknown')
-                      type_counts[t] = type_counts.get(t, 0) + 1
                       schema_count += 1
               except json.JSONDecodeError as e:
                   print(f"✗ Invalid JSON-LD: {e}")
