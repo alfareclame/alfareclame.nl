@@ -1692,5 +1692,44 @@ h6, .h6 {
 
 
 /* =============================================================================
+   22. SPRINT 3 — ON-DARK CTA UTILITIES
+   Class equivalents for the inline styles removed from the homepage final-CTA
+   block. Each declaration is byte-identical to the inline style it replaces.
+   ============================================================================= */
+
+.cta-lead {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: var(--text-lg);
+  max-width: 52ch;
+  margin: 0 auto var(--space-7);
+}
+
+.btn-row--center {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn--on-dark {
+  border-color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.eyebrow--on-dark {
+  color: var(--brand);
+}
+
+.section-title--on-dark {
+  color: var(--surface);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title--on-dark::before {
+  background: var(--brand);
+}
+
+
+/* =============================================================================
    EOF — huisstijl.css  |  Alfa Reclame  |  2026-05-20 Sprint 3
    ============================================================================= */
