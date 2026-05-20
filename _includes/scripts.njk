@@ -1,0 +1,50 @@
+<!-- ========================================================
+     JAVASCRIPT — nav toggle{% if hasFaqAccordion %} + FAQ accordion{% endif %}
+     ======================================================== -->
+<script>
+(function () {
+  'use strict';
+  var toggle = document.getElementById('nav-toggle');
+  var mobileNav = document.getElementById('mobile-nav');
+  if (toggle && mobileNav) {
+    toggle.addEventListener('click', function () {
+      var isOpen = mobileNav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      toggle.setAttribute('aria-label', isOpen ? 'Menu sluiten' : 'Menu openen');
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+    document.addEventListener('click', function (e) {
+      if (!toggle.contains(e.target) && !mobileNav.contains(e.target) && mobileNav.classList.contains('is-open')) {
+        mobileNav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Menu openen');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+{%- if hasFaqAccordion %}
+
+  /* --- FAQ accordion --- */
+  var faqItems = document.querySelectorAll('.faq__item');
+
+  faqItems.forEach(function (item) {
+    var btn = item.querySelector('.faq__question');
+    var answer = item.querySelector('.faq__answer');
+    var icon = item.querySelector('.faq__icon');
+
+    if (!btn || !answer) return;
+
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if (answer.hasAttribute('hidden')) {
+        answer.removeAttribute('hidden');
+      } else {
+        answer.setAttribute('hidden', '');
+      }
+      if (icon) icon.textContent = isOpen ? '−' : '+';
+    });
+  });
+{%- endif %}
+})();
+</script>

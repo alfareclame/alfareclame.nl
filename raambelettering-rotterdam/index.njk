@@ -1,393 +1,274 @@
-<!DOCTYPE html>
-<html lang="nl-NL">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+---
+layout: base.njk
+title: "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame"
+description: "Raambelettering Rotterdam voor winkels, kantoren en horeca. A-merk vinyl 3M en Avery, montage door de vakman, twee jaar garantie. Pakketprijs vanaf €149."
+keywords: "raambelettering Rotterdam, raamstickers Rotterdam, raamfolie Rotterdam, etsfolie Rotterdam, one-way vision Rotterdam, winkelraambelettering, kantoorraambelettering, horeca raambelettering"
+robots: "index, follow, max-snippet:-1, max-image-preview:large"
+canonical: "https://alfareclame.nl/raambelettering-rotterdam/"
+og_title: "Raambelettering Rotterdam — Vakman vanaf €149"
+og_description: "A-merk vinyl van 3M en Avery, vakman-montage, twee jaar garantie. Veertien jaar ervaring in Rotterdam."
+og_type: "article"
+og_image: "https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg"
+og_image_type: "image/jpeg"
+og_image_width: "1600"
+og_image_height: "1200"
+og_image_alt: "Raambelettering etalage Yohnny Cake cafe Rotterdam"
+twitter_title: "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame"
+twitter_description: "A-merk vinyl van 3M en Avery, vakman-montage in Rotterdam, twee jaar garantie. Pakketprijs vanaf €149."
+navActiveUrl: "/diensten/"
+hasFaqAccordion: true
+breadcrumbs:
+  - label: "Home"
+    url: "/"
+  - label: "Diensten"
+    url: "/diensten/"
+  - label: "Raambelettering Rotterdam"
+pageStylesLabel: "PAGE-SPECIFIC STYLES (< 100 lines)"
+pageStyles: |
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-3);
+    margin: var(--space-6) 0;
+  }
+  @media (max-width: 880px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .gallery { grid-template-columns: 1fr; } }
 
-<title>Raambelettering Rotterdam — vanaf €149 | Alfa Reclame</title>
-<meta name="description" content="Raambelettering Rotterdam voor winkels, kantoren en horeca. A-merk vinyl 3M en Avery, montage door de vakman, twee jaar garantie. Pakketprijs vanaf €149.">
-<meta name="keywords" content="raambelettering Rotterdam, raamstickers Rotterdam, raamfolie Rotterdam, etsfolie Rotterdam, one-way vision Rotterdam, winkelraambelettering, kantoorraambelettering, horeca raambelettering">
-<meta name="author" content="Alfa Reclame">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-<meta name="theme-color" content="#1D1D1F">
-<meta name="color-scheme" content="light">
-<meta name="format-detection" content="telephone=yes">
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    background: var(--surface-mute);
+    aspect-ratio: 4 / 3;
+    border: 1px solid var(--rule-bold);
+  }
+  .gallery-item img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform var(--transition-slow);
+  }
+  .gallery-item:hover img { transform: scale(1.04); }
+  .gallery-caption {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 10px 14px 12px;
+    background: linear-gradient(to top, rgba(29,29,31,0.82), rgba(29,29,31,0));
+    color: #fff; font-size: var(--text-xs); line-height: 1.35;
+  }
+  .gallery-caption strong { font-weight: 600; }
 
-<!-- ========== GEO META ========== -->
-<meta name="geo.region" content="NL-ZH">
-<meta name="geo.placename" content="Rotterdam">
-<meta name="geo.position" content="51.9225;4.47917">
-<meta name="ICBM" content="51.9225, 4.47917">
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    margin: var(--space-5) 0;
+  }
+  @media (max-width: 480px) { .reviews { grid-template-columns: 1fr; } }
+  .review {
+    padding: var(--space-5);
+    background: var(--surface-mute);
+    border-radius: var(--radius-lg);
+    border-left: 3px solid var(--brand);
+  }
+  .review-quote {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: var(--text-lg);
+    line-height: var(--lh-snug);
+    color: var(--ink);
+    margin-bottom: var(--space-3);
+  }
+  .review-author { font-size: var(--text-sm); color: var(--ink-muted); }
 
-<!-- ========== CANONICAL & ALTERNATES ========== -->
-<link rel="canonical" href="https://alfareclame.nl/raambelettering-rotterdam/">
-<link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-rotterdam/">
-<link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-rotterdam/">
+  .pricing-table { width: 100%; border-collapse: collapse; font-size: var(--text-base); margin: var(--space-5) 0; }
+  .pricing-table th, .pricing-table td {
+    padding: 14px 12px; text-align: left;
+    border-bottom: 1px solid var(--rule); vertical-align: top;
+  }
+  .pricing-table th { font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-subtle); background: var(--surface-mute); }
+  .pricing-table .price { font-weight: 700; color: var(--ink); white-space: nowrap; }
+  @media (max-width: 480px) { .pricing-table { font-size: var(--text-sm); } .pricing-table th, .pricing-table td { padding: 10px 8px; } }
 
-<!-- ========== FAVICONS ========== -->
-<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/public/images/favicon-512.png">
-<link rel="apple-touch-icon" sizes="192x192" href="/public/images/favicon-192.png">
-<link rel="shortcut icon" href="/public/images/favicon-32.png">
-<meta name="apple-mobile-web-app-title" content="Alfa Reclame">
+  .steps { counter-reset: steps; margin: var(--space-5) 0; }
+  .step { counter-increment: steps; padding: var(--space-5) 0 var(--space-5) 64px; position: relative; border-bottom: 1px solid var(--rule); }
+  .step:last-child { border-bottom: none; }
+  .step::before {
+    content: counter(steps);
+    position: absolute; left: 0; top: var(--space-5);
+    width: 40px; height: 40px; border-radius: var(--radius-pill);
+    background: var(--brand); color: var(--ink);
+    font-size: var(--text-sm); font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .step h4 { font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-2); color: var(--ink); }
+  .step p { font-size: var(--text-base); color: var(--ink-muted); line-height: var(--lh-base); }
 
-<!-- ========== OPEN GRAPH ========== -->
-<meta property="og:site_name" content="Alfa Reclame">
-<meta property="og:title" content="Raambelettering Rotterdam — Vakman vanaf €149">
-<meta property="og:description" content="A-merk vinyl van 3M en Avery, vakman-montage, twee jaar garantie. Veertien jaar ervaring in Rotterdam.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://alfareclame.nl/raambelettering-rotterdam/">
-<meta property="og:image" content="https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg">
-<meta property="og:image:width" content="1600">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:locale" content="nl_NL">
-<meta property="article:published_time" content="2026-05-17T12:00:00+02:00">
-<meta property="article:modified_time" content="2026-05-17T12:00:00+02:00">
-<meta property="article:author" content="Alfa Reclame">
-<meta property="article:section" content="Raambelettering">
-
-<!-- ========== TWITTER CARDS ========== -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Raambelettering Rotterdam — vanaf €149 | Alfa Reclame">
-<meta name="twitter:description" content="A-merk vinyl van 3M en Avery, vakman-montage in Rotterdam, twee jaar garantie. Pakketprijs vanaf €149.">
-<meta name="twitter:image" content="https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg">
-
-<!-- ========== FONTS ========== -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="dns-prefetch" href="https://wa.me">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Crimson+Pro:ital@1&display=swap">
-
-<!-- ========== DESIGN SYSTEM ========== -->
-<link rel="stylesheet" href="/public/css/huisstijl.css">
-
-<!-- ========== PAGE-SPECIFIC STYLES (< 100 lines) ========== -->
-<style>
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-3);
-  margin: var(--space-6) 0;
-}
-@media (max-width: 880px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px) { .gallery { grid-template-columns: 1fr; } }
-
-.gallery-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius-md);
-  background: var(--surface-mute);
-  aspect-ratio: 4 / 3;
-  border: 1px solid var(--rule-bold);
-}
-.gallery-item img {
-  width: 100%; height: 100%; object-fit: cover; display: block;
-  transition: transform var(--transition-slow);
-}
-.gallery-item:hover img { transform: scale(1.04); }
-.gallery-caption {
-  position: absolute; left: 0; right: 0; bottom: 0;
-  padding: 10px 14px 12px;
-  background: linear-gradient(to top, rgba(29,29,31,0.82), rgba(29,29,31,0));
-  color: #fff; font-size: var(--text-xs); line-height: 1.35;
-}
-.gallery-caption strong { font-weight: 600; }
-
-.reviews {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-4);
-  margin: var(--space-5) 0;
-}
-@media (max-width: 480px) { .reviews { grid-template-columns: 1fr; } }
-.review {
-  padding: var(--space-5);
-  background: var(--surface-mute);
-  border-radius: var(--radius-lg);
-  border-left: 3px solid var(--brand);
-}
-.review-quote {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: var(--text-lg);
-  line-height: var(--lh-snug);
-  color: var(--ink);
-  margin-bottom: var(--space-3);
-}
-.review-author { font-size: var(--text-sm); color: var(--ink-muted); }
-
-.pricing-table { width: 100%; border-collapse: collapse; font-size: var(--text-base); margin: var(--space-5) 0; }
-.pricing-table th, .pricing-table td {
-  padding: 14px 12px; text-align: left;
-  border-bottom: 1px solid var(--rule); vertical-align: top;
-}
-.pricing-table th { font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-subtle); background: var(--surface-mute); }
-.pricing-table .price { font-weight: 700; color: var(--ink); white-space: nowrap; }
-@media (max-width: 480px) { .pricing-table { font-size: var(--text-sm); } .pricing-table th, .pricing-table td { padding: 10px 8px; } }
-
-.steps { counter-reset: steps; margin: var(--space-5) 0; }
-.step { counter-increment: steps; padding: var(--space-5) 0 var(--space-5) 64px; position: relative; border-bottom: 1px solid var(--rule); }
-.step:last-child { border-bottom: none; }
-.step::before {
-  content: counter(steps);
-  position: absolute; left: 0; top: var(--space-5);
-  width: 40px; height: 40px; border-radius: var(--radius-pill);
-  background: var(--brand); color: var(--ink);
-  font-size: var(--text-sm); font-weight: 700;
-  display: flex; align-items: center; justify-content: center;
-}
-.step h4 { font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-2); color: var(--ink); }
-.step p { font-size: var(--text-base); color: var(--ink-muted); line-height: var(--lh-base); }
-
-.author-box {
-  margin: var(--space-8) 0 var(--space-6);
-  padding: var(--space-6);
-  background: var(--surface-mute);
-  border-radius: var(--radius-lg);
-  display: flex; gap: var(--space-5); align-items: center;
-}
-.author-avatar {
-  width: 64px; height: 64px; border-radius: var(--radius-pill);
-  background: var(--ink); color: var(--surface);
-  display: flex; align-items: center; justify-content: center;
-  font-size: var(--text-xl); font-weight: 700; flex-shrink: 0;
-}
-.author-text h4 { font-size: var(--text-base); font-weight: 600; margin-bottom: var(--space-1); }
-.author-text p { font-size: var(--text-sm); color: var(--ink-muted); line-height: var(--lh-base); }
-</style>
-
-<!-- ========== JSON-LD STRUCTURED DATA ========== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "@id": "https://alfareclame.nl/raambelettering-rotterdam/#service",
-      "name": "Raambelettering Rotterdam",
-      "description": "Raambelettering voor winkels, kantoren, horeca en zorginstellingen in Rotterdam. A-merk cast vinyl van 3M, Avery Dennison, Hexis en Orafol. Vakkundige montage door de eigenaar, twee jaar garantie op kleurvastheid en hechting. Pakketprijzen vanaf 149 euro.",
-      "provider": { "@id": "https://alfareclame.nl/#business" },
-      "serviceType": "Raambelettering",
-      "priceRange": "€149-€2500",
-      "areaServed": [
-        { "@type": "City", "name": "Rotterdam" },
-        { "@type": "City", "name": "Schiedam" },
-        { "@type": "City", "name": "Vlaardingen" },
-        { "@type": "City", "name": "Capelle aan den IJssel" },
-        { "@type": "City", "name": "Barendrecht" },
-        { "@type": "City", "name": "Spijkenisse" }
-      ]
-    },
-    {
-      "@type": "Article",
-      "@id": "https://alfareclame.nl/raambelettering-rotterdam/#article",
-      "headline": "Raambelettering Rotterdam — vakman vanaf €149",
-      "description": "Alles over raambelettering in Rotterdam: vinyl-types (snijfolie, etsfolie, full-color, one-way vision), prijspakketten, materiaalkeuze, werkwijze, gallery met recent werk en FAQ.",
-      "image": "https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg",
-      "datePublished": "2026-05-17T12:00:00+02:00",
-      "dateModified": "2026-05-18T20:30:00+02:00",
-      "author": { "@id": "https://alfareclame.nl/#founder" },
-      "publisher": { "@id": "https://alfareclame.nl/#organization" },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://alfareclame.nl/raambelettering-rotterdam/"
+  .author-box {
+    margin: var(--space-8) 0 var(--space-6);
+    padding: var(--space-6);
+    background: var(--surface-mute);
+    border-radius: var(--radius-lg);
+    display: flex; gap: var(--space-5); align-items: center;
+  }
+  .author-avatar {
+    width: 64px; height: 64px; border-radius: var(--radius-pill);
+    background: var(--ink); color: var(--surface);
+    display: flex; align-items: center; justify-content: center;
+    font-size: var(--text-xl); font-weight: 700; flex-shrink: 0;
+  }
+  .author-text h4 { font-size: var(--text-base); font-weight: 600; margin-bottom: var(--space-1); }
+  .author-text p { font-size: var(--text-sm); color: var(--ink-muted); line-height: var(--lh-base); }
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://alfareclame.nl/raambelettering-rotterdam/#service",
+        "name": "Raambelettering Rotterdam",
+        "description": "Raambelettering voor winkels, kantoren, horeca en zorginstellingen in Rotterdam. A-merk cast vinyl van 3M, Avery Dennison, Hexis en Orafol. Vakkundige montage door de eigenaar, twee jaar garantie op kleurvastheid en hechting. Pakketprijzen vanaf 149 euro.",
+        "provider": { "@id": "https://alfareclame.nl/#business" },
+        "serviceType": "Raambelettering",
+        "priceRange": "€149-€2500",
+        "areaServed": [
+          { "@type": "City", "name": "Rotterdam" },
+          { "@type": "City", "name": "Schiedam" },
+          { "@type": "City", "name": "Vlaardingen" },
+          { "@type": "City", "name": "Capelle aan den IJssel" },
+          { "@type": "City", "name": "Barendrecht" },
+          { "@type": "City", "name": "Spijkenisse" }
+        ]
       },
-      "articleSection": "Raambelettering",
-      "inLanguage": "nl-NL",
-      "wordCount": 2950
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://alfareclame.nl/raambelettering-rotterdam/#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alfareclame.nl/" },
-        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://alfareclame.nl/diensten/" },
-        { "@type": "ListItem", "position": 3, "name": "Raambelettering Rotterdam", "item": "https://alfareclame.nl/raambelettering-rotterdam/" }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://alfareclame.nl/raambelettering-rotterdam/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Wat kost raambelettering in Rotterdam?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Wij werken met vier transparante pakketten. Starter (kleine winkel, enkele tekst en logo op één ruit) vanaf 149 euro. Winkel compleet (etalage, openingstijden, logo op alle ramen) vanaf 249 euro. Horeca pakket (menu of aanbiedingen plus bedrijfslogo plus privacy etsfolie) vanaf 449 euro. Maatwerk (groot project, full-color print, complex ontwerp) vanaf 749 euro. Alle prijzen inclusief BTW, ontwerp, A-merk vinyl en montage op locatie."
-          }
+      {
+        "@type": "Article",
+        "@id": "https://alfareclame.nl/raambelettering-rotterdam/#article",
+        "headline": "Raambelettering Rotterdam — vakman vanaf €149",
+        "description": "Alles over raambelettering in Rotterdam: vinyl-types (snijfolie, etsfolie, full-color, one-way vision), prijspakketten, materiaalkeuze, werkwijze, gallery met recent werk en FAQ.",
+        "image": "https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg",
+        "datePublished": "2026-05-17T12:00:00+02:00",
+        "dateModified": "2026-05-18T20:30:00+02:00",
+        "author": { "@id": "https://alfareclame.nl/#founder" },
+        "publisher": { "@id": "https://alfareclame.nl/#organization" },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://alfareclame.nl/raambelettering-rotterdam/"
         },
-        {
-          "@type": "Question",
-          "name": "Hoe lang gaat raambelettering mee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Professionele raambelettering met A-merk vinyl van 3M, Avery Dennison, Hexis of Orafol gaat vijf tot zeven jaar mee bij buitengebruik in Nederlands klimaat. Binnen gaat het tien jaar of langer mee. Onze garantie is twee jaar op kleurvastheid en hechting; in de praktijk gaat ons werk veel langer mee. Wij hebben raambelettering uit 2015 die nog steeds perfect is."
+        "articleSection": "Raambelettering",
+        "inLanguage": "nl-NL",
+        "wordCount": 2950
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://alfareclame.nl/raambelettering-rotterdam/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alfareclame.nl/" },
+          { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://alfareclame.nl/diensten/" },
+          { "@type": "ListItem", "position": 3, "name": "Raambelettering Rotterdam", "item": "https://alfareclame.nl/raambelettering-rotterdam/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://alfareclame.nl/raambelettering-rotterdam/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Wat kost raambelettering in Rotterdam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wij werken met vier transparante pakketten. Starter (kleine winkel, enkele tekst en logo op één ruit) vanaf 149 euro. Winkel compleet (etalage, openingstijden, logo op alle ramen) vanaf 249 euro. Horeca pakket (menu of aanbiedingen plus bedrijfslogo plus privacy etsfolie) vanaf 449 euro. Maatwerk (groot project, full-color print, complex ontwerp) vanaf 749 euro. Alle prijzen inclusief BTW, ontwerp, A-merk vinyl en montage op locatie."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaat raambelettering mee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Professionele raambelettering met A-merk vinyl van 3M, Avery Dennison, Hexis of Orafol gaat vijf tot zeven jaar mee bij buitengebruik in Nederlands klimaat. Binnen gaat het tien jaar of langer mee. Onze garantie is twee jaar op kleurvastheid en hechting; in de praktijk gaat ons werk veel langer mee. Wij hebben raambelettering uit 2015 die nog steeds perfect is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke folie-types kunnen jullie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vier hoofdtypen: snijfolie (kleurvinyl voor logos, tekst en openingstijden), etsfolie (frosted of zandstraal-effect voor privacy en lichtdoorlatendheid, ideaal voor kantoor en advocatenkantoor), full-color print folie (voor fotos, gradients en complexe ontwerpen) en one-way vision (gaatjesfolie waarbij u van buiten een beeld ziet en van binnen doorzicht hebt, ideaal voor etalages). Wij adviseren per project welke folie het beste past."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kunnen jullie etsfolie voor privacy plaatsen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Etsfolie geeft een frosted of zandstraal-effect dat licht doorlaat maar inkijk blokkeert. Veel gebruikt op kantoor- en advocatenkantoorramen, vergaderzalen en behandelkamers in de zorg. Wij plaatsen etsfolie als volledige bedekking of in patronen met uitsparingen voor logos en bedrijfsnaam. De folie is verwijderbaar zonder schade aan het glas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe lang duurt een project van offerte tot montage?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Standaard tijdlijn: WhatsApp-contact dezelfde dag, mockup binnen achtenveertig uur, na akkoord drie tot vier werkdagen voor productie en montage. Een compleet winkel- of kantoorproject is doorgaans binnen een week klaar. Voor spoedklussen plannen wij in overleg; voor seizoensgebonden klanten zoals horeca en retail werken wij ook in de avonden en het weekend zonder meerprijs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan raambelettering schoon verwijderd worden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. A-merk vinyl van 3M, Avery, Hexis of Orafol verwijdert schoon van glas, ook na jaren. Wij verwijderen oude raambelettering als onderdeel van een nieuw project of als losse dienst. Voor lijmrestjes gebruiken wij professionele citrusbasis-verwijderaars die het glas en de raamkozijnen niet aantasten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Werken jullie ook in Schiedam, Vlaardingen of Capelle?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Naast Rotterdam zelf werken wij in heel de regio: Schiedam, Vlaardingen, Capelle aan den IJssel, Barendrecht, Spijkenisse, Ridderkerk, Krimpen aan den IJssel en Maassluis. Geen reiskosten binnen deze plaatsen. Voor projecten verder weg in Zuid-Holland kunnen wij ook komen, dan stemmen wij vooraf eventuele transportkosten af."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan ik mijn eigen ontwerp aanleveren? Welk formaat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, dat scheelt u ontwerpkosten. Lever aan in vectorformaat: .ai (Adobe Illustrator), .eps, .pdf met outlines of .svg. Pixelformaten zoals .jpg of .png zijn alleen bruikbaar als ze zeer hoge resolutie hebben en bedoeld zijn voor full-color print. Heeft u alleen een logo in JPG? Wij kunnen het zonder meerkosten omzetten naar vector als het een eenvoudig logo is."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Mijn ruit heeft een rondje, krul of bijzondere vorm. Kan dat ook?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Wij meten de ruit vooraf op locatie of u stuurt foto's met afmetingen via WhatsApp. Snijfolie en etsfolie kunnen op maat worden gesneden voor ronde, ovale, hoekige of onregelmatige ruiten. Voor complexe vormen werken wij met een sjabloontekening die u vooraf goedkeurt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe reinig ik raambelettering?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reinig met lauw water en een mild schoonmaakmiddel of glassex, en een zachte microvezeldoek. Vermijd ruwe sponzen, schuurmiddelen, agressieve oplosmiddelen en hogedrukreinigers. Voor de buitenkant van etalages is regelmatige reiniging niet alleen netter maar verlengt het ook de levensduur van de folie."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Monteren jullie ook 's avonds of in het weekend?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, zonder meerprijs. Voor winkels en horeca die overdag niet dicht kunnen, monteren wij op zaterdag of in de avonduren. Het eerste WhatsApp-contact is ook ruim bereikbaar; meestal binnen een uur antwoord op doordeweekse avonden tot 21:00 en op zaterdag."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoeveel jaar garantie en wat dekt het?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Twee jaar garantie op kleurvastheid, hechting en materiaalfouten. Als de folie binnen die periode loslaat door productiegebrek, verkleurt sneller dan beloofd of materiaalfouten vertoont, komen wij gratis langs om het te herstellen. De garantie geldt niet voor schade door derden, ongelukken of opzettelijke beschadiging."
+            }
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Welke folie-types kunnen jullie?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vier hoofdtypen: snijfolie (kleurvinyl voor logos, tekst en openingstijden), etsfolie (frosted of zandstraal-effect voor privacy en lichtdoorlatendheid, ideaal voor kantoor en advocatenkantoor), full-color print folie (voor fotos, gradients en complexe ontwerpen) en one-way vision (gaatjesfolie waarbij u van buiten een beeld ziet en van binnen doorzicht hebt, ideaal voor etalages). Wij adviseren per project welke folie het beste past."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kunnen jullie etsfolie voor privacy plaatsen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja. Etsfolie geeft een frosted of zandstraal-effect dat licht doorlaat maar inkijk blokkeert. Veel gebruikt op kantoor- en advocatenkantoorramen, vergaderzalen en behandelkamers in de zorg. Wij plaatsen etsfolie als volledige bedekking of in patronen met uitsparingen voor logos en bedrijfsnaam. De folie is verwijderbaar zonder schade aan het glas."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Hoe lang duurt een project van offerte tot montage?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standaard tijdlijn: WhatsApp-contact dezelfde dag, mockup binnen achtenveertig uur, na akkoord drie tot vier werkdagen voor productie en montage. Een compleet winkel- of kantoorproject is doorgaans binnen een week klaar. Voor spoedklussen plannen wij in overleg; voor seizoensgebonden klanten zoals horeca en retail werken wij ook in de avonden en het weekend zonder meerprijs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kan raambelettering schoon verwijderd worden?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja. A-merk vinyl van 3M, Avery, Hexis of Orafol verwijdert schoon van glas, ook na jaren. Wij verwijderen oude raambelettering als onderdeel van een nieuw project of als losse dienst. Voor lijmrestjes gebruiken wij professionele citrusbasis-verwijderaars die het glas en de raamkozijnen niet aantasten."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Werken jullie ook in Schiedam, Vlaardingen of Capelle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja. Naast Rotterdam zelf werken wij in heel de regio: Schiedam, Vlaardingen, Capelle aan den IJssel, Barendrecht, Spijkenisse, Ridderkerk, Krimpen aan den IJssel en Maassluis. Geen reiskosten binnen deze plaatsen. Voor projecten verder weg in Zuid-Holland kunnen wij ook komen, dan stemmen wij vooraf eventuele transportkosten af."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kan ik mijn eigen ontwerp aanleveren? Welk formaat?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, dat scheelt u ontwerpkosten. Lever aan in vectorformaat: .ai (Adobe Illustrator), .eps, .pdf met outlines of .svg. Pixelformaten zoals .jpg of .png zijn alleen bruikbaar als ze zeer hoge resolutie hebben en bedoeld zijn voor full-color print. Heeft u alleen een logo in JPG? Wij kunnen het zonder meerkosten omzetten naar vector als het een eenvoudig logo is."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Mijn ruit heeft een rondje, krul of bijzondere vorm. Kan dat ook?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja. Wij meten de ruit vooraf op locatie of u stuurt foto's met afmetingen via WhatsApp. Snijfolie en etsfolie kunnen op maat worden gesneden voor ronde, ovale, hoekige of onregelmatige ruiten. Voor complexe vormen werken wij met een sjabloontekening die u vooraf goedkeurt."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Hoe reinig ik raambelettering?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reinig met lauw water en een mild schoonmaakmiddel of glassex, en een zachte microvezeldoek. Vermijd ruwe sponzen, schuurmiddelen, agressieve oplosmiddelen en hogedrukreinigers. Voor de buitenkant van etalages is regelmatige reiniging niet alleen netter maar verlengt het ook de levensduur van de folie."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Monteren jullie ook 's avonds of in het weekend?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, zonder meerprijs. Voor winkels en horeca die overdag niet dicht kunnen, monteren wij op zaterdag of in de avonduren. Het eerste WhatsApp-contact is ook ruim bereikbaar; meestal binnen een uur antwoord op doordeweekse avonden tot 21:00 en op zaterdag."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Hoeveel jaar garantie en wat dekt het?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Twee jaar garantie op kleurvastheid, hechting en materiaalfouten. Als de folie binnen die periode loslaat door productiegebrek, verkleurt sneller dan beloofd of materiaalfouten vertoont, komen wij gratis langs om het te herstellen. De garantie geldt niet voor schade door derden, ongelukken of opzettelijke beschadiging."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
-</head>
-
-<body>
-
-<!-- Skip link -->
-<a class="skip-link" href="#main">Ga naar hoofdinhoud</a>
-
-<!-- ========================================================
-     NAVIGATIE
-     ======================================================== -->
-<header class="nav" role="banner">
-  <div class="nav__inner">
-    <a class="nav__logo" href="/" aria-label="Alfa Reclame homepage">
-      <picture><source srcset="/public/images/logo.webp" type="image/webp"><img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="80" height="40" loading="eager" decoding="async"></picture>
-    </a>
-
-    <nav class="nav__links" role="navigation" aria-label="Hoofdnavigatie">
-      <a class="nav__link nav__link--active" href="/diensten/">Diensten</a>
-      <a class="nav__link" href="/raambelettering-rotterdam/" aria-current="page">Raambelettering</a>
-      <a class="nav__link" href="/autoreclame-rotterdam/">Autoreclame</a>
-      <a class="nav__link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
-      <a class="nav__link" href="/over-ons/">Over ons</a>
-    </nav>
-
-    <div class="nav__cta">
-      <a class="btn btn-primary btn--sm" href="tel:+31624741597" aria-label="Bel Alfa Reclame direct op +31 6 24 74 15 97">
-        Bel ons
-      </a>
-    </div>
-
-    <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-nav" id="nav-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-</header>
-
-<!-- Mobile nav drawer -->
-<nav class="nav__mobile" id="mobile-nav" role="navigation" aria-label="Mobiele navigatie">
-  <a class="nav__mobile-link" href="/">Home</a>
-  <a class="nav__mobile-link" href="/diensten/">Alle Diensten</a>
-  <a class="nav__mobile-link" href="/raambelettering-rotterdam/">Raambelettering</a>
-  <a class="nav__mobile-link" href="/autoreclame-rotterdam/">Autoreclame</a>
-  <a class="nav__mobile-link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
-  <a class="nav__mobile-link" href="/lichtreclame-rotterdam/">Lichtreclame</a>
-  <a class="nav__mobile-link" href="/doosletters-rotterdam/">Doosletters</a>
-  <a class="nav__mobile-link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a>
-  <a class="nav__mobile-link" href="/bestickering-rotterdam/">Bestickering</a>
-  <a class="nav__mobile-link" href="/over-ons/">Over ons</a>
-  <div style="margin-top:24px;">
-    <a class="btn btn-primary" href="tel:+31624741597">Bel +31 6 24 74 15 97</a>
-  </div>
-</nav>
-
-<!-- ========================================================
-     MAIN CONTENT
-     ======================================================== -->
-<main id="main">
-
-  <!-- BREADCRUMB -->
-  <div class="container">
-    <nav class="breadcrumb" aria-label="Kruimelpad">
-      <span class="breadcrumb__item">
-        <a class="breadcrumb__link" href="/">Home</a>
-      </span>
-      <span class="breadcrumb__item">
-        <a class="breadcrumb__link" href="/diensten/">Diensten</a>
-      </span>
-      <span class="breadcrumb__item">
-        <span class="breadcrumb__current">Raambelettering Rotterdam</span>
-      </span>
-    </nav>
-  </div>
-
+        ]
+      }
+    ]
+  }
+---
   <!-- ====================================================
        HERO
        ==================================================== -->
@@ -718,7 +599,7 @@
           <div class="gallery-caption"><strong>Mediscentrum Lijn 2</strong> &mdash; zorgcomplex etalage</div>
         </div>
         <div class="gallery-item" role="listitem">
-          <picture><source srcset="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.webp" type="image/webp"><picture><source srcset="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-480.webp 480w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-960.webp 960w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-1440.webp 1440w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.webp 1600w" type="image/webp" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"><img srcset="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-480.jpg 480w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-960.jpg 960w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-1440.jpg 1440w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.jpg 1600w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          <picture><source srcset="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.webp" type="image/webp"><picture><source srcset="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-480.webp 480w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-960.webp 960w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-1440.webp 1440w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"><img srcset="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-480.jpg 480w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-960.jpg 960w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam-1440.jpg 1440w, /public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.jpg 1600w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             src="/public/images/raambelettering/raambelettering-dermamedi-behandelingen-rotterdam.jpg"
             alt="DermaMedi raambelettering Rotterdam, paarse behandelingen lijst en openingstijden in print folie"
             width="600" height="450" loading="lazy" decoding="async"></picture></picture>
@@ -1063,143 +944,3 @@
       </div>
     </div>
   </section>
-
-</main>
-
-<!-- ========================================================
-     FOOTER
-     ======================================================== -->
-<footer class="footer" role="contentinfo">
-  <div class="container">
-    <div class="footer__grid">
-
-      <!-- Brand column -->
-      <div class="footer__brand">
-        <picture><source srcset="/public/images/logo.webp" type="image/webp"><img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="88" height="44" loading="lazy" decoding="async"></picture>
-        <p class="footer__tagline">Your Print &amp; Sign Partner</p>
-        <p style="font-size:13px; color:rgba(255,255,255,0.7); max-width:280px; line-height:1.6;">
-          Reclamebureau in Rotterdam Zuidoost, gespecialiseerd in signage voor het MKB. KvK:&nbsp;88606902.
-        </p>
-      </div>
-
-      <!-- Diensten column -->
-      <div>
-        <p class="footer__heading">Diensten</p>
-        <ul class="footer__links">
-          <li><a class="footer__link" href="/raambelettering-rotterdam/">Raambelettering</a></li>
-          <li><a class="footer__link" href="/autoreclame-rotterdam/">Autoreclame</a></li>
-          <li><a class="footer__link" href="/gevelreclame-rotterdam/">Gevelreclame</a></li>
-          <li><a class="footer__link" href="/lichtreclame-rotterdam/">Lichtreclame</a></li>
-          <li><a class="footer__link" href="/doosletters-rotterdam/">Doosletters</a></li>
-          <li><a class="footer__link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a></li>
-          <li><a class="footer__link" href="/bestickering-rotterdam/">Bestickering</a></li>
-        </ul>
-      </div>
-
-      <!-- Werkgebied column -->
-      <div>
-        <p class="footer__heading">Werkgebied</p>
-        <ul class="footer__links">
-          <li><span class="footer__link">Rotterdam Centrum</span></li>
-          <li><span class="footer__link">Rotterdam Zuid</span></li>
-          <li><span class="footer__link">Rotterdam Noord</span></li>
-          <li><span class="footer__link">Schiedam</span></li>
-          <li><span class="footer__link">Capelle a/d IJssel</span></li>
-          <li><span class="footer__link">Ridderkerk</span></li>
-          <li><span class="footer__link">Barendrecht</span></li>
-        </ul>
-      </div>
-
-      <!-- Contact column -->
-      <div>
-        <p class="footer__heading">Contact</p>
-        <div class="footer__contact-item">
-          <span aria-hidden="true">&#9990;</span>
-          <a href="tel:+31624741597" class="footer__accent">+31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97</a>
-        </div>
-        <div class="footer__contact-item">
-          <span aria-hidden="true">&#9993;</span>
-          <!--email_off--><a href="mailto:info@alfareclame.nl">info@alfareclame.nl</a><!--/email_off-->
-        </div>
-        <div class="footer__contact-item">
-          <span aria-hidden="true">&#9679;</span>
-          <address style="font-style:normal;">
-            Blokfluit 31<br>
-            3068 KZ Rotterdam
-          </address>
-        </div>
-        <div style="margin-top:20px;">
-          <a class="btn btn-whatsapp btn--sm" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App ons via WhatsApp">
-            WhatsApp
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer__bar">
-      <p class="footer__copy">&copy; 2026 Alfa Reclame Rotterdam. Alle rechten voorbehouden.</p>
-      <nav class="footer__bar-links" aria-label="Juridische navigatie">
-        <a class="footer__bar-link" href="/over-ons/">Over Alfa Reclame</a>
-        <a class="footer__bar-link" href="/privacybeleid/">Privacybeleid</a>
-        <a class="footer__bar-link" href="/algemene-voorwaarden/">Algemene voorwaarden</a>
-      </nav>
-    </div>
-  </div>
-</footer>
-
-<!-- ========================================================
-     JAVASCRIPT — nav toggle + FAQ accordion
-     ======================================================== -->
-<script>
-(function () {
-  'use strict';
-
-  /* --- Mobile nav toggle --- */
-  var toggle = document.getElementById('nav-toggle');
-  var mobileNav = document.getElementById('mobile-nav');
-
-  if (toggle && mobileNav) {
-    toggle.addEventListener('click', function () {
-      var isOpen = mobileNav.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      toggle.setAttribute('aria-label', isOpen ? 'Menu sluiten' : 'Menu openen');
-      document.body.style.overflow = isOpen ? 'hidden' : '';
-    });
-
-    document.addEventListener('click', function (e) {
-      if (!toggle.contains(e.target) && !mobileNav.contains(e.target) && mobileNav.classList.contains('is-open')) {
-        mobileNav.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.setAttribute('aria-label', 'Menu openen');
-        document.body.style.overflow = '';
-      }
-    });
-  }
-
-  /* --- FAQ accordion --- */
-  var faqItems = document.querySelectorAll('.faq__item');
-
-  faqItems.forEach(function (item) {
-    var btn = item.querySelector('.faq__question');
-    var answer = item.querySelector('.faq__answer');
-    var icon = item.querySelector('.faq__icon');
-
-    if (!btn || !answer) return;
-
-    btn.addEventListener('click', function () {
-      var isOpen = item.classList.toggle('is-open');
-      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      if (answer.hasAttribute('hidden')) {
-        answer.removeAttribute('hidden');
-      } else {
-        answer.setAttribute('hidden', '');
-      }
-      if (icon) icon.textContent = isOpen ? '−' : '+';
-    });
-  });
-})();
-</script>
-
-</body>
-</html>

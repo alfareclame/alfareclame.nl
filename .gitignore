@@ -39,6 +39,7 @@ jspm_packages/
 bower_components/
 
 # ----- Build / cache outputs -----
+_site/
 dist/
 build/
 .cache/

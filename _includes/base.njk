@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+{% include "head.njk" -%}
+</head>
+
+<body>
+
+<!-- Skip link -->
+<a class="skip-link" href="#main">Ga naar hoofdinhoud</a>
+
+<!-- ========================================================
+     NAVIGATIE
+     ======================================================== -->
+{% include "nav.njk" %}
+{% include "mobile-nav.njk" %}
+<!-- ========================================================
+     MAIN CONTENT
+     ======================================================== -->
+<main id="main">
+
+{%- if breadcrumbs %}{% include "breadcrumb.njk" %}{% endif %}
+{{ content | safe }}
+</main>
+
+{% include "footer.njk" %}
+{% if pageScripts %}{{ pageScripts | trim | safe }}{% else %}{% include "scripts.njk" %}{% endif %}
+</body>
+</html>

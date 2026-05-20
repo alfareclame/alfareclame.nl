@@ -23,6 +23,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy(path);
   }
 
+  // Only treat .njk and .html as templates — never process stray .md files
+  // (README.md, .github/*.md, public/images/**/README.md).
+  eleventyConfig.setTemplateFormats(["njk", "html"]);
+
   return {
     dir: {
       input: ".",

@@ -1,0 +1,77 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- ========== PRIMARY META ========== -->
+<title>{{ title | safe }}</title>
+<meta name="description" content="{{ description | safe }}">
+<meta name="keywords" content="{{ keywords | safe }}">
+<meta name="author" content="Alfa Reclame">
+<meta name="robots" content="{{ robots | default("index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1") }}">
+<meta name="theme-color" content="#1D1D1F">
+<meta name="format-detection" content="telephone=yes">
+
+<!-- ========== GEO META ========== -->
+<meta name="geo.region" content="NL-ZH">
+<meta name="geo.placename" content="Rotterdam">
+<meta name="geo.position" content="51.9244;4.4777">
+<meta name="ICBM" content="51.9244, 4.4777">
+
+<!-- ========== CANONICAL & ALTERNATES ========== -->
+<link rel="canonical" href="{{ canonical }}">
+<link rel="alternate" hreflang="nl-NL" href="{{ canonical }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonical }}">
+
+<!-- ========== FAVICONS ========== -->
+<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/public/images/favicon-512.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/public/images/favicon-192.png">
+<link rel="shortcut icon" href="/public/images/favicon-32.png">
+<meta name="apple-mobile-web-app-title" content="Alfa Reclame">
+<meta name="application-name" content="Alfa Reclame">
+
+<!-- ========== WEB APP MANIFEST ========== -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- ========== OPEN GRAPH ========== -->
+<meta property="og:site_name" content="Alfa Reclame">
+<meta property="og:title" content="{{ og_title | safe }}">
+<meta property="og:description" content="{{ og_description | safe }}">
+<meta property="og:type" content="{{ og_type | default("website") }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:secure_url" content="{{ og_image }}">
+<meta property="og:image:type" content="{{ og_image_type | default("image/jpeg") }}">
+<meta property="og:image:width" content="{{ og_image_width | default("1200") }}">
+<meta property="og:image:height" content="{{ og_image_height | default("630") }}">
+<meta property="og:image:alt" content="{{ og_image_alt }}">
+<meta property="og:locale" content="nl_NL">
+
+<!-- ========== TWITTER CARD ========== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ twitter_title | safe }}">
+<meta name="twitter:description" content="{{ twitter_description | safe }}">
+<meta name="twitter:image" content="{{ og_image }}">
+
+<!-- ========== PERFORMANCE HINTS ========== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://wa.me">
+{% if preload_images %}{% for img in preload_images %}<link rel="preload" as="image" href="{{ img.href }}" type="{{ img.type }}" fetchpriority="{{ img.fetchpriority | default("high") }}">
+{% endfor %}{% endif %}
+<!-- ========== FONTS ========== -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Crimson+Pro:ital@1&display=swap">
+
+<!-- ========== STYLESHEET ========== -->
+<link rel="stylesheet" href="/public/css/huisstijl.css">
+
+<!-- ========== JSON-LD STRUCTURED DATA ========== -->
+<script type="application/ld+json">
+{{ jsonld | trim | safe }}
+</script>
+{% if pageStyles %}
+{% if pageStylesLabel %}<!-- ========== {{ pageStylesLabel }} ========== -->
+{% endif %}<style>
+{{ pageStyles | trim | safe }}
+</style>{% endif %}

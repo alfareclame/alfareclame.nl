@@ -1,67 +1,25 @@
-<!DOCTYPE html>
-<html lang="nl-NL">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- ========== PRIMARY META ========== -->
-<title>Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame</title>
-<meta name="description" content="Bekijk 29 afgeronde signage-projecten van Alfa Reclame Rotterdam: raambelettering, autoreclame, gevelreclame, doosletters en grootformaat havenwerk. Bewijs van vakwerk.">
-<meta name="keywords" content="portfolio signage rotterdam, alfa reclame werk, raambelettering portfolio, autoreclame projecten, gevelreclame voorbeelden, industrieel havenwerk, belettering rotterdam portfolio">
-<meta name="author" content="Alfa Reclame">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta name="theme-color" content="#1D1D1F">
-<meta name="format-detection" content="telephone=yes">
-
-<!-- ========== GEO META ========== -->
-<meta name="geo.region" content="NL-ZH">
-<meta name="geo.placename" content="Rotterdam">
-<meta name="geo.position" content="51.9244;4.4777">
-<meta name="ICBM" content="51.9244, 4.4777">
-
-<!-- ========== CANONICAL & ALTERNATES ========== -->
-<link rel="canonical" href="https://alfareclame.nl/portfolio/">
-<link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/portfolio/">
-<link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/portfolio/">
-
-<!-- ========== FAVICONS ========== -->
-<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/public/images/favicon-512.png">
-<link rel="apple-touch-icon" sizes="192x192" href="/public/images/favicon-192.png">
-<link rel="shortcut icon" href="/public/images/favicon-32.png">
-<meta name="apple-mobile-web-app-title" content="Alfa Reclame">
-
-<!-- ========== OPEN GRAPH ========== -->
-<meta property="og:site_name" content="Alfa Reclame">
-<meta property="og:title" content="Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame">
-<meta property="og:description" content="Alfa Reclame Rotterdam toont 29 afgeronde signage-projecten: van handlettered cafe-etalages en bedrijfswagenbelettering tot industrieel havenwerk op silo's en binnenvaartschepen.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://alfareclame.nl/portfolio/">
-<meta property="og:image" content="https://alfareclame.nl/public/images/portfolio/barge-master.jpg">
-<meta property="og:image:secure_url" content="https://alfareclame.nl/public/images/portfolio/barge-master.jpg">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="nl_NL">
-
-<!-- ========== TWITTER CARDS ========== -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame">
-<meta name="twitter:description" content="29 afgeronde signage-projecten van Alfa Reclame Rotterdam: raambelettering, autoreclame, gevelreclame en industrieel havenwerk.">
-<meta name="twitter:image" content="https://alfareclame.nl/public/images/portfolio/barge-master.jpg">
-
-<!-- ========== FONTS ========== -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Crimson+Pro:ital@1&display=swap">
-
-<!-- ========== STYLESHEET ========== -->
-<link rel="stylesheet" href="/public/css/huisstijl.css">
-
-<!-- ========== PAGE-SPECIFIC STYLES ========== -->
-<style>
+---
+layout: base.njk
+title: "Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame"
+description: "Bekijk 29 afgeronde signage-projecten van Alfa Reclame Rotterdam: raambelettering, autoreclame, gevelreclame, doosletters en grootformaat havenwerk. Bewijs van vakwerk."
+keywords: "portfolio signage rotterdam, alfa reclame werk, raambelettering portfolio, autoreclame projecten, gevelreclame voorbeelden, industrieel havenwerk, belettering rotterdam portfolio"
+canonical: "https://alfareclame.nl/portfolio/"
+og_title: "Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame"
+og_description: "Alfa Reclame Rotterdam toont 29 afgeronde signage-projecten: van handlettered cafe-etalages en bedrijfswagenbelettering tot industrieel havenwerk op silo's en binnenvaartschepen."
+og_image: "https://alfareclame.nl/public/images/portfolio/barge-master.jpg"
+og_image_alt: "Barge Master — scheepsbelettering Rotterdam haven"
+twitter_title: "Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame"
+twitter_description: "29 afgeronde signage-projecten van Alfa Reclame Rotterdam: raambelettering, autoreclame, gevelreclame en industrieel havenwerk."
+navActiveUrl: "/portfolio/"
+navExtraLink:
+  label: "Portfolio"
+  url: "/portfolio/"
+breadcrumbs:
+  - label: "Home"
+    url: "/"
+  - label: "Portfolio"
+pageStylesLabel: "PAGE-SPECIFIC STYLES"
+pageStyles: |
   /* Portfolio category grid */
   .portfolio-grid {
     display: grid;
@@ -259,314 +217,238 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-</style>
-
-<!-- ========== JSON-LD STRUCTURED DATA ========== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "CollectionPage",
-      "@id": "https://alfareclame.nl/portfolio/#webpage",
-      "url": "https://alfareclame.nl/portfolio/",
-      "name": "Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame",
-      "description": "Visueel overzicht van 29 afgeronde signage-projecten van Alfa Reclame Rotterdam: raambelettering, autoreclame, gevelreclame, doosletters en grootformaat industrieel havenwerk.",
-      "inLanguage": "nl-NL",
-      "isPartOf": {
-        "@id": "https://alfareclame.nl/#website"
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://alfareclame.nl/portfolio/#webpage",
+        "url": "https://alfareclame.nl/portfolio/",
+        "name": "Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame",
+        "description": "Visueel overzicht van 29 afgeronde signage-projecten van Alfa Reclame Rotterdam: raambelettering, autoreclame, gevelreclame, doosletters en grootformaat industrieel havenwerk.",
+        "inLanguage": "nl-NL",
+        "isPartOf": {
+          "@id": "https://alfareclame.nl/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://alfareclame.nl/portfolio/#breadcrumb"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://alfareclame.nl/portfolio/#primary-image"
+        }
       },
-      "breadcrumb": {
-        "@id": "https://alfareclame.nl/portfolio/#breadcrumb"
+      {
+        "@type": "ImageObject",
+        "@id": "https://alfareclame.nl/portfolio/#primary-image",
+        "url": "https://alfareclame.nl/public/images/portfolio/barge-master.jpg",
+        "name": "Barge Master — scheepsbelettering Rotterdam haven",
+        "description": "Grootformaat industriele scheepsbelettering op binnenvaartschip door Alfa Reclame Rotterdam"
       },
-      "primaryImageOfPage": {
-        "@id": "https://alfareclame.nl/portfolio/#primary-image"
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://alfareclame.nl/portfolio/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://alfareclame.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Portfolio",
+            "item": "https://alfareclame.nl/portfolio/"
+          }
+        ]
+      },
+      {
+        "@type": "ImageGallery",
+        "@id": "https://alfareclame.nl/portfolio/#gallery",
+        "name": "Portfolio Alfa Reclame Rotterdam — 29 signage projecten",
+        "description": "Volledige beeldgalerij van afgeronde reclameopdrachten: raambelettering, autoreclame, gevelreclame en industrieel havenwerk in Rotterdam en omgeving.",
+        "url": "https://alfareclame.nl/portfolio/",
+        "associatedMedia": [
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/yohnny-cake.jpg",
+            "name": "Yohnny Cake — handlettered cafe etalage Rotterdam",
+            "caption": "Raambelettering voor Yohnny Cake: handlettered folieontwerp op cafepui in Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/aras-partners.jpg",
+            "name": "ARAS en Partners — gilded etsfolie accountancy Rotterdam",
+            "caption": "Raambelettering voor ARAS en Partners accountancy: gespiegelde goud-look etsfolie"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/dermamedi-lijn.jpg",
+            "name": "DermaMedi — zorgkliniek full-color print Rotterdam",
+            "caption": "Raambelettering voor DermaMedi zorgkliniek: full-color printfolie met professionele uitstraling"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/kantoor-kaplan.jpg",
+            "name": "Kantoor B. Kaplan — belastingconsulent raambelettering",
+            "caption": "Strakke raambelettering voor kantoor van belastingconsulent B. Kaplan Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/rondo.jpg",
+            "name": "Rondo — minimalistische horeca raambelettering Rotterdam",
+            "caption": "Minimalistisch folieontwerp voor horecagelegenheid Rondo Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/tabakshop-oudedijk.jpg",
+            "name": "Tabakshop Oudedijk — retail etalage belettering Rotterdam",
+            "caption": "Etalagefolie en belettering voor Tabakshop Oudedijk in Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/istanbul-reisbureau.jpg",
+            "name": "Istanbul Reisbureau — Turkish Airlines decoratie Rotterdam",
+            "caption": "Thematische raambelettering met Turkish Airlines decor voor Istanbul Reisbureau Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/istanbul-reisbureau-montage.jpg",
+            "name": "Istanbul Reisbureau — montage raambelettering Rotterdam",
+            "caption": "Montagefase raambelettering Istanbul Reisbureau Rotterdam door Alfa Reclame"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg",
+            "name": "I-BO Warmte Techniek — VW Transporter autoreclame Rotterdam",
+            "caption": "Volledige bedrijfswagenbelettering op VW Transporter voor I-BO Warmte Techniek"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/cc-cable-communication.jpg",
+            "name": "C en C Cable Communication — Ford Transit autoreclame Rotterdam",
+            "caption": "Autoreclame op Ford Transit voor C en C Cable Communication Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg",
+            "name": "Oranje Stucadoor — full-colour bestelbus autoreclame Rotterdam",
+            "caption": "Full-colour bestelbusreclame voor Oranje Stucadoor Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/fietswinkel-rotterdam.jpg",
+            "name": "Fietswinkel Rotterdam — Mercedes Vito autoreclame",
+            "caption": "Autoreclame op Mercedes Vito voor Fietswinkel Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/sowieso-geslaagd.jpg",
+            "name": "Sowieso Geslaagd — reclametrailer autoreclame Rotterdam",
+            "caption": "Opvallende reclametrailer-belettering voor Sowieso Geslaagd Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg",
+            "name": "Benjamin Furniture — 3D freesletters gevelreclame Rotterdam",
+            "caption": "Driedimensionale aluminium freesletters op gevel voor Benjamin Furniture Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg",
+            "name": "Yilmaz en Havalem — financieel adviescentrum gevelreclame Rotterdam",
+            "caption": "Gevelbelettering voor financieel adviescentrum Yilmaz en Havalem Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/il-mare-pizzeria.jpg",
+            "name": "Il Mare Pizzeria — lichtbak horeca gevelreclame Rotterdam",
+            "caption": "LED-lichtbak gevelreclame voor Il Mare Pizzeria Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/de-groene-tuin.jpg",
+            "name": "De Groene Tuin — kinderdagverblijf gevelreclame Rotterdam",
+            "caption": "Vrolijke gevelbelettering voor kinderdagverblijf De Groene Tuin Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg",
+            "name": "Diamor Jewellery — LED-lichtbak retail gevelreclame Rotterdam",
+            "caption": "Premium LED-lichtbak voor juwelier Diamor Jewellery Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/garage-rijnmond.jpg",
+            "name": "Garage Rijnmond — multi-signage gevelreclame Rotterdam",
+            "caption": "Complete multi-signage oplossing voor Garage Rijnmond Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/barge-master.jpg",
+            "name": "Barge Master — scheepsbelettering Rotterdam haven",
+            "caption": "Grootformaat scheepsbelettering op binnenvaartschip Barge Master Rotterdam haven"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/barge-master-detail.jpg",
+            "name": "Barge Master — detailopname scheepsbelettering Rotterdam",
+            "caption": "Detailfoto van de scheepsbelettering Barge Master, Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/barge-master-container.jpg",
+            "name": "Barge Master — containerbelettering Rotterdam haven",
+            "caption": "Belettering van laadcontainers voor Barge Master Rotterdam haven"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/iop-silo.jpg",
+            "name": "IOP — silo-belettering Rotterdam haven",
+            "caption": "Grootformaat silobelettering voor IOP Rotterdam havengebied"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/iop-silo-detail.jpg",
+            "name": "IOP — silobelettering detailopname Rotterdam",
+            "caption": "Detailfoto silobelettering IOP Rotterdam, montage op grote hoogte"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/iop-silo-montage.jpg",
+            "name": "IOP — silo montagefase Rotterdam haven",
+            "caption": "Montagefase van de IOP silobelettering in het Rotterdamse havengebied"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/bouwcontainers.jpg",
+            "name": "Bouwcontainers — grootformaat bestickering Rotterdam",
+            "caption": "Bedrijfsbestickering op bouwcontainers, grootformaat digitaal print Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/bouwcontainers-2.jpg",
+            "name": "Bouwcontainers — aanvullend overzicht bestickering Rotterdam",
+            "caption": "Overzichtsfoto bestickering bouwcontainers Rotterdam, meerdere units"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/sancak-banners.jpg",
+            "name": "Sancak — grootformaat banners Rotterdam",
+            "caption": "Grootformaat spandoek- en bannerprintwerk voor Sancak Rotterdam"
+          },
+          {
+            "@type": "ImageObject",
+            "contentUrl": "https://alfareclame.nl/public/images/portfolio/sancak-sv-besiktas.jpg",
+            "name": "Sancak SV Besiktas — club banner Rotterdam",
+            "caption": "Sportbanner voor Sancak SV Besiktas Rotterdam, grootformaat digitaal print"
+          }
+        ]
       }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://alfareclame.nl/portfolio/#primary-image",
-      "url": "https://alfareclame.nl/public/images/portfolio/barge-master.jpg",
-      "name": "Barge Master — scheepsbelettering Rotterdam haven",
-      "description": "Grootformaat industriele scheepsbelettering op binnenvaartschip door Alfa Reclame Rotterdam"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://alfareclame.nl/portfolio/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://alfareclame.nl/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Portfolio",
-          "item": "https://alfareclame.nl/portfolio/"
-        }
-      ]
-    },
-    {
-      "@type": "ImageGallery",
-      "@id": "https://alfareclame.nl/portfolio/#gallery",
-      "name": "Portfolio Alfa Reclame Rotterdam — 29 signage projecten",
-      "description": "Volledige beeldgalerij van afgeronde reclameopdrachten: raambelettering, autoreclame, gevelreclame en industrieel havenwerk in Rotterdam en omgeving.",
-      "url": "https://alfareclame.nl/portfolio/",
-      "associatedMedia": [
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/yohnny-cake.jpg",
-          "name": "Yohnny Cake — handlettered cafe etalage Rotterdam",
-          "caption": "Raambelettering voor Yohnny Cake: handlettered folieontwerp op cafepui in Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/aras-partners.jpg",
-          "name": "ARAS en Partners — gilded etsfolie accountancy Rotterdam",
-          "caption": "Raambelettering voor ARAS en Partners accountancy: gespiegelde goud-look etsfolie"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/dermamedi-lijn.jpg",
-          "name": "DermaMedi — zorgkliniek full-color print Rotterdam",
-          "caption": "Raambelettering voor DermaMedi zorgkliniek: full-color printfolie met professionele uitstraling"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/kantoor-kaplan.jpg",
-          "name": "Kantoor B. Kaplan — belastingconsulent raambelettering",
-          "caption": "Strakke raambelettering voor kantoor van belastingconsulent B. Kaplan Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/rondo.jpg",
-          "name": "Rondo — minimalistische horeca raambelettering Rotterdam",
-          "caption": "Minimalistisch folieontwerp voor horecagelegenheid Rondo Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/tabakshop-oudedijk.jpg",
-          "name": "Tabakshop Oudedijk — retail etalage belettering Rotterdam",
-          "caption": "Etalagefolie en belettering voor Tabakshop Oudedijk in Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/istanbul-reisbureau.jpg",
-          "name": "Istanbul Reisbureau — Turkish Airlines decoratie Rotterdam",
-          "caption": "Thematische raambelettering met Turkish Airlines decor voor Istanbul Reisbureau Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/istanbul-reisbureau-montage.jpg",
-          "name": "Istanbul Reisbureau — montage raambelettering Rotterdam",
-          "caption": "Montagefase raambelettering Istanbul Reisbureau Rotterdam door Alfa Reclame"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg",
-          "name": "I-BO Warmte Techniek — VW Transporter autoreclame Rotterdam",
-          "caption": "Volledige bedrijfswagenbelettering op VW Transporter voor I-BO Warmte Techniek"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/cc-cable-communication.jpg",
-          "name": "C en C Cable Communication — Ford Transit autoreclame Rotterdam",
-          "caption": "Autoreclame op Ford Transit voor C en C Cable Communication Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg",
-          "name": "Oranje Stucadoor — full-colour bestelbus autoreclame Rotterdam",
-          "caption": "Full-colour bestelbusreclame voor Oranje Stucadoor Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/fietswinkel-rotterdam.jpg",
-          "name": "Fietswinkel Rotterdam — Mercedes Vito autoreclame",
-          "caption": "Autoreclame op Mercedes Vito voor Fietswinkel Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/sowieso-geslaagd.jpg",
-          "name": "Sowieso Geslaagd — reclametrailer autoreclame Rotterdam",
-          "caption": "Opvallende reclametrailer-belettering voor Sowieso Geslaagd Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg",
-          "name": "Benjamin Furniture — 3D freesletters gevelreclame Rotterdam",
-          "caption": "Driedimensionale aluminium freesletters op gevel voor Benjamin Furniture Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg",
-          "name": "Yilmaz en Havalem — financieel adviescentrum gevelreclame Rotterdam",
-          "caption": "Gevelbelettering voor financieel adviescentrum Yilmaz en Havalem Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/il-mare-pizzeria.jpg",
-          "name": "Il Mare Pizzeria — lichtbak horeca gevelreclame Rotterdam",
-          "caption": "LED-lichtbak gevelreclame voor Il Mare Pizzeria Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/de-groene-tuin.jpg",
-          "name": "De Groene Tuin — kinderdagverblijf gevelreclame Rotterdam",
-          "caption": "Vrolijke gevelbelettering voor kinderdagverblijf De Groene Tuin Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg",
-          "name": "Diamor Jewellery — LED-lichtbak retail gevelreclame Rotterdam",
-          "caption": "Premium LED-lichtbak voor juwelier Diamor Jewellery Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/garage-rijnmond.jpg",
-          "name": "Garage Rijnmond — multi-signage gevelreclame Rotterdam",
-          "caption": "Complete multi-signage oplossing voor Garage Rijnmond Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/barge-master.jpg",
-          "name": "Barge Master — scheepsbelettering Rotterdam haven",
-          "caption": "Grootformaat scheepsbelettering op binnenvaartschip Barge Master Rotterdam haven"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/barge-master-detail.jpg",
-          "name": "Barge Master — detailopname scheepsbelettering Rotterdam",
-          "caption": "Detailfoto van de scheepsbelettering Barge Master, Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/barge-master-container.jpg",
-          "name": "Barge Master — containerbelettering Rotterdam haven",
-          "caption": "Belettering van laadcontainers voor Barge Master Rotterdam haven"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/iop-silo.jpg",
-          "name": "IOP — silo-belettering Rotterdam haven",
-          "caption": "Grootformaat silobelettering voor IOP Rotterdam havengebied"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/iop-silo-detail.jpg",
-          "name": "IOP — silobelettering detailopname Rotterdam",
-          "caption": "Detailfoto silobelettering IOP Rotterdam, montage op grote hoogte"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/iop-silo-montage.jpg",
-          "name": "IOP — silo montagefase Rotterdam haven",
-          "caption": "Montagefase van de IOP silobelettering in het Rotterdamse havengebied"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/bouwcontainers.jpg",
-          "name": "Bouwcontainers — grootformaat bestickering Rotterdam",
-          "caption": "Bedrijfsbestickering op bouwcontainers, grootformaat digitaal print Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/bouwcontainers-2.jpg",
-          "name": "Bouwcontainers — aanvullend overzicht bestickering Rotterdam",
-          "caption": "Overzichtsfoto bestickering bouwcontainers Rotterdam, meerdere units"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/sancak-banners.jpg",
-          "name": "Sancak — grootformaat banners Rotterdam",
-          "caption": "Grootformaat spandoek- en bannerprintwerk voor Sancak Rotterdam"
-        },
-        {
-          "@type": "ImageObject",
-          "contentUrl": "https://alfareclame.nl/public/images/portfolio/sancak-sv-besiktas.jpg",
-          "name": "Sancak SV Besiktas — club banner Rotterdam",
-          "caption": "Sportbanner voor Sancak SV Besiktas Rotterdam, grootformaat digitaal print"
-        }
-      ]
-    }
-  ]
-}
-</script>
-</head>
-
-<body>
-
-<!-- Skip link -->
-<a class="skip-link" href="#main">Ga naar hoofdinhoud</a>
-
-<!-- ========================================================
-     NAVIGATIE
-     ======================================================== -->
-<header class="nav" role="banner">
-  <div class="nav__inner">
-    <a class="nav__logo" href="/" aria-label="Alfa Reclame homepage">
-      <picture><source srcset="/public/images/logo.webp" type="image/webp"><img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="80" height="40" loading="eager" decoding="async"></picture>
-    </a>
-
-    <nav class="nav__links" role="navigation" aria-label="Hoofdnavigatie">
-      <a class="nav__link" href="/diensten/">Diensten</a>
-      <a class="nav__link" href="/raambelettering-rotterdam/">Raambelettering</a>
-      <a class="nav__link" href="/autoreclame-rotterdam/">Autoreclame</a>
-      <a class="nav__link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
-      <a class="nav__link nav__link--active" href="/portfolio/" aria-current="page">Portfolio</a>
-      <a class="nav__link" href="/over-ons/">Over ons</a>
-    </nav>
-
-    <div class="nav__cta">
-      <a class="btn btn-primary btn--sm" href="tel:+31624741597" aria-label="Bel Alfa Reclame direct op +31 6 24 74 15 97">
-        Bel ons
-      </a>
-    </div>
-
-    <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-nav" id="nav-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-</header>
-
-<!-- Mobile nav drawer -->
-<nav class="nav__mobile" id="mobile-nav" role="navigation" aria-label="Mobiele navigatie">
-  <a class="nav__mobile-link" href="/">Home</a>
-  <a class="nav__mobile-link" href="/diensten/">Alle Diensten</a>
-  <a class="nav__mobile-link" href="/raambelettering-rotterdam/">Raambelettering</a>
-  <a class="nav__mobile-link" href="/autoreclame-rotterdam/">Autoreclame</a>
-  <a class="nav__mobile-link" href="/gevelreclame-rotterdam/">Gevelreclame</a>
-  <a class="nav__mobile-link" href="/lichtreclame-rotterdam/">Lichtreclame</a>
-  <a class="nav__mobile-link" href="/doosletters-rotterdam/">Doosletters</a>
-  <a class="nav__mobile-link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a>
-  <a class="nav__mobile-link" href="/bestickering-rotterdam/">Bestickering</a>
-  <a class="nav__mobile-link" href="/portfolio/" aria-current="page">Portfolio</a>
-  <a class="nav__mobile-link" href="/over-ons/">Over ons</a>
-  <div style="margin-top:24px;">
-    <a class="btn btn-primary" href="tel:+31624741597">Bel +31 6 24 74 15 97</a>
-  </div>
-</nav>
-
-<!-- ========================================================
-     MAIN CONTENT
-     ======================================================== -->
-<main id="main">
-
-  <!-- BREADCRUMB -->
-  <div class="container">
-    <nav class="breadcrumb" aria-label="Kruimelpad">
-      <span class="breadcrumb__item">
-        <a class="breadcrumb__link" href="/">Home</a>
-      </span>
-      <span class="breadcrumb__item">
-        <span class="breadcrumb__current">Portfolio</span>
-      </span>
-    </nav>
-  </div>
+    ]
+  }
+---
 
   <!-- ====================================================
        HERO
@@ -1212,120 +1094,3 @@
       </div>
     </div>
   </section>
-
-</main>
-
-<!-- ========================================================
-     FOOTER
-     ======================================================== -->
-<footer class="footer" role="contentinfo">
-  <div class="container">
-    <div class="footer__grid">
-
-      <!-- Brand column -->
-      <div class="footer__brand">
-        <picture><source srcset="/public/images/logo.webp" type="image/webp"><img src="/public/images/logo.jpg" alt="Alfa Reclame logo" width="88" height="44" loading="lazy" decoding="async"></picture>
-        <p class="footer__tagline">Your Print &amp; Sign Partner</p>
-        <p style="font-size:13px; color:rgba(255,255,255,0.7); max-width:280px; line-height:1.6;">
-          Reclamebureau in Rotterdam Zuidoost, gespecialiseerd in signage voor het MKB. KvK:&nbsp;88606902.
-        </p>
-      </div>
-
-      <!-- Diensten column -->
-      <div>
-        <p class="footer__heading">Diensten</p>
-        <ul class="footer__links">
-          <li><a class="footer__link" href="/raambelettering-rotterdam/">Raambelettering</a></li>
-          <li><a class="footer__link" href="/autoreclame-rotterdam/">Autoreclame</a></li>
-          <li><a class="footer__link" href="/gevelreclame-rotterdam/">Gevelreclame</a></li>
-          <li><a class="footer__link" href="/lichtreclame-rotterdam/">Lichtreclame</a></li>
-          <li><a class="footer__link" href="/doosletters-rotterdam/">Doosletters</a></li>
-          <li><a class="footer__link" href="/fleet-wrap-rotterdam/">Fleet Wrap</a></li>
-          <li><a class="footer__link" href="/bestickering-rotterdam/">Bestickering</a></li>
-        </ul>
-      </div>
-
-      <!-- Werkgebied column -->
-      <div>
-        <p class="footer__heading">Werkgebied</p>
-        <ul class="footer__links">
-          <li><span class="footer__link">Rotterdam Centrum</span></li>
-          <li><span class="footer__link">Rotterdam Zuid</span></li>
-          <li><span class="footer__link">Rotterdam Noord</span></li>
-          <li><span class="footer__link">Schiedam</span></li>
-          <li><span class="footer__link">Capelle a/d IJssel</span></li>
-          <li><span class="footer__link">Ridderkerk</span></li>
-          <li><span class="footer__link">Barendrecht</span></li>
-        </ul>
-      </div>
-
-      <!-- Contact column -->
-      <div>
-        <p class="footer__heading">Contact</p>
-        <div class="footer__contact-item">
-          <span aria-hidden="true">&#9990;</span>
-          <a href="tel:+31624741597" class="footer__accent">+31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97</a>
-        </div>
-        <div class="footer__contact-item">
-          <span aria-hidden="true">&#9993;</span>
-          <!--email_off--><a href="mailto:info@alfareclame.nl">info@alfareclame.nl</a><!--/email_off-->
-        </div>
-        <div class="footer__contact-item">
-          <span aria-hidden="true">&#9679;</span>
-          <address style="font-style:normal;">
-            Blokfluit 31<br>
-            3068 KZ Rotterdam
-          </address>
-        </div>
-        <div style="margin-top:20px;">
-          <a class="btn btn-whatsapp btn--sm" href="https://wa.me/31624741597" target="_blank" rel="noopener noreferrer" aria-label="App ons via WhatsApp">
-            WhatsApp
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer__bar">
-      <p class="footer__copy">&copy; 2026 Alfa Reclame Rotterdam. Alle rechten voorbehouden.</p>
-      <nav class="footer__bar-links" aria-label="Juridische navigatie">
-        <a class="footer__bar-link" href="/over-ons/">Over Alfa Reclame</a>
-        <a class="footer__bar-link" href="/privacybeleid/">Privacybeleid</a>
-        <a class="footer__bar-link" href="/algemene-voorwaarden/">Algemene voorwaarden</a>
-      </nav>
-    </div>
-  </div>
-</footer>
-
-<!-- ========================================================
-     JAVASCRIPT — nav toggle
-     ======================================================== -->
-<script>
-(function () {
-  'use strict';
-
-  var toggle = document.getElementById('nav-toggle');
-  var mobileNav = document.getElementById('mobile-nav');
-
-  if (toggle && mobileNav) {
-    toggle.addEventListener('click', function () {
-      var isOpen = mobileNav.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      toggle.setAttribute('aria-label', isOpen ? 'Menu sluiten' : 'Menu openen');
-      document.body.style.overflow = isOpen ? 'hidden' : '';
-    });
-
-    document.addEventListener('click', function (e) {
-      if (!toggle.contains(e.target) && !mobileNav.contains(e.target) && mobileNav.classList.contains('is-open')) {
-        mobileNav.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.setAttribute('aria-label', 'Menu openen');
-        document.body.style.overflow = '';
-      }
-    });
-  }
-})();
-</script>
-
-</body>
-</html>
