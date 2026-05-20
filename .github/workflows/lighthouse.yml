@@ -23,12 +23,18 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
       - name: Install static server
         run: npm install -g serve@14
 
       - name: Serve site in background
         run: |
-          serve -s . -p 8080 &
+          serve -s _site -p 8080 &
           sleep 3
           curl -sSf http://localhost:8080 > /dev/null || (echo "Server failed to start" && exit 1)
 

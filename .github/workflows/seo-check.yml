@@ -13,10 +13,21 @@ jobs:
   seo-validation:
     name: Valideer SEO-bestanden
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -32,9 +43,9 @@ jobs:
           python3 << 'EOF'
           import xml.etree.ElementTree as ET
           import sys
-          
+
           try:
-              tree = ET.parse('sitemap.xml')
+              tree = ET.parse('_site/sitemap.xml')
               root = tree.getroot()
               ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9',
                     'img': 'http://www.google.com/schemas/sitemap-image/1.1'}
@@ -60,11 +71,11 @@ jobs:
         run: |
           python3 << 'EOF'
           import sys
-          
+
           required_directives = ['User-agent', 'Allow', 'Sitemap']
           required_bots = ['Googlebot', 'GPTBot', 'ClaudeBot', 'PerplexityBot']
-          
-          with open('robots.txt') as f:
+
+          with open('_site/robots.txt') as f:
               content = f.read()
           
           for directive in required_directives:
@@ -87,8 +98,8 @@ jobs:
           import re
           import sys
           from bs4 import BeautifulSoup
-          
-          with open('index.html') as f:
+
+          with open('_site/index.html') as f:
               soup = BeautifulSoup(f, 'html.parser')
           
           scripts = soup.find_all('script', type='application/ld+json')
@@ -130,8 +141,8 @@ jobs:
           python3 << 'EOF'
           import sys
           from bs4 import BeautifulSoup
-          
-          with open('index.html') as f:
+
+          with open('_site/index.html') as f:
               soup = BeautifulSoup(f, 'html.parser')
           
           required = {
@@ -194,12 +205,12 @@ jobs:
       - name: Verify modern SEO files
         run: |
           required_files=(
-            "sitemap.xml"
-            "robots.txt"
-            "llms.txt"
-            "humans.txt"
-            "manifest.json"
-            ".well-known/security.txt"
+            "_site/sitemap.xml"
+            "_site/robots.txt"
+            "_site/llms.txt"
+            "_site/humans.txt"
+            "_site/manifest.json"
+            "_site/.well-known/security.txt"
           )
           missing=0
           for f in "${required_files[@]}"; do
