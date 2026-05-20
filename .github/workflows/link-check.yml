@@ -12,6 +12,9 @@ on:
     # Weekelijks op maandag 06:00 UTC — externe links veranderen
     - cron: '0 6 * * 1'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   link-check:
     name: Scan broken links
@@ -21,8 +24,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
       - name: Run lychee link checker
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           args: >-
             --verbose
@@ -37,7 +51,8 @@ jobs:
             --exclude 'wa\.me'
             --exclude 'mailto:'
             --exclude 'tel:'
-            'index.html' 'README.md' 'LAUNCH-GUIDE.md' 'INSTAGRAM-PHOTOS-GUIDE.md' 'CONTRIBUTING.md'
+            --exclude 'fonts\.(?:googleapis|gstatic)\.com'
+            '_site/**/*.html' '_site/sitemap.xml'
           fail: true
           output: ./lychee/out.md
 

@@ -18,6 +18,7 @@ module.exports = function (eleventyConfig) {
     "manifest.json",
     "imgs-manifest.json",
     "c80c952b77275971494670c168fd7c7e5b2affa21d357bba74042b4082dd768d.txt",
+    ".well-known",
   ];
   for (const path of passthrough) {
     eleventyConfig.addPassthroughCopy(path);

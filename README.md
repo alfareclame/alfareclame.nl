@@ -8,7 +8,7 @@ Productie-website voor [Alfa Reclame](https://alfareclame.nl) — Rotterdams rec
 
 ## 🏗️ Architectuur
 
-**Static site** — geen framework, geen build-step, geen database. Pure HTML/CSS/JS, direct deploybaar.
+**Static site** — Build: Eleventy (npm run build → _site/). Pure HTML/CSS/JS via Eleventy templates, direct deploybaar.
 
 **Hosting:** Cloudflare Pages met GitHub-integratie  
 **CDN + DNS:** Cloudflare  
@@ -42,6 +42,8 @@ alfareclame-site/
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── .well-known/
 │   └── security.txt            # RFC 9116 security disclosure
+├── _includes/                  # Eleventy partial templates
+├── _site/                      # Build output (gegenereerd door Eleventy, niet committen)
 ├── data/
 │   ├── portfolio.json          # Portfolio items (JSON-driven)
 │   └── reviews.json            # Klantreviews (JSON-driven)
@@ -50,6 +52,7 @@ alfareclame-site/
 ├── _headers                    # Cloudflare security + cache headers
 ├── _redirects                  # URL redirects
 ├── .editorconfig               # Consistente formatting
+├── .eleventy.js                # Eleventy configuratie
 ├── .gitignore
 ├── .lighthouserc.json          # Lighthouse CI budgets
 ├── CHANGELOG.md                # Versie-geschiedenis
@@ -57,9 +60,10 @@ alfareclame-site/
 ├── LAUNCH-GUIDE.md             # GitHub + Cloudflare setup guide
 ├── SECURITY.md                 # Security disclosure policy
 ├── humans.txt                  # Transparantie
-├── index.html                  # ⭐ Hoofdbestand (4000+ regels)
+├── index.njk                   # ⭐ Homepage template (Eleventy)
 ├── llms.txt                    # AI-crawler standaard
 ├── manifest.json               # PWA manifest
+├── package.json                # Node dependencies + build scripts
 ├── robots.txt                  # Search/AI bot directives
 └── sitemap.xml                 # XML sitemap + image sitemap
 ```
@@ -84,16 +88,20 @@ Zie [`LAUNCH-GUIDE.md`](./LAUNCH-GUIDE.md) voor volledige setup-instructies.
 ## 🛠️ Lokaal draaien
 
 ```bash
-python3 -m http.server 8000
-# of
-npx serve .
+npm install && npm run serve
 ```
 
-Open `http://localhost:8000`
+Open `http://localhost:8080`
+
+Of gebouwde site serveren:
+```bash
+npm run build
+npx serve _site -p 8000
+```
 
 Voor exacte productie-simulatie inclusief headers:
 ```bash
-npx wrangler pages dev . --port 8080
+npx wrangler pages dev _site --port 8080
 ```
 
 ---
