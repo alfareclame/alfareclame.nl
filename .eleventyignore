@@ -3,7 +3,8 @@ _site
 tools
 tasks
 tmp-21st-init
-README.md
+.github
+**/README.md
 CHANGELOG.md
 CONTENT-PLAN.md
 CONTRIBUTING.md
