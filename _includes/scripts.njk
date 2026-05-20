@@ -48,3 +48,38 @@
 {%- endif %}
 })();
 </script>
+<script>
+/* --- Scroll-reveal (IntersectionObserver) — Sprint 3 ---
+   Respects prefers-reduced-motion: skip all animation when reduced.
+   Targets sections with data-reveal attribute. ---- */
+(function () {
+  'use strict';
+  var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (prefersReduced) { return; }
+
+  if (!('IntersectionObserver' in window)) { return; }
+
+  var targets = document.querySelectorAll('[data-reveal]');
+  if (!targets.length) { return; }
+
+  targets.forEach(function (el) {
+    el.classList.add('reveal');
+    var delay = el.getAttribute('data-reveal-delay');
+    if (delay) { el.classList.add('reveal--delay-' + delay); }
+  });
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.12,
+    rootMargin: '0px 0px -40px 0px'
+  });
+
+  targets.forEach(function (el) { observer.observe(el); });
+}());
+</script>

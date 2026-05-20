@@ -1506,5 +1506,191 @@ h6, .h6 {
 
 
 /* =============================================================================
-   EOF — huisstijl.css  |  Alfa Reclame  |  2026-05-18
+   20. SPRINT 3 — FLOATING WHATSAPP BUTTON
+   ============================================================================= */
+
+.wa-float {
+  position: fixed;
+  bottom: var(--space-6);
+  right: var(--space-6);
+  z-index: calc(var(--z-overlay) + 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-pill);
+  background: #25D366;
+  color: #1D1D1F;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.40);
+  transition:
+    transform var(--transition-base),
+    box-shadow var(--transition-base),
+    background var(--transition-base);
+}
+
+.wa-float:hover {
+  background: #1ebe5a;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 28px rgba(37, 211, 102, 0.50);
+  text-decoration: none;
+}
+
+.wa-float:active {
+  transform: translateY(0) scale(1);
+}
+
+.wa-float:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 3px;
+}
+
+.wa-float__icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-float,
+  .wa-float:hover {
+    transform: none;
+    transition: background var(--transition-fast);
+  }
+}
+
+@media (max-width: 480px) {
+  .wa-float {
+    bottom: var(--space-5);
+    right: var(--space-4);
+    width: 52px;
+    height: 52px;
+  }
+
+  .wa-float__icon {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+
+/* =============================================================================
+   21. SPRINT 3 — SCROLL-REVEAL ANIMATION
+   JS adds .reveal to elements; IntersectionObserver toggles .is-visible.
+   prefers-reduced-motion: elements stay fully visible, no animation.
+   ============================================================================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.55s ease,
+    transform 0.55s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal--delay-1 { transition-delay: 0.10s; }
+.reveal--delay-2 { transition-delay: 0.20s; }
+.reveal--delay-3 { transition-delay: 0.30s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+
+/* =============================================================================
+   22. SPRINT 3 — USP-BAND (dark horizontal trust strip)
+   48u mockup + 2-jaar garantie + 14 jaar ervaring
+   ============================================================================= */
+
+.usp-band {
+  background: var(--ink);
+  padding: var(--space-7) 0;
+}
+
+.usp-band__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+}
+
+.usp-band__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-2);
+}
+
+.usp-band__value {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: var(--brand);
+  line-height: 1;
+  letter-spacing: var(--tracking-tight);
+}
+
+.usp-band__label {
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.75);
+  line-height: var(--lh-snug);
+  max-width: 16ch;
+}
+
+.usp-band__divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .usp-band__inner {
+    gap: var(--space-6);
+  }
+
+  .usp-band__divider {
+    display: none;
+  }
+}
+
+
+/* =============================================================================
+   23. SPRINT 3 — NAV CONSISTENCY (880–1100px wrap guard)
+   Tighten nav link spacing in the awkward mid-range to prevent wrapping.
+   ============================================================================= */
+
+@media (min-width: 881px) and (max-width: 1100px) {
+  .nav__link {
+    font-size: 13px;
+    padding: var(--space-2) 10px;
+  }
+
+  .nav__links {
+    gap: var(--space-1);
+  }
+
+  .nav__logo img {
+    height: 36px;
+  }
+}
+
+
+/* =============================================================================
+   EOF — huisstijl.css  |  Alfa Reclame  |  2026-05-20 Sprint 3
    ============================================================================= */
