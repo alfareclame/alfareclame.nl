@@ -1,3 +1,14 @@
-{% if breadcrumbs %}<nav class="breadcrumb" aria-label="Kruimelpad">
-  {% for item in breadcrumbs %}{% if item.url %}<a href="{{ item.url }}">{{ item.label }}</a>{% if not loop.last %}<span class="breadcrumb__sep" aria-hidden="true">/</span>{% endif %}{% else %}<span class="breadcrumb__current" aria-current="page">{{ item.label }}</span>{% endif %}{% endfor %}
-</nav>{% endif %}
+  <!-- BREADCRUMB{% if breadcrumbComment %}: {{ breadcrumbComment }}{% endif %} -->
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Kruimelpad">
+{%- for item in breadcrumbs %}
+      <span class="breadcrumb__item">
+{%- if item.url %}
+        <a class="breadcrumb__link" href="{{ item.url }}">{{ item.label }}</a>
+{%- else %}
+        <span class="breadcrumb__current">{{ item.label }}</span>
+{%- endif %}
+      </span>
+{%- endfor %}
+    </nav>
+  </div>

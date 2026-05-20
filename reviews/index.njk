@@ -5,314 +5,318 @@ description: "4.9 sterren uit 25+ Google-reviews. 14 jaar Alfa Reclame Rotterdam
 keywords: "alfa reclame reviews, alfa reclame beoordelingen, reclamebureau rotterdam reviews, raambelettering rotterdam ervaringen, autoreclame rotterdam beoordeling, google reviews alfa reclame"
 robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
 canonical: "https://alfareclame.nl/reviews/"
+og_title: "Reviews — 4.9 sterren uit 25+ Google-reviews | Alfa Reclame Rotterdam"
+og_description: "Wat zeggen klanten over Alfa Reclame Rotterdam? 4.9 sterren, 25+ Google-reviews, 14 jaar vakwerk. Lees echte beoordelingen van Rotterdamse ondernemers."
 og_type: "website"
 og_image: "https://alfareclame.nl/public/images/portfolio/aras-partners.jpg"
 og_image_width: "1200"
 og_image_height: "630"
+twitter_title: "Reviews — 4.9 sterren uit 25+ Google-reviews | Alfa Reclame Rotterdam"
+twitter_description: "Alfa Reclame Rotterdam: 4.9 sterren, 25+ Google-reviews, 14 jaar vakwerk in signage voor het MKB."
 navActiveUrl: "/reviews/"
 breadcrumbs:
   - label: "Home"
     url: "/"
   - label: "Reviews"
 pageStylesLabel: "PAGE-SPECIFIC STYLES"
-pageStyles: |
-  /* Star rating display */
-  .stars-display {
-    display: inline-flex;
-    align-items: center;
-    gap: 2px;
-    color: #FFE500;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-
-  .stars-display--lg {
-    font-size: 40px;
-  }
-
-  .stars-display--sm {
-    font-size: 18px;
-    letter-spacing: 0;
-  }
-
-  /* Aggregate rating block */
-  .aggregate-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-3);
-  }
-
-  .aggregate-score {
-    font-size: clamp(64px, 8vw, 96px);
-    font-weight: 800;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    color: var(--ink);
-  }
-
-  .aggregate-meta {
-    font-size: var(--text-sm);
-    color: var(--ink-muted);
-    line-height: 1.5;
-  }
-
-  .aggregate-meta strong {
-    color: var(--ink);
-  }
-
-  /* Review card */
-  .review-card {
-    background: var(--surface);
-    border: 1px solid var(--ink);
-    border-radius: var(--radius-lg);
-    padding: var(--space-6);
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-4);
-    transition: transform var(--transition-base), box-shadow var(--transition-base);
-  }
-
-  .review-card:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
-  }
-
-  .review-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 28px;
-    height: 28px;
-    background: var(--brand);
-    clip-path: polygon(100% 0, 100% 100%, 0 0);
-  }
-
-  .review-card__quote {
-    font-size: var(--text-lg);
-    color: var(--ink);
-    line-height: var(--lh-base);
-    font-style: italic;
-    flex: 1;
-  }
-
-  .review-card__quote::before {
-    content: '\201C';
-    font-size: 2em;
-    line-height: 0;
-    vertical-align: -0.4em;
-    color: var(--brand);
-    margin-right: 4px;
-    font-style: normal;
-  }
-
-  .review-card__footer {
-    display: flex;
-    align-items: center;
-    gap: var(--space-3);
-    padding-top: var(--space-3);
-    border-top: 1px solid var(--rule);
-  }
-
-  .review-card__avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: var(--brand);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: var(--text-sm);
-    color: var(--ink);
-    flex-shrink: 0;
-  }
-
-  .review-card__author {
-    flex: 1;
-  }
-
-  .review-card__name {
-    font-weight: 600;
-    font-size: var(--text-base);
-    color: var(--ink);
-  }
-
-  .review-card__company {
-    font-size: var(--text-sm);
-    color: var(--ink-muted);
-  }
-
-  .review-card__date {
-    font-size: var(--text-xs);
-    color: var(--ink-subtle);
-    align-self: flex-start;
-    margin-top: 2px;
-    white-space: nowrap;
-  }
-
-  /* Trust signal grid */
-  .trust-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: var(--space-4);
-  }
-
-  .trust-item {
-    background: var(--surface);
-    border: 1px solid var(--rule-bold);
-    border-radius: var(--radius-md);
-    padding: var(--space-5) var(--space-4);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-2);
-  }
-
-  .trust-item__value {
-    font-size: clamp(28px, 3vw, 40px);
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    color: var(--ink);
-    line-height: 1;
-  }
-
-  .trust-item__value--brand {
-    color: #B8A100;
-  }
-
-  .trust-item__label {
-    font-size: var(--text-sm);
-    color: var(--ink-muted);
-    line-height: 1.4;
-  }
-
-  .trust-item__badge {
-    display: inline-block;
-    background: var(--brand);
-    color: var(--ink);
-    font-size: var(--text-xs);
-    font-weight: 700;
-    padding: 2px 8px;
-    border-radius: var(--radius-pill);
-    margin-top: var(--space-1);
-  }
-
-  /* Theme pillars */
-  .theme-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-5);
-  }
-
-  .theme-item {
-    padding: var(--space-5);
-    background: var(--surface-mute);
-    border-radius: var(--radius-md);
-    border-left: 4px solid var(--brand);
-  }
-
-  .theme-item__title {
-    font-weight: 700;
-    font-size: var(--text-base);
-    color: var(--ink);
-    margin-bottom: var(--space-3);
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
-  }
-
-  .theme-item__title::before {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    background: var(--brand);
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    flex-shrink: 0;
-  }
-
-  .theme-item p {
-    font-size: var(--text-base);
-    color: var(--ink-muted);
-    line-height: var(--lh-base);
-    margin-top: 0;
-  }
-
-  /* Garantie block */
-  .garantie-block {
-    background: var(--surface);
-    border: 2px solid var(--ink);
-    border-radius: var(--radius-lg);
-    padding: var(--space-7) var(--space-8);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .garantie-block::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--brand);
-  }
-
-  .garantie-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: var(--space-5);
-    margin-top: var(--space-6);
-  }
-
-  .garantie-list__item {
-    display: flex;
-    align-items: flex-start;
-    gap: var(--space-3);
-    font-size: var(--text-base);
-    color: var(--ink-muted);
-    line-height: var(--lh-base);
-  }
-
-  .garantie-list__icon {
-    width: 20px;
-    height: 20px;
-    background: var(--brand);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-top: 2px;
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--ink);
-  }
-
-  @media (max-width: 768px) {
-    .theme-grid {
-      grid-template-columns: 1fr;
+pageStyles: |2
+    /* Star rating display */
+    .stars-display {
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      color: #FFE500;
+      font-size: 28px;
+      line-height: 1;
+      letter-spacing: -1px;
     }
 
-    .garantie-block {
-      padding: var(--space-5);
+    .stars-display--lg {
+      font-size: 40px;
+    }
+
+    .stars-display--sm {
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    /* Aggregate rating block */
+    .aggregate-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-3);
     }
 
     .aggregate-score {
-      font-size: clamp(48px, 10vw, 72px);
+      font-size: clamp(64px, 8vw, 96px);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      color: var(--ink);
     }
-  }
 
-  @media (max-width: 480px) {
-    .trust-grid {
-      grid-template-columns: repeat(2, 1fr);
+    .aggregate-meta {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+      line-height: 1.5;
     }
-  }
+
+    .aggregate-meta strong {
+      color: var(--ink);
+    }
+
+    /* Review card */
+    .review-card {
+      background: var(--surface);
+      border: 1px solid var(--ink);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+      transition: transform var(--transition-base), box-shadow var(--transition-base);
+    }
+
+    .review-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .review-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 28px;
+      height: 28px;
+      background: var(--brand);
+      clip-path: polygon(100% 0, 100% 100%, 0 0);
+    }
+
+    .review-card__quote {
+      font-size: var(--text-lg);
+      color: var(--ink);
+      line-height: var(--lh-base);
+      font-style: italic;
+      flex: 1;
+    }
+
+    .review-card__quote::before {
+      content: '\201C';
+      font-size: 2em;
+      line-height: 0;
+      vertical-align: -0.4em;
+      color: var(--brand);
+      margin-right: 4px;
+      font-style: normal;
+    }
+
+    .review-card__footer {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--rule);
+    }
+
+    .review-card__avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--brand);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: var(--text-sm);
+      color: var(--ink);
+      flex-shrink: 0;
+    }
+
+    .review-card__author {
+      flex: 1;
+    }
+
+    .review-card__name {
+      font-weight: 600;
+      font-size: var(--text-base);
+      color: var(--ink);
+    }
+
+    .review-card__company {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+    }
+
+    .review-card__date {
+      font-size: var(--text-xs);
+      color: var(--ink-subtle);
+      align-self: flex-start;
+      margin-top: 2px;
+      white-space: nowrap;
+    }
+
+    /* Trust signal grid */
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: var(--space-4);
+    }
+
+    .trust-item {
+      background: var(--surface);
+      border: 1px solid var(--rule-bold);
+      border-radius: var(--radius-md);
+      padding: var(--space-5) var(--space-4);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-2);
+    }
+
+    .trust-item__value {
+      font-size: clamp(28px, 3vw, 40px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      line-height: 1;
+    }
+
+    .trust-item__value--brand {
+      color: #B8A100;
+    }
+
+    .trust-item__label {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+      line-height: 1.4;
+    }
+
+    .trust-item__badge {
+      display: inline-block;
+      background: var(--brand);
+      color: var(--ink);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: var(--radius-pill);
+      margin-top: var(--space-1);
+    }
+
+    /* Theme pillars */
+    .theme-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-5);
+    }
+
+    .theme-item {
+      padding: var(--space-5);
+      background: var(--surface-mute);
+      border-radius: var(--radius-md);
+      border-left: 4px solid var(--brand);
+    }
+
+    .theme-item__title {
+      font-weight: 700;
+      font-size: var(--text-base);
+      color: var(--ink);
+      margin-bottom: var(--space-3);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .theme-item__title::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: var(--brand);
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+      flex-shrink: 0;
+    }
+
+    .theme-item p {
+      font-size: var(--text-base);
+      color: var(--ink-muted);
+      line-height: var(--lh-base);
+      margin-top: 0;
+    }
+
+    /* Garantie block */
+    .garantie-block {
+      background: var(--surface);
+      border: 2px solid var(--ink);
+      border-radius: var(--radius-lg);
+      padding: var(--space-7) var(--space-8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .garantie-block::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--brand);
+    }
+
+    .garantie-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: var(--space-5);
+      margin-top: var(--space-6);
+    }
+
+    .garantie-list__item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      font-size: var(--text-base);
+      color: var(--ink-muted);
+      line-height: var(--lh-base);
+    }
+
+    .garantie-list__icon {
+      width: 20px;
+      height: 20px;
+      background: var(--brand);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    @media (max-width: 768px) {
+      .theme-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .garantie-block {
+        padding: var(--space-5);
+      }
+
+      .aggregate-score {
+        font-size: clamp(48px, 10vw, 72px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
 jsonld: |
   {
     "@context": "https://schema.org",

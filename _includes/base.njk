@@ -18,8 +18,10 @@
      MAIN CONTENT
      ======================================================== -->
 <main id="main">
+{%- if breadcrumbs %}
 
-{%- if breadcrumbs %}{% include "breadcrumb.njk" %}{% endif %}
+{% include "breadcrumb.njk" %}
+{%- endif %}
 {{ content | safe }}
 </main>
 

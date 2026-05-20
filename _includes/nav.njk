@@ -5,14 +5,19 @@
     </a>
 
     <nav class="nav__links" role="navigation" aria-label="Hoofdnavigatie">
-      <a class="nav__link{% if navActiveUrl == "/" %} nav__link--active{% endif %}" href="/"{% if navActiveUrl == "/" %} aria-current="page"{% endif %}>Home</a>
-      <a class="nav__link{% if navActiveUrl == "/diensten/" %} nav__link--active{% endif %}" href="/diensten/"{% if navActiveUrl == "/diensten/" %} aria-current="page"{% endif %}>Diensten</a>
-      <a class="nav__link{% if navActiveUrl == "/raambelettering-rotterdam/" %} nav__link--active{% endif %}" href="/raambelettering-rotterdam/"{% if navActiveUrl == "/raambelettering-rotterdam/" %} aria-current="page"{% endif %}>Raambelettering</a>
-      <a class="nav__link{% if navActiveUrl == "/autoreclame-rotterdam/" %} nav__link--active{% endif %}" href="/autoreclame-rotterdam/"{% if navActiveUrl == "/autoreclame-rotterdam/" %} aria-current="page"{% endif %}>Autoreclame</a>
-      <a class="nav__link{% if navActiveUrl == "/gevelreclame-rotterdam/" %} nav__link--active{% endif %}" href="/gevelreclame-rotterdam/"{% if navActiveUrl == "/gevelreclame-rotterdam/" %} aria-current="page"{% endif %}>Gevelreclame</a>
-      <a class="nav__link{% if navActiveUrl == "/over-ons/" %} nav__link--active{% endif %}" href="/over-ons/"{% if navActiveUrl == "/over-ons/" %} aria-current="page"{% endif %}>Over ons</a>
-{%- if navExtraLink %}
-      <a class="nav__link{% if navActiveUrl == navExtraLink.url %} nav__link--active{% endif %}" href="{{ navExtraLink.url }}"{% if navActiveUrl == navExtraLink.url %} aria-current="page"{% endif %}>{{ navExtraLink.label }}</a>
+{%- if page.url == "/" %}
+      <a class="nav__link nav__link--active" href="/" aria-current="page">Home</a>
+{%- endif %}
+      <a class="nav__link{% if navActiveUrl == "/diensten/" %} nav__link--active{% endif %}" href="/diensten/"{% if page.url == "/diensten/" %} aria-current="page"{% endif %}>Diensten</a>
+      <a class="nav__link{% if navActiveUrl == "/raambelettering-rotterdam/" %} nav__link--active{% endif %}" href="/raambelettering-rotterdam/"{% if page.url == "/raambelettering-rotterdam/" %} aria-current="page"{% endif %}>Raambelettering</a>
+      <a class="nav__link{% if navActiveUrl == "/autoreclame-rotterdam/" %} nav__link--active{% endif %}" href="/autoreclame-rotterdam/"{% if page.url == "/autoreclame-rotterdam/" %} aria-current="page"{% endif %}>Autoreclame</a>
+      <a class="nav__link{% if navActiveUrl == "/gevelreclame-rotterdam/" %} nav__link--active{% endif %}" href="/gevelreclame-rotterdam/"{% if page.url == "/gevelreclame-rotterdam/" %} aria-current="page"{% endif %}>Gevelreclame</a>
+{%- if navExtraLink and navExtraLink.position != "after-over-ons" %}
+      <a class="nav__link{% if navActiveUrl == navExtraLink.url %} nav__link--active{% endif %}" href="{{ navExtraLink.url }}"{% if page.url == navExtraLink.url %} aria-current="page"{% endif %}>{{ navExtraLink.label }}</a>
+{%- endif %}
+      <a class="nav__link{% if navActiveUrl == "/over-ons/" %} nav__link--active{% endif %}" href="/over-ons/"{% if page.url == "/over-ons/" %} aria-current="page"{% endif %}>Over ons</a>
+{%- if navExtraLink and navExtraLink.position == "after-over-ons" %}
+      <a class="nav__link{% if navActiveUrl == navExtraLink.url %} nav__link--active{% endif %}" href="{{ navExtraLink.url }}"{% if page.url == navExtraLink.url %} aria-current="page"{% endif %}>{{ navExtraLink.label }}</a>
 {%- endif %}
     </nav>
 
