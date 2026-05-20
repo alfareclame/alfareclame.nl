@@ -387,4 +387,34 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/offerte/"/>
   </url>
 
+  <url>
+    <loc>https://alfareclame.nl/portfolio/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/portfolio/"/>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:title>Benjamin Furniture — 3D freesletters gevelreclame Rotterdam</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:title>IOP Industrial — silobelettering 30 meter hoogte</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
+      <image:title>I-BO Warmte Techniek — VW Transporter autoreclame Rotterdam</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/contact/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/contact/"/>
+  </url>
+
 </urlset>

@@ -63,4 +63,4 @@
 /
   Cache-Control: public, max-age=0, must-revalidate
   Content-Type: text/html; charset=utf-8
-  Link: </public/images/logo.jpg>; rel=preload; as=image
+  Link: </public/images/logo.webp>; rel=preload; as=image

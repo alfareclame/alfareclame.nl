@@ -59,17 +59,14 @@
 /sticker-rotterdam             /   301
 /sticker-rotterdam/            /   301
 /home/*                        /   301
-/portfolio                     /#werk   301
-/portfolio/                    /#werk   301
-/portfolio/*                   /   301
+/portfolio                     /portfolio/   301
 /meta-keys                     /   301
 /meta-keys/                    /   301
 /author/*                      /   301
 /tag/*                         /   301
-/diensten                      /   301
-/over-ons                      /   301
-/contact                       /#contact   301
-/contact/                      /#contact   301
+/diensten                      /diensten/   301
+/over-ons                      /over-ons/   301
+/contact                       /contact/   301
 
 # --- WordPress remnants (proactive) ---
 /wp-admin/*                    /   301
