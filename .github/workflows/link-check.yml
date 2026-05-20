@@ -12,6 +12,9 @@ on:
     # Weekelijks op maandag 06:00 UTC — externe links veranderen
     - cron: '0 6 * * 1'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   link-check:
     name: Scan broken links
