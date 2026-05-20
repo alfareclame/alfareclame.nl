@@ -417,4 +417,31 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/contact/"/>
   </url>
 
+  <url>
+    <loc>https://alfareclame.nl/havenreclame-rotterdam/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/havenreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/havenreclame-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/horecabelettering-rotterdam/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/horecabelettering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/horecabelettering-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/retailreclame-rotterdam/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/retailreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/retailreclame-rotterdam/"/>
+  </url>
+
 </urlset>
