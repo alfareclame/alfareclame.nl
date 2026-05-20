@@ -1,0 +1,14 @@
+{
+  "name": "alfareclame-nl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alfa Reclame Rotterdam — statische signage-site (Eleventy)",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "watch": "eleventy --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
