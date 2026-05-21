@@ -29,6 +29,7 @@
 /data/*
   Cache-Control: public, max-age=300, must-revalidate, stale-while-revalidate=600
   Content-Type: application/json; charset=utf-8
+  X-Robots-Tag: noindex
 
 # --- Sitemap and robots ---
 /sitemap.xml
