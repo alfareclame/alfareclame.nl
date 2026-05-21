@@ -40,6 +40,7 @@ jobs:
           extra: --also-check-css --Werror
           blacklist: |
             node_modules
+            google26dfc393f11fd085.html
 
       - name: Summary
         if: always()

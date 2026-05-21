@@ -18,11 +18,16 @@ module.exports = function (eleventyConfig) {
     "manifest.json",
     "imgs-manifest.json",
     "c80c952b77275971494670c168fd7c7e5b2affa21d357bba74042b4082dd768d.txt",
+    "google26dfc393f11fd085.html",
     ".well-known",
   ];
   for (const path of passthrough) {
     eleventyConfig.addPassthroughCopy(path);
   }
+
+  // Google Search Console verification file — passthrough-copy only, never
+  // process as a template (must stay at exact /google...html URL).
+  eleventyConfig.ignores.add("google26dfc393f11fd085.html");
 
   // Only treat .njk and .html as templates — never process stray .md files
   // (README.md, .github/*.md, public/images/**/README.md).
