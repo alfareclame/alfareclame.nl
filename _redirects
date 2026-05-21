@@ -1,37 +1,13 @@
-# === Alfa Reclame — 301 redirect map ===
+# === Alfa Reclame — redirect map ===
 # www → apex handled by Cloudflare Bulk Redirects (zone level)
+#
+# Dead legacy URLs (old WordPress AI/digital blog posts, /category/*,
+# /project/*, /portfolio_category/*, /index.php/*, /author/*) are NO LONGER
+# listed here. They used to 301-redirect cross-domain to aanloopai.nl, which
+# leaked crawl signals and kept reappearing in Search Console. They now return
+# a true 410 Gone via functions/_middleware.js — see _routes.json.
 
-# --- Search Console "Valid" pages (AI/digital → AanloopAI) ---
-/navigeren-door-de-uitdagingen-van-digitale-transformatie/             https://aanloopai.nl/   301
-/navigeren-door-de-uitdagingen-van-digitale-transformatie              https://aanloopai.nl/   301
-/grote-kortingsactie-30-korting-op-webdesign-en-digitale-marketing/    https://aanloopai.nl/   301
-/grote-kortingsactie-30-korting-op-webdesign-en-digitale-marketing     https://aanloopai.nl/   301
-/mastering-user-experience/                                            https://aanloopai.nl/   301
-/mastering-user-experience                                             https://aanloopai.nl/   301
-/content-marketing-strategies-that-work-in-2024/                       https://aanloopai.nl/   301
-/content-marketing-strategies-that-work-in-2024                        https://aanloopai.nl/   301
-/verhoog-je-marketing-roi-met-slimme-data-gedreven-strategieen/        https://aanloopai.nl/   301
-/verhoog-je-marketing-roi-met-slimme-data-gedreven-strategieen         https://aanloopai.nl/   301
-/maximaliseer-je-roi-met-data-gedreven-marketingcampagnes/             https://aanloopai.nl/   301
-/maximaliseer-je-roi-met-data-gedreven-marketingcampagnes              https://aanloopai.nl/   301
-
-# --- Categories ---
-/category/insights/      https://aanloopai.nl/   301
-/category/insights       https://aanloopai.nl/   301
-/category/technology/    https://aanloopai.nl/   301
-/category/technology     https://aanloopai.nl/   301
-/category/tutorials/     https://aanloopai.nl/   301
-/category/tutorials      https://aanloopai.nl/   301
-/category/*              https://aanloopai.nl/   301
-
-# --- Projects (was → "/", now → AanloopAI since they're crypto/web3) ---
-/project/ethereum/       https://aanloopai.nl/   301
-/project/ethereum        https://aanloopai.nl/   301
-/project/hemisferio/     https://aanloopai.nl/   301
-/project/hemisferio      https://aanloopai.nl/   301
-/project/*               https://aanloopai.nl/   301
-
-# --- AI subpaths → AanloopAI ---
+# --- AI subpaths → AanloopAI (content genuinely moved to aanloopai.nl) ---
 /ai                                                  https://aanloopai.nl/   301
 /ai/                                                 https://aanloopai.nl/   301
 /ai/index.html                                       https://aanloopai.nl/   301
@@ -42,7 +18,7 @@
 /prompt-engineering-nederland                        https://aanloopai.nl/   301
 /prompt-engineering-nederland/                       https://aanloopai.nl/   301
 
-# --- Unlinked preview articles (AI content) ---
+# --- Unlinked preview articles (AI content → AanloopAI) ---
 /article-1-ai-voor-mkb-pillar-preview.html           https://aanloopai.nl/   301
 /article-2-ai-voor-horeca-preview.html               https://aanloopai.nl/   301
 /article-3-whatsapp-bestelbot-preview.html           https://aanloopai.nl/   301
@@ -62,7 +38,6 @@
 /portfolio                     /portfolio/   301
 /meta-keys                     /   301
 /meta-keys/                    /   301
-/author/*                      /   301
 /tag/*                         /   301
 /diensten                      /diensten/   301
 /over-ons                      /over-ons/   301
@@ -78,26 +53,6 @@
 /feed/*                        /   301
 /comments/feed/                /   301
 /xmlrpc.php                    /   301
-
-# === Faza 0.5 v2 — GSC Not Indexed cleanup (2026-05-17) ===
-
-# WP portfolio_category prefix (2 URLs in GSC) — direct to /#werk, no chained 301
-/portfolio_category/*        /#werk                    301
-
-# WP /index.php/* prefix (3 URLs in GSC, mostly /index.php/category and /index.php/project)
-/index.php/*                 /                         301
-
-# Root-level legacy AI/digital posts (AR/VR + digital marketing → AanloopAI)
-/how-to-use-ar-and-vr-in-digital-marketing/        https://aanloopai.nl/   301
-/how-to-use-ar-and-vr-in-digital-marketing         https://aanloopai.nl/   301
-/ar-en-vr-integratie/                              https://aanloopai.nl/   301
-/ar-en-vr-integratie                               https://aanloopai.nl/   301
-/overcoming-digital-transformation-challenges/     https://aanloopai.nl/   301
-/overcoming-digital-transformation-challenges      https://aanloopai.nl/   301
-/maximizing-roi-with-data-driven-marketing-campaigns/    https://aanloopai.nl/   301
-/maximizing-roi-with-data-driven-marketing-campaigns     https://aanloopai.nl/   301
-/emerging-trends-in-web-design-2025/                     https://aanloopai.nl/   301
-/emerging-trends-in-web-design-2025                      https://aanloopai.nl/   301
 
 # === Ahrefs audit 2026-05-17 — CF Pages SPA-fallback soft-200 cleanup ===
 # /drukkerij-rotterdam served homepage HTML (200) via SPA fallback — duplicate content risk.
