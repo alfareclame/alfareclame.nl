@@ -208,6 +208,13 @@ pageStyles: |
     .pricing-grid { grid-template-columns: 1fr; }
     .author-strip { flex-direction: column; text-align: center; }
   }
+
+  .pricing-table { width:100%; border-collapse:collapse; font-size:var(--text-base); margin:var(--space-6) 0; }
+  .pricing-table th, .pricing-table td { padding:14px 12px; text-align:left; border-bottom:1px solid var(--rule); vertical-align:top; }
+  .pricing-table th { font-size:var(--text-xs); font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-subtle); background:var(--surface-mute); }
+  .pricing-table .price { font-weight:700; color:var(--ink); white-space:nowrap; }
+  .pricing-table tbody tr:last-child td { border-bottom:none; }
+  @media (max-width:600px) { .pricing-table { font-size:var(--text-sm); } .pricing-table th, .pricing-table td { padding:10px 8px; } }
 jsonld: |
   {
     "@context": "https://schema.org",
@@ -406,9 +413,23 @@ jsonld: |
   </section>
 
   <!-- ====================================================
+       DEFINITIE — WAT IS LICHTRECLAME?
+       ==================================================== -->
+  <section class="section section-soft stripe-top" aria-labelledby="definitie-title">
+    <div class="container">
+      <div class="section-header" style="max-width:760px;">
+        <h2 class="section-title" id="definitie-title">Wat is lichtreclame?</h2>
+      </div>
+      <p style="max-width:72ch; color:var(--ink-muted); line-height:var(--lh-base);">
+        Lichtreclame is verlichte gevelreclame waarbij LED-modules een lichtbak, doosletters of neon-look profiel van binnenuit of van achteruit verlichten zodat de uiting dag en nacht zichtbaar is. De term omvat alle vormen van uitwendig verlichte reclame-uitingen op gevels: front-lit en halo-lit channel letters, rechthoekige of gevormde lichtbakken met geprinte vinyl of acryl voorzijde, flexibele LED-tape in neon-look siliconen profielen en programmeerbaar RGB-reclame voor horeca en retail. Lichtreclame vereist in Nederland vrijwel altijd een omgevingsvergunning van de gemeente en een lichthinder-toets volgens NSVV-richtlijnen.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====================================================
        PILLAR INTRO
        ==================================================== -->
-  <section class="section section-soft stripe-top" aria-labelledby="intro-title">
+  <section class="section" aria-labelledby="intro-title">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title" id="intro-title">LED die werkt, dag en nacht</h2>
@@ -645,6 +666,43 @@ jsonld: |
         </div>
 
       </div>
+
+      <table class="pricing-table" role="table">
+        <thead>
+          <tr>
+            <th scope="col">Pakket</th>
+            <th scope="col">Vanaf-prijs</th>
+            <th scope="col">Wat zit erin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Lichtbak</strong></td>
+            <td class="price">&euro;1495</td>
+            <td>LED-verlichte rechthoekige of vormgevende bak, enkelzijdig tot 200&times;60&nbsp;cm. Voorzijde geprinte vinyl of gefreesd acryl. Aluminium behuizing IP65, schemerschakelaar plus tijdklok.</td>
+          </tr>
+          <tr>
+            <td><strong>Front-lit doosletters</strong></td>
+            <td class="price">&euro;2495</td>
+            <td>Individuele kanaalletters met oplichtende acryl-voorzijde. Zes letters in standaardhoogte 35&nbsp;cm. A-merk LED-modules, vijf jaar garantie. Meer letters of groter formaat op offerte.</td>
+          </tr>
+          <tr>
+            <td><strong>Halo-lit doosletters</strong></td>
+            <td class="price">&euro;2995</td>
+            <td>Premium achterverlichte channel letters met dramatisch halo-effect op de gevel. Aluminium poederlak-finish naar keuze. Bijzonder geschikt voor kantoren en boutique-retail.</td>
+          </tr>
+          <tr>
+            <td><strong>Neon-look LED-tape</strong></td>
+            <td class="price">&euro;950/m</td>
+            <td>Flexibele siliconen of polycarbonaat LED-profielen voor schrijfletters, logo&apos;s en interieur-statement. Twaalf standaardkleuren plus RGB. Inclusief transformator en montage.</td>
+          </tr>
+          <tr>
+            <td><strong>Compleet project</strong></td>
+            <td class="price">&euro;4995</td>
+            <td>Combinatie van lichtbak plus doosletters plus indoor signage. Inclusief vergunningsaanvraag, lichthinder-berekening en stuurkast. Voor bedrijven die de hele gevel-uitstraling willen vernieuwen.</td>
+          </tr>
+        </tbody>
+      </table>
 
       <p style="margin-top:var(--space-6); color:var(--ink-muted); font-size:var(--text-sm);">
         Twijfelt u tussen front-lit en halo-lit, of tussen lichtbak en losse doosletters? Stuur een foto van uw gevel of binnenruimte; wij maken binnen drie dagen een vergelijking met avond-mockup van beide opties.
