@@ -50,6 +50,12 @@ pageStyles: |
   .step-item:last-child{border-bottom:none;}
   .step-item::before{content:counter(steps);position:absolute;left:0;top:var(--space-6);width:40px;height:40px;border-radius:var(--radius-pill);background:var(--brand);color:var(--ink);font-size:var(--text-sm);font-weight:700;display:flex;align-items:center;justify-content:center;}
   .usp-body{font-size:var(--text-base);color:var(--ink-muted);line-height:var(--lh-base);margin-top:4px;}
+  .pricing-table{width:100%;border-collapse:collapse;font-size:var(--text-base);margin:var(--space-6) 0;}
+  .pricing-table th,.pricing-table td{padding:14px 12px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top;}
+  .pricing-table th{font-size:var(--text-xs);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-subtle);background:var(--surface-mute);}
+  .pricing-table .price{font-weight:700;color:var(--ink);white-space:nowrap;}
+  .pricing-table tbody tr:last-child td{border-bottom:none;}
+  @media(max-width:600px){.pricing-table{font-size:var(--text-sm);}.pricing-table th,.pricing-table td{padding:10px 8px;}}
 jsonld: |
   {
     "@context": "https://schema.org",
@@ -212,9 +218,23 @@ jsonld: |
   </section>
 
   <!-- ====================================================
+       DEFINITIE — WAT IS FLEET WRAPPING?
+       ==================================================== -->
+  <section class="section section-soft stripe-top" aria-labelledby="definitie-title">
+    <div class="container">
+      <div class="section-header" style="max-width:760px;">
+        <h2 class="section-title" id="definitie-title">Wat is fleet wrapping?</h2>
+      </div>
+      <p style="max-width:72ch; color:var(--ink-muted); line-height:var(--lh-base);">
+        Fleet wrapping is het volledig beletteren of wrappen van een wagenpark van vijf of meer voertuigen met zelfklevende cast-vinylfolie, zodat de hele bedrijfsvloot een uniforme huisstijl draagt. Het onderscheidt zich van losse autoreclame door de merkconsistentie op schaal, een gestructureerd rollout-proces met pilot-voertuig en batch-productie, lagere per-voertuig-prijs door serieproductie en afspraken over onderhoud en schade-herstel via een SLA. Fleet wrap omvat basisbeletttering (zijkanten plus achterklep), halfwrap inclusief motorkap, full body wrap met complete kleurverandering en modulaire ontwerpen voor wagenparken met wisselende partner-logo&apos;s of sponsor-panelen. A-merk cast-vinyl (3M, Avery, Hexis, Orafol) is leasing-vriendelijk en volledig verwijderbaar zonder lakschade.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====================================================
        PILLAR INTRO — wagenpark vs. single vehicle
        ==================================================== -->
-  <section class="section section-soft stripe-top" aria-labelledby="pillar-title">
+  <section class="section" aria-labelledby="pillar-title">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title" id="pillar-title">Fleet wrap vs. losse autoreclame</h2>
@@ -449,6 +469,38 @@ jsonld: |
         </div>
 
       </div>
+
+      <table class="pricing-table" role="table">
+        <thead>
+          <tr>
+            <th scope="col">Pakket</th>
+            <th scope="col">Vanaf-prijs</th>
+            <th scope="col">Wat zit erin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Starter Fleet</strong></td>
+            <td class="price">&euro;1995</td>
+            <td>5 voertuigen. Basisbelettering zijkanten plus achterklep. Standaard cast-vinyl 3M IJ180Cv3. Masterontwerp plus pilot-voertuig procedure inbegrepen. Circa &euro;399 per voertuig.</td>
+          </tr>
+          <tr>
+            <td><strong>Mid Fleet</strong></td>
+            <td class="price">&euro;4995</td>
+            <td>10 voertuigen. Halfwrap inclusief motorkap en zijskirts. Partner-logo&apos;s verwerkt in ontwerp. Avery MPI 1105 of 3M IJ180Cv3. Pilot-procedure en fleet-rapport bij oplevering. Circa &euro;499 per voertuig.</td>
+          </tr>
+          <tr>
+            <td><strong>Full Fleet</strong></td>
+            <td class="price">&euro;9995</td>
+            <td>15+ voertuigen. Full body wrap inclusief dak. Kleur-verandering mogelijk (Hexis HX30000 of Orafol Oracal 970RA). SLA 48u repair inbegrepen voor &eacute;&eacute;n jaar na oplevering. Circa &euro;666 per voertuig.</td>
+          </tr>
+          <tr>
+            <td><strong>Custom Fleet</strong></td>
+            <td class="price">Op aanvraag</td>
+            <td>25+ voertuigen. Kleur-verandering volledig wagenpark. Multi-site rollout mogelijk. Langlopend SLA-contract op maat. Landelijk via partnernetwerk.</td>
+          </tr>
+        </tbody>
+      </table>
 
       <p style="margin-top:var(--space-6);color:var(--ink-muted);font-size:var(--text-sm);">Uw exacte prijs hangt af van voertuigtype, wrap-oppervlakte en gewenste materiaalsoort. Stuur het aantal en type voertuigen via WhatsApp; wij maken binnen 48 uur een gespecificeerde offerte met vaste totaalprijs.</p>
     </div>

@@ -108,6 +108,13 @@ pageStyles: |
   @media (max-width: 480px) {
     .pricing-grid { grid-template-columns: 1fr; }
   }
+
+  .pricing-table { width:100%; border-collapse:collapse; font-size:var(--text-base); margin:var(--space-6) 0; }
+  .pricing-table th, .pricing-table td { padding:14px 12px; text-align:left; border-bottom:1px solid var(--rule); vertical-align:top; }
+  .pricing-table th { font-size:var(--text-xs); font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-subtle); background:var(--surface-mute); }
+  .pricing-table .price { font-weight:700; color:var(--ink); white-space:nowrap; }
+  .pricing-table tbody tr:last-child td { border-bottom:none; }
+  @media (max-width:600px) { .pricing-table { font-size:var(--text-sm); } .pricing-table th, .pricing-table td { padding:10px 8px; } }
 jsonld: |
   {
     "@context": "https://schema.org",
@@ -306,9 +313,23 @@ jsonld: |
   </section>
 
   <!-- ====================================================
+       DEFINITIE — WAT ZIJN DOOSLETTERS?
+       ==================================================== -->
+  <section class="section section-soft stripe-top" aria-labelledby="definitie-title">
+    <div class="container">
+      <div class="section-header" style="max-width:760px;">
+        <h2 class="section-title" id="definitie-title">Wat zijn doosletters?</h2>
+      </div>
+      <p style="max-width:72ch; color:var(--ink-muted); line-height:var(--lh-base);">
+        Doosletters zijn driedimensionale, losse kanaalletters waarbij elke letter een eigen aluminium behuizing heeft met een acryl- of dibond-voorzijde en ingebouwde LED-verlichting. Anders dan een lichtbak &mdash; waarbij de gehele bedrijfsnaam in &eacute;&eacute;n bak zit &mdash; staat elke letter losstaand op de gevel met enkele centimeters tussenruimte, wat een premium diepte- en schaduwwerking geeft. Doosletters worden in drie lichtsystemen geproduceerd: front-lit (voorzijde licht op), halo-lit (LED straalt naar achter tegen de gevel voor een halo-effect) en side-lit. Ze zijn beschikbaar in letterhoogtes van twintig tot tweehonderd centimeter en in elke RAL-kleur, font of logo-vorm via CNC-freesproductie.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====================================================
        PILLAR INTRO — circa 200 woorden
        ==================================================== -->
-  <section class="section section-soft stripe-top" aria-labelledby="pillar-title">
+  <section class="section" aria-labelledby="pillar-title">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title" id="pillar-title">Premium gevelreclame in Rotterdam</h2>
@@ -532,6 +553,43 @@ jsonld: |
         </div>
 
       </div>
+
+      <table class="pricing-table" role="table">
+        <thead>
+          <tr>
+            <th scope="col">Pakket</th>
+            <th scope="col">Vanaf-prijs</th>
+            <th scope="col">Wat zit erin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Front-lit standaard</strong></td>
+            <td class="price">&euro;2495</td>
+            <td>Zes letters in standaardhoogte 35&nbsp;cm. CNC-gefreesd aluminium, acryl voorzijde, IP65 LED. Stud-mount. Standaard RAL-kleur. Inclusief BTW, ontwerp en montage.</td>
+          </tr>
+          <tr>
+            <td><strong>Halo-lit premium</strong></td>
+            <td class="price">&euro;2995+</td>
+            <td>Zes letters in 35&nbsp;cm hoogte, achterverlichting met dramatisch halo-effect. Aluminium of dibond voorzijde. Geschikt voor kantoor en boutique-retail.</td>
+          </tr>
+          <tr>
+            <td><strong>Front-lit groot formaat</strong></td>
+            <td class="price">&euro;4495+</td>
+            <td>Letters van 75&ndash;150&nbsp;cm hoog voor bedrijfspand of showroom. Constructief versterkt, raceway-mount, hoogwerker-montage inbegrepen.</td>
+          </tr>
+          <tr>
+            <td><strong>Combi-lit dual</strong></td>
+            <td class="price">&euro;4995+</td>
+            <td>Zowel front- als halo-verlichting in &eacute;&eacute;n letter, aparte schakeling. Voor flagship-locaties en premium-merken.</td>
+          </tr>
+          <tr>
+            <td><strong>Custom logo-letters</strong></td>
+            <td class="price">&euro;5995+</td>
+            <td>Maatwerk-letters of complete logo-vormen. Specifiek font, complexe ontwerpen, 3D-geprinte details. Op offerte na locatiebezoek.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
