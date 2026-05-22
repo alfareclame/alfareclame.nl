@@ -193,10 +193,9 @@ Deze repository is private en propriëtair. De inhoud (content, afbeeldingen, po
 
 ## Backend & Environment
 
-Naast de statische pagina's draaien er twee Cloudflare Pages Functions onder `functions/api/`:
+Naast de statische pagina's draait er één Cloudflare Pages Function onder `functions/api/`:
 
 - `POST /api/contact` — contactformulier → Telegram (validatie + per-IP rate-limit)
-- `POST /api/eleven-call` — ElevenLabs post-call webhook (HMAC-gevalideerd) → Telegram
 
 ### Required environment variables
 
@@ -206,7 +205,6 @@ Cloudflare Pages → Settings → Variables and Secrets:
 |------|------|--------------|
 | `TELEGRAM_BOT_TOKEN` | Secret | Bot token van @BotFather |
 | `TELEGRAM_CHAT_ID` | Plaintext | Chat-ID waar leads naartoe gestuurd worden |
-| `ELEVENLABS_WEBHOOK_SECRET` | Secret | Shared secret voor ElevenLabs webhook HMAC |
 
 ### KV bindings
 
@@ -216,7 +214,6 @@ Cloudflare Pages → Settings → Variables and Secrets:
 
 ### Secret rotation
 
-- `ELEVENLABS_WEBHOOK_SECRET`: rouleren elke 6–12 maanden, of direct na vermoeden van compromittering. Synchroniseren met ElevenLabs Agent → Security → Post-call webhook.
 - `TELEGRAM_BOT_TOKEN`: alleen rouleren via @BotFather indien gelekt.
 
 ### Lokaal testen van Functions
