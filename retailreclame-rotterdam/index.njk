@@ -62,7 +62,50 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Retailreclame",
         "priceRange": "€595-€3950",
-        "areaServed": { "@type": "City", "name": "Rotterdam" }
+        "areaServed": [
+          { "@type": "City", "name": "Rotterdam" },
+          { "@type": "City", "name": "Schiedam" },
+          { "@type": "City", "name": "Vlaardingen" },
+          { "@type": "City", "name": "Capelle aan den IJssel" },
+          { "@type": "City", "name": "Barendrecht" },
+          { "@type": "City", "name": "Spijkenisse" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen retailreclame Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Starter retail-pakket",
+              "description": "Etalagebelettering of raambelettering. Logo, openingstijden en een actieboodschap op uw etalageraam. Gesneden of geprint cast-vinyl. Inclusief ontwerp en professionele applicatie. Ideaal voor kleine winkels en startende retailers die hun pui direct professioneel willen presenteren.",
+              "priceCurrency": "EUR",
+              "price": 595,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 595, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/retailreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Compleet retail-pakket",
+              "description": "Etalage plus gevelreclame. Complete winkelpui-aanpak: etalagebelettering, gevelletters of gevelbord, openingstijden en huisnummer. Seizoensbelettering voor één wissel inbegrepen. Meest gekozen pakket voor Rotterdamse winkels die hun totale uitstraling willen professionaliseren.",
+              "priceCurrency": "EUR",
+              "price": 1750,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1750, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/retailreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Premium retail-pakket",
+              "description": "Volledige winkelpui-signage. Lichtreclame of verlichte doosletters, complete etalagebelettering, gevelreclame, winkelbestickering binnenkant en vloergrafiek. Inclusief vergunningsadvies voor verlichte uitingen. Voor retailers die willen investeren in een professionele, onderscheidende merkpresentatie op straat.",
+              "priceCurrency": "EUR",
+              "price": 3950,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 3950, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/retailreclame-rotterdam/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "Article",
@@ -443,7 +486,7 @@ jsonld: |
   <!-- ====================================================
        PRICING — 3 pricing cards
        ==================================================== -->
-  <section class="section section-soft" aria-labelledby="prijzen-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header">
         <span class="eyebrow">Pakketten &amp; tarieven</span>

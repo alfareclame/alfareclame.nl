@@ -62,7 +62,50 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Havenreclame",
         "priceRange": "€2950-€12500",
-        "areaServed": { "@type": "City", "name": "Rotterdam" }
+        "areaServed": [
+          { "@type": "City", "name": "Rotterdam" },
+          { "@type": "City", "name": "Schiedam" },
+          { "@type": "City", "name": "Vlaardingen" },
+          { "@type": "City", "name": "Capelle aan den IJssel" },
+          { "@type": "City", "name": "Barendrecht" },
+          { "@type": "City", "name": "Spijkenisse" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen havenreclame Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Klein havenproject",
+              "description": "Scheepsbelettering of klein aantal containers. Scheepsnaam, rederij-logo of belettering tot circa 10 m². Maritieme cast-vinyl. Applicatie op kade of aan boord. Geschikt voor binnenvaartschepen en kleine containervloten tot tien stuks.",
+              "priceCurrency": "EUR",
+              "price": 2950,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2950, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/havenreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Midden havenproject",
+              "description": "Containervloot of terminal-signage. Belettering van 20-50 containers of complete terminal-gevel plus kade-borden. Maritieme A-merk vinyl, overlaminaat UV-bescherming. Projectcoördinatie met terminal-operator inbegrepen. Meest gekozen pakket voor havenbedrijven.",
+              "priceCurrency": "EUR",
+              "price": 5950,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 5950, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/havenreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Groot havenproject",
+              "description": "Meerdere objecten en locaties. Combinatie van scheepsbelettering, containervloot, terminal-signage en veiligheidssignalering. ATEX-zones op aanvraag. Hoogwerker-applicatie voor silo's en hoge gevels. Totaal-signage voor uw havenlocatie met onderhoudscontract.",
+              "priceCurrency": "EUR",
+              "price": 12500,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 12500, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/havenreclame-rotterdam/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "Article",
@@ -434,7 +477,7 @@ jsonld: |
   <!-- ====================================================
        PRICING — 3 pricing cards
        ==================================================== -->
-  <section class="section section-soft" aria-labelledby="prijzen-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header">
         <span class="eyebrow">Pakketten &amp; tarieven</span>

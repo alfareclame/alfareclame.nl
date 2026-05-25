@@ -38,7 +38,11 @@ jsonld: |
         "description": "Alfa Reclame is uw reclamebureau in Rotterdam voor raambelettering, autoreclame, gevelreclame en grootformaat signage. 14 jaar vakwerk, A-merk materialen, 2 jaar garantie.",
         "inLanguage": "nl-NL",
         "isPartOf": { "@id": "https://alfareclame.nl/#website" },
-        "breadcrumb": { "@id": "https://alfareclame.nl/#breadcrumb" }
+        "breadcrumb": { "@id": "https://alfareclame.nl/#breadcrumb" },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["h1#hero-title", ".lead", ".trust-strip"]
+        }
       },
       {
         "@type": "BreadcrumbList",
@@ -179,6 +183,7 @@ jsonld: |
           {"@type": "City", "name": "Maassluis"}
         ],
         "knowsLanguage": ["Dutch", "English", "Turkish"],
+        "hasOfferCatalog": { "@id": "https://alfareclame.nl/#offercatalog" },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
@@ -286,6 +291,91 @@ jsonld: |
               "@type": "Answer",
               "text": "Gemiddeld zeven werkdagen: offerte op dag 1, ontwerp binnen 48 uur, productie drie tot vier werkdagen, daarna montage op afgesproken datum. Spoedopdrachten zijn mogelijk in overleg."
             }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "@id": "https://alfareclame.nl/#offercatalog",
+        "name": "Alfa Reclame — 12 signage-diensten + pillar Rotterdam",
+        "url": "https://alfareclame.nl/diensten/",
+        "provider": { "@id": "https://alfareclame.nl/#business" },
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Reclamebureau Rotterdam — full-service signage", "url": "https://alfareclame.nl/reclamebureau-rotterdam/" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Gevelreclame Rotterdam", "url": "https://alfareclame.nl/gevelreclame-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 295, "maxPrice": 5000, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Lichtreclame Rotterdam", "url": "https://alfareclame.nl/lichtreclame-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1495, "maxPrice": 8000, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Doosletters Rotterdam", "url": "https://alfareclame.nl/doosletters-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2495, "maxPrice": 12000, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Autoreclame Rotterdam", "url": "https://alfareclame.nl/autoreclame-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 4500, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Fleet wrap Rotterdam", "url": "https://alfareclame.nl/fleet-wrap-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1995, "maxPrice": 25000, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Bestickering Rotterdam", "url": "https://alfareclame.nl/bestickering-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 9995, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Raambelettering Rotterdam", "url": "https://alfareclame.nl/raambelettering-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 2500, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Retailreclame Rotterdam", "url": "https://alfareclame.nl/retailreclame-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 595, "maxPrice": 3950, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Horecabelettering Rotterdam", "url": "https://alfareclame.nl/horecabelettering-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 495, "maxPrice": 2950, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Silobelettering Rotterdam", "url": "https://alfareclame.nl/silobelettering/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2495, "maxPrice": 8995, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Offshore belettering", "url": "https://alfareclame.nl/offshore-belettering/" },
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Havenreclame Rotterdam", "url": "https://alfareclame.nl/havenreclame-rotterdam/" },
+            "priceCurrency": "EUR",
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2950, "maxPrice": 12500, "priceCurrency": "EUR" }
           }
         ]
       }

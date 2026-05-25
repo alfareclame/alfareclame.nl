@@ -127,6 +127,62 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Doosletters",
         "priceRange": "€2495-€12000",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen doosletters Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Front-lit standaard",
+              "description": "Zes letters in standaardhoogte 35 cm. CNC-gefreesd aluminium, acryl voorzijde, IP65 LED. Stud-mount. Standaard RAL-kleur. Inclusief BTW, ontwerp en montage.",
+              "priceCurrency": "EUR",
+              "price": 2495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/doosletters-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Halo-lit premium",
+              "description": "Zes letters in 35 cm hoogte, achterverlichting met dramatisch halo-effect. Aluminium of dibond voorzijde. Geschikt voor kantoor en boutique-retail.",
+              "priceCurrency": "EUR",
+              "price": 2995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/doosletters-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Front-lit groot formaat",
+              "description": "Letters van 75-150 cm hoog voor bedrijfspand of showroom. Constructief versterkt, raceway-mount, hoogwerker-montage inbegrepen.",
+              "priceCurrency": "EUR",
+              "price": 4495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 4495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/doosletters-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Combi-lit dual",
+              "description": "Zowel front- als halo-verlichting in één letter, aparte schakeling. Voor flagship-locaties en premium-merken.",
+              "priceCurrency": "EUR",
+              "price": 4995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 4995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/doosletters-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Custom logo-letters",
+              "description": "Maatwerk-letters of complete logo-vormen. Specifiek font, complexe ontwerpen, 3D-geprinte details. Op offerte na locatiebezoek.",
+              "priceCurrency": "EUR",
+              "price": 5995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 5995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/doosletters-rotterdam/#prijzen"
+            }
+          ]
+        },
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
@@ -510,7 +566,7 @@ jsonld: |
   <!-- ====================================================
        PRIJSPAKKETTEN — pricing card grid
        ==================================================== -->
-  <section class="section section-soft" aria-labelledby="prijzen-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header">
         <span class="eyebrow">Transparante tarieven</span>

@@ -153,7 +153,53 @@ jsonld: |
           { "@type": "City", "name": "Capelle aan den IJssel" },
           { "@type": "City", "name": "Barendrecht" },
           { "@type": "City", "name": "Spijkenisse" }
-        ]
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen bestickering Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Klein",
+              "description": "Raamsticker op één ruit, kleine wandsticker, losse magneetfolie voor één voertuig, eenvoudige logo-bestickering op object.",
+              "priceCurrency": "EUR",
+              "price": 149,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 149, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/bestickering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Middel",
+              "description": "Full bestickering van één bestelbus (voor-, zij- en achterkant), volledige etalagebelettering, grote wandprint in kantoor, vloervinyl op ingang.",
+              "priceCurrency": "EUR",
+              "price": 395,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 395, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/bestickering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Groot",
+              "description": "Full body wrap van één voertuig, complete storefront (meerdere ramen, deur, zuil), multi-wand project in winkelruimte of kantoor.",
+              "priceCurrency": "EUR",
+              "price": 995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/bestickering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Wagenpark",
+              "description": "Fleetwrap voor 5 tot 25+ voertuigen, grote bouwplaats-bestickering (containers, hekken), multi-locatie rollout.",
+              "priceCurrency": "EUR",
+              "price": 1995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/bestickering-rotterdam/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "Article",
@@ -523,7 +569,7 @@ jsonld: |
   </section>
 
   <!-- PRIJSINDICATIE -->
-  <section class="section section-soft" aria-labelledby="prijs-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijs-title">
     <div class="container">
       <div class="section-header" style="max-width:720px;">
         <span class="eyebrow">Tarieven</span>

@@ -54,6 +54,18 @@ pageStyles: |
   .usp-text strong { display:block; font-size:var(--text-base); font-weight:700; margin-bottom:var(--space-1); color:var(--ink); }
   .usp-text span { font-size:var(--text-sm); color:var(--ink-muted); line-height:var(--lh-base); }
 
+  /* Pricing cards */
+  .pricing-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:var(--space-5);margin-top:var(--space-6);}
+  .pricing-card{background:var(--surface);border:1px solid var(--ink);border-radius:var(--radius-lg);padding:var(--space-6);position:relative;overflow:hidden;display:flex;flex-direction:column;gap:var(--space-3);}
+  .pricing-card::after{content:'';position:absolute;top:0;right:0;width:28px;height:28px;background:var(--brand);clip-path:polygon(100% 0,100% 100%,0 0);}
+  .pricing-card--featured{background:var(--ink);color:var(--surface);}
+  .pricing-card--featured .pc-name{color:var(--brand);}
+  .pricing-card--featured .pc-price,.pricing-card--featured .pc-desc strong{color:var(--surface);}
+  .pricing-card--featured .pc-desc{color:rgba(255,255,255,0.65);}
+  .pc-name{font-size:var(--text-sm);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-muted);}
+  .pc-price{font-size:var(--text-h3);font-weight:800;letter-spacing:var(--tracking-tight);color:var(--ink);line-height:1;}
+  .pc-desc{font-size:var(--text-sm);color:var(--ink-muted);line-height:var(--lh-base);flex:1;}
+
   @media (max-width:880px) { .spec-table { font-size:var(--text-xs); } .spec-table th, .spec-table td { padding:10px 12px; } }
 jsonld: |
   {
@@ -105,7 +117,44 @@ jsonld: |
           { "@type": "Place", "name": "Vlissingen" },
           { "@type": "Place", "name": "Eemshaven" }
         ],
-        "serviceType": "Offshore Belettering"
+        "serviceType": "Offshore Belettering",
+        "priceRange": "€3495-€12995",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Offshore Belettering Pakketten",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Basis",
+              "description": "1 vessel, hull-letters in marine cast vinyl (3M Scotchcal MCS of Avery Dennison MPI), VCA-VOL uitvoering, epoxy primer op staal, 2 jaar garantie.",
+              "priceCurrency": "EUR",
+              "price": 3495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 3495, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/offshore-belettering/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Standaard",
+              "description": "1 vessel inclusief opbouw, IMO-conforme nummers (SOLAS), marine cast vinyl met UV-laminaat, veiligheidsmarkering ISO 7010, VCA-VOL uitvoering, 2 jaar garantie.",
+              "priceCurrency": "EUR",
+              "price": 6995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 6995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/offshore-belettering/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Premium",
+              "description": "Vloot van 3+ vessels, on-location uitvoering in Rotterdam haven, alle keurmerken (SOLAS, ISO 7010, MARPOL-bewust), 2-laags UV-lak toplaag, projectco&ouml;rdinatie met HSE, 2 jaar garantie.",
+              "priceCurrency": "EUR",
+              "price": 12995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 12995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/offshore-belettering/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "FAQPage",
@@ -219,6 +268,18 @@ jsonld: |
           alt="Offshore toolingbox belettering container marine-grade vinyl Rotterdam"
           width="380" height="220"
           loading="lazy" decoding="async"></picture>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEFINITIE -->
+  <section class="section section-soft" aria-labelledby="definitie-title">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="definitie-title">Wat is offshore-belettering?</h2>
+        <p class="section-subtitle">
+          Offshore-belettering is grootformaat foliereclame voor objecten die op zee of in maritieme grenslocaties opereren: zeegaande schepen, supply vessels, crane platforms en offshore-containers. Het onderscheidt zich van reguliere voertuig- of gevelbelettering doordat marine-grade cast vinyl, specifieke primers voor staal en GRP en VCA-VOL uitvoering vereist zijn. Materiaal en applicatie zijn ontworpen voor permanente blootstelling aan zout water, North Sea UV-intensiteit en mechanische belasting door golfslag, met een levensduur van vijf tot zeven jaar bij volledige offshore-blootstelling. Voor IMO-identificatienummers gelden bovendien SOLAS-afmetingsnormen voor lettergrootte en contrast.
+        </p>
       </div>
     </div>
   </section>
@@ -465,6 +526,41 @@ jsonld: |
           Primaire locaties: <strong>Botlek</strong> (petrochemische terminal, binnenvaartschepen), <strong>Maasvlakte</strong> (containerterminals, offshore-supply-vessels), <strong>Europoort</strong> (bulkschepen, vloeistoftankers, RoRo-ferries). Daarnaast actief in <strong>IJmond</strong>, <strong>Vlissingen</strong> en <strong>Eemshaven</strong>. Internationale opdrachten voor schepen die vertrekken vanuit Rotterdam: klanten uit Noorwegen, het Verenigd Koninkrijk en Duitsland laten schepen beletteren tijdens Rotterdamse havenbezoeken.
         </p>
       </div>
+    </div>
+  </section>
+
+  <!-- PRICING — 3 pakketten offshore -->
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Pakketten &amp; tarieven</span>
+        <h2 class="section-title" id="prijzen-title">Drie prijspakketten offshore-belettering</h2>
+        <p class="section-subtitle">Vaste richtprijzen inclusief materiaaladvies, marine-grade cast vinyl, primer op staal/GRP en VCA-VOL applicatie in de Rotterdamse haven. Alle prijzen exclusief BTW. Exacte prijs op basis van voormeting en projectomvang.</p>
+      </div>
+
+      <div class="pricing-grid" role="list">
+
+        <div class="pricing-card" role="listitem">
+          <span class="pc-name">Basis</span>
+          <span class="pc-price">&euro;3495</span>
+          <p class="pc-desc"><strong>1 vessel, hull-letters.</strong> Marine cast vinyl (3M Scotchcal MCS of Avery Dennison MPI), epoxy primer op staal, VCA-VOL uitvoering. Geschikt voor binnenvaartschepen en kleinere supply vessels. 2 jaar garantie op hechting en kleurvastheid.</p>
+        </div>
+
+        <div class="pricing-card pricing-card--featured" role="listitem">
+          <span class="pc-name">Standaard</span>
+          <span class="pc-price">&euro;6995</span>
+          <p class="pc-desc"><strong>1 vessel inclusief opbouw, IMO-conform.</strong> Hull-letters plus opbouw-belettering, IMO-identificatienummers conform SOLAS-eisen, marine cast vinyl met UV-laminaat, veiligheidsmarkering ISO 7010. Meest gekozen pakket voor zeegaande tankers en supply vessels.</p>
+        </div>
+
+        <div class="pricing-card" role="listitem">
+          <span class="pc-name">Premium</span>
+          <span class="pc-price">&euro;12995</span>
+          <p class="pc-desc"><strong>Vloot 3+ vessels, on-location.</strong> Multi-vessel rollout in Rotterdam haven, alle keurmerken (SOLAS, ISO 7010, MARPOL-bewust), 2-laags UV-lak toplaag voor extreme exposure. Projectco&ouml;rdinatie met HSE-afdeling en planning rond vaartschema.</p>
+        </div>
+
+      </div>
+
+      <p style="margin-top:var(--space-6);color:var(--ink-muted);font-size:var(--text-sm);">Prijzen exclusief BTW. De exacte prijs is afhankelijk van vessel-type, oppervlakte, substraat (staal, GRP of gecoat aluminium) en eventuele spoedlevertijd. Stuur ons het objecttype en de gewenste belettering via WhatsApp; binnen &eacute;&eacute;n werkdag een eerste advies en prijsindicatie.</p>
     </div>
   </section>
 

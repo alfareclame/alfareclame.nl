@@ -85,6 +85,62 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Gevelreclame",
         "priceRange": "€295-€5000",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen gevelreclame Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Geveltekst (vinyl)",
+              "description": "Bedrijfsnaam plus logo in vinyl direct op de gevel of pui. Snijfolie of full-color print. Voor winkels, kantoren en eenvoudige bedrijfsuitingen.",
+              "priceCurrency": "EUR",
+              "price": 295,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 295, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/gevelreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "3D freesletters",
+              "description": "Gefreesde letters uit PVC of dibond met afstandhouders. Voor naam tot zes letters; complexere ontwerpen op offerte. Levensduur 15-25 jaar.",
+              "priceCurrency": "EUR",
+              "price": 795,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 795, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/gevelreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Lichtbak",
+              "description": "LED-verlichte rechthoekige of vormgevende bak, enkel- of dubbelzijdig. Voor zichtbaarheid overdag en 's avonds. Standaardmaten tot 200x60 cm.",
+              "priceCurrency": "EUR",
+              "price": 1495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/gevelreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Doosletters (channel letters)",
+              "description": "Individuele LED-verlichte letters, premium uitstraling. Vanaf zes letters bedrijfsnaam. Aluminium behuizing met acryl voorzijde.",
+              "priceCurrency": "EUR",
+              "price": 2495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/gevelreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Compleet gevelpakket",
+              "description": "Combinatie van 3D letters plus lichtbak plus vinyl op pui en eventueel reclamezuil of vlag-letters. Voor bedrijven die de hele gevel willen beletteren.",
+              "priceCurrency": "EUR",
+              "price": 3995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 3995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/gevelreclame-rotterdam/#prijzen"
+            }
+          ]
+        },
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
@@ -517,7 +573,7 @@ jsonld: |
   <!-- ====================================================
        PRIJSPAKKETTEN
        ==================================================== -->
-  <section class="section" aria-labelledby="prijzen-title">
+  <section class="section" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header" style="max-width:720px;">
         <span class="eyebrow">Transparante tarieven</span>

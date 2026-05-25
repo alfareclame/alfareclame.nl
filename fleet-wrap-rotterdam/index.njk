@@ -68,6 +68,42 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Fleet Wrap",
         "priceRange": "€1995-€25000",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen fleet wrap Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Starter Fleet",
+              "description": "5 voertuigen. Basisbelettering zijkanten plus achterklep. Standaard cast-vinyl 3M IJ180Cv3. Masterontwerp plus pilot-voertuig procedure inbegrepen. Circa €399 per voertuig.",
+              "priceCurrency": "EUR",
+              "price": 1995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/fleet-wrap-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Mid Fleet",
+              "description": "10 voertuigen. Halfwrap inclusief motorkap en zijskirts. Partner-logo's verwerkt in ontwerp. Avery MPI 1105 of 3M IJ180Cv3. Pilot-procedure en fleet-rapport bij oplevering. Circa €499 per voertuig.",
+              "priceCurrency": "EUR",
+              "price": 4995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 4995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/fleet-wrap-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Full Fleet",
+              "description": "15+ voertuigen. Full body wrap inclusief dak. Kleur-verandering mogelijk (Hexis HX30000 of Orafol Oracal 970RA). SLA 48u repair inbegrepen voor één jaar na oplevering. Circa €666 per voertuig.",
+              "priceCurrency": "EUR",
+              "price": 9995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 9995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/fleet-wrap-rotterdam/#prijzen"
+            }
+          ]
+        },
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
@@ -433,7 +469,7 @@ jsonld: |
   <!-- ====================================================
        4 PRIJSTIERS — pricing card grid
        ==================================================== -->
-  <section class="section" aria-labelledby="prijzen-title">
+  <section class="section" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header">
         <span class="eyebrow">Pakketten &amp; tarieven</span>

@@ -227,6 +227,62 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Lichtreclame",
         "priceRange": "€1495-€8000",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen lichtreclame Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Lichtbak",
+              "description": "LED-verlichte rechthoekige of vormgevende bak, enkelzijdig tot 200x60 cm. Voorzijde geprinte vinyl of gefreesd acryl. Aluminium behuizing IP65, schemerschakelaar plus tijdklok.",
+              "priceCurrency": "EUR",
+              "price": 1495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/lichtreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Front-lit doosletters",
+              "description": "Individuele kanaalletters met oplichtende acryl-voorzijde. Zes letters in standaardhoogte 35 cm. A-merk LED-modules, vijf jaar garantie. Meer letters of groter formaat op offerte.",
+              "priceCurrency": "EUR",
+              "price": 2495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/lichtreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Halo-lit doosletters",
+              "description": "Premium achterverlichte channel letters met dramatisch halo-effect op de gevel. Aluminium poederlak-finish naar keuze. Bijzonder geschikt voor kantoren en boutique-retail.",
+              "priceCurrency": "EUR",
+              "price": 2995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/lichtreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Neon-look LED-tape",
+              "description": "Flexibele siliconen of polycarbonaat LED-profielen voor schrijfletters, logo's en interieur-statement. Twaalf standaardkleuren plus RGB. Inclusief transformator en montage. Prijs per meter.",
+              "priceCurrency": "EUR",
+              "price": 950,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 950, "valueAddedTaxIncluded": true, "unitCode": "MTR" },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/lichtreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Compleet project",
+              "description": "Combinatie van lichtbak plus doosletters plus indoor signage. Inclusief vergunningsaanvraag, lichthinder-berekening en stuurkast. Voor bedrijven die de hele gevel-uitstraling willen vernieuwen.",
+              "priceCurrency": "EUR",
+              "price": 4995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 4995, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/lichtreclame-rotterdam/#prijzen"
+            }
+          ]
+        },
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
@@ -623,7 +679,7 @@ jsonld: |
   <!-- ====================================================
        PRIJSPAKKETTEN
        ==================================================== -->
-  <section class="section section-soft" aria-labelledby="prijzen-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header">
         <span class="eyebrow">Transparante tarieven</span>

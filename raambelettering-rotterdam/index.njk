@@ -134,6 +134,52 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Raambelettering",
         "priceRange": "€149-€2500",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen raambelettering Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Starter",
+              "description": "Kleine winkel, één ruit, snijfolie in een of twee kleuren, montage op locatie. Geschikt voor losse winkelpanden, eenmansbedrijven en startups.",
+              "priceCurrency": "EUR",
+              "price": 149,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 149, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/raambelettering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Winkel compleet",
+              "description": "Etalage + openingstijden + logo op alle ramen. Snijfolie, eventueel met etsfolie-band voor privacy. Voor compacte winkels en horecagelegenheden.",
+              "priceCurrency": "EUR",
+              "price": 249,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 249, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/raambelettering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Horeca pakket",
+              "description": "Menu of aanbiedingen, bedrijfslogo en privacy etsfolie. Combinatie van snijfolie en print, ontworpen voor sfeer plus heldere informatie.",
+              "priceCurrency": "EUR",
+              "price": 449,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 449, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/raambelettering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Maatwerk",
+              "description": "Grote projecten, full-color print, complex ontwerp, meerdere locaties of bijzondere materialen. Offerte op maat na voormeting.",
+              "priceCurrency": "EUR",
+              "price": 749,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 749, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/raambelettering-rotterdam/#prijzen"
+            }
+          ]
+        },
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
@@ -461,7 +507,7 @@ jsonld: |
   <!-- ====================================================
        PAKKETPRIJZEN
        ==================================================== -->
-  <section class="section section-soft" aria-labelledby="prijzen-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container--narrow">
       <div class="section-header">
         <span class="eyebrow">Transparante prijzen</span>

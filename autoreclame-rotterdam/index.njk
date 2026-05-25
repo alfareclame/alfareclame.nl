@@ -81,7 +81,63 @@ jsonld: |
           { "@type": "City", "name": "Capelle aan den IJssel" },
           { "@type": "City", "name": "Barendrecht" },
           { "@type": "City", "name": "Spijkenisse" }
-        ]
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen autoreclame Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Bestelbus enkelzijdig",
+              "description": "Logo, telefoonnummer en website op twee zijden plus achterklep. Snijfolie in een of twee kleuren. Ideaal voor zzp'ers en kleine bedrijven die snel zichtbaarheid willen.",
+              "priceCurrency": "EUR",
+              "price": 395,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 395, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/autoreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Bestelbus compleet",
+              "description": "Volledige zijden plus achterklep plus details op deuren en motorkap. Combinatie van snijfolie en full-color print. Voor bedrijven die de hele bestelbus willen omtoveren tot een rijdend reclamebord.",
+              "priceCurrency": "EUR",
+              "price": 795,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 795, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/autoreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Vrachtwagen / bakwagen",
+              "description": "Logo, contactgegevens en grafisch element op de grote zij- en achteroppervlakken. Voor losse en vaste opbouw, met of zonder reflecterende elementen voor zichtbaarheid in het donker.",
+              "priceCurrency": "EUR",
+              "price": 1495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/autoreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Full body wrap",
+              "description": "Volledige kleurverandering met cast vinyl. Inclusief uitsneden voor wielkasten, deurnaden, spiegels en handgrepen. Voor esthetische upgrade of complete rebrand van het voertuig.",
+              "priceCurrency": "EUR",
+              "price": 2495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2495, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/autoreclame-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Magneetborden (los)",
+              "description": "Set van twee magneetborden voor zij van bestelbus of personenwagen. Verwijderbaar, herbruikbaar, ideaal voor part-time gebruik of seizoenswerk. Geen permanente lijm op de lak.",
+              "priceCurrency": "EUR",
+              "price": 149,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 149, "valueAddedTaxIncluded": true },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/autoreclame-rotterdam/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "Article",
@@ -405,7 +461,7 @@ jsonld: |
   </section>
 
   <!-- PAKKETPRIJZEN -->
-  <section class="section" aria-labelledby="prijzen-title">
+  <section class="section" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header" style="max-width:760px;">
         <span class="eyebrow">Transparante prijzen</span>

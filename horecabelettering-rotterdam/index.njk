@@ -62,7 +62,50 @@ jsonld: |
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Horecabelettering",
         "priceRange": "€495-€2950",
-        "areaServed": { "@type": "City", "name": "Rotterdam" }
+        "areaServed": [
+          { "@type": "City", "name": "Rotterdam" },
+          { "@type": "City", "name": "Schiedam" },
+          { "@type": "City", "name": "Vlaardingen" },
+          { "@type": "City", "name": "Capelle aan den IJssel" },
+          { "@type": "City", "name": "Barendrecht" },
+          { "@type": "City", "name": "Spijkenisse" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pakketprijzen horecabelettering Rotterdam",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Starter horeca-pakket",
+              "description": "Raambelettering basis. Gesneden vinyl-belettering op één etalageraam inclusief logo en openingstijden. Weerbestendig buitenvinyl, levensduur vijf jaar. Ontwerp inclusief. Geschikt voor kleine koffiezaken, lunchrooms en buurtcafés met beperkt raamoppervlak.",
+              "priceCurrency": "EUR",
+              "price": 495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 495, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/horecabelettering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Compleet horeca-pakket",
+              "description": "Raam, gevel & menubord. Volledige raambelettering inclusief openingstijden, gevellogo in vinyl of 3D-letters en een menubord aan de pui. A-merk printfolie met overlaminaat. Ontwerp en montage inclusief. Meest gekozen pakket voor restaurants en eetcafés in Rotterdam.",
+              "priceCurrency": "EUR",
+              "price": 1450,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 1450, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/horecabelettering-rotterdam/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Premium horeca-pakket",
+              "description": "Compleet met lichtbak & terrasschotten. Alles uit het Compleet pakket aangevuld met een LED-lichtbak of verlichte doosletters en bedrukte terrasschotten. Complete huisstijl-uitvoering voor de buitenpresentatie van uw zaak. Vergunningadvies inbegrepen voor verlichte uitingen.",
+              "priceCurrency": "EUR",
+              "price": 2950,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2950, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/horecabelettering-rotterdam/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "Article",
@@ -417,7 +460,7 @@ jsonld: |
   <!-- ====================================================
        PRICING — 3 pricing cards
        ==================================================== -->
-  <section class="section section-soft" aria-labelledby="prijzen-title">
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
     <div class="container">
       <div class="section-header">
         <span class="eyebrow">Pakketten &amp; tarieven</span>

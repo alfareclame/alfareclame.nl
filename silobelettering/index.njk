@@ -60,6 +60,18 @@ pageStyles: |
   .author-text h4 { font-size: var(--text-base); font-weight: 700; margin-bottom: var(--space-1); }
   .author-text p { font-size: var(--text-sm); color: var(--ink-muted); line-height: var(--lh-base); }
 
+  /* Pricing cards */
+  .pricing-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:var(--space-5);margin-top:var(--space-6);}
+  .pricing-card{background:var(--surface);border:1px solid var(--ink);border-radius:var(--radius-lg);padding:var(--space-6);position:relative;overflow:hidden;display:flex;flex-direction:column;gap:var(--space-3);}
+  .pricing-card::after{content:'';position:absolute;top:0;right:0;width:28px;height:28px;background:var(--brand);clip-path:polygon(100% 0,100% 100%,0 0);}
+  .pricing-card--featured{background:var(--ink);color:var(--surface);}
+  .pricing-card--featured .pc-name{color:var(--brand);}
+  .pricing-card--featured .pc-price,.pricing-card--featured .pc-desc strong{color:var(--surface);}
+  .pricing-card--featured .pc-desc{color:rgba(255,255,255,0.65);}
+  .pc-name{font-size:var(--text-sm);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-muted);}
+  .pc-price{font-size:var(--text-h3);font-weight:800;letter-spacing:var(--tracking-tight);color:var(--ink);line-height:1;}
+  .pc-desc{font-size:var(--text-sm);color:var(--ink-muted);line-height:var(--lh-base);flex:1;}
+
   @media (max-width: 880px) {
     .step { grid-template-columns: 44px 1fr; }
     .author-box { flex-direction: column; align-items: flex-start; }
@@ -75,12 +87,49 @@ jsonld: |
         "description": "Industriële grootformaat silobelettering tot 30 meter hoogte met A-merk vinyl (3M, Avery, Hexis). Hoogwerker-uitvoering door VCA-bewust team in Rotterdam haven, Botlek, Maasvlakte, Europoort en heel Zuid-Holland.",
         "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Silobelettering",
+        "priceRange": "€2495-€8995",
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
           { "@type": "City", "name": "Vlaardingen" },
           { "@type": "City", "name": "Spijkenisse" }
-        ]
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Silobelettering Pakketten",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Basis",
+              "description": "Silo tot 15 meter hoogte, 1 zijde, A-merk cast vinyl, hoogwerker-uitvoering, 2 jaar garantie.",
+              "priceCurrency": "EUR",
+              "price": 2495,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 2495, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/silobelettering/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Standaard",
+              "description": "Silo 15-25 meter, 2 zijden, premium cast vinyl met UV-coating, hoogwerker-uitvoering, 2 jaar garantie.",
+              "priceCurrency": "EUR",
+              "price": 4995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 4995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/silobelettering/#prijzen"
+            },
+            {
+              "@type": "Offer",
+              "name": "Premium",
+              "description": "Silo 25+ meter, rondom belettering, hoogwerker inclusief, custom design, premium chemisch resistente laminaten, 2 jaar garantie.",
+              "priceCurrency": "EUR",
+              "price": 8995,
+              "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "price": 8995, "valueAddedTaxIncluded": false },
+              "availability": "https://schema.org/InStock",
+              "url": "https://alfareclame.nl/silobelettering/#prijzen"
+            }
+          ]
+        }
       },
       {
         "@type": "Article",
@@ -512,6 +561,43 @@ jsonld: |
           Voor projecten buiten Zuid-Holland geldt een kilometervergoeding voor transport van hoogwerker en materialen. Dit wordt vooraf opgenomen in de offerte, zodat u niet voor verrassingen staat.
         </p>
       </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       PRICING — 3 pakketten silobelettering
+       ==================================================== -->
+  <section class="section section-soft" id="prijzen" aria-labelledby="prijzen-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Pakketten &amp; tarieven</span>
+        <h2 class="section-title" id="prijzen-title">Drie prijspakketten silobelettering</h2>
+        <p class="section-subtitle">Vaste richtprijzen inclusief voormeting, ontwerp, A-merk cast vinyl, hoogwerker-uitvoering en 2 jaar garantie. Alle prijzen exclusief BTW. Exacte prijs op basis van voormeting en offerte.</p>
+      </div>
+
+      <div class="pricing-grid" role="list">
+
+        <div class="pricing-card" role="listitem">
+          <span class="pc-name">Basis</span>
+          <span class="pc-price">&euro;2495</span>
+          <p class="pc-desc"><strong>Silo tot 15 meter, 1 zijde.</strong> A-merk cast vinyl (3M, Avery of Hexis), hoogwerker-uitvoering door VCA-bewust team. Inclusief voormeting, ontwerp en eindrapportage. 2 jaar garantie op hechting en kleurvastheid. Geschikt voor kleinere opslagsilo&rsquo;s op industrieterreinen.</p>
+        </div>
+
+        <div class="pricing-card pricing-card--featured" role="listitem">
+          <span class="pc-name">Standaard</span>
+          <span class="pc-price">&euro;4995</span>
+          <p class="pc-desc"><strong>Silo 15&ndash;25 meter, 2 zijden.</strong> Premium cast vinyl met UV-coating en overlaminate, hoogwerker-uitvoering. Inclusief schaalgetekend ontwerp dat rekening houdt met cilindrische vervorming. Meest gekozen pakket voor industriële locaties in Botlek en Europoort.</p>
+        </div>
+
+        <div class="pricing-card" role="listitem">
+          <span class="pc-name">Premium</span>
+          <span class="pc-price">&euro;8995</span>
+          <p class="pc-desc"><strong>Silo 25+ meter, rondom.</strong> Hoogwerker-huur inclusief, custom design, chemisch resistente laminaten voor petrochemische blootstelling. Volledig 360&deg; belettering. Project-co&ouml;rdinatie met HSE-afdeling, eindrapportage met fotodocumentatie.</p>
+        </div>
+
+      </div>
+
+      <p style="margin-top:var(--space-6);color:var(--ink-muted);font-size:var(--text-sm);">Prijzen exclusief BTW. De exacte prijs is afhankelijk van silo-afmetingen, oppervlaktegesteldheid, bereikbaarheid van de locatie en eventuele HSE-vereisten. Stuur uw locatie en afmetingen via WhatsApp; wij plannen een voormeting en sturen binnen twee werkdagen een gespecificeerde offerte.</p>
     </div>
   </section>
 
