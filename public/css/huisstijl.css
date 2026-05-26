@@ -611,7 +611,6 @@ h6, .h6 {
   height: 44px;
   width: auto;
   margin-bottom: var(--space-4);
-  filter: brightness(0) invert(1);
 }
 
 .footer__tagline {
