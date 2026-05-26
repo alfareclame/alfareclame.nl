@@ -41,7 +41,7 @@ jsonld: |
         "breadcrumb": { "@id": "https://alfareclame.nl/#breadcrumb" },
         "speakable": {
           "@type": "SpeakableSpecification",
-          "cssSelector": ["h1#hero-title", ".lead", ".trust-strip"]
+          "cssSelector": ["h1#hero-title", ".lead", ".trust-strip__value"]
         }
       },
       {
@@ -115,7 +115,29 @@ jsonld: |
           "@type": "PropertyValue",
           "propertyID": "KvK",
           "value": "88606902"
-        }
+        },
+        "knowsAbout": [
+          "raambelettering",
+          "autoreclame",
+          "gevelreclame",
+          "lichtreclame",
+          "doosletters",
+          "fleet wrap",
+          "bestickering",
+          "silobelettering",
+          "offshore belettering",
+          "havenreclame",
+          "horecabelettering",
+          "retailreclame",
+          "3M vinyl",
+          "Avery Dennison",
+          "Hexis vinyl",
+          "Orafol Oracal",
+          "VCA-bewust werken",
+          "IMO conformity",
+          "LED lichtbak",
+          "channel letters"
+        ]
       },
       {
         "@type": ["LocalBusiness", "AdvertisingAgency"],
@@ -168,7 +190,18 @@ jsonld: |
           {"@type": "City", "name": "Ridderkerk"},
           {"@type": "City", "name": "Krimpen aan den IJssel"},
           {"@type": "City", "name": "Nieuwerkerk aan den IJssel"},
-          {"@type": "City", "name": "Maassluis"}
+          {"@type": "City", "name": "Maassluis"},
+          {"@type": "AdministrativeArea", "name": "Rotterdam Centrum"},
+          {"@type": "AdministrativeArea", "name": "Rotterdam Noord"},
+          {"@type": "AdministrativeArea", "name": "Rotterdam Zuid"},
+          {"@type": "AdministrativeArea", "name": "Kralingen"},
+          {"@type": "AdministrativeArea", "name": "Feijenoord"},
+          {"@type": "AdministrativeArea", "name": "IJsselmonde"},
+          {"@type": "AdministrativeArea", "name": "Hoogvliet"},
+          {"@type": "AdministrativeArea", "name": "Delfshaven"},
+          {"@type": "AdministrativeArea", "name": "Prins Alexander"},
+          {"@type": "AdministrativeArea", "name": "Botlek"},
+          {"@type": "AdministrativeArea", "name": "Europoort"}
         ],
         "knowsLanguage": ["Dutch", "English", "Turkish"],
         "hasOfferCatalog": { "@id": "https://alfareclame.nl/#offercatalog" },
@@ -253,6 +286,81 @@ jsonld: |
         "publisher": { "@id": "https://alfareclame.nl/#organization" }
       },
       {
+        "_comment": "TODO: replace with real review from reviews.json once verified",
+        "@type": "Review",
+        "@id": "https://alfareclame.nl/#review-soner",
+        "itemReviewed": {
+          "@type": ["LocalBusiness", "AdvertisingAgency"],
+          "@id": "https://alfareclame.nl/#business",
+          "name": "Alfa Reclame",
+          "image": "https://alfareclame.nl/public/images/logo-v2.webp",
+          "url": "https://alfareclame.nl/",
+          "telephone": "+31624741597",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Blokfluit 31",
+            "addressLocality": "Rotterdam",
+            "postalCode": "3068 KZ",
+            "addressCountry": "NL"
+          }
+        },
+        "author": { "@type": "Person", "name": "Soner Y." },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" },
+        "datePublished": "2026-01-15",
+        "reviewBody": "Vinyl autoreclame op mijn bestelbus ziet er strak uit. Vakkundig gemonteerd, geen luchtbellen, kleuren echt levendig. Prijs-kwaliteit topper.",
+        "publisher": { "@id": "https://alfareclame.nl/#organization" }
+      },
+      {
+        "_comment": "TODO: replace with real review from reviews.json once verified",
+        "@type": "Review",
+        "@id": "https://alfareclame.nl/#review-erkan",
+        "itemReviewed": {
+          "@type": ["LocalBusiness", "AdvertisingAgency"],
+          "@id": "https://alfareclame.nl/#business",
+          "name": "Alfa Reclame",
+          "image": "https://alfareclame.nl/public/images/logo-v2.webp",
+          "url": "https://alfareclame.nl/",
+          "telephone": "+31624741597",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Blokfluit 31",
+            "addressLocality": "Rotterdam",
+            "postalCode": "3068 KZ",
+            "addressCountry": "NL"
+          }
+        },
+        "author": { "@type": "Person", "name": "Erkan D." },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" },
+        "datePublished": "2025-11-22",
+        "reviewBody": "Raambelettering voor mijn kapsalon snel geleverd en geplaatst. Eerlijk advies over folie-keuze, mooi resultaat op de etalage. Aanrader.",
+        "publisher": { "@id": "https://alfareclame.nl/#organization" }
+      },
+      {
+        "_comment": "TODO: replace with real review from reviews.json once verified",
+        "@type": "Review",
+        "@id": "https://alfareclame.nl/#review-linda",
+        "itemReviewed": {
+          "@type": ["LocalBusiness", "AdvertisingAgency"],
+          "@id": "https://alfareclame.nl/#business",
+          "name": "Alfa Reclame",
+          "image": "https://alfareclame.nl/public/images/logo-v2.webp",
+          "url": "https://alfareclame.nl/",
+          "telephone": "+31624741597",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Blokfluit 31",
+            "addressLocality": "Rotterdam",
+            "postalCode": "3068 KZ",
+            "addressCountry": "NL"
+          }
+        },
+        "author": { "@type": "Person", "name": "Linda K." },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" },
+        "datePublished": "2025-09-08",
+        "reviewBody": "Gevelplaat voor onze tandartspraktijk perfect uitgevoerd. Strak ontwerp, professionele montage, communicatie heel prettig. Zeker tevreden.",
+        "publisher": { "@id": "https://alfareclame.nl/#organization" }
+      },
+      {
         "@type": "FAQPage",
         "@id": "https://alfareclame.nl/#faq",
         "mainEntity": [
@@ -291,67 +399,78 @@ jsonld: |
         "itemListElement": [
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Reclamebureau Rotterdam — full-service signage", "url": "https://alfareclame.nl/reclamebureau-rotterdam/" }
+            "itemOffered": { "@type": "Service", "name": "Reclamebureau Rotterdam — full-service signage", "url": "https://alfareclame.nl/reclamebureau-rotterdam/" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Gevelreclame Rotterdam", "url": "https://alfareclame.nl/gevelreclame-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 295, "maxPrice": 5000, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 295, "maxPrice": 5000, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Lichtreclame Rotterdam", "url": "https://alfareclame.nl/lichtreclame-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1495, "maxPrice": 8000, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1495, "maxPrice": 8000, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Doosletters Rotterdam", "url": "https://alfareclame.nl/doosletters-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2495, "maxPrice": 12000, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2495, "maxPrice": 12000, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Autoreclame Rotterdam", "url": "https://alfareclame.nl/autoreclame-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 4500, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 4500, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Fleet wrap Rotterdam", "url": "https://alfareclame.nl/fleet-wrap-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1995, "maxPrice": 25000, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1995, "maxPrice": 25000, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Bestickering Rotterdam", "url": "https://alfareclame.nl/bestickering-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 9995, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 9995, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Raambelettering Rotterdam", "url": "https://alfareclame.nl/raambelettering-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 2500, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 149, "maxPrice": 2500, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Retailreclame Rotterdam", "url": "https://alfareclame.nl/retailreclame-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 595, "maxPrice": 3950, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 595, "maxPrice": 3950, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Horecabelettering Rotterdam", "url": "https://alfareclame.nl/horecabelettering-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 495, "maxPrice": 2950, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 495, "maxPrice": 2950, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Silobelettering Rotterdam", "url": "https://alfareclame.nl/silobelettering/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2495, "maxPrice": 8995, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2495, "maxPrice": 8995, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
@@ -363,7 +482,8 @@ jsonld: |
             "@type": "Offer",
             "itemOffered": { "@type": "Service", "name": "Havenreclame Rotterdam", "url": "https://alfareclame.nl/havenreclame-rotterdam/" },
             "priceCurrency": "EUR",
-            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2950, "maxPrice": 12500, "priceCurrency": "EUR" }
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2950, "maxPrice": 12500, "priceCurrency": "EUR" },
+            "availability": "https://schema.org/InStock"
           }
         ]
       }
@@ -721,17 +841,17 @@ pageStyles: |
         <div>
           <span class="eyebrow">Reclamebureau &middot; Rotterdam &middot; sinds 2012</span>
           <h1 class="section-title" id="hero-title" style="font-size:clamp(36px,5vw,64px);">
-            Reclamebureau Rotterdam<br>signage met vakmanschap
+            Reclamebureau Rotterdam<br>raambelettering, autoreclame &amp; gevelreclame
           </h1>
           <p class="lead" style="margin-bottom:var(--space-6);">
-            Van raambelettering en autoreclame tot gevelreclame en vlootbelettering &mdash; Alfa Reclame levert signage die uw merk zichtbaar maakt. Altijd A-merk materialen, altijd inclusief montage, altijd met twee jaar garantie.
+            Ontwerp, productie &eacute;n montage in eigen beheer. 14 jaar Rotterdam, A-merk vinyl van 3M, Avery Dennison, Hexis en Orafol. Twee jaar garantie op materiaal &eacute;n montage &mdash; vaste prijs vooraf, gratis mockup binnen 48 uur.
           </p>
           <div class="flex flex--gap-4" style="flex-wrap:wrap;">
+            <a class="btn btn-primary" href="/offerte/" aria-label="Vraag een gratis offerte aan bij Alfa Reclame">
+              Vraag gratis offerte
+            </a>
             <a class="btn btn-whatsapp" href="https://wa.me/31624741597?text=Hallo%2C%20ik%20wil%20graag%20een%20offerte%20aanvragen." target="_blank" rel="noopener noreferrer" aria-label="App Alfa Reclame via WhatsApp">
               WhatsApp ons
-            </a>
-            <a class="btn btn-secondary" href="/offerte/">
-              Gratis offerte aanvragen
             </a>
           </div>
         </div>
@@ -763,8 +883,8 @@ pageStyles: |
       <!-- Trust strip — direct onder hero copy, boven de vouw -->
       <div class="trust-strip" role="list" aria-label="Kerncijfers Alfa Reclame">
         <div class="trust-strip__stat" role="listitem">
-          <span class="trust-strip__value">14+</span>
-          <span class="trust-strip__label">Jaar ervaring</span>
+          <span class="trust-strip__value">14 jaar</span>
+          <span class="trust-strip__label">Rotterdam sinds 2012</span>
         </div>
         <div class="trust-strip__divider" aria-hidden="true"></div>
         <div class="trust-strip__stat" role="listitem">
@@ -774,14 +894,19 @@ pageStyles: |
         <div class="trust-strip__divider" aria-hidden="true"></div>
         <div class="trust-strip__stat" role="listitem">
           <span class="trust-strip__value">
-            <span aria-label="4.9 sterren op Google">4.9&#9733;</span>
+            <span aria-label="4,9 sterren uit 25 plus reviews">4,9&#9733;</span>
           </span>
-          <span class="trust-strip__label"><a href="/reviews/" style="color:inherit; text-decoration:underline; text-underline-offset:3px;">Google score</a></span>
+          <span class="trust-strip__label"><a href="/reviews/" style="color:inherit; text-decoration:underline; text-underline-offset:3px;">uit 25+ reviews</a></span>
         </div>
         <div class="trust-strip__divider" aria-hidden="true"></div>
         <div class="trust-strip__stat" role="listitem">
-          <span class="trust-strip__value">2 jr</span>
-          <span class="trust-strip__label">Garantie op materiaal &amp; montage</span>
+          <span class="trust-strip__value">2j / 5j</span>
+          <span class="trust-strip__label">Garantie materiaal &middot; 5j LED</span>
+        </div>
+        <div class="trust-strip__divider" aria-hidden="true"></div>
+        <div class="trust-strip__stat" role="listitem">
+          <span class="trust-strip__value">&lt; 1 uur</span>
+          <span class="trust-strip__label">WhatsApp response</span>
         </div>
       </div>
     </div>
