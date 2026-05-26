@@ -23,10 +23,9 @@
 /article-2-ai-voor-horeca-preview.html               https://aanloopai.nl/   301
 /article-3-whatsapp-bestelbot-preview.html           https://aanloopai.nl/   301
 
-# --- Blog → home ---
-/blog/raambelettering-verwijderen/    /   301
-/blog/raambelettering-verwijderen     /   301
-/blog/*                               /   301
+# --- Legacy blog URL (single dead WP post; blog hub + cornerstones now live) ---
+/blog/raambelettering-verwijderen/    /raambelettering-rotterdam/   301
+/blog/raambelettering-verwijderen     /raambelettering-rotterdam/   301
 
 # --- Legacy WordPress URLs (Ahrefs cache + Google cache cleanup) ---
 /buitenreclame                 /   301
