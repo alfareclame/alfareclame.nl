@@ -137,7 +137,7 @@ jobs:
             "_site/manifest.json"
             "_site/_headers"
             "_site/_redirects"
-            "_site/public/images/logo.jpg"
+            "_site/public/images/logo.png"
             "_site/public/images/favicon-32.png"
             "_site/public/images/favicon-192.png"
             "_site/public/images/favicon-512.png"
