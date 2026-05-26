@@ -58,6 +58,36 @@ jsonld: |
         ]
       },
       {
+        "@type": "Person",
+        "@id": "https://alfareclame.nl/over-ons/#eigenaar",
+        "name": "Marco",
+        "jobTitle": "Eigenaar & Vakman",
+        "description": "Veertien jaar ervaring in Rotterdamse signage en belettering. Verantwoordelijk voor ontwerp, productie en montage van alle projecten.",
+        "worksFor": { "@id": "https://alfareclame.nl/#business" },
+        "knowsAbout": [
+          "Raambelettering",
+          "Autoreclame",
+          "Gevelreclame",
+          "Lichtreclame",
+          "Fleet wrap",
+          "Vinyl applicatie",
+          "Doosletters",
+          "Bestickering",
+          "Industriële belettering",
+          "Offshore belettering",
+          "Havenreclame"
+        ],
+        "knowsLanguage": ["nl", "en", "tr"],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Reclamemaker / Signage-vakman",
+          "occupationLocation": { "@id": "https://alfareclame.nl/#business" },
+          "estimatedSalary": { "@type": "MonetaryAmountDistribution", "currency": "EUR" },
+          "responsibilities": "Ontwerp, productie en montage van belettering, gevelreclame, lichtreclame en industriële signage in Rotterdam en regio."
+        },
+        "url": "https://alfareclame.nl/over-ons/"
+      },
+      {
         "@type": "Organization",
         "@id": "https://alfareclame.nl/#organization",
         "name": "Alfa Reclame",
@@ -65,10 +95,7 @@ jsonld: |
         "url": "https://alfareclame.nl/",
         "logo": "https://alfareclame.nl/public/images/logo.jpg",
         "foundingDate": "2012",
-        "founder": {
-          "@type": "Person",
-          "name": "Oprichter Alfa Reclame"
-        },
+        "founder": { "@id": "https://alfareclame.nl/over-ons/#eigenaar" },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Blokfluit 31",
@@ -113,6 +140,7 @@ jsonld: |
         "telephone": "+31624741597",
         "email": "info@alfareclame.nl",
         "foundingDate": "2012",
+        "founder": { "@id": "https://alfareclame.nl/over-ons/#eigenaar" },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Blokfluit 31",
@@ -204,6 +232,9 @@ jsonld: |
         <div>
           <span class="eyebrow">Ons verhaal</span>
           <h2 class="section-title" id="verhaal-title">Begonnen in Rotterdam Zuid, gebleven voor Rotterdam</h2>
+          <p class="byline" style="font-size:var(--text-sm); color:var(--ink-muted); margin-bottom:var(--space-4);">
+            <strong>Marco</strong>, eigenaar sinds 2012, schrijft over signage-vakmanschap.
+          </p>
           <p>
             Het verhaal van Alfa Reclame begint in 2012, in Rotterdam Zuid. Wat startte als een eenmanszaak met een heldere ambitie &mdash; kwalitatieve signage toegankelijk maken voor het lokale MKB &mdash; groeide in de loop van de jaren uit tot een gevestigd reclamebureau met een vaste klantenkring in de hele stad en de omliggende regio.
           </p>
