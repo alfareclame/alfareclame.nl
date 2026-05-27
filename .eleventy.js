@@ -2,7 +2,13 @@
 // Input = repo root, output = _site/. Page templates are *.njk; everything
 // else (static assets, CF Pages config, SEO files, Functions) is copied
 // through verbatim so the deployed _site/ matches the current live site.
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
 module.exports = function (eleventyConfig) {
+  // Enables `| renderContent("njk")` filter so frontmatter strings
+  // (e.g. inline JSON-LD) can re-expand {{ site.var }} references.
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+
   // Static assets + CF Pages files — passthrough-copied to _site/ root.
   const passthrough = [
     "public",
