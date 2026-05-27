@@ -292,6 +292,16 @@ jsonld: |
 
     <div class="lm-form-wrap">
       <form id="cheatsheet-form" action="/api/lead-magnet" method="post" novalidate>
+        <div class="form-row">
+          <label for="ls-lang">Taal / Language / Sprache / Dil / Język</label>
+          <select name="lang" id="ls-lang" style="width:100%;padding:10px 14px;border:1px solid var(--rule-bold);border-radius:var(--radius-md);font-size:var(--text-base);color:var(--ink);background:var(--surface-mute);box-sizing:border-box;margin-bottom:var(--space-4);">
+            <option value="nl" selected>Nederlands</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="tr">Türkçe</option>
+            <option value="pl">Polski</option>
+          </select>
+        </div>
         <label for="ls-email">Je e-mailadres</label>
         <input
           type="email"
@@ -489,10 +499,11 @@ jsonld: |
     msgEl.className = 'form-msg';
     msgEl.textContent = '';
 
+    var lang = (form.elements['lang'] && form.elements['lang'].value) || 'nl';
     fetch('/api/lead-magnet', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: email, consent: true, website: honeypot })
+      body: JSON.stringify({ email: email, consent: true, website: honeypot, lang: lang })
     })
       .then(function (res) { return res.json(); })
       .then(function (data) {
@@ -528,4 +539,12 @@ jsonld: |
     msgEl.className = 'form-msg form-msg--' + type;
   }
 }());
+</script>
+<script>
+(function() {
+  var sel = document.getElementById('ls-lang');
+  if (!sel) return;
+  var lang = (navigator.language || 'nl').slice(0,2).toLowerCase();
+  if (['nl','en','de','tr','pl'].indexOf(lang) >= 0) sel.value = lang;
+})();
 </script>

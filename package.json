@@ -10,6 +10,7 @@
     "watch": "eleventy --watch",
     "ci": "npm ci && npm run build",
     "cheatsheet": "node scripts/generate-cheatsheet-pdf.js",
+    "cheatsheet:all": "node scripts/generate-cheatsheet-pdf.js --all",
     "images:avif": "node scripts/generate-avif-images.js",
     "submit-sitemap": "node scripts/sitemap-submit.mjs",
     "haro-monitor": "node scripts/haro-monitor.mjs"

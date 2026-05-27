@@ -3,6 +3,10 @@
 # Security + Performance + SEO optimizations
 # ============================================================
 
+/service-worker.js
+  Service-Worker-Allowed: /
+  Cache-Control: no-cache
+
 /*
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff

@@ -36,6 +36,11 @@ module.exports = function (eleventyConfig) {
     "_headers",
     "_routes.json",
     "sitemap.xml",
+    "sitemap-nl.xml",
+    "sitemap-en.xml",
+    "sitemap-de.xml",
+    "sitemap-tr.xml",
+    "sitemap-pl.xml",
     "sitemap-video.xml",
     "sitemap-image.xml",
     "sitemap-index.xml",
@@ -47,6 +52,7 @@ module.exports = function (eleventyConfig) {
     "c80c952b77275971494670c168fd7c7e5b2affa21d357bba74042b4082dd768d.txt",
     "google26dfc393f11fd085.html",
     ".well-known",
+    "service-worker.js",
   ];
   for (const path of passthrough) {
     eleventyConfig.addPassthroughCopy(path);

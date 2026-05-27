@@ -544,3 +544,42 @@ Daily cron monitort HARO/Qwoted/PressJunkie/SourceBottle/HN-signage RSS-feeds, f
 ## Sitemap submission automation
 
 `scripts/sitemap-submit.mjs` pure Node IndexNow delta-submission. GH Actions workflow `sitemap-submit.yml` triggert op push naar main (paths: sitemap*.xml) of workflow_dispatch. 90s sleep voor CF Pages deploy, dan submit, dan commit `data/sitemap-history.jsonl`. Bing IndexNow + Yandex IndexNow auto-submit. Google Indexing API skipped (service-account-required).
+
+## Multi-lang sector verticals TR+PL
+
+5 Türkçe + 5 Polski sektör-spesifik sayfa (Sprint 13):
+- TR: /tr/dis-hekimi-reklam/, /tr/noter-burosu-reklam/, /tr/avukatlik-burosu-reklam/, /tr/kuafor-salonu-reklam/, /tr/restoran-reklam/
+- PL: /pl/gabinet-stomatologiczny-reklama/, /pl/kancelaria-notarialna-reklama/, /pl/kancelaria-adwokacka-reklama/, /pl/fryzjer-reklama/, /pl/restauracja-reklama/
+
+Her sayfa ~1300w, BusinessAudience schema + sektör-spesifik compliance (KNMT/KNB/NOvA/HACCP).
+
+## PWA + Service Worker (installable + offline)
+
+Site installable als app op Android/iOS. service-worker.js (root) precachet shell (homepage/manifest/CSS/logo + 4 dienst-pagina's), runtime cache strategy: HTML stale-while-revalidate 7d, images cache-first 30d, CSS/JS cache-first 30d, /api/* network-only. Cache invalidation via CACHE_VERSION. manifest.json uitgebreid met share_target API (deel-naar-Alfa → contact-form pre-fill), shortcuts (calculator/contact/portfolio), display_override window-controls-overlay, categories business/shopping/lifestyle. Apple mobile web-app meta tags.
+
+## Multi-lang lead-magnet PDF (5 talen)
+
+`/cheatsheet-signage-rotterdam-2026/` nu met taal-select (NL/EN/DE/TR/PL auto-detect via navigator.language). 5 PDF beschikbaar:
+- /data/cheatsheet-rotterdam-signage-2026-nl.pdf (27KB)
+- /data/cheatsheet-rotterdam-signage-2026-en.pdf (27KB)
+- /data/cheatsheet-rotterdam-signage-2026-de.pdf (27KB)
+- /data/cheatsheet-rotterdam-signage-2026-tr.pdf (27KB)
+- /data/cheatsheet-rotterdam-signage-2026-pl.pdf (28KB)
+
+CLI: `node scripts/generate-cheatsheet-pdf.js --lang en` of `--all`.
+
+## Position-Zero / Featured snippet optimization
+
+10 FAQ-pagina's gerestructureerd met semantic HTML markup (`<details><summary>` Q/A patterns, `<table><thead>` voor tabular comparisons, `<ol><li>` voor numbered steps). 2 pagina (tarieven + kies-uw-signage-partner) converted 17 `<div class="faq-item">` → `<details>`; 8 pagina al semantic. AI-LLM en Google Position-Zero snippet-capture beter.
+
+## Sitemap split per language (Google deep-targeting)
+
+5 lang sitemaps generated via `scripts/generate-lang-sitemaps.mjs`:
+- /sitemap-nl.xml (NL pages, root paths)
+- /sitemap-en.xml
+- /sitemap-de.xml
+- /sitemap-tr.xml
+- /sitemap-pl.xml
+- /sitemap-index.xml master (lang + video + image + main fallback)
+
+Google + Bing crawlers krijgen lang-specifieke index voor betere targeting per lang-market.

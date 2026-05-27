@@ -16,6 +16,7 @@ const MAX_BODY_BYTES = 4 * 1024;
 const RATE_LIMIT_MS  = 2 * 60 * 1000; // 2 minutes
 const DOWNLOAD_URL   = '/data/cheatsheet-rotterdam-signage-2026.pdf';
 const EMAIL_RE       = /^[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$/i;
+const VALID_LANGS    = ['nl', 'en', 'de', 'tr', 'pl'];
 
 // In-memory rate-limit store (keyed by email-hash, value = last-request timestamp).
 // Resets on Worker restart; good enough for spam deterrence.
@@ -157,6 +158,16 @@ export async function onRequestPost({ request, env }) {
     return json(400, { ok: false, error: 'missing_consent' }, origin);
   }
 
+  // Validate lang — default nl if absent; 400 if present but invalid.
+  const langRaw = data.lang != null ? String(data.lang).trim().toLowerCase() : null;
+  let lang = 'nl';
+  if (langRaw !== null && langRaw !== '') {
+    if (!VALID_LANGS.includes(langRaw)) {
+      return json(400, { ok: false, error: 'invalid_lang' }, origin);
+    }
+    lang = langRaw;
+  }
+
   // Rate-limit by email hash.
   const emailHash = await hashEmail(email);
   const allowed = await checkRateLimit(emailHash);
@@ -175,6 +186,7 @@ export async function onRequestPost({ request, env }) {
     `*E\\-mail:* ${escapeMd(email)}`,
     `*IP:* ${escapeMd(ip)}`,
     `*Land:* ${escapeMd(country)}`,
+    `*Lang:* ${escapeMd(lang)}`,
     `*UA:* ${escapeMd(ua)}`,
     `_${escapeMd(ts)}_`,
   ].join('\n');
@@ -202,9 +214,11 @@ export async function onRequestPost({ request, env }) {
     console.error('[lead-magnet] Telegram unreachable:', err && err.message);
   }
 
+  const downloadUrl = `/data/cheatsheet-rotterdam-signage-2026-${lang}.pdf`;
+
   return json(200, {
     ok: true,
-    download_url: DOWNLOAD_URL,
+    download_url: downloadUrl,
     message: 'Bedankt! Klik op de download-link hieronder.',
   }, origin);
 }
