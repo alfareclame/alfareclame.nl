@@ -189,3 +189,23 @@ async function networkFirst(req, cacheName) {
     throw err;
   }
 }
+
+// ---------------------------------------------------------------------------
+// PUSH — show notification when a push message is received (Sprint 14 K3.4)
+// ---------------------------------------------------------------------------
+self.addEventListener('push', (event) => {
+  const data = event.data ? event.data.json() : {};
+  event.waitUntil(
+    self.registration.showNotification(data.title || 'Alfa Reclame', {
+      body: data.body || 'Nieuwe update beschikbaar',
+      icon: '/public/images/favicon-192.png',
+      badge: '/public/images/favicon-192.png',
+      data: { url: data.url || '/' },
+    })
+  );
+});
+
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  event.waitUntil(self.clients.openWindow(event.notification.data.url));
+});

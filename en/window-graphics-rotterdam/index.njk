@@ -2,7 +2,7 @@
 layout: base.njk
 pageLang: "en"
 title: "Window Graphics Rotterdam — From €149 | Alfa Reclame"
-description: "Window graphics in Rotterdam for shops, offices, clinics and restaurants. A-brand vinyl from 3M and Avery, owner-installed, two-year warranty. Package pricing from 149 euro."
+description: "Window graphics Rotterdam for shops, offices, clinics and restaurants. A-brand vinyl from 3M and Avery, owner-installed, two-year warranty. Package pricing from €149."
 keywords: "window graphics Rotterdam, window lettering Rotterdam, frosted window film Rotterdam, etched glass film Rotterdam, one way vision Rotterdam, shop window vinyl Rotterdam, office window film, English speaking sign shop Rotterdam"
 robots: "index, follow, max-snippet:-1, max-image-preview:large"
 canonical: "https://alfareclame.nl/en/window-graphics-rotterdam/"
@@ -15,8 +15,9 @@ og_image_width: "1600"
 og_image_height: "1200"
 og_locale: "en_US"
 twitter_title: "Window Graphics Rotterdam — From €149"
-twitter_description: "A-brand vinyl, owner-installed, two-year warranty. From 149 euro per shop window."
+twitter_description: "A-brand vinyl, owner-installed, two-year warranty. From €149 per shop window."
 navActiveUrl: "/diensten/"
+hasFaqAccordion: true
 alternates:
   - hreflang: "nl-NL"
     href: "https://alfareclame.nl/raambelettering-rotterdam/"
@@ -54,32 +55,26 @@ jsonld: |
         ]
       },
       {
-        "@type": "Organization",
-        "@id": "https://alfareclame.nl/#organization",
-        "name": "Alfa Reclame",
-        "url": "https://alfareclame.nl/",
-        "logo": "https://alfareclame.nl/public/images/logo-v2.webp",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Blokfluit 31",
-          "addressLocality": "Rotterdam",
-          "postalCode": "3068 KZ",
-          "addressCountry": "NL"
-        }
-      },
-      {
         "@type": "Service",
         "@id": "https://alfareclame.nl/en/window-graphics-rotterdam/#service",
         "name": "Window Graphics Rotterdam",
-        "description": "Window graphics for shops, offices, clinics and hospitality venues in Rotterdam. Cut-vinyl lettering, frosted privacy film, full-colour print and one-way vision applied to A-brand cast vinyl from 3M, Avery Dennison, Hexis and Orafol. Owner-installed, two-year warranty on materials and adhesion. Package pricing from 149 euro.",
-        "provider": { "@id": "https://alfareclame.nl/#organization" },
+        "description": "Window graphics for shops, offices, clinics and hospitality venues in Rotterdam. Cut-vinyl lettering, frosted privacy film, full-colour print and one-way vision applied using A-brand cast vinyl from 3M, Avery Dennison, Hexis and Orafol. Owner-installed, two-year warranty on materials and adhesion. Package pricing from 149 euro.",
+        "provider": { "@id": "https://alfareclame.nl/#business" },
         "serviceType": "Window graphics",
         "priceRange": "€149-€2500",
         "areaServed": [
           { "@type": "City", "name": "Rotterdam" },
           { "@type": "City", "name": "Schiedam" },
           { "@type": "City", "name": "Vlaardingen" },
-          { "@type": "City", "name": "Capelle aan den IJssel" }
+          { "@type": "City", "name": "Capelle aan den IJssel" },
+          { "@type": "City", "name": "Barendrecht" },
+          { "@type": "City", "name": "Spijkenisse" },
+          {
+            "@type": "GeoCircle",
+            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 51.964, "longitude": 4.569},
+            "geoRadius": 30000,
+            "description": "30 km radius around Rotterdam (Rijnmond region)"
+          }
         ],
         "availableLanguage": ["English", "Dutch", "Turkish"]
       },
@@ -100,7 +95,7 @@ jsonld: |
             "name": "How long do window graphics last?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Professional window graphics with A-brand cast vinyl from 3M, Avery Dennison, Hexis or Orafol typically last five to seven years outdoors in the Dutch climate. Interior applications often last ten years or more. Our standard warranty is two years on colour stability and adhesion; in practice our work outlasts the warranty by several years."
+              "text": "Professional window graphics with A-brand cast vinyl from 3M, Avery Dennison, Hexis or Orafol typically last five to seven years outdoors in the Dutch climate. Interior applications often last ten years or more. Our standard warranty is two years on colour stability and adhesion; in practice our work outlasts the warranty by several years. We have window graphics from 2015 that are still perfect."
             }
           },
           {
@@ -109,6 +104,22 @@ jsonld: |
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Four main types. Cut vinyl (coloured vinyl for logos, lettering and opening hours). Frosted or etched-glass film (a sandblasted effect that lets light through but blocks visibility, ideal for offices and consulting rooms). Full-colour print film (for photographs, gradients and complex designs, UV-laminated). One-way vision (perforated film: full image from outside, see-through from inside, ideal for retail storefronts)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you install frosted privacy film?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Frosted film gives a sandblasted effect that lets light through but blocks outside visibility. Widely used on office and law-firm windows, meeting rooms and treatment rooms in healthcare. We install it as full coverage or in patterns with logo cut-outs. The film is removable without damage to the glass."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a project take from quote to installation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Standard timeline: WhatsApp contact same day, free digital mockup within 48 hours, three to four working days for production after approval, then on-site installation. A complete shop or office project is typically delivered within a week. Rush jobs are accommodated where possible; for hospitality and retail clients we also install on Saturday or in the evening at no surcharge."
             }
           },
           {
@@ -129,20 +140,63 @@ jsonld: |
           },
           {
             "@type": "Question",
-            "name": "How long does a window graphics project take?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Standard timeline: WhatsApp contact same day, free digital mockup within 48 hours, three to four working days for production after approval, then on-site installation. A complete shop or office project is typically delivered within a week. Rush jobs are accommodated where possible; for hospitality and retail clients we also install on Saturday or in the evening at no surcharge."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "Can I supply my own design? What file format?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Yes, that saves you design fees. Supply vector files: .ai (Adobe Illustrator), .eps, outlined .pdf or .svg. Raster formats such as .jpg or .png are only usable at very high resolution and for full-colour print work. If you only have a JPG logo, we can usually vectorise simple marks at no extra charge."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "My window has a curved or unusual shape. Is that possible?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We measure the glass on location beforehand, or you send photos with dimensions via WhatsApp. Cut vinyl and frosted film can be cut to size for round, oval, angled or irregular windows. For complex shapes we produce a template drawing that you approve before production."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I clean window graphics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Clean with lukewarm water and a mild detergent or glass cleaner and a soft microfibre cloth. Avoid abrasive sponges, scouring agents, aggressive solvents and high-pressure washers. Regular cleaning of the exterior of storefronts not only looks better but also extends the service life of the vinyl."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you install in the evening or at weekends?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, at no surcharge. For shops and hospitality venues that cannot close during the day we install on Saturday or in the evening. WhatsApp is also broadly accessible; typically within an hour on weekday evenings until 21:00 and on Saturdays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many years of warranty do you give and what does it cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Two years on colour stability, adhesion and material defects. If the film detaches within that period due to a production defect, fades faster than promised or shows material failures, we return free of charge to remedy it. The warranty does not cover damage by third parties, accidents or deliberate damage."
+            }
           }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://alfareclame.nl/en/window-graphics-rotterdam/#howto",
+        "name": "How to order window graphics from Alfa Reclame Rotterdam",
+        "description": "Five steps from first WhatsApp to completed installation of your window graphics.",
+        "totalTime": "PT7D",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "EUR",
+          "value": "149"
+        },
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "WhatsApp or email your brief", "text": "Send a photo of your shop window or facade plus your text wishes to +31 6 24 74 15 97. Reply within 1 hour during business hours." },
+          { "@type": "HowToStep", "position": 2, "name": "Free digital mockup within 48 hours", "text": "We produce a visual showing your logo on your window so you can see the finished result before committing." },
+          { "@type": "HowToStep", "position": 3, "name": "Approval on mockup and quote", "text": "Fixed package price including VAT. 30 percent deposit, balance on completion." },
+          { "@type": "HowToStep", "position": 4, "name": "Production 3-5 working days", "text": "Vinyl plotted from A-brand cut film (3M, Avery, Hexis, Orafol) weeded and transfer-taped ready for installation." },
+          { "@type": "HowToStep", "position": 5, "name": "On-site installation by appointment", "text": "Bubble-free installation at your shop window by the owner in person, also in the evening or at weekends at no surcharge for shops and hospitality." }
         ]
       }
     ]
@@ -157,46 +211,187 @@ pageStyles: |
   .pricing-table th, .pricing-table td { padding: 14px 12px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
   .pricing-table th { font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-subtle); background: var(--surface-mute); }
   .pricing-table .price { font-weight: 700; color: var(--ink); white-space: nowrap; }
+
+  .steps { counter-reset: steps; margin: var(--space-5) 0; }
+  .step { counter-increment: steps; padding: var(--space-5) 0 var(--space-5) 64px; position: relative; border-bottom: 1px solid var(--rule); }
+  .step:last-child { border-bottom: none; }
+  .step::before { content: counter(steps); position: absolute; left: 0; top: var(--space-5); width: 40px; height: 40px; border-radius: var(--radius-pill); background: var(--brand); color: var(--ink); font-size: var(--text-sm); font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .step h4 { font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-2); color: var(--ink); }
+  .step p { font-size: var(--text-base); color: var(--ink-muted); line-height: var(--lh-base); }
+
+  .reviews { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); margin: var(--space-5) 0; }
+  @media (max-width: 480px) { .reviews { grid-template-columns: 1fr; } }
+  .review { padding: var(--space-5); background: var(--surface-mute); border-radius: var(--radius-lg); border-left: 3px solid var(--brand); }
+  .review-quote { font-family: var(--font-serif); font-style: italic; font-size: var(--text-lg); line-height: var(--lh-snug); color: var(--ink); margin-bottom: var(--space-3); }
+  .review-author { font-size: var(--text-sm); color: var(--ink-muted); }
+
+  .author-box { margin: var(--space-8) 0 var(--space-6); padding: var(--space-6); background: var(--surface-mute); border-radius: var(--radius-lg); display: flex; gap: var(--space-5); align-items: center; }
+  .author-avatar { width: 64px; height: 64px; border-radius: var(--radius-pill); background: var(--ink); color: var(--surface); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); font-weight: 700; flex-shrink: 0; }
+  .author-text h4 { font-size: var(--text-base); font-weight: 600; margin-bottom: var(--space-1); }
+  .author-text p { font-size: var(--text-sm); color: var(--ink-muted); line-height: var(--lh-base); }
 ---
 
-  <section class="section section--lg" aria-labelledby="hero-title">
-    <div class="container">
-      <div class="lang-switch" aria-label="Language selector">
-        <a href="/raambelettering-rotterdam/" hreflang="nl-NL" lang="nl">Nederlands</a>
-        <a href="/en/window-graphics-rotterdam/" hreflang="en" lang="en" class="current" aria-current="page">English</a>
-        <a href="/de/fensterbeschriftung-rotterdam/" hreflang="de" lang="de">Deutsch</a>
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <div class="lang-switch" aria-label="Language selector">
+          <a href="/raambelettering-rotterdam/" hreflang="nl-NL" lang="nl">Nederlands</a>
+          <a href="/en/window-graphics-rotterdam/" hreflang="en" lang="en" class="current" aria-current="page">English</a>
+          <a href="/de/fensterbeschriftung-rotterdam/" hreflang="de" lang="de">Deutsch</a>
+        </div>
+        <span class="hero__eyebrow">Owner-installed &middot; from &euro;149 &middot; two-year warranty</span>
+        <h1 class="hero__title" id="hero-title">Window graphics Rotterdam</h1>
+        <p class="bluf-answer">Window graphics in Rotterdam from &euro;149 including design, A-brand vinyl and bubble-free installation. Two-year warranty, delivery in 3&ndash;5 working days.</p>
+        <p class="hero__lead">
+          Window graphics for shops, offices, clinics and hospitality venues. Fourteen years of experience in Rotterdam, A-brand cast vinyl from 3M and Avery Dennison. The fastest route to a quote is a photograph sent over WhatsApp; you receive a first estimate within one hour on weekdays.
+        </p>
+        <ul class="bluf-bullets" aria-label="What you get">
+          <li>Design, production and installation in one hand</li>
+          <li>A-brand vinyl (3M, Avery Dennison, Hexis, Orafol)</li>
+          <li>Two-year warranty on colour stability and adhesion</li>
+          <li>Free digital mockup within 48 hours</li>
+          <li>WhatsApp reply within 1 hour on weekdays</li>
+        </ul>
+        <div class="hero__cta-row">
+          <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597?text=Hi%20Alfa%20Reclame%2C%20I%20need%20a%20quote%20for%20window%20graphics%20in%20Rotterdam.%20Here%20is%20a%20photo." target="_blank" rel="noopener noreferrer" aria-label="Send photo via WhatsApp for window graphics quote">Send a photo via WhatsApp</a>
+          <a class="btn btn-secondary" href="tel:+31624741597">Call +31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97</a>
+        </div>
       </div>
 
-      <span class="eyebrow">Owner-installed &middot; from &euro;149 &middot; two-year warranty</span>
-      <h1 class="section-title" id="hero-title" style="font-size:clamp(36px,5vw,56px);">Window graphics in Rotterdam</h1>
-      <p class="lead" style="max-width: 760px;">
-        Window graphics from 149 euro per shop window, including design, A-brand vinyl and bubble-free installation by the owner. Fourteen years of experience in Rotterdam, two-year warranty on materials and adhesion. The fastest route to a quote is a photograph sent over WhatsApp; you receive a first estimate within one hour on weekdays.
-      </p>
-
-      <div class="flex flex--gap-4" style="flex-wrap:wrap; margin-top:var(--space-5);">
-        <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597?text=Hi%20Alfa%20Reclame%2C%20I%20need%20a%20quote%20for%20window%20graphics%20in%20Rotterdam.%20Here%20is%20a%20photo." target="_blank" rel="noopener noreferrer">Send a photo via WhatsApp</a>
-        <a class="btn btn-secondary" href="tel:+31624741597">Call +31 6 24 74 15 97</a>
+      <div class="hero__visual" aria-hidden="true">
+        <picture>
+          <source srcset="/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam-480.webp 480w, /public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam-960.webp 960w, /public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.webp 1600w" type="image/webp" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw">
+          <img srcset="/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam-480.jpg 480w, /public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam-960.jpg 960w, /public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg 1600w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            class="hero__photo hero__photo--tall"
+            src="/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg"
+            alt="Window graphics Yohnny Cake cafe Rotterdam — hand-lettered logo on large storefront window"
+            width="380" height="460"
+            loading="eager" fetchpriority="high" decoding="async">
+        </picture>
       </div>
     </div>
   </section>
 
+  <!-- INTRO -->
   <section class="section section-soft stripe-top" aria-labelledby="intro-title">
-    <div class="container--narrow">
-      <h2 class="section-title" id="intro-title">What are window graphics?</h2>
-      <p>Window graphics are self-adhesive vinyl applied to glass surfaces &mdash; shop fronts, office facades, entrance doors, meeting room partitions and internal glass walls. The purpose varies by location: a shop wants to display its name and opening hours, an office wants privacy without losing daylight, a restaurant wants to communicate menu or atmosphere, a law firm wants a discreet, dignified appearance. Window graphics are usually the first signage element a new business installs in Rotterdam, and therefore the longest-lasting calling card. A well-installed storefront stays presentable for five to seven years; a poorly installed one fades within a season.</p>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="intro-title">What are window graphics?</h2>
+        <p class="section-subtitle">Self-adhesive vinyl on glass &mdash; storefront windows, office facades, entrance doors, meeting room partitions. Visible, durable and always bespoke.</p>
+      </div>
 
-      <p>We have been working with Rotterdam SMEs since 2012. No sales pitch, no multi-week quotation cycles. You send a photograph over WhatsApp, you receive a digital mockup within two days, the installation is carried out at your location.</p>
-
-      <h3 style="margin-top:var(--space-6);">Four main film types cover almost every brief:</h3>
-      <ul style="list-style:disc; padding-left:var(--space-5); color:var(--ink-muted); line-height:var(--lh-base); margin-top:var(--space-3);">
-        <li style="margin-bottom:var(--space-3);"><strong style="color:var(--ink);">Cut vinyl (colour film)</strong> &mdash; for logos, lettering and opening hours in solid colour. Available in hundreds of RAL and brand-specific shades, UV-stable for five to seven years outdoors.</li>
-        <li style="margin-bottom:var(--space-3);"><strong style="color:var(--ink);">Frosted or etched-glass film</strong> &mdash; sandblasted effect that lets light through but blocks visibility. Ideal for meeting rooms, consulting rooms and law firms.</li>
-        <li style="margin-bottom:var(--space-3);"><strong style="color:var(--ink);">Full-colour print film</strong> &mdash; for photographs, gradients and complex designs, printed with UV inks and laminated.</li>
-        <li><strong style="color:var(--ink);">One-way vision (perforated film)</strong> &mdash; a full image from outside, see-through from inside. Ideal for large retail storefronts.</li>
-      </ul>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-9); align-items:start;">
+        <div>
+          <p>The purpose varies by location: a shop wants to display its name and opening hours, an office wants privacy without losing daylight, a restaurant wants to communicate its menu or atmosphere, a law firm wants a discreet, dignified appearance. Window graphics are usually the first signage element a new business installs in Rotterdam &mdash; and therefore the longest-lasting calling card. A well-installed storefront stays presentable for five to seven years; a poorly installed one fades within a season.</p>
+          <p>We have been working with Rotterdam SMEs since 2012. No sales pitch, no multi-week quotation cycles. Send a photograph over WhatsApp, receive a digital mockup within two days, installation carried out at your location by the owner in person.</p>
+        </div>
+        <div>
+          <p>Four main film types cover almost every brief:</p>
+          <ul style="list-style:disc; padding-left:var(--space-5); color:var(--ink-muted); line-height:var(--lh-base); margin-top:var(--space-3);">
+            <li style="margin-bottom:var(--space-3);"><strong style="color:var(--ink);">Cut vinyl (colour film)</strong> &mdash; for logos, lettering and opening hours in solid colour. Available in hundreds of RAL and brand-specific shades, UV-stable for five to seven years outdoors.</li>
+            <li style="margin-bottom:var(--space-3);"><strong style="color:var(--ink);">Frosted or etched-glass film</strong> &mdash; sandblasted effect that lets light through but blocks visibility. Ideal for meeting rooms, consulting rooms and law firms.</li>
+            <li style="margin-bottom:var(--space-3);"><strong style="color:var(--ink);">Full-colour print film</strong> &mdash; for photographs, gradients and complex designs, printed with UV inks and laminated.</li>
+            <li><strong style="color:var(--ink);">One-way vision (perforated film)</strong> &mdash; a full image from outside, see-through from inside. Ideal for large retail storefronts.</li>
+          </ul>
+          <p style="margin-top:var(--space-4);">For each type we apply the same standard: A-brand vinyl with laminate, installation by the owner, two-year warranty. Cheap vinyl ordered online fades or peels within a season; the difference lies not in the design but in the material and application method.</p>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- DISTRICTS -->
+  <section class="section" aria-labelledby="districts-title">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="districts-title">Window graphics by Rotterdam district</h2>
+        <p class="section-subtitle">Rotterdam consists of dozens of neighbourhoods, each with its own mix of retail, hospitality, professional services and healthcare.</p>
+      </div>
+
+      <div class="card-grid" role="list">
+        <div class="card" role="listitem">
+          <h3 class="card__title">City Centre &amp; Cool</h3>
+          <p class="card__body">Shopping streets such as Lijnbaan and Beurstraverse call for clear, eye-catching storefront graphics. High footfall and frequent seasonal promotions. Permit applications go through the welstandscommissie; we know the process and provide the technical documentation.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Kralingen-Crooswijk</h3>
+          <p class="card__body">Boutiques, specialty shops and hospitality venues demand refined storefront lettering. Healthcare practices and law firms in this area choose frosted film for privacy combined with daylight.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Hillegersberg-Schiebroek</h3>
+          <p class="card__body">Premium residential neighbourhood with offices for accountancy, notaries and financial services. Demand for classic gilded frosted film and cast vinyl in restrained colours. High quality expectations, understated appearance.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Feijenoord &amp; Katendrecht</h3>
+          <p class="card__body">Hospitality corridor with cocktail bars, delis and restaurants that use the storefront as brand communication. Full-colour print and cut vinyl for atmosphere and taste identity. Evening legibility is a requirement.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Charlois &amp; IJsselmonde</h3>
+          <p class="card__body">Retail zones with hair salons, physiotherapy practices and small specialty shops. Practical packages with logo, opening hours and services on the storefront. Reliable, affordable quality is the key criterion.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Prins Alexander</h3>
+          <p class="card__body">Business park and professional services: IT companies, consultancies, administrative offices. Logo on office facade, frosted film for meeting room privacy, door numbers and internal wayfinding.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Delfshaven</h3>
+          <p class="card__body">Historic shop premises with protected-monument status. Storefronts in small, atmospheric pands require materials and installation techniques that do not damage the glass or frames. Experience with heritage requirements is essential.</p>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Hoogvliet &amp; Pernis</h3>
+          <p class="card__body">Small independent businesses with a local customer base. Practical starter packages, clear business names and opening hours. Short lead time and honest pricing are the most important criteria here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATERIALS -->
+  <section class="section section-soft" aria-labelledby="materials-title">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-9); align-items:start;">
+        <div>
+          <span class="eyebrow">Material &amp; quality</span>
+          <h2 class="section-title" id="materials-title">A-brand vinyl, two-year warranty</h2>
+          <p>We work exclusively with certified films from four manufacturers. The choice depends on the type of project, the exposure level and the budget.</p>
+          <p>On all window graphics our standard two-year warranty applies on colour stability, adhesion and material defects. If an issue arises within that period we return free of charge to remedy it.</p>
+        </div>
+        <div>
+          <ul style="list-style:none; padding:0;">
+            <li style="padding:var(--space-4) 0; border-bottom:1px solid var(--rule);">
+              <strong style="display:block; margin-bottom:var(--space-1);">3M</strong>
+              <span style="color:var(--ink-muted); font-size:var(--text-sm);">Industry standard for signage vinyl. 3M Controltac and IJ-series for interior and exterior use, UV-stable colours and seven-year manufacturer warranty.</span>
+            </li>
+            <li style="padding:var(--space-4) 0; border-bottom:1px solid var(--rule);">
+              <strong style="display:block; margin-bottom:var(--space-1);">Avery Dennison</strong>
+              <span style="color:var(--ink-muted); font-size:var(--text-sm);">Premium office and retail vinyl. Avery MPI and SC-series with strong adhesion and stable colour reproduction. Widely used for frosted film and privacy applications.</span>
+            </li>
+            <li style="padding:var(--space-4) 0; border-bottom:1px solid var(--rule);">
+              <strong style="display:block; margin-bottom:var(--space-1);">Hexis</strong>
+              <span style="color:var(--ink-muted); font-size:var(--text-sm);">European manufacturer with a strong specialist range. Suitable for complex applications, cast vinyl for irregular surfaces and special effects.</span>
+            </li>
+            <li style="padding:var(--space-4) 0;">
+              <strong style="display:block; margin-bottom:var(--space-1);">Orafol / Oracal</strong>
+              <span style="color:var(--ink-muted); font-size:var(--text-sm);">Durable exterior lettering, popular for long-term storefront graphics and light colours. Good value for cut vinyl on standard glass.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FROSTED FILM DEEP DIVE -->
+  <section class="section" aria-labelledby="frosted-title">
+    <div class="container--narrow">
+      <span class="eyebrow">Privacy with design</span>
+      <h2 class="section-title" id="frosted-title">Frosted glass and etched-glass film</h2>
+      <p>Frosted film is one of the most versatile applications in our range. It gives a sandblasted or frosted effect on glass &mdash; light-transmitting but opaque to outside view. Ideal for situations where privacy and appearance must go hand in hand.</p>
+      <p>There is an important technical distinction. <strong>Etched glass</strong> is a permanent chemical treatment of the glass surface itself &mdash; irreversible and expensive. <strong>Frosted film</strong> (vinyl with a frosted finish) gives the same visual result but is fully removable without damage to the glass. It is therefore the practical choice for tenants, temporary arrangements or premises that may change use in the future.</p>
+      <p>Applications we carry out most frequently: meeting rooms and boardrooms (full glass or an eye-level band), healthcare clinics and treatment rooms (full privacy coverage with logo cut-out), law firms (classic gilded effect using a vinyl technique), fitness studios and wellness centres (decorative patterns combined with business name).</p>
+      <p>Materials we use for this: <strong>Avery Dennison etched glass film</strong> (premium, dimensionally stable), <strong>Hexis Skintac frosted</strong> (European, strong adhesion on difficult glass). Bespoke is standard: milled patterns, logo cut-outs in any shape, gradient effects from fully opaque to transparent. Maintenance is simple &mdash; safe to clean with glass cleaner, no special products required. Interior applications last seven years or more without visible deterioration.</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
   <section class="section section-soft" id="pricing" aria-labelledby="price-title">
     <div class="container--narrow">
       <div class="section-header">
@@ -211,39 +406,246 @@ pageStyles: |
         </thead>
         <tbody>
           <tr><td><strong>Starter</strong></td><td class="price">&euro;149</td><td>Small shop, one window, cut vinyl in one or two colours, on-site installation. Suitable for stand-alone shops, sole traders and start-ups.</td></tr>
-          <tr><td><strong>Shop complete</strong></td><td class="price">&euro;249</td><td>Storefront plus opening hours plus logo on all windows. Cut vinyl, optionally with a frosted strip for privacy. For compact shops and hospitality venues.</td></tr>
-          <tr><td><strong>Hospitality pack</strong></td><td class="price">&euro;449</td><td>Menu or promotions, business logo and privacy etched film. Combination of cut vinyl and print, designed for atmosphere plus clear information.</td></tr>
+          <tr><td><strong>Shop complete</strong></td><td class="price">&euro;249</td><td>Storefront plus opening hours plus logo on all windows. Cut vinyl, optionally with a frosted privacy strip. For compact shops and hospitality venues.</td></tr>
+          <tr><td><strong>Hospitality pack</strong></td><td class="price">&euro;449</td><td>Menu or promotions, business logo and privacy frosted film. Combination of cut vinyl and print, designed for atmosphere plus clear information.</td></tr>
           <tr><td><strong>Custom</strong></td><td class="price">&euro;749+</td><td>Large projects, full-colour print, complex design, multiple locations or specialist materials. Quoted after site survey.</td></tr>
         </tbody>
       </table>
 
-      <p>Unsure which package fits? Send a photograph via WhatsApp; we provide a first estimate within an hour on weekdays.</p>
+      <p>Not sure which package fits? Send a photograph via WhatsApp; we provide a first estimate within an hour on weekdays. See also our <a href="/tarieven/">full pricing page</a> for a comparison of window graphics with other signage services.</p>
+      <div style="margin-top:var(--space-6);">
+        <a class="btn btn-whatsapp" href="https://wa.me/31624741597?text=Hi%20Alfa%20Reclame%2C%20here%20is%20a%20photo%20of%20my%20window.%20I%20would%20like%20a%20first%20estimate." target="_blank" rel="noopener noreferrer">Send a photo via WhatsApp</a>
+      </div>
     </div>
   </section>
 
+  <!-- PROCESS -->
   <section class="section" aria-labelledby="process-title">
     <div class="container--narrow">
-      <span class="eyebrow">From photo to film</span>
-      <h2 class="section-title" id="process-title">Process in five steps</h2>
-      <ol style="counter-reset: stp; list-style:none; padding:0;">
-        <li style="padding:var(--space-4) 0; border-bottom: 1px solid var(--rule);"><strong>1. WhatsApp contact.</strong> Send a photograph of the window with a short description. Reply within one hour on weekdays. Direct line to the owner, not a contact form that disappears into an inbox.</li>
-        <li style="padding:var(--space-4) 0; border-bottom: 1px solid var(--rule);"><strong>2. Free digital mockup within 48 hours.</strong> We produce a to-scale mockup showing how the design lands on your actual window. Revisions are unlimited and free.</li>
-        <li style="padding:var(--space-4) 0; border-bottom: 1px solid var(--rule);"><strong>3. Production at Rotterdam print partners.</strong> Cut vinyl in-house, full-colour print at our local print partners. A-brand vinyl only. Production lead time is three to four working days.</li>
-        <li style="padding:var(--space-4) 0; border-bottom: 1px solid var(--rule);"><strong>4. Bubble-free on-site installation.</strong> Installed by the same person who designed it. Wet-application method for large areas, dry method for fine detail. Typically one to three hours per window. We clean up before leaving.</li>
-        <li style="padding:var(--space-4) 0;"><strong>5. Two-year warranty and personal aftercare.</strong> Two years on colour stability, adhesion and material defects. If issues arise, we come back free of charge.</li>
-      </ol>
+      <div class="section-header">
+        <span class="eyebrow">From photo to film</span>
+        <h2 class="section-title" id="process-title">Process in five steps</h2>
+        <p class="section-subtitle">No intermediaries &mdash; the owner handles every project himself from first photo to last corner.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <h4>Contact via WhatsApp</h4>
+          <p>Send a photo of your window with a short description of what you want. Reply within one hour, including evenings and Saturdays. No contact form that disappears into an inbox &mdash; direct contact with the craftsman who will carry out the work.</p>
+        </div>
+        <div class="step">
+          <h4>Free digital mockup within 48 hours</h4>
+          <p>We produce a to-scale example showing how the design will look on your window. Revisions are unlimited and free of charge. We keep refining until it is exactly right, even if that takes three or four rounds.</p>
+        </div>
+        <div class="step">
+          <h4>Production at Rotterdam print partners</h4>
+          <p>After approval of the mockup the job goes to production: cut work in-house, full-colour print at our Rotterdam print partners. We work exclusively with A-brand vinyl (3M, Avery, Hexis, Orafol). Lead time is typically three to four working days.</p>
+        </div>
+        <div class="step">
+          <h4>Bubble-free on-site installation</h4>
+          <p>Installation by the same person who designed it. Wet-application method for large areas, dry method for fine detail. Typically one to three hours per window depending on complexity. We clean up before leaving.</p>
+        </div>
+        <div class="step">
+          <h4>Two-year warranty and personal aftercare</h4>
+          <p>All window graphics carry a two-year warranty on colour stability, adhesion and material defects. If problems arise we return free of charge. The WhatsApp number you used for initial contact remains available &mdash; no ticket system, no waiting time.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section section-soft" aria-labelledby="cta-title">
+  <!-- CASE STUDIES -->
+  <section class="section section-soft" aria-labelledby="cases-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Portfolio</span>
+        <h2 class="section-title" id="cases-title">Recent window graphics projects in Rotterdam</h2>
+        <p class="section-subtitle">From cafe storefront with hand lettering to accountancy office with gilded frosted film and healthcare clinic with full-colour print.</p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:var(--space-5); margin-top:var(--space-5);">
+        <div>
+          <h3 style="font-size:var(--text-lg); font-weight:600; margin-bottom:var(--space-3);">Yohnny Cake</h3>
+          <p style="font-size:var(--text-sm); color:var(--ink-muted); line-height:var(--lh-base);">Cafe in Rotterdam with a hand-lettered logo and the text "Antique &amp; Handmade" on the large storefront window. Cut vinyl in black, applied to the exterior glass. Particular challenge: the glass had a slight curve, requiring a template drawing as an intermediate step.</p>
+        </div>
+        <div>
+          <h3 style="font-size:var(--text-lg); font-weight:600; margin-bottom:var(--space-3);">ARAS &amp; Partners</h3>
+          <p style="font-size:var(--text-sm); color:var(--ink-muted); line-height:var(--lh-base);">Accountancy firm where the client chose gilded frosted film above the entrance. The text is cut out of a frosted band so the letters appear as golden-tinted windows. Combination of cut vinyl and frosted film on an office facade in Rotterdam City Centre.</p>
+        </div>
+        <div>
+          <h3 style="font-size:var(--text-lg); font-weight:600; margin-bottom:var(--space-3);">DermaMedi</h3>
+          <p style="font-size:var(--text-sm); color:var(--ink-muted); line-height:var(--lh-base);">Healthcare clinic with a full-colour print film combining treatments, logo and opening hours in the brand purple. Large surface (two windows each 2.5 metres wide). Installation outside office hours to keep the practice operational.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" aria-labelledby="reviews-title">
     <div class="container--narrow">
-      <h2 class="section-title" id="cta-title">Request a window graphics quote</h2>
-      <p>Send a photograph of the surface and a short description via WhatsApp. You receive a first estimate within one hour on weekdays. If we agree on a direction, the free digital mockup follows within 48 hours.</p>
-      <p style="margin-top:var(--space-5);">
-        <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597?text=Hi%20Alfa%20Reclame%2C%20here%20is%20a%20photo%20of%20my%20window.%20I%20would%20like%20a%20first%20estimate." target="_blank" rel="noopener noreferrer">Send a photo via WhatsApp</a>
+      <div class="section-header">
+        <span class="eyebrow">Client experiences</span>
+        <h2 class="section-title" id="reviews-title">What clients say</h2>
+        <p class="section-subtitle">A selection of recent feedback. See also our profile on <a href="https://www.google.com/maps/search/Alfa+Reclame+Rotterdam" rel="noopener noreferrer">Google Maps</a> for the most recent reviews.</p>
+      </div>
+
+      <div class="reviews">
+        <div class="review">
+          <p class="review-quote">"Fast service, excellent quality. A genuinely friendly business."</p>
+          <p class="review-author">&mdash; Google review, Rotterdam</p>
+        </div>
+        <div class="review">
+          <p class="review-quote">"Good work, delivered quickly. We are very happy with the result."</p>
+          <p class="review-author">&mdash; Google review, Rotterdam</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="section section-soft" aria-labelledby="area-title">
+    <div class="container--narrow">
+      <span class="eyebrow">Service area</span>
+      <h2 class="section-title" id="area-title">Rotterdam and the wider region</h2>
+      <p>We carry out window graphics throughout Rotterdam and the immediate surrounding area. For installation we come to your location; no travel charge within the following towns.</p>
+
+      <ul style="list-style:none; padding:0; margin-top:var(--space-5);">
+        <li style="padding:var(--space-4) 0; border-bottom:1px solid var(--rule);">
+          <strong>Rotterdam</strong> &mdash; <span style="color:var(--ink-muted);">City Centre, Noord, Zuid, Kralingen, Feijenoord, IJsselmonde, Hoogvliet, Delfshaven, Prins Alexander, Charlois and Lombardijen.</span>
+        </li>
+        <li style="padding:var(--space-4) 0; border-bottom:1px solid var(--rule);">
+          <strong>Region</strong> &mdash; <span style="color:var(--ink-muted);">Schiedam, Vlaardingen, Capelle aan den IJssel, Barendrecht, Spijkenisse, Ridderkerk, Krimpen aan den IJssel, Maassluis and Albrandswaard.</span>
+        </li>
+        <li style="padding:var(--space-4) 0;">
+          <strong>Outside the region</strong> &mdash; <span style="color:var(--ink-muted);">for projects further afield in Zuid-Holland we can also travel. Any transport costs are agreed in advance in the quote.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" aria-labelledby="faq-title">
+    <div class="container--narrow">
+      <div class="section-header">
+        <span class="eyebrow">Frequently asked questions</span>
+        <h2 class="section-title" id="faq-title">FAQ &mdash; window graphics Rotterdam</h2>
+      </div>
+
+      <div class="faq" role="list">
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-1">What do window graphics cost in Rotterdam?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-1" role="region" hidden><p>We work with four transparent packages. Starter (small shop, lettering and logo on one window) from &euro;149. Shop complete (storefront, opening hours, logo on all windows) from &euro;249. Hospitality pack (menu or promotions plus logo plus privacy frosted film) from &euro;449. Custom (large project, full-colour print, complex design) from &euro;749. All prices include VAT, design, A-brand vinyl and on-site installation.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-2">How long do window graphics last?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-2" role="region" hidden><p>Professional window graphics with A-brand vinyl from 3M, Avery Dennison, Hexis or Orafol typically last five to seven years outdoors in the Dutch climate. Interior applications often last ten years or more. Our standard warranty is two years on colour stability and adhesion; in practice our work outlasts the warranty by several years. We have window graphics from 2015 that are still perfect.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-3">Which types of window film can you supply?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-3" role="region" hidden><p>Four main types: cut vinyl (coloured vinyl for logos, lettering and opening hours), frosted or etched-glass film (sandblasted effect for privacy and light transmission, ideal for offices and law firms), full-colour print film (for photographs, gradients and complex designs) and one-way vision (perforated film: full image from outside, see-through from inside, ideal for storefronts). We advise on the best film type per project.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-4">Can you install frosted privacy film?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-4" role="region" hidden><p>Yes. Frosted film gives a sandblasted effect that lets light through but blocks outside visibility. Widely used on office and law-firm windows, meeting rooms and treatment rooms in healthcare. We install it as full coverage or in patterns with logo cut-outs. The film is removable without damage to the glass.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-5">How long does a project take from quote to installation?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-5" role="region" hidden><p>Standard timeline: WhatsApp contact same day, mockup within 48 hours, three to four working days for production and installation after approval. A complete shop or office project is typically ready within a week. Rush jobs can be accommodated; for seasonal clients such as hospitality and retail we also work evenings and weekends at no surcharge.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-6">Can window film be removed cleanly?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-6" role="region" hidden><p>Yes. A-brand vinyl from 3M, Avery, Hexis or Orafol removes cleanly from glass even after years. We remove old window graphics as part of a new project or as a stand-alone service. For adhesive residue we use professional citrus-based removers that do not damage glass or window frames.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-7">Do you work outside Rotterdam?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-7" role="region" hidden><p>Yes. In addition to Rotterdam we work throughout the region: Schiedam, Vlaardingen, Capelle aan den IJssel, Barendrecht, Spijkenisse, Ridderkerk, Krimpen aan den IJssel and Maassluis. No travel charge within these towns. For projects further afield in Zuid-Holland we can also travel; we agree any transport costs in advance.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-8">Can I supply my own design? What file format?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-8" role="region" hidden><p>Yes, that saves you design fees. Supply vector files: .ai (Adobe Illustrator), .eps, outlined .pdf or .svg. Raster formats such as .jpg or .png are only usable at very high resolution and for full-colour print work. If you only have a JPG logo, we can usually vectorise simple marks at no extra charge.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-9">My window has a curved or unusual shape. Is that possible?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-9" role="region" hidden><p>Yes. We measure the glass on location beforehand, or you send photos with dimensions via WhatsApp. Cut vinyl and frosted film can be cut to size for round, oval, angled or irregular windows. For complex shapes we produce a template drawing that you approve before production.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-10">How do I clean window graphics?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-10" role="region" hidden><p>Clean with lukewarm water and a mild detergent or glass cleaner and a soft microfibre cloth. Avoid abrasive sponges, scouring agents, aggressive solvents and high-pressure washers. Regular cleaning of the exterior of storefronts not only looks better but also extends the service life of the vinyl.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-11">Do you install in the evening or at weekends?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-11" role="region" hidden><p>Yes, at no surcharge. For shops and hospitality venues that cannot close during the day we install on Saturday or in the evening. WhatsApp is also broadly accessible; typically within an hour on weekday evenings until 21:00 and on Saturdays.</p></div>
+        </div>
+        <div class="faq__item" role="listitem">
+          <button class="faq__question" aria-expanded="false" aria-controls="faq-en-12">How many years of warranty and what does it cover?<span class="faq__icon" aria-hidden="true">+</span></button>
+          <div class="faq__answer" id="faq-en-12" role="region" hidden><p>Two years on colour stability, adhesion and material defects. If the film detaches within that period due to a production defect, fades faster than promised, or shows material failures, we return free of charge to remedy it. The warranty does not cover damage by third parties, accidents or deliberate damage.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON GUIDE -->
+  <section class="section" aria-labelledby="comparison-title">
+    <div class="container--narrow">
+      <span class="eyebrow">Comparing providers?</span>
+      <h2 class="section-title section-title--sm" id="comparison-title">Still comparing sign companies?</h2>
+      <p>Before choosing a window film supplier in Rotterdam, it is worth comparing providers fairly on material, installation method and warranty. Read our <a href="/kies-uw-signage-partner-rotterdam/">10 criteria for a signage partner</a> &mdash; verifiable questions for your quote round.</p>
+    </div>
+  </section>
+
+  <!-- RELATED SERVICES -->
+  <section class="section section-soft" aria-labelledby="related-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Read more</span>
+        <h2 class="section-title" id="related-title">Related services</h2>
+      </div>
+      <div class="card-grid" role="list">
+        <div class="card" role="listitem">
+          <h3 class="card__title">Vehicle wraps Rotterdam</h3>
+          <p class="card__body">Van lettering, partial wraps and full vehicle wraps using cast vinyl from 3M and Avery. Packages from &euro;175.</p>
+          <a class="btn btn-secondary" href="/en/vehicle-wraps-rotterdam/">Learn more &rarr;</a>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">Facade signage Rotterdam</h3>
+          <p class="card__body">Printed boards, dimensional letters, illuminated light boxes and channel letters. Permit assistance included.</p>
+          <a class="btn btn-secondary" href="/en/facade-signage-rotterdam/">Learn more &rarr;</a>
+        </div>
+        <div class="card" role="listitem">
+          <h3 class="card__title">All services (English)</h3>
+          <p class="card__body">Overview of all Alfa Reclame signage services available in English.</p>
+          <a class="btn btn-secondary" href="/en/">View all &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHOR BOX -->
+  <section class="section" aria-label="About the author">
+    <div class="container--narrow">
+      <div class="author-box">
+        <div class="author-avatar" aria-hidden="true">AR</div>
+        <div class="author-text">
+          <h4>Alfa Reclame &mdash; Window graphics Rotterdam</h4>
+          <p>Owner of Alfa Reclame. Fourteen years of professional work with window graphics, vehicle wraps, facade signage and large-format signage for Rotterdam SMEs. KvK 88606902. Directly reachable via WhatsApp or email; reply usually within one hour on weekdays.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section section-dark" aria-labelledby="cta-final-title" id="contact">
+    <div class="container" style="text-align:center;">
+      <span class="eyebrow" style="color:var(--brand);">Direct contact</span>
+      <h2 class="section-title" id="cta-final-title" style="color:var(--surface); display:flex; justify-content:center; align-items:center;">
+        Need window graphics?
+      </h2>
+      <p style="color:rgba(255,255,255,0.65); font-size:var(--text-lg); max-width:52ch; margin:0 auto var(--space-8);">
+        Send a photo of your window via WhatsApp. We send a first price indication within an hour and arrange a mockup straight away. No obligation.
       </p>
-      <p style="margin-top:var(--space-6); font-size:var(--text-sm); color:var(--ink-muted);">
-        Related services: <a href="/en/vehicle-wraps-rotterdam/">vehicle wraps Rotterdam</a> &middot; <a href="/en/facade-signage-rotterdam/">facade signage Rotterdam</a> &middot; <a href="/en/">all services (EN)</a> &middot; <a href="/raambelettering-rotterdam/">Nederlands: raambelettering</a> &middot; <a href="/de/fensterbeschriftung-rotterdam/">Deutsch: Fensterbeschriftung</a>.
-      </p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn-whatsapp btn--lg" href="https://wa.me/31624741597?text=Hi%20Alfa%20Reclame%2C%20here%20is%20a%20photo%20of%20my%20window.%20I%20would%20like%20a%20quote%20for%20window%20graphics." target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+        <a class="btn btn--lg" href="tel:+31624741597" style="background:var(--surface); color:var(--ink); border-color:var(--surface);">+31&nbsp;6&nbsp;24&nbsp;74&nbsp;15&nbsp;97</a>
+        <!--email_off--><a class="btn btn-secondary btn--lg" href="mailto:info@alfareclame.nl" style="border-color:rgba(255,255,255,0.7); color:rgba(255,255,255,0.85);">info@alfareclame.nl</a><!--/email_off-->
+      </div>
     </div>
   </section>

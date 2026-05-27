@@ -44,6 +44,8 @@ module.exports = function (eleventyConfig) {
     "sitemap-video.xml",
     "sitemap-image.xml",
     "sitemap-index.xml",
+    "sitemap-stories.xml",
+    "stories",
     "robots.txt",
     "llms.txt",
     "humans.txt",

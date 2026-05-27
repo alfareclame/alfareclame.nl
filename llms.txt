@@ -583,3 +583,21 @@ CLI: `node scripts/generate-cheatsheet-pdf.js --lang en` of `--all`.
 - /sitemap-index.xml master (lang + video + image + main fallback)
 
 Google + Bing crawlers krijgen lang-specifieke index voor betere targeting per lang-market.
+
+## Content depth EN+DE top dienst pages
+
+6 EN+DE dienst-pagina's expanded from ~700w stub naar ~2000w match NL depth (en/window-graphics/vehicle-wraps/facade-signage + de/fensterbeschriftung/fahrzeugbeschriftung/fassadenwerbung). 4 page (illuminated/channel-letters EN + leuchtreklame/profilbuchstaben DE) absent, skipped. Translation: product-names preserved (3M IJ180Cv3/Avery/Hexis/Orafol), industry-standard EN/DE technical terms. JSON-LD FAQPage 12 Q&A per page + HowTo 5-step + GeoCircle areaServed.
+
+## Web Stories (Google visual-carousel)
+
+5 AMP Web Stories `/stories/{slug}/index.html` (raambelettering/autoreclame/gevelreclame/lichtreclame/doosletters). 6 panels each (cover/3-4 fact-panels/CTA). Real portfolio images, real prices (€250-€2495). AMP-validated boilerplate + amp-story 1.0 + Article JSON-LD. `sitemap-stories.xml` separate + sitemap-index update.
+
+## Push notifications + PWA install-prompt
+
+Service Worker push handler + opt-in UI button (homepage + cheatsheet). VAPID keypair (public committed, private = CF Pages secret `VAPID_PRIVATE_KEY` user-action 5dk). `/api/push-subscribe` POST endpoint (Telegram alert per subscription MVP, no DB yet). `/api/push-send` admin-only `X-Admin-Token` (MVP, sprint 15 zal CF KV/D1 toevoegen voor broadcast).
+
+PWA install-prompt smart banner (bottom-right na 30s on-site, dismissable 30d localStorage). iOS-specific modal "Voeg toe aan beginscherm" voor Safari (geen beforeinstallprompt op iOS). `appinstalled` event → `/api/track-click` beacon.
+
+## Performance audit + critical CSS
+
+10 NL high-traffic pages (materialen/werkwijze/faq/5 dienst + havenreclame/silobelettering/offshore-belettering) hero `<img>` fetchpriority="high" + loading="eager" + width/height attrs. Resource hints depth: github.com preconnect + dns-prefetch toegevoegd. Critical CSS inline +283B (.bluf-answer + .hero subset; total 3646B under 5KB ceiling).

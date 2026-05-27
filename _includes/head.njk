@@ -90,6 +90,8 @@
 <link rel="dns-prefetch" href="https://wa.me">
 <link rel="preconnect" href="https://maps.app.goo.gl">
 <link rel="dns-prefetch" href="https://maps.app.goo.gl">
+<link rel="preconnect" href="https://github.com" crossorigin>
+<link rel="dns-prefetch" href="https://github.com">
 {% if preload_images %}{% for img in preload_images %}<link rel="preload" as="image" href="{{ img.href }}" type="{{ img.type }}" fetchpriority="{{ img.fetchpriority | default("high") }}">
 {% endfor %}{% endif %}
 {%- if heroImage or og_image %}
@@ -123,6 +125,8 @@ h3,.h3{font-size:var(--text-h3);font-weight:700;line-height:var(--lh-snug)}
 .section-title::before{content:'';display:inline-block;width:14px;height:14px;background:var(--brand);clip-path:polygon(0 0,100% 50%,0 100%);margin-right:14px;vertical-align:middle;transform:translateY(-2px)}
 .lead{font-size:var(--text-lg);line-height:var(--lh-base);color:var(--ink-muted);max-width:60ch}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.bluf-answer{font-size:var(--text-lg);color:var(--ink-muted);line-height:var(--lh-base);border-left:3px solid var(--brand);padding-left:var(--space-5);margin:var(--space-6) 0;max-width:76ch}
+.hero{padding:var(--space-10) 0 var(--space-9);background:var(--surface);overflow:hidden}
 </style>
 <!-- ========== STYLESHEET ========== -->
 <link rel="preload" as="style" href="/public/css/huisstijl.css">

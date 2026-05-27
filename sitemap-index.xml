@@ -32,4 +32,8 @@
     <loc>https://alfareclame.nl/sitemap-image.xml</loc>
     <lastmod>2026-05-27</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://alfareclame.nl/sitemap-stories.xml</loc>
+    <lastmod>2026-05-28</lastmod>
+  </sitemap>
 </sitemapindex>

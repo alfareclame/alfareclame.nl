@@ -13,7 +13,8 @@
     "cheatsheet:all": "node scripts/generate-cheatsheet-pdf.js --all",
     "images:avif": "node scripts/generate-avif-images.js",
     "submit-sitemap": "node scripts/sitemap-submit.mjs",
-    "haro-monitor": "node scripts/haro-monitor.mjs"
+    "haro-monitor": "node scripts/haro-monitor.mjs",
+    "vapid": "node scripts/generate-vapid.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",

@@ -38,5 +38,90 @@ if ('serviceWorker' in navigator) {
   });
 }
 </script>
+
+{# PWA install-prompt banner — Sprint 14 K4.1 + K4.2 #}
+<div id="pwa-install-banner" style="display:none;position:fixed;bottom:20px;right:20px;background:#1D1D1F;color:#fff;padding:16px 20px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.2);z-index:9999;max-width:340px;font-family:'Inter',sans-serif">
+  <div style="font-size:14px;font-weight:600;margin-bottom:8px">&#128242; Installeer Alfa Reclame</div>
+  <div style="font-size:12px;color:#a0a0a5;margin-bottom:12px">Snelle toegang op je telefoon, offline beschikbaar.</div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <button id="pwa-install-yes" style="background:#0071E3;color:#fff;border:none;padding:8px 16px;border-radius:8px;font-size:13px;cursor:pointer;font-weight:600">Installeer</button>
+    <button id="pwa-install-no" style="background:transparent;color:#a0a0a5;border:none;padding:8px;font-size:13px;cursor:pointer">Later</button>
+  </div>
+</div>
+{# iOS alternative banner — K4.2 #}
+<div id="pwa-ios-banner" style="display:none;position:fixed;bottom:20px;right:20px;background:#1D1D1F;color:#fff;padding:16px 20px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.2);z-index:9999;max-width:340px;font-family:'Inter',sans-serif">
+  <div style="font-size:14px;font-weight:600;margin-bottom:8px">&#128242; Voeg toe aan beginscherm</div>
+  <div style="font-size:12px;color:#a0a0a5;margin-bottom:12px">Tik op <strong style="color:#fff">&#9168; Delen</strong> en kies <strong style="color:#fff">Zet op beginscherm</strong> om Alfa Reclame als app te installeren.</div>
+  <button id="pwa-ios-close" style="background:transparent;color:#a0a0a5;border:none;padding:8px;font-size:13px;cursor:pointer">Sluiten</button>
+</div>
+<script>
+(function(){
+  // Bail out if already installed or dismissed recently
+  if (localStorage.getItem('pwa-installed') === '1') return;
+  var dismissUntil = localStorage.getItem('pwa-install-dismissed-until');
+  if (dismissUntil && Date.now() < parseInt(dismissUntil, 10)) return;
+
+  var banner = document.getElementById('pwa-install-banner');
+  var yes = document.getElementById('pwa-install-yes');
+  var no = document.getElementById('pwa-install-no');
+  var iosBanner = document.getElementById('pwa-ios-banner');
+  var iosClose = document.getElementById('pwa-ios-close');
+
+  // iOS detection — K4.2
+  var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  var isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+
+  if (isIOS && !isStandalone && !localStorage.getItem('ios-install-shown')) {
+    setTimeout(function() {
+      if (iosBanner) iosBanner.style.display = 'block';
+    }, 30000);
+    if (iosClose) {
+      iosClose.addEventListener('click', function() {
+        iosBanner.style.display = 'none';
+        localStorage.setItem('ios-install-shown', '1');
+        localStorage.setItem('pwa-install-dismissed-until', Date.now() + 30 * 24 * 60 * 60 * 1000);
+      });
+    }
+    return; // iOS path complete
+  }
+
+  // Android/Chrome — beforeinstallprompt path
+  var deferredPrompt;
+  if (!banner || !yes || !no) return;
+
+  window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    deferredPrompt = e;
+    setTimeout(function() { banner.style.display = 'block'; }, 30000);
+  });
+
+  yes.addEventListener('click', async function() {
+    banner.style.display = 'none';
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      var result = await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      if (result.outcome === 'accepted') {
+        try {
+          navigator.sendBeacon('/api/track-click', JSON.stringify({event:'pwa_installed', variant: 'banner', page: location.pathname, ts: Date.now()}));
+        } catch(e){}
+      }
+    }
+  });
+
+  no.addEventListener('click', function() {
+    banner.style.display = 'none';
+    localStorage.setItem('pwa-install-dismissed-until', Date.now() + 30 * 24 * 60 * 60 * 1000);
+  });
+
+  window.addEventListener('appinstalled', function() {
+    banner.style.display = 'none';
+    localStorage.setItem('pwa-installed', '1');
+    try {
+      navigator.sendBeacon('/api/track-click', JSON.stringify({event:'pwa_installed', variant: 'native', page: location.pathname, ts: Date.now()}));
+    } catch(e){}
+  });
+})();
+</script>
 </body>
 </html>
