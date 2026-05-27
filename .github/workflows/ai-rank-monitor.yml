@@ -1,0 +1,83 @@
+name: AI Rank Monitor
+
+# Tracks Alfa Reclame's position in ChatGPT / Claude / Perplexity responses
+# for Rotterdam reclame/signage queries (20 queries × 3 providers).
+#
+# SETUP (one-time, user action required):
+#   1. Add repo secrets in GitHub → Settings → Secrets → Actions:
+#      - OPENAI_API_KEY      (platform.openai.com → API keys)
+#      - ANTHROPIC_API_KEY   (console.anthropic.com → API keys)
+#      - PERPLEXITY_API_KEY  (www.perplexity.ai/settings/api)
+#   2. Uncomment the `schedule:` section below to enable weekly cron.
+#   3. Expected cost: ~$5/maand (20 queries × 3 providers × 4 runs/maand).
+#
+# MANUAL RUN: GitHub → Actions → "AI Rank Monitor" → Run workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: 'Provider to run (openai / anthropic / perplexity / all)'
+        required: false
+        default: 'all'
+
+  # Uncomment to enable weekly cron (maandag 09:00 UTC = ~10:00 CET):
+  # schedule:
+  #   - cron: '0 9 * * 1'
+
+# Prevent overlapping runs (e.g. manual + scheduled at same time)
+concurrency:
+  group: ai-rank-monitor
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  monitor:
+    name: Run AI rank monitor
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write  # required for auto-commit of data/ files
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Run the monitor — appends records to data/ai-rank-history.jsonl
+      - name: Run ai-rank-monitor
+        env:
+          OPENAI_API_KEY:     ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        run: |
+          PROVIDER="${{ github.event.inputs.provider || 'all' }}"
+          node scripts/ai-rank-monitor.js --provider "$PROVIDER"
+
+      # Generate markdown comparison report — writes data/ai-rank-latest-report.md
+      - name: Generate comparison report
+        run: node scripts/ai-rank-diff.js
+
+      # Auto-commit updated data files back to the repository
+      - name: Commit updated data files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(monitor): weekly AI rank update [skip ci]"
+          file_pattern: |
+            data/ai-rank-history.jsonl
+            data/ai-rank-latest-report.md
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          skip_dirty_check: false
+          skip_fetch: false

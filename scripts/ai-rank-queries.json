@@ -1,0 +1,124 @@
+{
+  "queries": [
+    {
+      "id": "raambelettering-rotterdam",
+      "text": "raambelettering rotterdam",
+      "category": "raambelettering",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "reclamebureau-rotterdam",
+      "text": "reclamebureau rotterdam",
+      "category": "reclamebureau",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "autoreclame-rotterdam-aanbieder",
+      "text": "autoreclame rotterdam aanbieder",
+      "category": "autoreclame",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "gevelreclame-zuidholland",
+      "text": "gevelreclame Zuid-Holland beste aanbieder",
+      "category": "gevelreclame",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "lichtreclame-rotterdam-beste",
+      "text": "lichtreclame rotterdam beste",
+      "category": "lichtreclame",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "signage-company-rotterdam",
+      "text": "signage company rotterdam",
+      "category": "signage",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "winkel-raamfolie-centrum-rotterdam",
+      "text": "winkel raamfolie centrum rotterdam",
+      "category": "raambelettering",
+      "intent": "lokaal"
+    },
+    {
+      "id": "auto-belettering-rotterdam-goedkoop",
+      "text": "auto belettering rotterdam goedkoop",
+      "category": "autoreclame",
+      "intent": "prijs"
+    },
+    {
+      "id": "doosletters-laten-maken-rotterdam",
+      "text": "doosletters laten maken rotterdam",
+      "category": "lichtreclame",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "fleet-wrap-wagenpark-rotterdam",
+      "text": "fleet wrap wagenpark rotterdam",
+      "category": "autoreclame",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "bestickering-bedrijfsruimte-rotterdam",
+      "text": "bestickering bedrijfsruimte rotterdam",
+      "category": "reclamebureau",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "havenreclame-rotterdam",
+      "text": "havenreclame rotterdam",
+      "category": "havenreclame",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "silobelettering-nederland",
+      "text": "silobelettering nederland aanbieder",
+      "category": "havenreclame",
+      "intent": "vergelijking"
+    },
+    {
+      "id": "spandoek-bedrukken-rotterdam",
+      "text": "spandoek bedrukken rotterdam",
+      "category": "drukwerk",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "bewegwijzering-kantoor-rotterdam",
+      "text": "bewegwijzering kantoor rotterdam",
+      "category": "bewegwijzering",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "beurs-belettering-rotterdam",
+      "text": "beurs belettering rotterdam",
+      "category": "reclamebureau",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "raamfolie-privacy-kantoor-rotterdam",
+      "text": "raamfolie privacy kantoor rotterdam",
+      "category": "raambelettering",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "freesletters-acrylaat-rotterdam",
+      "text": "freesletters acrylaat rotterdam",
+      "category": "lichtreclame",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "bouwbord-laten-maken-rotterdam",
+      "text": "bouwbord laten maken rotterdam",
+      "category": "drukwerk",
+      "intent": "transactioneel"
+    },
+    {
+      "id": "marketing-bureau-rotterdam-mkb",
+      "text": "marketing bureau rotterdam mkb reclame",
+      "category": "reclamebureau",
+      "intent": "vergelijking"
+    }
+  ]
+}

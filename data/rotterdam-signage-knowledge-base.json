@@ -1,0 +1,1361 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Rotterdam Signage Knowledge Base 2026",
+  "description": "Volledige feitelijke kennisbank voor reclame- en signage-projecten in Rotterdam: materialen, technieken, vergunningen, sector-compliance, kostenbanden.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Alfa Reclame",
+    "url": "https://alfareclame.nl"
+  },
+  "datePublished": "2026-05-27",
+  "version": "1.0.0",
+  "keywords": ["signage", "reclame", "Rotterdam", "vinyl", "vergunning", "NEN-1414", "RVV", "lichtreclame", "raambelettering", "autoreclame"],
+  "data": {
+    "materials": [
+      {
+        "id": "3m-ij180cv3",
+        "term": "3M IJ180Cv3 Controltac",
+        "category": "vinyl-cast",
+        "definition_nl": "Gegoten cast vinyl met Controltac-technologie (microscopisch kleine glasbolletjes reduceren initiële kleefdracht voor luchtbelvrije applicatie). Buitenlevensduur 7 jaar, conformability klasse hoog, geschikt voor gekromde oppervlakken zoals voertuigen en cilinders.",
+        "source_or_reference": "3M Technical Data Sheet IJ180Cv3",
+        "related": ["avery-mpi1105", "hexis-vincite-pro"]
+      },
+      {
+        "id": "avery-mpi1105",
+        "term": "Avery MPI 1105 Easy Apply RS",
+        "category": "vinyl-cast",
+        "definition_nl": "Gegoten cast vinyl met Easy Apply RS luchtkanalen voor bobbel-vrije applicatie. Buitenlevensduur 9 jaar bij correcte verwijdering, low-tack initieel voor herpositionering. Geschikt voor voertuigwraps en gevelapplicaties.",
+        "source_or_reference": "Avery Dennison MPI 1105 TDS",
+        "related": ["3m-ij180cv3", "avery-dol1460z"]
+      },
+      {
+        "id": "hexis-vincite-pro",
+        "term": "Hexis Vincite Pro",
+        "category": "vinyl-cast",
+        "definition_nl": "Premium wrap-folie van Hexis met 10 jaar fabrieksgarantie, hoge conformability voor complexe curves. Verkrijgbaar in glans, mat en satijn. Veelgebruikt voor high-end voertuigwraps en architecturale geveltoepassingen.",
+        "source_or_reference": "Hexis Technical Data Vincite Pro",
+        "related": ["3m-ij180cv3", "hexis-skintac-hx30000"]
+      },
+      {
+        "id": "orafol-oracal-4500",
+        "term": "Orafol Oracal 4500 Reflective",
+        "category": "reflective",
+        "definition_nl": "Klasse 1 retroreflecterende folie (NEN-EN-12899), geschikt voor voertuigmarkering en verkeerstekens op privéterrein. Minimale retroreflectiewaarde RA 70 cd/(lx·m²), levensduur 7 jaar buiten.",
+        "source_or_reference": "NEN-EN-12899; Orafol TDS Oracal 4500",
+        "related": ["3m-diamond-grade-dg3", "orafol-5600e"]
+      },
+      {
+        "id": "oracal-651",
+        "term": "ORACAL 651 Intermediate Calendered",
+        "category": "vinyl-calendered",
+        "definition_nl": "Gekalandreerd intermediate-kwaliteit snijvinyl, buitenlevensduur 6 jaar op vlakke oppervlakken. Standaardkeuze voor raambelettering, bewegwijzering en vlakke geveltoepassingen. Niet geschikt voor sterk gekromde oppervlakken.",
+        "source_or_reference": "Orafol ORACAL 651 TDS",
+        "related": ["oracal-751", "orajet-3551"]
+      },
+      {
+        "id": "oracal-751",
+        "term": "ORACAL 751 High Performance Calendered",
+        "category": "vinyl-calendered",
+        "definition_nl": "Gekalandreerd high-performance snijvinyl, buitenlevensduur 8 jaar. Betere temperatuurbestendigheid dan 651-serie, geschikt voor vlakke gevels en voertuigzijden met minimale ronding.",
+        "source_or_reference": "Orafol ORACAL 751 TDS",
+        "related": ["oracal-651"]
+      },
+      {
+        "id": "3m-scotchcal-ij160-10",
+        "term": "3M Scotchcal IJ160-10",
+        "category": "vinyl-calendered",
+        "definition_nl": "Gekalandreerd printvinyl, buitenlevensduur 5 jaar met overlaminate. Kostenefficiënte keuze voor kortlopende campagnes, tijdelijke reclame en niet-permanente gevelbelettering.",
+        "source_or_reference": "3M TDS IJ160-10",
+        "related": ["avery-mpi2120", "orajet-3551"]
+      },
+      {
+        "id": "avery-mpi2120",
+        "term": "Avery MPI 2120 Easy Apply RS",
+        "category": "vinyl-calendered",
+        "definition_nl": "Gekalandreerd printvinyl met Easy Apply luchtkanalen, buitenlevensduur 4 jaar. Geschikt voor kortdurende promotionele toepassingen op vlakke substrata zoals ramen en panelen.",
+        "source_or_reference": "Avery Dennison MPI 2120 TDS",
+        "related": ["3m-scotchcal-ij160-10"]
+      },
+      {
+        "id": "3m-controltac-180cv3",
+        "term": "3M Controltac 180Cv3",
+        "category": "vinyl-cast",
+        "definition_nl": "Premium cast wrap-folie met Controltac microsferentechnologie, 7 jaar buitengarantie. Geavanceerde luchtafvoer voor grote vlakken en complexe curves. Standaard bij professionele voertuigwrapping.",
+        "source_or_reference": "3M TDS 180Cv3",
+        "related": ["3m-ij180cv3", "3m-1080-series"]
+      },
+      {
+        "id": "3m-1080-series",
+        "term": "3M 1080 Specialty Wrap Series",
+        "category": "vinyl-cast",
+        "definition_nl": "Specialty wrap-folies in bijzondere afwerkingen: carbon, matte metallic, satin, gloss, brushed, flip. Levensduur 3-5 jaar buiten afhankelijk van kleurvariant. Populair voor voertuigwraps met visueel onderscheidend effect.",
+        "source_or_reference": "3M 1080 Series TDS",
+        "related": ["hexis-skintac-hx30000"]
+      },
+      {
+        "id": "avery-5000-series",
+        "term": "Avery 5000 Series RS",
+        "category": "vinyl-cast",
+        "definition_nl": "Mid-tier cast vinyl van Avery Dennison, buitenlevensduur 5-7 jaar. RS (Rapid Air) luchtkanalen voor snelle applicatie. Geschikt voor voertuigen en gevels; valt tussen budgetkalandervinyl en premium MPI 1105.",
+        "source_or_reference": "Avery Dennison 5000 Series TDS",
+        "related": ["avery-mpi1105"]
+      },
+      {
+        "id": "hexis-skintac-hx30000",
+        "term": "Hexis Skintac HX30000 Series",
+        "category": "vinyl-cast",
+        "definition_nl": "Cast wrap-folie van Hexis verkrijgbaar in glans, mat, satijn en carbon-look afwerkingen. Microsferentechnologie voor luchtvrije applicatie, levensduur 5-7 jaar buiten. Breed inzetbaar voor carwrap en architecturale toepassingen.",
+        "source_or_reference": "Hexis TDS HX30000",
+        "related": ["hexis-vincite-pro", "3m-1080-series"]
+      },
+      {
+        "id": "hexis-bodyfence",
+        "term": "Hexis Bodyfence PPF",
+        "category": "specialty",
+        "definition_nl": "Paint Protection Film (PPF) van Hexis, transparante polyurethaan laag voor bescherming van voertuiglak tegen steenslag en krassen. Zelf-herstellend bij lage impact. Levensduur 5-10 jaar, professionele applicatie vereist.",
+        "source_or_reference": "Hexis Bodyfence TDS",
+        "related": ["3m-ij180cv3"]
+      },
+      {
+        "id": "orafol-5600e",
+        "term": "Orafol 5600E Retroreflective",
+        "category": "reflective",
+        "definition_nl": "Klasse 2 retroreflecterende folie voor voertuig- en wegmarkering, retroreflectiewaarde RA 200+ cd/(lx·m²). Vereist voor zware vrachtwagens boven 7,5 ton conform ECE-R104. Levensduur 10 jaar.",
+        "source_or_reference": "ECE-R104; Orafol 5600E TDS",
+        "related": ["orafol-oracal-4500", "3m-diamond-grade-dg3"]
+      },
+      {
+        "id": "3m-diamond-grade-dg3",
+        "term": "3M Diamond Grade DG3",
+        "category": "reflective",
+        "definition_nl": "Klasse 3 prismareflecterende folie voor snelwegborden en hoogblootstelling verkeerstekens. Retroreflectiewaarde RA 1000+ cd/(lx·m²). Gebruikt door Rijkswaterstaat en gemeente op hoofdwegen. Levensduur 12+ jaar.",
+        "source_or_reference": "CROW-publicatie 96b; 3M DG3 TDS",
+        "related": ["orafol-5600e"]
+      },
+      {
+        "id": "3m-scotchprint-8624",
+        "term": "3M Scotchprint 8624 Anti-Graffiti",
+        "category": "laminate",
+        "definition_nl": "Transparante overlaminate met anti-graffiti coating, verwijderbaar met standaard reinigingsmiddelen zonder schade aan onderliggende folie. Geschikt voor openbare omgevingen, metrostation en stadscentrum. Levensduur 5 jaar.",
+        "source_or_reference": "3M TDS 8624",
+        "related": ["avery-dol1460z"]
+      },
+      {
+        "id": "avery-dol1460z",
+        "term": "Avery DOL 1460Z Cast Laminate",
+        "category": "laminate",
+        "definition_nl": "Gegoten glanzende overlaminate van Avery Dennison, geschikt voor buitengebruik tot 7 jaar. Hoge UV-bestendigheid, beschermt inkjet- en solventprints. Standaard overlaminate bij high-end voertuig- en geveltoepassingen.",
+        "source_or_reference": "Avery Dennison DOL 1460Z TDS",
+        "related": ["avery-mpi1105", "3m-scotchprint-8624"]
+      },
+      {
+        "id": "3m-ij160-calendered",
+        "term": "3M IJ160 Calendered Print Vinyl",
+        "category": "vinyl-calendered",
+        "definition_nl": "Budget gekalandreerd printvinyl van 3M, levensduur 3-5 jaar met overlaminate. Kosteneffectief voor tijdelijke campagnes, beurs- en eventbelettering. Niet aanbevolen voor permanente buitentoepassingen.",
+        "source_or_reference": "3M TDS IJ160",
+        "related": ["3m-scotchcal-ij160-10"]
+      },
+      {
+        "id": "orajet-3551",
+        "term": "Orajet 3551 Intermediate Digital Print",
+        "category": "vinyl-calendered",
+        "definition_nl": "Intermediate gekalandreerd printvinyl van Orafol, levensduur 4-6 jaar met UV-laminate buiten. Compatibel met eco-solvent, solvent en latex-printers. Veelgebruikt voor spandoeken, panelen en kortlopende geveltoepassingen.",
+        "source_or_reference": "Orafol Orajet 3551 TDS",
+        "related": ["oracal-651", "3m-ij160-calendered"]
+      },
+      {
+        "id": "mactac-imagin-jt5500",
+        "term": "Mactac IMAGin JT5500",
+        "category": "vinyl-cast",
+        "definition_nl": "Premium gegoten printvinyl van Mactac, buitenlevensduur 7 jaar. Hoge conformability voor licht gekromde substrata. Concurrent van 3M en Avery cast-series, populair in Benelux bij kleinere drukkerijen.",
+        "source_or_reference": "Mactac IMAGin JT5500 TDS",
+        "related": ["avery-mpi1105", "3m-ij180cv3"]
+      },
+      {
+        "id": "3m-envision-lx480mc",
+        "term": "3M Envision LX480mC PVC-vrij",
+        "category": "pvc-free",
+        "definition_nl": "PVC-vrij gegoten printvinyl van 3M, buitenlevensduur 5 jaar. Milieuvriendelijker alternatief voor conventioneel PVC-vinyl; voldoet aan GreenGuard-certificering. Geschikt voor kantooromgevingen en groene aanbestedingen.",
+        "source_or_reference": "3M TDS LX480mC; GreenGuard Gold",
+        "related": ["avery-mpi1900-pvcfree"]
+      },
+      {
+        "id": "avery-mpi1900-pvcfree",
+        "term": "Avery MPI 1900 PVC-vrij Cast",
+        "category": "pvc-free",
+        "definition_nl": "PVC-vrij gegoten cast vinyl van Avery Dennison voor duurzame aanbestedingen. Buitenlevensduur 5 jaar, recycleerbaar. Geschikt voor overheidsprojecten en bedrijven met CSR-beleid.",
+        "source_or_reference": "Avery Dennison MPI 1900 TDS",
+        "related": ["3m-envision-lx480mc"]
+      },
+      {
+        "id": "hexis-hx30rc",
+        "term": "Hexis HX30RC Color Change Wrap",
+        "category": "vinyl-cast",
+        "definition_nl": "Color change wrap-serie van Hexis specifiek voor voertuiglakverandering, verkrijgbaar in meer dan 100 kleuren inclusief mat, satijn en metallic. Levensduur 3-5 jaar buiten, verwijderbaar zonder lakschade.",
+        "source_or_reference": "Hexis HX30RC TDS",
+        "related": ["hexis-vincite-pro", "3m-1080-series"]
+      },
+      {
+        "id": "oralite-4500-frosted",
+        "term": "Frosted-glas folie ORALITE 4500",
+        "category": "raam-decoratie",
+        "definition_nl": "Zandstraal-imitatiefolie voor raamtoepassingen, geeft mat-etsglas effect zonder daadwerkelijk etsen. Populair voor privacybanden, decoratieve patronen en merkuitingen op glas in kantoren en zorginstellingen. UV-bestendig, levensduur 5-7 jaar.",
+        "source_or_reference": "Orafol ORALITE 4500 TDS",
+        "related": ["3m-fasara"]
+      },
+      {
+        "id": "3m-fasara",
+        "term": "3M FASARA Decoratieve Raamfolie",
+        "category": "raam-decoratie",
+        "definition_nl": "Decoratieve architecturale raamfolie van 3M in meer dan 100 designs: frosted, geometrisch, botanisch, privacybanden. Statisch-klevend of zelfklevend, verwijderbaar zonder residu. Levensduur 5 jaar interieur.",
+        "source_or_reference": "3M FASARA Design Film TDS",
+        "related": ["oralite-4500-frosted"]
+      },
+      {
+        "id": "hexis-motorfilm",
+        "term": "Hexis MotorFilm",
+        "category": "specialty",
+        "definition_nl": "Dunne cast wrap-folie van Hexis specifiek voor motorfietsen, scooters en kleine voertuigen. Hoge conformability voor complexe ronding, levensduur 3-5 jaar. Applicatie vereist warmtegun voor aanpassingen.",
+        "source_or_reference": "Hexis MotorFilm TDS",
+        "related": ["hexis-vincite-pro"]
+      },
+      {
+        "id": "magneetfolie-standaard",
+        "term": "Magneetfolie voor voertuigen",
+        "category": "specialty",
+        "definition_nl": "Flexibele magnetische folie met bedrukt oppervlak voor tijdelijke voertuigreclame. Dikte 0,6-1,0 mm, sterkte voldoende voor stationair rijden. Niet geschikt boven 100 km/u of bij regen zonder extra fixatie. Levensduur print 2-3 jaar.",
+        "related": ["magneetfolie-applicatie"]
+      },
+      {
+        "id": "dibond-aluminium",
+        "term": "Dibond Aluminium-sandwich",
+        "category": "rigid",
+        "definition_nl": "Composietplaat met twee aluminium deklagen (0,3 mm elk) en polyethyleen kern. Dikte 2-6 mm, licht, stijf en vochtbestendig. Standaard materiaal voor gevelpanelen, reclameborden en interieurbetimmering. Levensduur buiten 12-15 jaar.",
+        "related": ["acrylaat-plaat"]
+      },
+      {
+        "id": "acrylaat-plaat",
+        "term": "Acrylaat (Plexiglas) plaat",
+        "category": "rigid",
+        "definition_nl": "Extruded (XT) of gegoten (GS) acrylaat in diktes 2-30 mm. XT goedkoper maar iets minder krasbestendig; GS beter voor optische toepassingen en doorzicht. UV-stabiel, levensduur 10-15 jaar buiten. Standaard voor lichtbakfronten en freesletters.",
+        "source_or_reference": "ISO 7823 (acrylaat kwaliteitsstandaard)",
+        "related": ["dibond-aluminium"]
+      },
+      {
+        "id": "rvs-304",
+        "term": "RVS 304 (AISI 304, V2A)",
+        "category": "rigid",
+        "definition_nl": "Roestvrij staal kwaliteit 304, bestand tegen atmosferische corrosie en lichte chemische aantasting. Standaardkeuze voor gevelletters, naamplaten en signage-frames in stedelijke omgeving. Levensduur 20-25 jaar. Niet geschikt voor zoute omgeving.",
+        "source_or_reference": "EN 10088-1 (roestvaststaal standaard)",
+        "related": ["rvs-316", "aluminium-en-aw-5005"]
+      },
+      {
+        "id": "rvs-316",
+        "term": "RVS 316 Marine-grade (AISI 316, V4A)",
+        "category": "rigid",
+        "definition_nl": "Marine-grade roestvrij staal met molybdeen-additief voor verhoogde corrosiebestendigheid in zoutwater en chemische omgevingen. Vereist voor signage in Rotterdams havengebied (Botlek, Maasvlakte). Levensduur 25+ jaar.",
+        "source_or_reference": "EN 10088-1; ASTM A240",
+        "related": ["rvs-304"]
+      },
+      {
+        "id": "aluminium-en-aw-5005",
+        "term": "Aluminium EN AW-5005 en 5754",
+        "category": "rigid",
+        "definition_nl": "Aluminium legeringen geschikt voor geveltoepassingen en freesletters. EN AW-5005 voor decoratief gebruik (goed te anodiseren), EN AW-5754 voor constructieve toepassingen. Behandeld met poederlak of anodisering. Levensduur 15-25 jaar.",
+        "source_or_reference": "EN 573-3 (aluminium legeringen)",
+        "related": ["rvs-304", "dibond-aluminium"]
+      },
+      {
+        "id": "pvc-zeil-spandoek",
+        "term": "PVC-zeil voor spandoeken",
+        "category": "rigid",
+        "definition_nl": "Geweven PVC-materiaal (frontlit 510-900 g/m², backlit 380-500 g/m²) voor spandoeken en banners. Frontlit voor externe verlichting, backlit voor lichtbakken. Vernaamd, voorzien van ogen. Levensduur 2-5 jaar buiten.",
+        "related": ["hf-lassen", "latex-printing"]
+      },
+      {
+        "id": "led-module-signage",
+        "term": "LED-module voor doosletters en lichtbakken",
+        "category": "specialty",
+        "definition_nl": "SMD LED-modules (3528 of 5050 chip) op flexibele PCB-strips voor binnenverlichting van doosletters en lichtbakken. Kleurtemperatuur 4000-6500K, CRI 80+, levensduur 50.000 uur. Dimmable via PWM-regelaar. CE- en RoHS-gecertificeerd vereist.",
+        "source_or_reference": "NEN-EN-60598 (armatuurveiligheid); CE-markering",
+        "related": ["neon-flex-alternatief"]
+      },
+      {
+        "id": "neon-flex-alternatief",
+        "term": "LED Neon Flex",
+        "category": "specialty",
+        "definition_nl": "Flexibele silicone LED-strip als neon-look alternatief. 24V laagspanning, IP67 waterdicht, buigbaar tot 5 cm radius. Kleurtemperatuur 2700-6500K. Veiliger dan echt neongas, CE-gecertificeerd. Levensduur 30.000-50.000 uur.",
+        "source_or_reference": "NEN-EN-60598; CE-markering",
+        "related": ["led-module-signage"]
+      },
+      {
+        "id": "textieldoek-signage",
+        "term": "Textieldoek voor spanframes",
+        "category": "specialty",
+        "definition_nl": "Polyester backlit textiel (210-310 g/m²) voor SEG (Silicone Edge Graphics) spanframes. Gewassen en geprint via dye-sublimatie. Levensduur 5-7 jaar, wasbaar tot 30 graden. Lichtgewicht en kreukvrij voor beurzen en retailinterieurs.",
+        "related": ["sublimatie-print"]
+      },
+      {
+        "id": "contour-folie-reflective-trucks",
+        "term": "Contour-markering folie vrachtwagens",
+        "category": "reflective",
+        "definition_nl": "Gele retroreflecterende contourstrips voor achterzijde en zijden van vrachtwagens boven 7,5 ton conform ECE-R104. Minimale breedte 50 mm, doorlopend of met maximaal 50 mm onderbreking. Klasse C2 retroreflectie vereist.",
+        "source_or_reference": "ECE-R104; Voertuigreglement NL art. 5.12",
+        "related": ["orafol-5600e", "3m-diamond-grade-dg3"]
+      },
+      {
+        "id": "antimicrobial-vinyl-3m",
+        "term": "3M ScotchPrint Antimicrobial Vinyl",
+        "category": "specialty",
+        "definition_nl": "Printvinyl met geïntegreerde antimicrobiële behandeling (zilver-ion technologie) voor toepassingen in zorg, kliniek en voedselverwerking. Voldoet aan ISO 22196 voor antimicrobiële werking. Levensduur 5 jaar, eenvoudig te reinigen.",
+        "source_or_reference": "ISO 22196; 3M ScotchPrint Antimicrobial TDS",
+        "related": ["zorginstelling-antimicrobial"]
+      },
+      {
+        "id": "cortenstaal-letters",
+        "term": "Cortenstaal (Weathering Steel) gevelletters",
+        "category": "rigid",
+        "definition_nl": "Cortenstaal (S355J2W+N) ontwikkelt bewuste oxidatieroest-patina als beschermlaag. Levensduur 30-50 jaar. Populair voor industriële en architectonische identiteitsprojecten. Niet toepassen binnen 5 km van zeekust vanwege overmatige corrosie.",
+        "source_or_reference": "EN 10025-5 (cortenstaal standaard)",
+        "related": ["rvs-304"]
+      },
+      {
+        "id": "aluminium-composiet-alucobond",
+        "term": "Alucobond Aluminium Composiet Paneel",
+        "category": "rigid",
+        "definition_nl": "Aluminium composiet paneel met minerale kern (brandvertragend A2-klasse verkrijgbaar), dikte 4-6 mm. Standaard gevelbekleding in architectuur. Beschikbaar in talloze lakafwerkingen. Levensduur 20-30 jaar buiten.",
+        "source_or_reference": "EN 13501-1 (brandclassificatie gevelbekleding)",
+        "related": ["dibond-aluminium"]
+      },
+      {
+        "id": "foamboard-binnenshuis",
+        "term": "Foamboard Kapa-board binnenshuis",
+        "category": "rigid",
+        "definition_nl": "Lichtgewicht schuimplaat met karton of papier deklagen, dikte 3-10 mm. Uitsluitend voor binnentoepassingen: beurspanelen, pop-up displays, tijdelijke bewegwijzering. Vochtgevoelig, niet geschikt buiten. Goedkoop en eenvoudig te bedrukken.",
+        "related": []
+      },
+      {
+        "id": "solventproof-laminate-outdoor",
+        "term": "Chemisch resistente overlaminate",
+        "category": "laminate",
+        "definition_nl": "Overlaminate met verhoogde chemische weerstand voor toepassingen bij petrochemische installaties, Botlek en Europoort. Bestand tegen dieselrook, smeermiddelen, zeelucht en reinigingschemicaliën. Levensduur 5-7 jaar in industriële omgeving.",
+        "source_or_reference": "ASTM D1308 (chemische bestendigheid coatings)",
+        "related": ["avery-dol1460z", "3m-scotchprint-8624"]
+      },
+      {
+        "id": "spandoek-mesh",
+        "term": "Mesh Banner PVC",
+        "category": "specialty",
+        "definition_nl": "Perforeerd PVC-mesh voor spandoeken op windgevoelige locaties (hekken, gevels met doorstroming). Windreductie 40-65% door perforaties. Levensduur 2-4 jaar buiten. Print via solvent of latex.",
+        "related": ["pvc-zeil-spandoek"]
+      },
+      {
+        "id": "window-perf-eenrichting",
+        "term": "Eenrichtingzichtfolie Window Perf",
+        "category": "raam-decoratie",
+        "definition_nl": "Geperforeerde printfolie met zwarte achterzijde: van buiten zichtbare print, van binnen doorzichtig glaseffect. Gaatjespatroon 50/50 of 65/35. Levensduur 3-5 jaar buiten. Niet combineren met donkere glascoatings.",
+        "related": ["oralite-4500-frosted", "3m-fasara"]
+      },
+      {
+        "id": "digitaal-printfolie-backlit",
+        "term": "Backlit Printfolie voor Lichtbakken",
+        "category": "specialty",
+        "definition_nl": "Translucent printvinyl voor verlichte lichtbakken en doosletters-fronten. Transmissie 30-50% licht, kleurgetrouw bij verlichting. Levensduur 3-5 jaar bij continue LED-verlichting. Beschikbaar in zelfklevend en frame-spanningsvariant.",
+        "related": ["led-module-signage", "pvc-zeil-spandoek"]
+      },
+      {
+        "id": "folie-verwijdering-techniek",
+        "term": "Folie-verwijdering en substraatreiniging",
+        "category": "specialty",
+        "definition_nl": "Professionele foliedemontage via heteluchtpistool (60-80 graden) en plastiek-mes, gevolgd door lijmresidu-verwijdering met IPA of commercieel demi-solvent. Substraat mag niet worden beschadigd, noodzakelijk voor herbewerking of onderhoud.",
+        "related": ["3m-ij180cv3"]
+      }
+    ],
+    "methods": [
+      {
+        "id": "hf-lassen",
+        "term": "Hoge-frequentie (HF) lassen",
+        "category": "productie",
+        "definition_nl": "Verbindingstechniek voor PVC-materialen via hoogfrequente elektromagnetische velden die PVC moleculair smelten. Gebruikt voor naden in spandoeken, zeilen, tenten en PVC-banners. Naadsterkte hoger dan basismateriaal. Vereist gespecialiseerde HF-lastafels.",
+        "related": ["pvc-zeil-spandoek"]
+      },
+      {
+        "id": "cnc-frezen",
+        "term": "CNC-frezen voor gevelletters",
+        "category": "productie",
+        "definition_nl": "Computer-gestuurde freesmachine met router-bits 1-12 mm voor het uitfrezen van letters en vormen uit acrylaat, dibond, aluminium en hout. Tolerantie 0,1-0,5 mm afhankelijk van machine. Maximaal productiebed doorgaans 300x150 cm.",
+        "source_or_reference": "ISO 6983 (CNC-programmering G-code standaard)",
+        "related": ["acrylaat-plaat", "dibond-aluminium"]
+      },
+      {
+        "id": "latex-printing",
+        "term": "Latex-printen HP Latex technologie",
+        "category": "printen",
+        "definition_nl": "Inkjetdruk met watergebaseerde latex-inkten (HP Latex 300-800 series). Geurloos, geschikt voor binnentoepassingen, direct op diverse media. Kleurprofiel sRGB/ICC, resolutie tot 1200 dpi. Droog direct uit printer, geen uithardtijd.",
+        "source_or_reference": "HP Latex 800 TDS",
+        "related": ["eco-solvent-printing", "sublimatie-print"]
+      },
+      {
+        "id": "eco-solvent-printing",
+        "term": "Eco-solvent printen",
+        "category": "printen",
+        "definition_nl": "Inkjetdruk met milde oplosmiddel-inkten (Roland, Mimaki eco-solvent). Buitenlevensduur print 3-5 jaar zonder laminate, 5-7 jaar met laminate. Iets meer geur dan latex maar betere hechting op moeilijke substraten. Resolutie tot 1440 dpi.",
+        "source_or_reference": "Roland DG; Mimaki eco-sol MAX TDS",
+        "related": ["latex-printing", "uv-curable-printing"]
+      },
+      {
+        "id": "uv-curable-printing",
+        "term": "UV-hardende inkjetdruk UV-print",
+        "category": "printen",
+        "definition_nl": "Inkjetdruk waarbij inkten direct worden uitgehard door UV-lampen in de printer (Mimaki UJF, Roland VersaUV). Direct print op rigid materialen zoals dibond, acrylaat, glas, metaal. Geen overlaminate nodig voor basisbescherming. Resolutie tot 1200 dpi.",
+        "source_or_reference": "Mimaki UJF-7151 Plus TDS",
+        "related": ["eco-solvent-printing"]
+      },
+      {
+        "id": "screenprinting",
+        "term": "Zeefdruk screenprinting",
+        "category": "printen",
+        "definition_nl": "Drukprocédé waarbij inkt door een gespannen zeef (gaas) op substraat wordt geperst via een rakel. Economisch bij oplages boven 200 stuks, beperkt tot max 6 Pantone-kleuren. Geschikt voor stickers, foliereclame en textiel.",
+        "related": ["sublimatie-print"]
+      },
+      {
+        "id": "doming-resin",
+        "term": "Doming Resin-coating",
+        "category": "finishing",
+        "definition_nl": "Druppel transparante polyurethaan hars (resin) op printed substraat waardoor bol 3D-effect ontstaat. Gebruikt voor premium stickers, labels en emblemen. Levensduur 5-10 jaar. Vereist stofvrije omgeving voor applicatie.",
+        "related": ["uv-curable-printing"]
+      },
+      {
+        "id": "plotter-cutting",
+        "term": "Plottersnijden vinyl snijden",
+        "category": "productie",
+        "definition_nl": "Computergestuurde snijplotter (Summa, Roland) snijdt vinyl-contouren zonder afdrukken. Voor letters en effen-kleur vormen. Nauwkeurigheid +-0,1 mm. Maximale breedte doorgaans 162 cm. Standaard techniek voor raambelettering en autoreclame.",
+        "related": ["cnc-frezen", "latex-printing"]
+      },
+      {
+        "id": "lasergraveren",
+        "term": "Lasergraveren",
+        "category": "productie",
+        "definition_nl": "CO2-laser (50-150 W) voor graveren en snijden van acrylaat, aluminium-eloxal, hout en rubber. Tolerantie 0,05 mm, geschikt voor naamplaatjes, bewegwijzeringspictogrammen en details die te fijn zijn voor CNC-frezen.",
+        "related": ["cnc-frezen"]
+      },
+      {
+        "id": "sublimatie-print",
+        "term": "Sublimatie-druk dye-sublimation",
+        "category": "printen",
+        "definition_nl": "Thermische overdracht van sublimatie-inkten op polyester textiel of aluminium-sublimaat. Kleur gaat in het materiaal (niet erop), waardoor wasecht en krasbestendig. Voor textieldoeken, vlaggen en promotionele artikelen.",
+        "related": ["latex-printing", "textieldoek-signage"]
+      },
+      {
+        "id": "dtf-direct-to-film",
+        "term": "DTF Direct To Film transferprint",
+        "category": "printen",
+        "definition_nl": "Inkjet-print op speciale PET-film, gevolgd door poederinkt-aanhechting en thermische overdracht op textiel of andere substraten. Flexibeler dan DTG voor kleine oplages op diverse textielsoorten.",
+        "related": ["sublimatie-print"]
+      },
+      {
+        "id": "thermisch-pers",
+        "term": "Thermische pers heat press HTV",
+        "category": "finishing",
+        "definition_nl": "Warmtedruk-applicatie van Heat Transfer Vinyl (HTV) en DTF-transfers op textiel via plattenpers bij 150-200 graden, 10-30 seconden. Standaard voor bedrijfskleding, eventshirts en promotietextiel.",
+        "related": ["dtf-direct-to-film"]
+      },
+      {
+        "id": "inkjet-print-rigid",
+        "term": "Flatbed UV-print op rigid materialen",
+        "category": "printen",
+        "definition_nl": "UV-inkjet op stijve materialen direct in de flatbed-printer (Mimaki JFX, Durst Rho). Maximaal formaat doorgaans 250x130 cm, dikte tot 5 cm. Voor reclamepanelen, displays, naamplaten en gepersonaliseerde signage.",
+        "related": ["uv-curable-printing"]
+      },
+      {
+        "id": "vacuum-forming",
+        "term": "Vacuum-vormen thermoforming",
+        "category": "productie",
+        "definition_nl": "Thermoplastische plaat (PETG, ABS, acrylaat) wordt verwarmd en vacuüm over een mal getrokken. Gebruikt voor lichtbak-fronten, doosletters-hulzen en driedimensionale displays. Dikte substraat 1,5-6 mm.",
+        "related": ["acrylaat-plaat"]
+      },
+      {
+        "id": "buigen-acrylaat",
+        "term": "Lijnbuigen van acrylaat",
+        "category": "productie",
+        "definition_nl": "Lokale verhitting van acrylaat langs een lijnbuig-element (infrastraal of weerstandsdraad) voor het koud-buigen van hoeken. Gebruikt voor lichtbak-profielen, showcases en displays. Binnenradius minimaal gelijk aan plaatdikte.",
+        "related": ["acrylaat-plaat", "vacuum-forming"]
+      },
+      {
+        "id": "wrap-installation",
+        "term": "Wrap-applicatie voertuig",
+        "category": "installatie",
+        "definition_nl": "Professionele applicatie van cast wrap-vinyl op voertuigoppervlak via natte of droge methode. Warmtegun (50-70 graden) voor rek over curves. Oversnijden op deelnaden, vereist WRAP-gecertificeerd installateur voor garantiebehoud.",
+        "related": ["3m-ij180cv3", "avery-mpi1105", "hexis-vincite-pro"]
+      },
+      {
+        "id": "nat-applicatie",
+        "term": "Natte applicatie wet application",
+        "category": "installatie",
+        "definition_nl": "Vinyl applicatie met water-zeep mengsel (3-5 druppels afwasmiddel per liter) voor herpositionering voor afdrogen. Standaard bij grote vlakke oppervlakken zoals ramen en gevelpanelen. Airkanalen kunnen ook nat worden dichtgeknepen.",
+        "related": ["frosted-glass-applicatie"]
+      },
+      {
+        "id": "frosted-glass-applicatie",
+        "term": "Frosted-glass folie applicatie",
+        "category": "installatie",
+        "definition_nl": "Applicatie van zandstraal-imitatiefolie op glas via waterzeep-methode. Raam reinigen met IPA, folie positioneren, nat aanbrengen, uitkrabben van water. Geen luchtbellen zichtbaar door mat oppervlak. Verwijdering met scheermesje.",
+        "related": ["oralite-4500-frosted", "nat-applicatie"]
+      },
+      {
+        "id": "statisch-folie-applicatie",
+        "term": "Statisch folie applicatie",
+        "category": "installatie",
+        "definition_nl": "Applicatie van statisch-klevende folie (geen lijm) op glas. Eenvoudig herpositioneerbaar en verwijderbaar zonder residu. Geschikt voor huurpanden en tijdelijke toepassingen. Vereist vetvrij, stofvrij glasoppervlak.",
+        "related": ["3m-fasara"]
+      },
+      {
+        "id": "reflectie-applicatie",
+        "term": "Reflecterende folie applicatie voertuigmarkering",
+        "category": "installatie",
+        "definition_nl": "Applicatie van klasse 1/2/3 retroreflecterende folie op voertuigen en borden. Droge applicatie zonder waterzeep (kleefdruk permanent na 24 uur). Overlappen maximaal 3 mm, naden aan de veilige zijde. Vereist gecertificeerde installateur voor wettelijke markering.",
+        "source_or_reference": "ECE-R104; RVV 1990",
+        "related": ["orafol-5600e", "contour-folie-reflective-trucks"]
+      },
+      {
+        "id": "magneetfolie-applicatie",
+        "term": "Magneetfolie applicatie",
+        "category": "installatie",
+        "definition_nl": "Magneetfolie op stalen voertuigdeel aanbrengen: voertuig reinigen met IPA, folie stofvrij houden, vlak aanbrengen zonder plooien. Verwijderen bij wassen en langdurig stallen om oxidatiesporen onder folie te voorkomen.",
+        "related": ["magneetfolie-standaard"]
+      },
+      {
+        "id": "routing-gravure",
+        "term": "Routerfrezen en gravure combinatie",
+        "category": "productie",
+        "definition_nl": "Tweestaps CNC-bewerking: eerst konturfrezen voor uitwendige vorm, dan gravure met V-frees voor inwendige details en tekst. Gebruikt voor signage-plaques, naamplaten en directiebordes in aluminium-eloxal en acrylaat.",
+        "related": ["cnc-frezen", "lasergraveren"]
+      },
+      {
+        "id": "poedercoating",
+        "term": "Poedercoating powder coating",
+        "category": "finishing",
+        "definition_nl": "Elektrostatisch aangebrachte polyesterhars in poedervorm, uitgehard in oven bij 160-200 graden. Levert gladde, slagvaste laag in elke RAL-kleur. Standaard afwerking voor aluminium en stalen signage-frames. Dikte 60-100 micron. Beter krasbestendig dan vloeibare lak.",
+        "source_or_reference": "ISO 12944 (beschermende coatings voor staal)",
+        "related": ["aluminium-en-aw-5005", "rvs-304"]
+      },
+      {
+        "id": "anodiseren",
+        "term": "Anodiseren van aluminium",
+        "category": "finishing",
+        "definition_nl": "Elektrochemisch oxidatie-proces dat een harde aluminium-oxide laag vormt op aluminiumoppervlak. Dikte 5-25 micron, kleur naturel, zwart of eloxal-kleur. Krasbestendiger dan lak, levensduur 20-30 jaar. Niet te schilderen na anodiseren.",
+        "source_or_reference": "EN 12373-1 (anodiseren aluminium)",
+        "related": ["aluminium-en-aw-5005"]
+      },
+      {
+        "id": "textieldoek-spanframe",
+        "term": "SEG Spanframe systeem",
+        "category": "installatie",
+        "definition_nl": "Silicone Edge Graphics systeem: textieldoek met silicone lip langs rand, gespannen in aluminium profiel-frame met sleuf. Snel verwisselbaar, knieveloos, strak gespannen. Standaard in retailinterieuren en beursstands.",
+        "related": ["textieldoek-signage"]
+      },
+      {
+        "id": "hoogwerker-belettering",
+        "term": "Hoogwerker-uitvoering signage",
+        "category": "installatie",
+        "definition_nl": "Applicatie van signage boven 4 meter via hoogwerker (schaarhoogwerker tot 12m, telescoop/knik-arm tot 60m). Vereist VCA-bewuste installateur, veiligheidscoördinatie op industrieterrein en werkvergunning. Kosten hoogwerker 200-600 euro per dag.",
+        "source_or_reference": "Arbowet art 6.6 (werken op hoogte); VCA 2017",
+        "related": ["vca-certificering"]
+      },
+      {
+        "id": "stud-mount-installatie",
+        "term": "Stud-mount bevestiging gevelletters",
+        "category": "installatie",
+        "definition_nl": "Aluminium of RVS afstandhouders verschroefd achter de gevelletters, gevel doorboord met ankerbout. Letter staat 10-50 mm van gevel waardoor schaduwwerking ontstaat. Standaard bij freesletters en doosletters. Ankerdiameter 6-12 mm afhankelijk van lettergewicht.",
+        "related": ["cnc-frezen", "rvs-304"]
+      },
+      {
+        "id": "vhb-tape-montage",
+        "term": "VHB tape lijmmontage 3M Very High Bond",
+        "category": "installatie",
+        "definition_nl": "3M VHB acrylaat-schuimtape voor constructieve lijmbonding van signage-elementen zonder doorboring. Treksterkte tot 12 kg/cm2. Geschikt voor gladde oppervlakken (glas, gelakt metaal, acrylaat). Niet op ruwe of gepoederlakte gevelsteen.",
+        "source_or_reference": "3M VHB Technical Design Guide",
+        "related": ["stud-mount-installatie"]
+      }
+    ],
+    "regulations": [
+      {
+        "id": "welstandsnota-rotterdam-2018",
+        "term": "Welstandsnota Rotterdam 2018",
+        "category": "welstand",
+        "definition_nl": "Gemeentelijk beleidsdocument van Rotterdam dat welstandscriteria per zone vastlegt voor reclame-uitingen op gevels. Zone 1 (historisch stadscentrum): strikt, vergunning vrijwel altijd vereist. Zone 2 (modernere wijken): soepeler. Zone 3 (industrie en bedrijventerreinen): ruimst.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018, Gemeente Rotterdam Stadsontwikkeling",
+        "related": ["omgevingsvergunning-wabo"]
+      },
+      {
+        "id": "omgevingsvergunning-wabo",
+        "term": "Omgevingsvergunning art. 2.1 lid 1f Wabo",
+        "category": "omgeving",
+        "definition_nl": "Vergunningsverplichting voor het wijzigen van het uiterlijk van een bouwwerk (inclusief gevelreclame) op basis van art. 2.1 lid 1 onder f van de Wet algemene bepalingen omgevingsrecht (Wabo). Aanvragen via Omgevingsloket Online. Beslissingstermijn 8 weken regulier, 26 weken uitgebreid.",
+        "source_or_reference": "Wet algemene bepalingen omgevingsrecht (Wabo), art. 2.1",
+        "related": ["welstandsnota-rotterdam-2018", "omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "nen-1414-2018",
+        "term": "NEN 1414:2018 Vluchtroute-aanduiding",
+        "category": "veiligheid",
+        "definition_nl": "Nederlandse norm voor de aanduiding van vluchtwegen in gebouwen. Verplicht pictogrammen conform ISO 7010 (groen-wit), minimale lichtsterkte 2 lux op vloerniveau, maximale afstand 20 m tussen aanduidingen bij goede zichtlijn. Relevant voor kantoren, zorggebouwen, hotels en publieke ruimtes.",
+        "source_or_reference": "NEN 1414:2018; ISO 7010",
+        "related": ["iso-7010-pictogrammen", "nen-en-1838"]
+      },
+      {
+        "id": "nen-en-1838",
+        "term": "NEN-EN 1838 Noodverlichting",
+        "category": "veiligheid",
+        "definition_nl": "Europese norm voor noodverlichting in gebouwen. Minimale verlichting 1 lux op vluchtroute-vlak, 0,5 lux in open ruimtes. Noodverlichting moet minimaal 1 uur functioneren bij stroomuitval. Vereist voor signage met geïntegreerde noodverlichting.",
+        "source_or_reference": "NEN-EN 1838:2013",
+        "related": ["nen-1414-2018", "nen-1010"]
+      },
+      {
+        "id": "nen-1010",
+        "term": "NEN 1010 Elektrische installaties",
+        "category": "elektrisch",
+        "definition_nl": "Nederlandse norm voor laagspanning elektrische installaties, van toepassing op voedingsleidingen en aansluitingen voor lichtreclame en LED-signage. Vereist aarding, aardlekbeveiliging en gecertificeerde installateur voor permanente aansluitingen boven 50V.",
+        "source_or_reference": "NEN 1010:2015+A1:2018",
+        "related": ["nen-en-1838", "led-module-signage"]
+      },
+      {
+        "id": "nen-en-1090",
+        "term": "NEN-EN 1090 Constructie staal en aluminium",
+        "category": "constructief",
+        "definition_nl": "Europese uitvoeringsstandaard voor stalen en aluminium constructie-elementen. Van toepassing op zwaar-gelaste signage-frames, pylonen en gevelmontage-constructies boven bepaald gewicht. CE-markering vereist voor draagconstructies.",
+        "source_or_reference": "NEN-EN 1090-1:2009+A1:2011",
+        "related": ["rvs-304", "aluminium-en-aw-5005"]
+      },
+      {
+        "id": "rvv-1990-art87",
+        "term": "RVV 1990 art. 87 Verkeersborden op privéterrein",
+        "category": "verkeer",
+        "definition_nl": "Reglement verkeersregels en verkeerstekens 1990. Art. 87 staat toe dat eigenaren van privéterreinen verkeerstekens plaatsen die Bijlage 1 RVV-borden imiteren. Handhaving is privaatrechtelijk, niet strafrechtelijk. Verplicht conform bijlage voor parkeer- en toegangsborden.",
+        "source_or_reference": "RVV 1990 art. 87; Bijlage 1 RVV",
+        "related": []
+      },
+      {
+        "id": "iso-7010-pictogrammen",
+        "term": "ISO 7010 Grafische symbolen brandveiligheid",
+        "category": "veiligheid",
+        "definition_nl": "Internationale norm voor veiligheids- en vluchtroutepictogrammen. Groene vluchtpictogrammen, rode brandbestrijdingspictogrammen, gele waarschuwingspictogrammen, blauwe gebodspictogrammen. Verplicht in Nederlandse gebouwen via NEN 1414 en Bouwbesluit.",
+        "source_or_reference": "ISO 7010:2019; NEN 1414:2018",
+        "related": ["nen-1414-2018"]
+      },
+      {
+        "id": "ece-r104-contour",
+        "term": "ECE-R104 Contourmarkering vrachtwagens",
+        "category": "verkeer",
+        "definition_nl": "VN-reglement voor retroreflecterende contourmarkering op voertuigen boven 7,5 ton bruto gewicht. Gele retroreflecterende strips langs zijden, rode achter. Klasse C2 minimum retroreflectie. Verplicht voor nieuwe voertuigen in EU vanaf 2012.",
+        "source_or_reference": "ECE-R104; Richtlijn 76/756/EEG",
+        "related": ["contour-folie-reflective-trucks", "orafol-5600e"]
+      },
+      {
+        "id": "crow-publicatie-96b",
+        "term": "CROW-publicatie 96b Bewegwijzering",
+        "category": "verkeer",
+        "definition_nl": "CROW-richtlijn voor toeristische en recreatieve bewegwijzering in Nederland. Bepaalt kleurcodering, lettertype (ANWB Letter), retroreflectieklasse en plaatsingsrichtlijnen voor bedrijfswijzerborden langs openbare weg.",
+        "source_or_reference": "CROW-publicatie 96b",
+        "related": ["rvv-1990-art87"]
+      },
+      {
+        "id": "nen-3140",
+        "term": "NEN 3140 Veilig werken aan elektrische installaties",
+        "category": "elektrisch",
+        "definition_nl": "Nederlandse norm voor veilig werken aan en nabij elektrische installaties. Van toepassing bij installatie en onderhoud van verlichte reclame-elementen. Vereist gediplomeerd installateur (B-niveau) voor werkzaamheden aan spanning boven 50V AC.",
+        "source_or_reference": "NEN 3140:2015",
+        "related": ["nen-1010"]
+      },
+      {
+        "id": "avg-raamfolie",
+        "term": "AVG en privacy-raamfolie",
+        "category": "sector",
+        "definition_nl": "Algemene Verordening Gegevensbescherming (AVG/GDPR) verplicht bescherming van persoonsgegevens zichtbaar via raam. Zorginstellingen, advocatenkantoren en HR-kantoren dienen visuele privacy te garanderen voor vergaderruimten en onderzoeksruimten via frosted folie of raambekleding.",
+        "source_or_reference": "AVG art. 25 (Privacy by Design); AP Richtsnoeren",
+        "related": ["oralite-4500-frosted"]
+      },
+      {
+        "id": "haccp-inkten",
+        "term": "HACCP en food-safe inkten",
+        "category": "sector",
+        "definition_nl": "Hazard Analysis Critical Control Points vereist voedselveilige inkten en materialen bij signage binnen 30 cm van voedselproductiezone of contactoppervlakken. Latex watergebaseerde inkten zijn doorgaans veilig; solvent-inkten vereisen afstandsregel. Documentatie vereist voor audits.",
+        "source_or_reference": "HACCP Codex Alimentarius; Verordening (EG) 852/2004",
+        "related": []
+      },
+      {
+        "id": "vca-certificering",
+        "term": "VCA Veiligheid Gezondheid en Milieu Checklist",
+        "category": "veiligheid",
+        "definition_nl": "Certificeringssysteem voor aannemers werkzaam op industriële terreinen. VCA* (basis), VCA** (volledig), VCA Petrochemie voor Botlek/Europoort. Eis van opdrachtgever (grote industriebedrijven en haven-exploitanten) bij werken op terrein.",
+        "source_or_reference": "VCA 2017/6.0; SSVV",
+        "related": ["hoogwerker-belettering"]
+      },
+      {
+        "id": "bouwbesluit-2012-reclame",
+        "term": "Bouwbesluit 2012 en reclame-uitingen",
+        "category": "omgeving",
+        "definition_nl": "Het Bouwbesluit 2012 (nu Besluit bouwwerken leefomgeving 2024) bepaalt eisen voor constructieve veiligheid van gevelmontages, brandbaarheid van materialen (NEN-EN-13501) en energieprestaties. Reclame-elementen mogen bouwkundige schil niet verzwakken.",
+        "source_or_reference": "Bouwbesluit 2012 / Besluit bouwwerken leefomgeving 2024",
+        "related": ["omgevingsvergunning-wabo"]
+      },
+      {
+        "id": "apv-rotterdam-led-reclame",
+        "term": "APV Rotterdam art. 4.2 Digitale reclame",
+        "category": "welstand",
+        "definition_nl": "Artikel 4.2 van de Algemene Plaatselijke Verordening Rotterdam regelt elektronische en LED-reclame-uitingen op gevels. Maximale luminantie 400 cd/m2 overdag, 100 cd/m2 's nachts. Knipperende reclame verboden. Toetsing door vergunningverlening.",
+        "source_or_reference": "APV Rotterdam 2021, art. 4.2",
+        "related": ["welstandsnota-rotterdam-2018", "omgevingsvergunning-wabo"]
+      },
+      {
+        "id": "nen-en-13501-brandklasse",
+        "term": "NEN-EN 13501-1 Brandklasse materialen",
+        "category": "veiligheid",
+        "definition_nl": "Europese classificatie voor brandreactie van bouwmaterialen: klasse A1 (onbrandbaar) t/m F (geen prestatiegegeven). Acrylaat is klasse C/D (brandbaar), PVC klasse B-C, aluminium composiet met minerale kern A2. Relevant bij gevelreclame op hoge gebouwen boven 10m.",
+        "source_or_reference": "NEN-EN 13501-1:2018",
+        "related": ["aluminium-composiet-alucobond"]
+      },
+      {
+        "id": "imo-resolutie-offshore",
+        "term": "IMO-resolutie A.654(16) Offshore signage",
+        "category": "sector",
+        "definition_nl": "Internationale Maritieme Organisatie resolutie voor grafische symbolen op schepen en offshore-installaties. Verplicht gestandaardiseerde pictogrammen voor veiligheidsroutes, redmiddelen en gevaarlijke zones. Van toepassing op binnenvaarttoepassingen in Rotterdam haven.",
+        "source_or_reference": "IMO A.654(16); SOLAS Hoofdstuk III",
+        "related": ["iso-7010-pictogrammen"]
+      },
+      {
+        "id": "erfgoed-beschermd-stadsgezicht",
+        "term": "Beschermd Stadsgezicht Rijksmonument",
+        "category": "omgeving",
+        "definition_nl": "Gebieden aangewezen als beschermd stadsgezicht (bijv. Delfshaven) of rijksmonument vallen onder aanvullende toetsing door Commissie Ruimtelijke Kwaliteit Rotterdam. Reclame-uitingen dienen te passen bij historisch karakter. Nagenoeg geen LED-reclame toegestaan.",
+        "source_or_reference": "Monumentenwet 2016 (Erfgoedwet); Bestemmingsplan Delfshaven",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "bestemmingsplan-gebruik",
+        "term": "Bestemmingsplan en reclame-uitingen",
+        "category": "omgeving",
+        "definition_nl": "Bestemmingsplannen per wijk kunnen aanvullende bepalingen bevatten over maximale oppervlakte reclame-uitingen, kleuren, lichtsterkte en type reclame. Digitale bestemmingsplannen raadpleegbaar via Ruimtelijkeplannen.nl.",
+        "source_or_reference": "Wet ruimtelijke ordening; Ruimtelijkeplannen.nl",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "atex-zones",
+        "term": "ATEX-zones en ex-proof signage",
+        "category": "veiligheid",
+        "definition_nl": "ATEX-richtlijn (2014/34/EU) verplicht explosieveilige apparatuur in zones met explosiegevaar (Zone 0/1/2 gas, Zone 20/21/22 stof). Verlichte signage in ATEX-zone vereist Ex-goedgekeurd armatuur (ATEX-keurmerk). Botlek en Europoort bevatten meerdere ATEX-zones.",
+        "source_or_reference": "Richtlijn 2014/34/EU ATEX; EN 60079",
+        "related": ["led-module-signage"]
+      },
+      {
+        "id": "reach-svhc-materialen",
+        "term": "REACH-verordening SVHC in signage-materialen",
+        "category": "veiligheid",
+        "definition_nl": "EU REACH-verordening (1907/2006) beperkt gebruik van Substances of Very High Concern (SVHC) in producten. Relevant voor PVC-weekmakers (ftalaten), bepaalde pigmenten en lijmstoffen in signage-materialen. A-merk fabrikanten leveren REACH-conformiteitsverklaring.",
+        "source_or_reference": "Verordening (EG) 1907/2006 REACH",
+        "related": ["3m-envision-lx480mc", "avery-mpi1900-pvcfree"]
+      },
+      {
+        "id": "nbn-en-12899",
+        "term": "NEN-EN 12899 Vaste verticale verkeerstekens",
+        "category": "verkeer",
+        "definition_nl": "Europese norm voor vaste verticale verkeerstekens (borden) op openbare weg. Bepaalt retroreflectieklassen R1/R2/R3, materiaalspecificaties, windbelasting en certificering. Van toepassing op door gemeente Rotterdam geplaatste verkeersborden.",
+        "source_or_reference": "NEN-EN 12899-1:2001",
+        "related": ["3m-diamond-grade-dg3", "orafol-5600e"]
+      }
+    ],
+    "permits": [
+      {
+        "id": "omgevingsvergunning-aanvraag",
+        "term": "Omgevingsvergunning aanvragen via Omgevingsloket",
+        "category": "vergunning-type",
+        "definition_nl": "Aanvraag via digitaal Omgevingsloket Online (OLO) van de Rijksdienst voor Ondernemend Nederland. Benodigde stukken: tekeningen op schaal, foto huidige situatie, kleur- en materiaalomschrijving, productinformatie. Leges betaald bij indiening. Typische doorlooptijd 8-14 weken.",
+        "source_or_reference": "Omgevingsloket.nl; Wabo art. 3.1",
+        "related": ["welstandscommissie-toets", "omgevingsvergunning-wabo"]
+      },
+      {
+        "id": "welstandscommissie-toets",
+        "term": "Welstandscommissie Rotterdam toets",
+        "category": "aanvraag-route",
+        "definition_nl": "Commissie Ruimtelijke Kwaliteit Rotterdam toetst vergunningaanvragen voor reclame op welstandscriteria (Welstandsnota Rotterdam). Interne behandeling 4-6 weken naast de wettelijke termijn. Negatief advies is niet bindend maar bepaalt doorgaans uitkomst. Bezwaar via bezwarencommissie.",
+        "source_or_reference": "Gemeentewet art. 12a; Welstandsnota Rotterdam 2018",
+        "related": ["omgevingsvergunning-aanvraag", "erfgoed-beschermd-stadsgezicht"]
+      },
+      {
+        "id": "vergunningsvrij-signage",
+        "term": "Vergunningsvrije reclame klein formaat",
+        "category": "vergunning-type",
+        "definition_nl": "Reclame-uitingen tot 0,5 m2 aan het eigen pand en voldoend aan APV-eisen zijn in Rotterdam veelal vergunningsvrij. Geldt niet voor monumentale panden, beschermde stadsgezichten of verlichte reclame. Altijd vooraf toetsen met gemeente bij twijfel.",
+        "source_or_reference": "Besluit omgevingsrecht (Bor) bijlage II; APV Rotterdam",
+        "related": ["omgevingsvergunning-wabo"]
+      },
+      {
+        "id": "tijdelijke-reclame-vergunning",
+        "term": "Tijdelijke reclame-vergunning evenementen",
+        "category": "vergunning-type",
+        "definition_nl": "Vergunning voor tijdelijke reclame-uitingen bij evenementen, max 6 weken. Aanvraag via gemeente Rotterdam minimaal 4 weken voor plaatsing. Vereist voor spandoeken boven openbare weg, tijdelijke lichtbakken en event-bewegwijzering.",
+        "source_or_reference": "APV Rotterdam; Evenementenvergunning Rotterdam",
+        "related": ["omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "sloopmelding",
+        "term": "Sloopmelding bij verwijderen gevel-element",
+        "category": "vergunning-type",
+        "definition_nl": "Bij verwijdering van gevel-elementen met asbest of constructieve ingrepen is een sloopmelding vereist (meldingsplichtig, niet vergunningplichtig). Doorgaans niet van toepassing bij standaard foliedemontage, wel bij demontage van metalen signage-frames.",
+        "source_or_reference": "Bouwbesluit 2012 afd. 1.7 sloopwerkzaamheden",
+        "related": ["omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "digitale-reclame-apv",
+        "term": "Digitale LED reclame-toetsing APV Rotterdam",
+        "category": "vergunning-type",
+        "definition_nl": "LED-reclame boven drempelwaarden (helderheid, formaat, knipperfrequentie) vereist vergunning op basis van APV Rotterdam art. 4.2. Aanvraag inclusief technisch luminantie-rapport van de leverancier. Gemeente toetst op verkeers- en omgevingsveiligheid.",
+        "source_or_reference": "APV Rotterdam art. 4.2",
+        "related": ["apv-rotterdam-led-reclame", "omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "vooroverleg-bouwtoezicht",
+        "term": "Vooroverleg met bouwtoezicht",
+        "category": "aanvraag-route",
+        "definition_nl": "Informeel vooroverleg met gemeentelijke bouwtoezicht of omgevingsvergunningverlening Rotterdam om haalbaarheid te verkennen vóór formele aanvraag. Niet verplicht maar sterk aanbevolen voor complexe projecten, beschermde panden en grote formats. Doorgaans binnen 2-4 weken reactie.",
+        "source_or_reference": "Gemeente Rotterdam Cluster Stadsontwikkeling",
+        "related": ["omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "erfgoed-extra-toets",
+        "term": "Extra welstandstoets beschermd stadsgezicht Delfshaven",
+        "category": "vergunning-type",
+        "definition_nl": "Panden in rijksbeschermd stadsgezicht Delfshaven vereisen aanvullende monumentale toets. Zelfs kleine reclame-aanpassingen worden getoetst op reversibiliteit en historische inpasbaarheid. Doorlooptijd 4-6 weken extra bovenop reguliere procedure.",
+        "source_or_reference": "Erfgoedwet 2016; Bestemmingsplan Delfshaven",
+        "related": ["erfgoed-beschermd-stadsgezicht", "welstandscommissie-toets"]
+      },
+      {
+        "id": "strooienreclame-vergunning",
+        "term": "Stoepbord en strooireclame APV",
+        "category": "vergunning-type",
+        "definition_nl": "Stoepborden (A-borden) op de openbare weg vereisen APV-melding of toestemming bij gemeente Rotterdam. Maximaal 1 stoepbord per vestiging, direct voor de gevel, niet obstaclerend voor voetgangers. Stoepbord mag niet op rijdeel staan.",
+        "source_or_reference": "APV Rotterdam art. 5.5; gemeente Rotterdam",
+        "related": ["rvv-1990-art87"]
+      },
+      {
+        "id": "watervergunning-signage",
+        "term": "Watervergunning signage nabij water",
+        "category": "vergunning-type",
+        "definition_nl": "Signage in, aan of boven oppervlaktewater (haven, rivier, kanaal) vereist watervergunning van Waterschap Hollandse Delta of Rijkswaterstaat. Zeldzaam voor standaard signage maar relevant voor drijvende reclame en steiger-borden.",
+        "source_or_reference": "Waterwet; Keur Waterschap Hollandse Delta",
+        "related": ["omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "ontheffing-bestemmingsplan",
+        "term": "Ontheffing bestemmingsplan voor reclame",
+        "category": "vergunning-type",
+        "definition_nl": "Wanneer reclame-uiting strijdig is met geldend bestemmingsplan kan ontheffing worden aangevraagd via uitgebreide Wabo-procedure. Beslissingstermijn 26 weken. Publicatie ontwerp-besluit vereist.",
+        "source_or_reference": "Wabo art. 2.12 lid 1 sub a; Wro",
+        "related": ["omgevingsvergunning-wabo", "bestemmingsplan-gebruik"]
+      },
+      {
+        "id": "kapvergunning-signage",
+        "term": "Kapvergunning en signage met groene impact",
+        "category": "vergunning-type",
+        "definition_nl": "In het uitzonderlijke geval dat plaatsing van een pyloon of signage-mast het vellen van beschermde bomen vereist, is een kapvergunning (omgevingsvergunning voor het vellen van houtopstand) noodzakelijk. Doorgaans niet van toepassing bij gevel-signage.",
+        "source_or_reference": "APV Rotterdam art. 4.3; Wet Natuurbescherming",
+        "related": ["omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "noodvergunning-verlichting",
+        "term": "Melding defecte verlichting signage",
+        "category": "aanvraag-route",
+        "definition_nl": "Bij defecte noodverlichting in vluchtrouteaanduiding geldt meldingsplicht aan brandweer Rotterdam. Tijdelijk herstel binnen 24 uur, definitief herstel binnen 2 weken. Administratief proces, geen vergunning in juridische zin.",
+        "source_or_reference": "Gebruiksbesluit 2008; NEN 1414:2018",
+        "related": ["nen-1414-2018", "nen-en-1838"]
+      },
+      {
+        "id": "bouw-en-woningwet-toets",
+        "term": "Maximale hoogte en oppervlak per welstandszone",
+        "category": "aanvraag-route",
+        "definition_nl": "Gemeente Rotterdam hanteert indicatieve maxima per welstandszone: Zone 1 max 1,0 m2 (vrijwel altijd vergunning nodig), Zone 2 max 2,5 m2 logo en naam, Zone 3 industrieel geen bovenlimiet mits constructief veilig. Altijd afhankelijk van locatiespecifieke omstandigheid.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "evenement-bewegwijzering",
+        "term": "Tijdelijke bewegwijzeringsborden evenementen",
+        "category": "vergunning-type",
+        "definition_nl": "Tijdelijke gidsborden en bewegwijzering voor evenementen in Rotterdam via evenementenvergunning en afstemming met gemeente-afdeling Beheer Openbare Ruimte. Borden mogen openbaar wegnetwerk niet verwarren. Max verblijfsduur bord 2 weken voor en 48 uur na event.",
+        "source_or_reference": "APV Rotterdam; Evenementenbeleid Rotterdam",
+        "related": ["tijdelijke-reclame-vergunning"]
+      }
+    ],
+    "cost_bands": [
+      {
+        "id": "raambelettering-klein",
+        "term": "Raambelettering klein onder 2 m2",
+        "category": "raambelettering",
+        "definition_nl": "Eenvoudig logo en bedrijfsnaam tot 2 m2 glasoppervlak. Inclusief plottersnijden of eenvoudige print, applicatie. Prijsbepalende factoren: beletteringstype (snijfolie vs. print), glasoppervlak, verdiepingshoogte. Typisch bereik 50-500 euro.",
+        "related": ["raambelettering-middel", "plotter-cutting"]
+      },
+      {
+        "id": "raambelettering-middel",
+        "term": "Raambelettering middel 2-8 m2",
+        "category": "raambelettering",
+        "definition_nl": "Gevelbreedte 2-8 m2 met complex ontwerp, frosted-banden of etalage-print. Inclusief drukwerk, applicatie en eventueel kroonlijst-aanpassing. Typisch bereik 500-2.500 euro. Factoren: complex ontwerp, hoogwerker bij eerste etage, type folie.",
+        "related": ["raambelettering-klein", "raambelettering-groot"]
+      },
+      {
+        "id": "raambelettering-groot",
+        "term": "Raambelettering groot boven 8 m2",
+        "category": "raambelettering",
+        "definition_nl": "Complete etalage-belettering of showroomfront boven 8 m2. Maatwerk-ontwerp, gelaagde frosted/print combinatie mogelijk. Typisch bereik 2.500-8.000 euro. Factoren: ontwerp-complexiteit, hoogte installatie, eventuele vergunning.",
+        "related": ["raambelettering-middel"]
+      },
+      {
+        "id": "gevelreclame-doosletters-basis",
+        "term": "Gevelreclame doosletters basis 5-8 letters",
+        "category": "gevelreclame",
+        "definition_nl": "Frontlit LED-doosletters, 5-8 tekens, hoogte 20-40 cm, standaard acrylaat front. Inclusief LED-modules, montage en basiselektra-aansluiting. Typisch bereik 2.500-6.000 euro. Factoren: lettergrootte, LED-kleur.",
+        "related": ["gevelreclame-doosletters-premium", "led-module-signage"]
+      },
+      {
+        "id": "gevelreclame-doosletters-premium",
+        "term": "Gevelreclame doosletters premium 10 plus letters halo",
+        "category": "gevelreclame",
+        "definition_nl": "Backlit halo-verlichte doosletters (RVS of aluminium, 10+ tekens) of uitgebreide frontlit-set. Hoog-kwaliteit LED-modules, custom kleuren. Typisch bereik 6.000-15.000 euro. Factoren: materiaal (RVS vs. acrylaat), halo vs. frontlit, omgevingsvergunning.",
+        "related": ["gevelreclame-doosletters-basis"]
+      },
+      {
+        "id": "lichtbak-klein",
+        "term": "Lichtbak klein enkelzijdig onder 2 m2",
+        "category": "lichtbak",
+        "definition_nl": "Standaard lichtbak tot 2 m2, aluminium profiel, LED-achterverlichting, acrylaat of textiel front. Inclusief bedrukking en montage. Typisch bereik 1.500-3.500 euro. Factoren: diepte kast, kleurtemperatuur LED, verlichtingspatroon.",
+        "related": ["lichtbak-middel", "digitaal-printfolie-backlit"]
+      },
+      {
+        "id": "lichtbak-middel",
+        "term": "Lichtbak middel dubbelzijdig 2-4 m2",
+        "category": "lichtbak",
+        "definition_nl": "Dubbelzijdige lichtbak 2-4 m2, veelgebruikt voor uithangers en vlaggenlichtreclame. LED-modules op twee kanten, aluminium frame. Typisch bereik 3.500-8.500 euro. Factoren: dubbelzijdigheid, bevestigingswijze.",
+        "related": ["lichtbak-klein", "lichtbak-groot"]
+      },
+      {
+        "id": "lichtbak-groot",
+        "term": "Lichtbak groot freestaander boven 4 m2",
+        "category": "lichtbak",
+        "definition_nl": "Grote freestaande lichtbak op stalen pyloon, boven 4 m2 frontoppervlak. Stalen fundatiepaal, elektra-aansluiting, constructievergunning. Typisch bereik 8.500-25.000 euro. Factoren: hoogte pyloon, formaat bak, constructieve windlast-berekening.",
+        "related": ["lichtbak-middel", "nen-en-1090"]
+      },
+      {
+        "id": "vehicle-half-wrap",
+        "term": "Voertuig half-wrap personenauto",
+        "category": "autoreclame",
+        "definition_nl": "Belettering achterzijde en zijdeuren van personenauto, niet volledig ingepakt. Print of snijfolie, cast vinyl. Typisch bereik 1.500-3.500 euro. Factoren: oppervlakte, cast vs. calendered, complexe ronding.",
+        "related": ["vehicle-full-wrap", "3m-ij180cv3"]
+      },
+      {
+        "id": "vehicle-full-wrap",
+        "term": "Voertuig full-wrap personenauto",
+        "category": "autoreclame",
+        "definition_nl": "Volledige inkleuring personenauto in bedrijfskleuren of color-change. Hoogwaardig cast vinyl, inclusief deurrandjes en bumpers. Typisch bereik 2.500-6.500 euro. Factoren: autotype, kleurcomplexiteit, cast-kwaliteit.",
+        "related": ["vehicle-half-wrap", "vehicle-fleet-bestelbus"]
+      },
+      {
+        "id": "vehicle-fleet-bestelbus",
+        "term": "Bestelbus belettering Sprinter Ducato-klasse",
+        "category": "autoreclame",
+        "definition_nl": "Volledige belettering grote bestelbus (Sprinter, Ducato, Transit). Groot printoppervlak, zijden en achter en dak-dekstuk. Typisch bereik 3.500-7.500 euro. Factoren: hoogte zijpanelen, print vs. snijfolie, dak-print.",
+        "related": ["vehicle-full-wrap"]
+      },
+      {
+        "id": "truck-curtainsider",
+        "term": "Vrachtwagen curtainsider belettering",
+        "category": "autoreclame",
+        "definition_nl": "Belettering van achterzijde en PVC-zeilen van oplegger of vrachtwagen. HF-gelaste zeilen, print via latex of eco-solvent. Typisch bereik 4.500-12.000 euro. Factoren: één of twee zijden, achterzijde extra, zeil-type.",
+        "related": ["pvc-zeil-spandoek", "hf-lassen"]
+      },
+      {
+        "id": "bewegwijzering-kantoor",
+        "term": "Kantoor bewegwijzering 10-30 tekens",
+        "category": "bewegwijzering",
+        "definition_nl": "Binnenbewegwijzering kantoor: ruimtenummers, verdiepingsaanduidingen, directie-bordes, vluchtroutepictogrammen. Acrylaat of aluminium, geprint of gefreesd. Inclusief ontwerp en montage. Typisch bereik 1.500-5.000 euro voor 10-30 tekens.",
+        "related": ["nen-1414-2018", "lasergraveren"]
+      },
+      {
+        "id": "beurs-belettering-basis",
+        "term": "Beurs-belettering stand back-wall 3 m2",
+        "category": "beurs",
+        "definition_nl": "Backwall belettering 3 m2 voor beursstand. Printvinyl, SEG-frame of spanframe-systeem. Inclusief print en montage ter plaatse. Typisch bereik 1.000-4.500 euro. Factoren: spanframe vs. zelfklevend, hergebruik.",
+        "related": ["textieldoek-signage"]
+      },
+      {
+        "id": "spandoek-print-per-m2",
+        "term": "Spandoek print per m2",
+        "category": "spandoeken",
+        "definition_nl": "Digitaal geprinte PVC-spandoeken via latex of eco-solvent. Prijs per m2 incl. zomen en ogen: 25-65 euro afhankelijk van oplage, kwaliteitsklasse PVC en levertijd. Minimum formaat circa 0,5 m2.",
+        "related": ["pvc-zeil-spandoek", "latex-printing"]
+      },
+      {
+        "id": "magneetfolie-set",
+        "term": "Magneetfolie stel twee deurplaten",
+        "category": "autoreclame",
+        "definition_nl": "Paar magneet-reclameborden voor personenauto of bestelwagen deuren. Inclusief print, zomen en magneet-laag. Typisch bereik 150-450 euro per stel. Voordeel: verwijderbaar voor privé-gebruik. Niet geschikt boven 100 km/u.",
+        "related": ["magneetfolie-standaard"]
+      },
+      {
+        "id": "naamplaat-klein",
+        "term": "Naamplaat klein A5-A4 formaat",
+        "category": "naamplaten",
+        "definition_nl": "Naamplaat A5-A4 in RVS, acrylaat of messing. Gefreesd of gelaserd met bedrijfsgegevens, naam en logo. Inclusief montage. Typisch bereik 80-250 euro per stuk. Factoren: materiaal, aantal regels tekst.",
+        "related": ["lasergraveren"]
+      },
+      {
+        "id": "parkeerbord-set",
+        "term": "Parkeerborden privéterrein set van 5",
+        "category": "bewegwijzering",
+        "definition_nl": "Set van 5 standaard parkeerborden (P-bord en tekst) voor privéterrein conform RVV-bijlage 1 uitvoering. Aluminium DIN-formaat 400x600 mm, retroreflectieve folie. Inclusief palen en montage. Typisch bereik 350-800 euro per set van 5.",
+        "related": ["rvv-1990-art87", "orafol-oracal-4500"]
+      },
+      {
+        "id": "freesletters-aluminium-basis",
+        "term": "Freesletters aluminium basis 6 letters",
+        "category": "freesletters",
+        "definition_nl": "Zes letters in aluminium 5 mm, hoogte tot 30 cm. CNC-gefreesd, poederlak RAL-kleur, stud-mount montage inclusief. Typisch bereik 795-1.500 euro. Factoren: lettergrootte, lettertype complexiteit, geveltype.",
+        "related": ["cnc-frezen", "stud-mount-installatie"]
+      },
+      {
+        "id": "freesletters-rvs-premium",
+        "term": "Freesletters RVS geborsteld 6 letters",
+        "category": "freesletters",
+        "definition_nl": "Zes letters in geborsteld RVS 304 of 316, hoogte 15-40 cm. Premium architectonische uitstraling, levensduur 25 jaar. Typisch bereik 1.495-3.500 euro. Factoren: RVS 304 vs. 316, finishing.",
+        "related": ["rvs-304", "rvs-316"]
+      },
+      {
+        "id": "vlaginschriften",
+        "term": "Vlag en vlaggenmast installatie",
+        "category": "vlaggen",
+        "definition_nl": "Bedrijfsvlag op aluminium of stalen vlagmast inclusief flag-print (sublimatie polyester). Masten 5-10 m, single of triple-set. Typisch bereik 450-2.500 euro per set (mast en vlag). Factoren: masthoogte, fundatietype, aantal vlaggen.",
+        "related": ["sublimatie-print"]
+      },
+      {
+        "id": "gevelplaat-belettering",
+        "term": "Gevelplaat met belettering dibond aluminium",
+        "category": "gevelreclame",
+        "definition_nl": "Gevelplaat in dibond of aluminium composiet met digitale print of gefreesd design, gemonteerd op gevelframe. Typisch bereik 800-4.500 euro afhankelijk van formaat (1-6 m2), montagecomplexiteit en materiaalkeuze.",
+        "related": ["dibond-aluminium", "aluminium-composiet-alucobond"]
+      },
+      {
+        "id": "silobelettering-basis",
+        "term": "Silobelettering basis tot 15 m 1 zijde",
+        "category": "industrieel",
+        "definition_nl": "Industriële grootformaat belettering silo tot 15 m hoogte, één zijde. Cast vinyl, hoogwerker-uitvoering, 2 jaar garantie. Typisch bereik 2.495-4.000 euro excl. BTW. Factoren: oppervlaktegesteldheid staal, chemische belasting locatie.",
+        "related": ["3m-ij180cv3", "hoogwerker-belettering"]
+      },
+      {
+        "id": "silobelettering-premium",
+        "term": "Silobelettering premium 25 plus m rondom",
+        "category": "industrieel",
+        "definition_nl": "Industriële belettering silo 25 meter of hoger, 360 graden rondom. Hoogwerker inclusief, chemisch-resistente laminaten, VCA-bewust team. Typisch bereik 8.995-20.000 euro excl. BTW. Factoren: hoogte, chemische blootstelling Botlek/Europoort.",
+        "related": ["silobelettering-basis", "vca-certificering"]
+      },
+      {
+        "id": "fleet-wrap-vijf-voertuigen",
+        "term": "Fleetwrap 5 voertuigen bestelbus uniform",
+        "category": "autoreclame",
+        "definition_nl": "Uniforme belettering van 5 gelijksoortige bestelwagens. Volume-korting doorgaans 10-20% op enkelstuks-prijs. Typisch bereik 15.000-32.000 euro voor 5 full-wrap Sprinter-klasse. Factoren: omslagpercentage, kleur-kalibratie per voertuig.",
+        "related": ["vehicle-fleet-bestelbus"]
+      }
+    ],
+    "sector_compliance": [
+      {
+        "id": "zorginstelling-nen1414",
+        "term": "Zorginstelling vluchtroute-signage NEN-1414",
+        "category": "zorg",
+        "definition_nl": "Zorginstellingen (ziekenhuizen, verpleeghuizen, klinieken) dienen te voldoen aan NEN 1414:2018 voor vluchtroute-aanduiding. Pictogrammen conform ISO 7010, verlichte aanduidingen, maximale afstand 20 m tussen borden. Jaarlijkse inspectie vereist.",
+        "source_or_reference": "NEN 1414:2018; HACCP Zorg; IGJ-inspecties",
+        "related": ["nen-1414-2018", "iso-7010-pictogrammen"]
+      },
+      {
+        "id": "zorginstelling-antimicrobial",
+        "term": "Zorginstelling antimicrobiale vinylcoating",
+        "category": "zorg",
+        "definition_nl": "Operatiekamers, isolatiezalen en IC-afdelingen vereisen antimicrobiële oppervlakken. Signage in deze ruimten dient van antimicrobieel printvinyl te zijn (3M ScotchPrint Antimicrobial of equivalent). Voldoet aan ISO 22196 test voor antimicrobiële werkzaamheid.",
+        "source_or_reference": "ISO 22196; RIVM infectiepreventie richtlijnen",
+        "related": ["antimicrobial-vinyl-3m"]
+      },
+      {
+        "id": "zorginstelling-avg-raamfolie",
+        "term": "Zorginstelling AVG privacy raamfolie",
+        "category": "zorg",
+        "definition_nl": "Spreekkamers, behandelkamers en receptie in zorginstellingen dienen visuele privacy te bieden conform AVG art. 25 (Privacy by Design). Frosted of ondoorzichtige raamfolie tot minimaal 160 cm hoogte voor straatzijde en corridors.",
+        "source_or_reference": "AVG art. 25; NEN-ISO 27001",
+        "related": ["avg-raamfolie", "oralite-4500-frosted"]
+      },
+      {
+        "id": "apotheek-led-luminantie",
+        "term": "Apotheek maximale LED-luminantie",
+        "category": "zorg",
+        "definition_nl": "Apotheken met verlichte gevelreclame dienen rekening te houden met patiënt-comfort: flikkerende of te helle LED-reclame (boven 400 cd/m2) kan fotosensitieve patiënten belasten. Aanbevolen maximale luminantie 300 cd/m2 voor gevel-verlichte elementen.",
+        "source_or_reference": "APV Rotterdam art. 4.2; KNMP-richtlijnen apotheken",
+        "related": ["apv-rotterdam-led-reclame"]
+      },
+      {
+        "id": "tandartspraktijk-discretie",
+        "term": "Tandartspraktijk raamfolie discretie",
+        "category": "zorg",
+        "definition_nl": "Tandartspraktijken plaatsen frosted raamfolie of eenrichtingzicht om wachtkamer- en behandelruimtezicht te blokkeren vanwege AVG en patiënt-privacy. Behandelruimte altijd volledig geblokkeerd, wachtkamer minimaal 120-160 cm hoog.",
+        "source_or_reference": "AVG art. 25; KNMT beroepsrichtlijnen",
+        "related": ["zorginstelling-avg-raamfolie"]
+      },
+      {
+        "id": "transport-ece-r104",
+        "term": "Transport sector ECE-R104 contourmarkering",
+        "category": "transport",
+        "definition_nl": "Vrachtwagens en opleggers boven 7,5 ton bruto massa vereisen retroreflecterende contourmarkering conform ECE-R104. Geel aan zijden, rood achter. Verplicht bij nieuwe voertuigen, handhaving via APK-keuring. Installateur dient gecertificeerde folie (klasse C2) te gebruiken.",
+        "source_or_reference": "ECE-R104; Voertuigreglement NL art. 5.12",
+        "related": ["contour-folie-reflective-trucks", "orafol-5600e"]
+      },
+      {
+        "id": "bouw-vca-installateur",
+        "term": "Bouwlocatie VCA-gecertificeerd signage-installateur",
+        "category": "bouw",
+        "definition_nl": "Signage-installatie op actieve bouwlocaties vereist VCA*-gecertificeerde installateur. Aannemer vraagt werkvergunning bij hoofdaannemer. Persoonlijke beschermingsmiddelen: helm, veiligheidsschoenen, harnasgordel bij hoogtewerk.",
+        "source_or_reference": "VCA 2017/6.0; Arbowet art. 11",
+        "related": ["vca-certificering", "hoogwerker-belettering"]
+      },
+      {
+        "id": "horeca-haccp-non-toxic",
+        "term": "Horeca HACCP niet-toxische inkten",
+        "category": "horeca",
+        "definition_nl": "Restaurantkeukens en food-prep zones vereisen signage met food-safe (niet-toxische) inkten. Latex watergebaseerde inkten zijn HACCP-conform bij afstand boven 30 cm van voedselcontactvlak. Documentatie voor NVWA-audit beschikbaar houden.",
+        "source_or_reference": "HACCP; Verordening (EG) 852/2004; NVWA",
+        "related": ["haccp-inkten", "latex-printing"]
+      },
+      {
+        "id": "horeca-rvv-terras",
+        "term": "Horeca terras stoepbord APV-melding",
+        "category": "horeca",
+        "definition_nl": "Horecastoepborden op openbare weg/terrasgebied vereisen APV-melding bij gemeente Rotterdam. Max 1 stoepbord per terras, direct naast terrasafbakening. Bord mag doorgang voetganger (min 150 cm vrij) niet belemmeren.",
+        "source_or_reference": "APV Rotterdam art. 5.5; Horecabeleid Rotterdam",
+        "related": ["strooienreclame-vergunning"]
+      },
+      {
+        "id": "retail-wko-kleurtemperatuur",
+        "term": "Retail WKO kleurtemperatuur voor productpresentatie",
+        "category": "retail",
+        "definition_nl": "Retailwinkels met verse producten (slagers, bloemisten, bakkers) gebruiken 2700-3000K warm-wit LED voor aantrekkelijke productpresentatie. Elektronicazaken en juweliers prefereren 4000-5000K voor technische helderheid. CRI minimaal 90 voor kleurtekening.",
+        "related": ["led-module-signage"]
+      },
+      {
+        "id": "retail-lichtreclame-apv-nacht",
+        "term": "Retail lichtreclame APV nacht-beperking",
+        "category": "retail",
+        "definition_nl": "Verlichte winkelsignage in Rotterdam dient na 23:00 uur gedimd of uitgeschakeld te zijn in woongebieden conform APV art. 4.2. In winkelcentra (Alexandrium, Binnenstadszone) andere tijdsregimes. Automatische dimmer (10-30% nacht) is standaard oplossing.",
+        "source_or_reference": "APV Rotterdam art. 4.2",
+        "related": ["apv-rotterdam-led-reclame"]
+      },
+      {
+        "id": "kantoor-avg-vergaderruimte",
+        "term": "Kantoor AVG raamfolie vergaderruimte",
+        "category": "zakelijk",
+        "definition_nl": "Vergaderruimten waar vertrouwelijke informatie wordt besproken of getoond op schermen dienen visueel afgeschermd te zijn conform AVG-beginselen. Frosted folie of eenrichtingzicht voor glas wanden. Relevant voor advocatuur, HR-afdelingen en financiële dienstverlening.",
+        "source_or_reference": "AVG art. 25; NEN-ISO 27001",
+        "related": ["zorginstelling-avg-raamfolie"]
+      },
+      {
+        "id": "advocatenkantoor-discretie",
+        "term": "Advocatenkantoor signage discretie",
+        "category": "zakelijk",
+        "definition_nl": "Advocatenkantoren dienen de vertrouwelijkheid van cliëntenbezoek te waarborgen. Signage aan de buitenzijde mag geen inzicht geven in aanwezigheid van cliënten. Wachtkamers afgeschermd via raamfolie. Ingetogen gevelreclame passend bij beroepsprestige.",
+        "source_or_reference": "Advocatenwet art. 10a (vertrouwelijkheid); NOvA Gedragsregels",
+        "related": ["zorginstelling-avg-raamfolie"]
+      },
+      {
+        "id": "notariskantoor-passend",
+        "term": "Notariskantoor signage beroepsreglementering",
+        "category": "zakelijk",
+        "definition_nl": "Notarissen zijn aan KNB-beroepsregels gebonden die een waardig en ingetogen publiek optreden vereisen. Gevelreclame dient sober, onderscheidend en niet commercieel-oogverblindend te zijn. Geen LED-lichtreclame; voorkeur voor geborsteld RVS naamplaat.",
+        "source_or_reference": "KNB Verordening beroeps- en gedragsregels; Wet op het notarisambt",
+        "related": ["advocatenkantoor-discretie"]
+      },
+      {
+        "id": "accountantskantoor-nba",
+        "term": "Accountantskantoor NBA presentatie-richtlijnen",
+        "category": "zakelijk",
+        "definition_nl": "NBA (Nederlandse Beroepsorganisatie van Accountants) VGBA-gedragsregels vereisen professioneel en onafhankelijk optreden. Gevelreclame dient dit recht te doen: sober, feitelijk, geen commerciële superlatieven. Praktisch: freesletters of onverlichte naamplaat.",
+        "source_or_reference": "NBA VGBA 2014; Wta",
+        "related": ["advocatenkantoor-discretie"]
+      },
+      {
+        "id": "uitvaartonderneming-ingetogen",
+        "term": "Uitvaartonderneming signage ingetogen uitstraling",
+        "category": "zakelijk",
+        "definition_nl": "Uitvaartbedrijven dienen ingetogen, respectvolle signage te voeren die past bij de aard van de dienstverlening. APV verbiedt opvallende commerciële reclame in combinatie met uitvaartdiensten. Zwart-grijs kleurenpalet, geen LED-buitenreclame.",
+        "source_or_reference": "APV Rotterdam; Wet op de lijkbezorging",
+        "related": ["advocatenkantoor-discretie"]
+      },
+      {
+        "id": "school-nen1414-brand",
+        "term": "School vluchtroute en AVG signage",
+        "category": "onderwijs",
+        "definition_nl": "Scholen dienen te voldoen aan NEN 1414 voor vluchtroute-signage (klassen en gangen), en aan AVG voor verwerking persoonsgegevens van leerlingen. Klassenaamplaatjes: geen namen van individuele leerlingen. Noodverlichting jaarlijks getest.",
+        "source_or_reference": "NEN 1414:2018; AVG art. 6 (rechtmatigheid verwerking)",
+        "related": ["zorginstelling-nen1414"]
+      },
+      {
+        "id": "kinderopvang-vluchtroute",
+        "term": "Kinderopvang vluchtroutepictogrammen",
+        "category": "onderwijs",
+        "definition_nl": "Kinderopvanglocaties vereisen conform Bouwbesluit en GGD-inspectie-kader duidelijke vluchtroutepictogrammen, op ooghoogte van kinderen (80-120 cm) en volwassenen (160-180 cm). Pictogrammen conform ISO 7010.",
+        "source_or_reference": "Bouwbesluit 2012; GGD inspectie kader kinderopvang",
+        "related": ["nen-1414-2018", "iso-7010-pictogrammen"]
+      },
+      {
+        "id": "makelaar-nvm-huisstijl",
+        "term": "Makelaarskantoor NVM huisstijl-richtlijnen",
+        "category": "retail",
+        "definition_nl": "NVM-makelaren hebben licentie voor gebruik NVM-beeldmerk en huisstijl op kantooruiting en voertuigen. Signage dient te voldoen aan NVM corporate identity richtlijnen (kleuren, lettertype, logo-plaatsing). Aanvraag digitale bestanden via NVM ledenservice.",
+        "source_or_reference": "NVM huisstijlgids 2024; NVM lidmaatschapsovereenkomst",
+        "related": []
+      },
+      {
+        "id": "horeca-alcohol-reclame",
+        "term": "Horeca alcoholreclame beperkingen",
+        "category": "horeca",
+        "definition_nl": "Reclameborden voor alcoholische dranken mogen niet primair op jongeren zijn gericht. Buitenreclame dient te voldoen aan Drank- en Horecawet en Reclamecode voor Alcoholhoudende Dranken (RvA). Geen reclame op schoolomgeving, speeltuin of jeugdcentrum.",
+        "source_or_reference": "Drank- en Horecawet art. 25a; RvA 2021",
+        "related": ["apv-rotterdam-led-reclame"]
+      },
+      {
+        "id": "petrochemie-atex-signage",
+        "term": "Petrochemie ATEX ex-proof verlichte signage",
+        "category": "industrie",
+        "definition_nl": "Verlichte signage in ATEX Zone 0/1/2 op petrochemische terreinen (Botlek, Pernis, Europoort) dient Ex-gecertificeerd te zijn conform EN 60079. Niet-verlichte foliesignage is doorgaans vrijgesteld. Altijd toetsen met HSE-afdeling opdrachtgever.",
+        "source_or_reference": "Richtlijn 2014/34/EU ATEX; EN 60079-0",
+        "related": ["atex-zones", "vca-certificering"]
+      }
+    ],
+    "wijk_specifics": [
+      {
+        "id": "wijk-centrum",
+        "term": "Rotterdam Centrum Binnenstad welstand Zone 1",
+        "category": "wijk",
+        "definition_nl": "Rotterdam binnenstad (Coolsingel, Lijnbaan, Meent) valt onder welstandszone 1: strikt historisch karakter. Reclame-uitingen zijn vrijwel altijd vergunningsplichtig ongeacht formaat. Commissie Ruimtelijke Kwaliteit toetst op inpassing in historisch straatbeeld. Geen oversized LED-reclame.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018 Zone 1",
+        "related": ["welstandsnota-rotterdam-2018", "omgevingsvergunning-aanvraag"]
+      },
+      {
+        "id": "wijk-delfshaven",
+        "term": "Delfshaven beschermd stadsgezicht",
+        "category": "wijk",
+        "definition_nl": "Delfshaven is aangewezen als rijksbeschermd stadsgezicht, mede vanwege UNESCO-erfgoedstatus Pilgrimvaderssite. Elke wijziging aan gevelreclame vereist monumentale toets aanvullend op omgevingsvergunning. Verlichte reclame nagenoeg uitgesloten. Voorkeur: naamplaat RVS of onverlichte letters.",
+        "source_or_reference": "Erfgoedwet 2016; Bestemmingsplan Delfshaven",
+        "related": ["erfgoed-beschermd-stadsgezicht", "erfgoed-extra-toets"]
+      },
+      {
+        "id": "wijk-kralingen",
+        "term": "Kralingen villawijken conservatief",
+        "category": "wijk",
+        "definition_nl": "Kralingen en Crooswijk villazone vallen onder zone 2 maar met conservatief welstandsbeleid vanwege villa-karakter. Terughoudendheid in formaten gevraagd, geen opvallende LED-reclame. Gevelreclame dient in schaal te passen bij architectuur (doorgaans pre-WWII villa/kantoorpand).",
+        "source_or_reference": "Welstandsnota Rotterdam 2018; Bestemmingsplan Kralingen-Crooswijk",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-feijenoord",
+        "term": "Feijenoord industrie Zone 3",
+        "category": "wijk",
+        "definition_nl": "Feijenoord (met name industriegebied langs Maas) en omliggende bedrijfszones vallen deels onder welstandszone 3. Grotere signage-formaten toegestaan, ruimere LED-mogelijkheden. Woongedeelte Feijenoord stricter dan industriegebied. Typische projecten: bedrijfshalbelettering, gevelpanelen.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018 Zone 3",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-prins-alexander",
+        "term": "Prins Alexander modern soepel Alexandrium",
+        "category": "wijk",
+        "definition_nl": "Prins Alexander en Alexandrium retail-zone vallen onder zone 2-3. Grootschalige retailsignage gangbaar, LED-lichtbakken en pylonen mogelijk mits constructief goedgekeurd. Alexandrium Shopping Center heeft eigen huisstijlregels voor huurders naast APV.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018; Alexandrium huurdersgids",
+        "related": ["welstandsnota-rotterdam-2018", "lichtbak-groot"]
+      },
+      {
+        "id": "wijk-hoogvliet",
+        "term": "Hoogvliet raffinaderij IPN zone",
+        "category": "wijk",
+        "definition_nl": "Hoogvliet-industrie grenst aan Shell Pernis raffinaderij-complex. Industrieel Park Nieuw Mathenesse (IPN) heeft eigen toegangsprocedures. Signage nabij persoonsrisico-contour vereist ATEX-toets. Standaard signage op kantoorlocaties in Hoogvliet zonder beperkingen.",
+        "source_or_reference": "BEVI-risicozonering; ATEX 2014/34/EU",
+        "related": ["atex-zones", "petrochemie-atex-signage"]
+      },
+      {
+        "id": "wijk-botlek",
+        "term": "Botlek en Europoort petrochemie",
+        "category": "wijk",
+        "definition_nl": "Botlek en Europoort zijn zware industriezones met petrochemische bedrijven. Signage-installateurs dienen VCA** of VCA Petrochemie te hebben. Verlichte signage in ATEX-zones Ex-gecertificeerd. Marine-grade RVS 316 en chemisch-resistente laminaten aanbevolen door zoutatmosfeer en chemische dampen.",
+        "source_or_reference": "ATEX 2014/34/EU; VCA 2017; Havenmeester Rotterdam reglement",
+        "related": ["vca-certificering", "rvs-316", "petrochemie-atex-signage"]
+      },
+      {
+        "id": "wijk-ijsselmonde",
+        "term": "IJsselmonde retail corridor",
+        "category": "wijk",
+        "definition_nl": "Groene Hilledijk en omgeving IJsselmonde vormen een gemengd woon-retail-zone. Standaard signage op winkelstrip toegestaan conform zone 2. LED-lichtbakken en gevelreclame mogelijk. Buurt-specifiek: parking-signage relatief intensief vanwege parkeerdruk.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-hillegersberg",
+        "term": "Hillegersberg modern soepel winkelcentrum",
+        "category": "wijk",
+        "definition_nl": "Hillegersberg en Schiebroek winkelcentrum-zone vallen onder zone 2. Redelijk soepel voor retailsignage, LED-verlichte gevelreclame mits niet opvallend 's nachts. Woonwijken rondom conservatiever. Typische projecten: raambelettering winkels, naamplaten kantoorpanden.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-overschie",
+        "term": "Overschie industrie buitenstedelijk",
+        "category": "wijk",
+        "definition_nl": "Overschie en Schie-oevers zijn gemengd logistiek-industrieel gebied langs A13. Zone 3 voor industriegedeelte, soepele signage-regels. Logistieke bedrijven (transportbedrijven langs N209) plaatsen regelmatig grote gevelbelettering en pylonen.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-spangen",
+        "term": "Spangen renovatie-zone welstand",
+        "category": "wijk",
+        "definition_nl": "Spangen maakt deel uit van de Rotterdamse vernieuwingsgebieden (krachtwijken). Welstandstoets vindt plaats met oog op vernieuwingscontext: moderne inbrekers worden soms positiever ontvangen dan in historische wijken. Aandacht voor leefbaarheids-signage.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-noord-blijdorp",
+        "term": "Noord Blijdorp nabij Zoo Rotterdam",
+        "category": "wijk",
+        "definition_nl": "Bedrijven nabij Diergaarde Blijdorp dienen rekening te houden met mogelijke vergunnings-overwegingen rondom geluid en visuele verstoring van dierenwelzijn. In de praktijk zelden relevant voor exterieur signage, wel voor evenement-reclame met luid audiocomponent.",
+        "source_or_reference": "Wet Dieren; APV Rotterdam evenementenbeleid",
+        "related": ["tijdelijke-reclame-vergunning"]
+      },
+      {
+        "id": "wijk-kop-van-zuid",
+        "term": "Kop van Zuid moderne architectuurzone",
+        "category": "wijk",
+        "definition_nl": "Kop van Zuid (World Port Center, Hotel New York omgeving) is prestigieuze moderne architectuurzone. Welstand accepteert moderne, architectonisch doordachte signage maar streng op kwaliteit en materiaalgebruik. Goedkope folie-belettering snel afgewezen. Voorkeur: RVS, premium freesletters, architecturale lichtbakken.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-charlois",
+        "term": "Charlois gemengd zone 1 en zone 2",
+        "category": "wijk",
+        "definition_nl": "Charlois is divers: historische straten (zone 1-achtig) naast naoorlogse woonblokken (zone 2). Winkelstraten Groene Hilledijk en Carnissedreef relatief soepel. Historische bebouwing Charloisse Kerksingel conservatiever. Altijd locatie-specifiek toetsen.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018",
+        "related": ["welstandsnota-rotterdam-2018"]
+      },
+      {
+        "id": "wijk-waalhaven",
+        "term": "Waalhaven havengebied signage",
+        "category": "wijk",
+        "definition_nl": "Waalhaven en Vondelingenplaat zijn actieve haven-en logistiekzones. Zone 3, minimale welstandseisen. Marine-grade materialen aanbevolen (zoutatmosfeer haven). VCA-bewuste installateurs voor haventoegang. Typische projecten: bedrijfshallettering, container-markering.",
+        "source_or_reference": "Welstandsnota Rotterdam 2018; Havenmeester Rotterdam",
+        "related": ["wijk-botlek", "rvs-316"]
+      }
+    ]
+  }
+}

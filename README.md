@@ -223,3 +223,92 @@ npx wrangler pages dev . --port 8080
 ```
 
 Met binding-vlaggen voor lokale env vars; zie Wrangler docs.
+
+---
+
+## AI Rank Monitor
+
+Wekelijkse tracking van Alfa Reclame's positie in ChatGPT, Claude en Perplexity voor Rotterdam reclame/signage zoekopdrachten.
+
+### Wat het doet
+
+- Stuurt 20 vooraf gedefinieerde NL-query's (`scripts/ai-rank-queries.json`) naar OpenAI, Anthropic en Perplexity API's.
+- Parseert welke bedrijven worden aanbevolen en op welke positie "Alfa Reclame" verschijnt.
+- Schrijft alle ruwe resultaten + parsed data weg naar `data/ai-rank-history.jsonl` (append-only).
+- Genereert een wekelijks vergelijkingsrapport in `data/ai-rank-latest-report.md` (welke queries stegen/daalden, nieuwe concurrenten).
+
+### Lokaal testen
+
+1. Stel de drie API-keys in als omgevingsvariabelen:
+
+```bash
+export OPENAI_API_KEY="sk-..."
+export ANTHROPIC_API_KEY="sk-ant-..."
+export PERPLEXITY_API_KEY="pplx-..."
+```
+
+2. Valideer zonder API-calls (dry run):
+
+```bash
+node scripts/ai-rank-monitor.js --dry-run
+```
+
+3. Test met één query en één provider:
+
+```bash
+node scripts/ai-rank-monitor.js --provider openai --query "raambelettering rotterdam"
+```
+
+4. Volledige run (alle 20 queries x 3 providers):
+
+```bash
+node scripts/ai-rank-monitor.js
+```
+
+5. Genereer rapport op basis van bestaande history:
+
+```bash
+node scripts/ai-rank-diff.js
+```
+
+### CI/CD — wekelijkse automatische run inschakelen
+
+1. Voeg drie repo secrets toe via GitHub > Settings > Secrets > Actions:
+   - `OPENAI_API_KEY`
+   - `ANTHROPIC_API_KEY`
+   - `PERPLEXITY_API_KEY`
+
+2. Uncomment het `schedule:` blok in `.github/workflows/ai-rank-monitor.yml`:
+
+```yaml
+# schedule:
+#   - cron: '0 9 * * 1'
+```
+
+Wordt dan:
+
+```yaml
+schedule:
+  - cron: '0 9 * * 1'
+```
+
+3. De workflow draait elke maandag om 09:00 UTC (~10:00 CET) en commit de resultaten automatisch terug naar de repo.
+
+### Verwachte kosten
+
+| Provider | Model | Kosten/run (est.) |
+| --- | --- | --- |
+| OpenAI | gpt-4o-mini | ~$0.03 |
+| Anthropic | claude-haiku-4-5 | ~$0.04 |
+| Perplexity | sonar | ~$0.04 |
+| **Totaal** | — | **~$0.11/run** |
+
+Maandelijks (4 runs): **~$0.44** — ruim onder het geconfigureerde veiligheidsmaximum van $2,00 per run.
+
+### Output bestanden
+
+| Bestand | Inhoud |
+| --- | --- |
+| `data/ai-rank-history.jsonl` | Append-only JSONL, één record per query x provider x run |
+| `data/ai-rank-latest-report.md` | Markdown vergelijkingsrapport, overschreven elke run |
+| `scripts/ai-rank-queries.json` | 20 NL-query's met categorie en intent |
