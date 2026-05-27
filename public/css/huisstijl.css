@@ -550,7 +550,8 @@ h6, .h6 {
 }
 
 .nav__lang-link--active {
-  color: var(--brand);
+  color: var(--ink);
+  background: var(--brand);
   font-weight: 700;
 }
 
