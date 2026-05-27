@@ -83,7 +83,6 @@
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
 <link rel="dns-prefetch" href="https://wa.me">
-<link rel="dns-prefetch" href="https://maps.app.goo.gl">
 <link rel="dns-prefetch" href="https://www.google.com">
 {% if preload_images %}{% for img in preload_images %}<link rel="preload" as="image" href="{{ img.href }}" type="{{ img.type }}" fetchpriority="{{ img.fetchpriority | default("high") }}">
 {% endfor %}{% endif %}
@@ -96,7 +95,7 @@
 
 <!-- ========== JSON-LD STRUCTURED DATA ========== -->
 <script type="application/ld+json">
-{{ jsonld | trim | safe }}
+{{ jsonld | renderContent("njk", { site: site }) | trim | safe }}
 </script>
 {% if pageStyles %}
 {% if pageStylesLabel %}<!-- ========== {{ pageStylesLabel }} ========== -->
@@ -112,6 +111,6 @@
 
 {% endif %}<!-- ========== JSON-LD STRUCTURED DATA ========== -->
 <script type="application/ld+json">
-{{ jsonld | trim | safe }}
+{{ jsonld | renderContent("njk", { site: site }) | trim | safe }}
 </script>
 {%- endif %}
