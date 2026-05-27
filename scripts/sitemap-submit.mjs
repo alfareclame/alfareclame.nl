@@ -1,0 +1,169 @@
+#!/usr/bin/env node
+/**
+ * sitemap-submit.js — IndexNow delta-submission for alfareclame.nl
+ *
+ * Usage:
+ *   node scripts/sitemap-submit.js           # submit new URLs only
+ *   node scripts/sitemap-submit.js --dry-run # compute diff, no submit
+ *   node scripts/sitemap-submit.js --force   # submit all URLs, ignore history
+ *   node scripts/sitemap-submit.js --limit 100  # cap per-request batch
+ *
+ * Pure Node 24, no external deps.
+ */
+
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, '..');
+
+// ── Config ────────────────────────────────────────────────────────────────────
+const INDEXNOW_KEY = 'c80c952b77275971494670c168fd7c7e5b2affa21d357bba74042b4082dd768d';
+const HOST         = 'alfareclame.nl';
+const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
+const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
+const HISTORY_PATH = path.join(ROOT, 'data', 'sitemap-history.jsonl');
+
+const ENDPOINTS = [
+  { name: 'Bing',   url: 'https://api.indexnow.org/indexnow' },
+  { name: 'Yandex', url: 'https://yandex.com/indexnow'       },
+];
+
+// ── CLI flags ─────────────────────────────────────────────────────────────────
+const args     = process.argv.slice(2);
+const DRY_RUN  = args.includes('--dry-run');
+const FORCE    = args.includes('--force');
+const limitIdx = args.indexOf('--limit');
+const LIMIT    = limitIdx !== -1 ? parseInt(args[limitIdx + 1], 10) : 10_000;
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function parseSitemap(xml) {
+  const urls = [];
+  const re = /<loc>(https:\/\/alfareclame\.nl[^<]*)<\/loc>/g;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    urls.push(m[1].trim());
+  }
+  return [...new Set(urls)];
+}
+
+function readHistory() {
+  if (!fs.existsSync(HISTORY_PATH)) return new Map();
+  const map = new Map();
+  const lines = fs.readFileSync(HISTORY_PATH, 'utf8').split('\n').filter(Boolean);
+  for (const line of lines) {
+    try {
+      const rec = JSON.parse(line);
+      if (rec.url) map.set(rec.url, rec);
+    } catch {
+      // skip malformed lines
+    }
+  }
+  return map;
+}
+
+function appendHistory(records) {
+  const lines = records.map(r => JSON.stringify(r)).join('\n') + '\n';
+  fs.appendFileSync(HISTORY_PATH, lines, 'utf8');
+}
+
+async function postIndexNow(endpoint, urlList) {
+  const body = JSON.stringify({
+    host:        HOST,
+    key:         INDEXNOW_KEY,
+    keyLocation: KEY_LOCATION,
+    urlList,
+  });
+
+  try {
+    const res = await fetch(endpoint.url, {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body,
+    });
+    return { name: endpoint.name, status: res.status, ok: res.ok };
+  } catch (err) {
+    return { name: endpoint.name, status: 0, ok: false, error: err.message };
+  }
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
+async function main() {
+  // 1. Read sitemap
+  if (!fs.existsSync(SITEMAP_PATH)) {
+    console.error(`ERROR: sitemap.xml not found at ${SITEMAP_PATH}`);
+    process.exit(1);
+  }
+  const xml     = fs.readFileSync(SITEMAP_PATH, 'utf8');
+  const allUrls = parseSitemap(xml);
+  console.log(`Sitemap: ${allUrls.length} URLs`);
+
+  // 2. Read history
+  const history = readHistory();
+  console.log(`History: ${history.size} previously submitted URLs`);
+
+  // 3. Compute delta
+  let toSubmit;
+  if (FORCE) {
+    toSubmit = allUrls;
+    console.log('--force: submitting all URLs');
+  } else {
+    toSubmit = allUrls.filter(u => !history.has(u));
+    console.log(`Delta: ${toSubmit.length} new URLs`);
+  }
+
+  if (toSubmit.length === 0) {
+    console.log('No new URLs since last submission. Nothing to submit.');
+    process.exit(0);
+  }
+
+  // 4. Apply --limit
+  if (toSubmit.length > LIMIT) {
+    console.log(`Capping to ${LIMIT} URLs per --limit`);
+    toSubmit = toSubmit.slice(0, LIMIT);
+  }
+
+  // 5. Dry-run exit
+  if (DRY_RUN) {
+    console.log('\n--dry-run mode. Would submit:');
+    toSubmit.forEach(u => console.log(' ', u));
+    console.log(`\nTotal: ${toSubmit.length} URLs — no actual submission made.`);
+    process.exit(0);
+  }
+
+  // 6. Submit to each endpoint
+  console.log(`\nSubmitting ${toSubmit.length} URLs to ${ENDPOINTS.length} endpoints...`);
+  const now     = new Date().toISOString();
+  const results = await Promise.all(ENDPOINTS.map(ep => postIndexNow(ep, toSubmit)));
+
+  results.forEach(r => {
+    const icon   = r.ok ? '✓' : '✗';
+    const detail = r.error ? ` (${r.error})` : '';
+    console.log(`  ${icon} ${r.name}: HTTP ${r.status}${detail}`);
+  });
+
+  // 7. Append history
+  const statusMap = {};
+  for (const r of results) {
+    statusMap[`status_${r.name.toLowerCase()}`] = r.status;
+  }
+  const newRecords = toSubmit.map(url => ({
+    url,
+    last_submitted: now,
+    ...statusMap,
+  }));
+  appendHistory(newRecords);
+
+  // 8. Summary
+  const newHistorySize = history.size + newRecords.length;
+  console.log(`\nSummary:`);
+  console.log(`  Submitted: ${toSubmit.length} URLs`);
+  results.forEach(r => console.log(`  ${r.name}: ${r.status}`));
+  console.log(`  History total: ${newHistorySize} records`);
+}
+
+main().catch(err => {
+  console.error('FATAL:', err);
+  process.exit(1);
+});

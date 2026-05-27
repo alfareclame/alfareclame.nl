@@ -1,0 +1,39 @@
+name: Sitemap Submit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sitemap.xml'
+      - 'sitemap-*.xml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemap-submit
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Wait for CF Pages deploy
+        run: sleep 90
+
+      - run: node scripts/sitemap-submit.mjs
+
+      - name: Commit history updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(sitemap): submission history update"
+          file_pattern: data/sitemap-history.jsonl

@@ -512,3 +512,35 @@ Zero-competitie SERP voor wijk+taal+dienst combinaties.
 ## Internal-link semantic graph
 
 Per pagina top-5 gerelateerde pagina's auto-berekend via TF-IDF + cosine similarity (zelfde taal). Live in `/data/relatedPages.json`, gerendered als `<aside class="related-pages">` block onder elke pagina-content. 123 NL pagina's hebben 3+ related (auto-uitgesloten als similarity < 0.10).
+
+## EN + DE wijk-grid (multi-lang matrix komple)
+
+5 English + 5 German wijk-spesifik hizmet sayfası (Sprint 12 ile TR/PL wijk-grid'i aynayarak komple multi-lang matrix tamamlandı):
+
+EN:
+- /en/window-graphics-rotterdam-centrum/
+- /en/window-graphics-rotterdam-noord/
+- /en/vehicle-wraps-rotterdam-zuid/
+- /en/facade-signage-rotterdam-kralingen/
+- /en/illuminated-signs-rotterdam-prins-alexander/
+
+DE:
+- /de/fensterbeschriftung-rotterdam-centrum/
+- /de/fensterbeschriftung-rotterdam-noord/
+- /de/fahrzeugbeschriftung-rotterdam-zuid/
+- /de/fassadenwerbung-rotterdam-kralingen/
+- /de/leuchtreklame-rotterdam-prins-alexander/
+
+Volledige hreflang matrix (NL/EN/DE/TR/PL) op alle 25 wijk-spesifik pagina's.
+
+## HARO press-quote engine
+
+Daily cron monitort HARO/Qwoted/PressJunkie/SourceBottle/HN-signage RSS-feeds, filtert signage/reclame query's, genereert NL draft-antwoorden uit kennisbank.json + sectorprijslijst.json. Output: `data/haro-queue.jsonl` (per-record id/source/draft/status). Export: `node scripts/haro-export.mjs {id}` → `outreach/haro-drafts/{date}-{slug}.md`. Setup-guide: `outreach/haro-engine-setup.md`.
+
+## HowTo schema cascade scale
+
+20 nieuwe HowTo entities toegevoegd op tarieven/materialen/prijs-calculator/cheatsheet/3 kosten-pages/kies-uw-signage-partner/9 blog-tutorial-pages/3 video-tutorial-pages. Per entity 4-6 HowToStep met name+text+url-anchor uit echte page-content geëxtraheerd (geen verzonnen steps). Totaal site HowTo: ~30 (Sprint 11 9 + Sprint 12 20 + pre-existing 1).
+
+## Sitemap submission automation
+
+`scripts/sitemap-submit.mjs` pure Node IndexNow delta-submission. GH Actions workflow `sitemap-submit.yml` triggert op push naar main (paths: sitemap*.xml) of workflow_dispatch. 90s sleep voor CF Pages deploy, dan submit, dan commit `data/sitemap-history.jsonl`. Bing IndexNow + Yandex IndexNow auto-submit. Google Indexing API skipped (service-account-required).

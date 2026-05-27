@@ -1,0 +1,26 @@
+name: HARO Monitor
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 08:00 UTC daily
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: haro-monitor
+  cancel-in-progress: true
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/haro-monitor.mjs
+      - name: Commit queue updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(haro): daily queue update"
+          file_pattern: data/haro-queue.jsonl
