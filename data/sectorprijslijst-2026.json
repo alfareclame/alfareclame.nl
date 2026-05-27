@@ -1,0 +1,297 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Sectorprijslijst Signage Rotterdam 2026",
+  "alternateName": "Rotterdam Signage Market Pricing Dataset 2026",
+  "description": "Marktdata voor 12 signage-diensten in het Rotterdamse MKB-segment 2026. Bevat gemiddelde, mediaan, minimum en maximum prijzen, pakket-startprijzen, belangrijkste prijsfactoren en sample sizes. Gebaseerd op 500+ uitgevoerde projecten 2024-2026.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Alfa Reclame",
+    "url": "https://alfareclame.nl/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Blokfluit 31",
+      "postalCode": "3068 KZ",
+      "addressLocality": "Rotterdam",
+      "addressCountry": "NL"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alfa Reclame",
+    "url": "https://alfareclame.nl/"
+  },
+  "datePublished": "2026-05-27",
+  "dateModified": "2026-05-27",
+  "temporalCoverage": "2026-01/2026-12",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Rotterdam, Nederland",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.9647291,
+      "longitude": 4.5691019
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "propertyID": "wikidata",
+      "value": "Q34370"
+    }
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "url": "https://alfareclame.nl/sectorprijslijst-rotterdam-2026/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://alfareclame.nl/data/sectorprijslijst-2026.json"
+    }
+  ],
+  "keywords": [
+    "signage prijzen Rotterdam",
+    "reclamebureau tarieven",
+    "MKB marktdata",
+    "raambelettering prijs",
+    "autoreclame kosten",
+    "gevelreclame tarief",
+    "lichtreclame kosten",
+    "fleet wrap prijzen",
+    "doosletters tarief",
+    "silobelettering kosten",
+    "offshore-belettering prijs",
+    "havenreclame tarief",
+    "open data Rotterdam"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Minimum prijs",
+      "unitText": "EUR",
+      "description": "Laagste prijs binnen pakket-aanbod (exclusief BTW)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Mediaan prijs",
+      "unitText": "EUR",
+      "description": "Mediaan van uitgevoerde projecten in de sample"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gemiddelde prijs",
+      "unitText": "EUR",
+      "description": "Rekenkundig gemiddelde van uitgevoerde projecten"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Maximum prijs",
+      "unitText": "EUR",
+      "description": "Bovengrens reguliere pakket-prijs (exclusief maatwerk)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sample size",
+      "unitText": "projecten",
+      "description": "Aantal uitgevoerde projecten 2024-2026 dat aan de meting heeft bijgedragen"
+    }
+  ],
+  "citation": "Alfa Reclame (2026). Sectorprijslijst Signage Rotterdam 2026. https://alfareclame.nl/sectorprijslijst-rotterdam-2026/",
+  "methodology": "Cross-sectional sampling van eigen projectarchief 2024-Q1 t/m 2026-Q1. MKB-segment gedefinieerd als opdrachten 1-25 voertuigen of <500 m2 oppervlak. BTW exclusief. Grootformaat custom (silo's >30m, offshore vlootopdrachten) niet meegerekend in mediaan. Prijzen gevalideerd tegen pakketcatalogus alfareclame.nl/tarieven/.",
+  "currency": "EUR",
+  "vatStatus": "exclusive",
+  "totalSampleSize": 514,
+  "data": [
+    {
+      "service": "Raambelettering",
+      "category": "Raamreclame & Interieur",
+      "min": 149,
+      "median": 295,
+      "mean": 412,
+      "max": 2500,
+      "package_start": 149,
+      "currency": "EUR",
+      "sample_size": 87,
+      "yoy_change_pct": 4.2,
+      "price_drivers": ["oppervlakte", "vinyl-type (cast vs calendered)", "kleuren-aantal", "etsfolie/one-way vision premium"],
+      "detail_url": "https://alfareclame.nl/raambelettering-rotterdam/"
+    },
+    {
+      "service": "Bestickering",
+      "category": "Voertuig-reclame",
+      "min": 149,
+      "median": 595,
+      "mean": 1180,
+      "max": 9995,
+      "package_start": 149,
+      "currency": "EUR",
+      "sample_size": 64,
+      "yoy_change_pct": 5.1,
+      "price_drivers": ["oppervlakte", "substraat (raam/wand/vloer/object)", "laminaat", "montage-locatie"],
+      "detail_url": "https://alfareclame.nl/bestickering-rotterdam/"
+    },
+    {
+      "service": "Autoreclame",
+      "category": "Voertuig-reclame",
+      "min": 149,
+      "median": 795,
+      "mean": 1095,
+      "max": 4500,
+      "package_start": 149,
+      "currency": "EUR",
+      "sample_size": 71,
+      "yoy_change_pct": 6.3,
+      "price_drivers": ["voertuig-formaat", "wrap-percentage (logo/partial/full)", "cast-vinyl A-merk", "design-complexiteit"],
+      "detail_url": "https://alfareclame.nl/autoreclame-rotterdam/"
+    },
+    {
+      "service": "Gevelreclame",
+      "category": "Gevelreclame & Lichtreclame",
+      "min": 295,
+      "median": 1295,
+      "mean": 1685,
+      "max": 5000,
+      "package_start": 295,
+      "currency": "EUR",
+      "sample_size": 58,
+      "yoy_change_pct": 7.8,
+      "price_drivers": ["letterhoogte", "materiaal (vinyl/3D-frees/dibond)", "vergunningstraject", "montagehoogte"],
+      "detail_url": "https://alfareclame.nl/gevelreclame-rotterdam/"
+    },
+    {
+      "service": "Horecabelettering",
+      "category": "Raamreclame & Interieur",
+      "min": 495,
+      "median": 1450,
+      "mean": 1610,
+      "max": 2950,
+      "package_start": 495,
+      "currency": "EUR",
+      "sample_size": 42,
+      "yoy_change_pct": 3.4,
+      "price_drivers": ["aantal oppervlakken (raam/gevel/menubord/terras)", "vinyl + lichtbak combinatie", "weekend-montage"],
+      "detail_url": "https://alfareclame.nl/horecabelettering-rotterdam/"
+    },
+    {
+      "service": "Retailreclame",
+      "category": "Raamreclame & Interieur",
+      "min": 595,
+      "median": 1750,
+      "mean": 1985,
+      "max": 3950,
+      "package_start": 595,
+      "currency": "EUR",
+      "sample_size": 39,
+      "yoy_change_pct": 4.7,
+      "price_drivers": ["etalage-formaat", "lichtreclame-component", "seizoenswissel-frequentie", "winkelketen-rollout"],
+      "detail_url": "https://alfareclame.nl/retailreclame-rotterdam/"
+    },
+    {
+      "service": "Lichtreclame",
+      "category": "Gevelreclame & Lichtreclame",
+      "min": 1495,
+      "median": 2995,
+      "mean": 3450,
+      "max": 8000,
+      "package_start": 1495,
+      "currency": "EUR",
+      "sample_size": 46,
+      "yoy_change_pct": 9.2,
+      "price_drivers": ["LED-modules (Osram/Samsung/Cree)", "front-lit vs halo-lit", "lichtbak-formaat", "elektrische voorbereiding"],
+      "detail_url": "https://alfareclame.nl/lichtreclame-rotterdam/"
+    },
+    {
+      "service": "Fleet Wrap",
+      "category": "Voertuig-reclame",
+      "min": 1995,
+      "median": 4995,
+      "mean": 7850,
+      "max": 25000,
+      "package_start": 1995,
+      "currency": "EUR",
+      "sample_size": 24,
+      "yoy_change_pct": 5.6,
+      "price_drivers": ["aantal voertuigen (5-25+)", "wrap-type per voertuig", "pilot+batch-procedure", "SLA-afspraak"],
+      "detail_url": "https://alfareclame.nl/fleet-wrap-rotterdam/"
+    },
+    {
+      "service": "Doosletters",
+      "category": "Gevelreclame & Lichtreclame",
+      "min": 2495,
+      "median": 3795,
+      "mean": 4650,
+      "max": 12000,
+      "package_start": 2495,
+      "currency": "EUR",
+      "sample_size": 31,
+      "yoy_change_pct": 8.5,
+      "price_drivers": ["aantal letters", "letterhoogte", "front-lit/halo-lit/side-lit", "CNC-frees aluminium"],
+      "detail_url": "https://alfareclame.nl/doosletters-rotterdam/"
+    },
+    {
+      "service": "Silobelettering",
+      "category": "Industrieel & Specialistisch",
+      "min": 2495,
+      "median": 4995,
+      "mean": 5210,
+      "max": 8995,
+      "package_start": 2495,
+      "currency": "EUR",
+      "sample_size": 18,
+      "yoy_change_pct": 11.4,
+      "price_drivers": ["silo-hoogte (tot 30m)", "aantal zijden", "UV-coating", "hoogwerker-uren", "VCA-werkplan"],
+      "detail_url": "https://alfareclame.nl/silobelettering/"
+    },
+    {
+      "service": "Havenreclame",
+      "category": "Industrieel & Specialistisch",
+      "min": 2950,
+      "median": 5950,
+      "mean": 6480,
+      "max": 12500,
+      "package_start": 2950,
+      "currency": "EUR",
+      "sample_size": 21,
+      "yoy_change_pct": 10.1,
+      "price_drivers": ["locatie (Botlek/Europoort/Waalhaven)", "ATEX-zone", "kade-vs-terminal", "container-aantal"],
+      "detail_url": "https://alfareclame.nl/havenreclame-rotterdam/"
+    },
+    {
+      "service": "Offshore-belettering",
+      "category": "Industrieel & Specialistisch",
+      "min": 3495,
+      "median": 6995,
+      "mean": 7820,
+      "max": 12995,
+      "package_start": 3495,
+      "currency": "EUR",
+      "sample_size": 13,
+      "yoy_change_pct": 12.7,
+      "price_drivers": ["IMO-conformiteit", "marine-grade vinyl", "vloot-aantal vessels", "on-location vs werkplaats", "keurmerken"],
+      "detail_url": "https://alfareclame.nl/offshore-belettering/"
+    }
+  ],
+  "regionalVariation": {
+    "description": "Wijk-specifieke prijs-delta ten opzichte van Rotterdam-gemiddelde",
+    "baseline": "Rotterdam regio-gemiddelde",
+    "data": [
+      {"area": "Rotterdam Centrum", "delta_pct": 5, "reason": "beperkte voertuig-toegang, parkeer-procedures, avond-montage"},
+      {"area": "Kralingen / Hillegersberg", "delta_pct": 2, "reason": "kantoor-/praktijk-mix, standaard toegang"},
+      {"area": "Prins Alexander", "delta_pct": 0, "reason": "baseline regio-tarief"},
+      {"area": "IJsselmonde / Hoogvliet / Feijenoord", "delta_pct": -2, "reason": "ruime montage-condities, MKB-mix"},
+      {"area": "Delfshaven", "delta_pct": 1, "reason": "smalle straten, multicultureel retail"},
+      {"area": "Botlek / Europoort / Maasvlakte", "delta_pct": 15, "reason": "VCA-werkplan, ATEX-zones, hoogwerker, badge-toegang"},
+      {"area": "Waalhaven / Eemhaven", "delta_pct": 8, "reason": "industrieel toegangs-protocol, terminal-bezoek"}
+    ]
+  },
+  "nationalBenchmark": {
+    "description": "Indicatieve prijsverschillen vergelijkbare MKB-projecten andere Randstad-steden ten opzichte van Rotterdam-baseline",
+    "data": [
+      {"city": "Amsterdam", "delta_pct": 10, "reason": "hogere overhead, parkeervergunningen, montage-restricties"},
+      {"city": "Utrecht", "delta_pct": 5, "reason": "hogere uurtarieven, centrum-toegang"},
+      {"city": "Den Haag", "delta_pct": 3, "reason": "vergelijkbaar maar net duurder dan Rotterdam"},
+      {"city": "Rotterdam", "delta_pct": 0, "reason": "baseline"},
+      {"city": "Eindhoven", "delta_pct": -3, "reason": "lagere overhead, ruimere toegang"},
+      {"city": "Groningen", "delta_pct": -5, "reason": "regio-tarief, beperkte concurrentie"}
+    ]
+  }
+}

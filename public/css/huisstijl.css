@@ -519,7 +519,39 @@ h6, .h6 {
 }
 
 .nav__cta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
   flex-shrink: 0;
+}
+
+.nav__lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.nav__lang-link {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.nav__lang-link:hover {
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--surface-mute);
+}
+
+.nav__lang-link--active {
+  color: var(--brand);
+  font-weight: 700;
 }
 
 .nav__toggle {
@@ -699,6 +731,55 @@ h6, .h6 {
 }
 
 .footer__accent {
+  color: var(--brand);
+  font-weight: 600;
+}
+
+/* ---- Footer mega-menu (Wijken / Per beroep / Vergelijk / Gids) ---- */
+.footer__mega {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-8);
+  padding-top: var(--space-7);
+  margin-bottom: var(--space-7);
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.footer__mega-col {
+  min-width: 0;
+}
+
+/* ---- Language switcher ---- */
+.footer__lang {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  flex-wrap: wrap;
+  padding-top: var(--space-6);
+  padding-bottom: var(--space-6);
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.footer__lang-heading {
+  margin-bottom: 0;
+}
+
+.footer__lang-list {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__lang-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.footer__lang-link--active {
   color: var(--brand);
   font-weight: 600;
 }
@@ -1383,6 +1464,11 @@ h6, .h6 {
     grid-column: span 2;
   }
 
+  .footer__mega {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6);
+  }
+
   .form__row {
     grid-template-columns: 1fr;
   }
@@ -1418,6 +1504,17 @@ h6, .h6 {
 
   .footer__brand {
     grid-column: span 1;
+  }
+
+  .footer__mega {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .footer__lang {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
   }
 
   .footer__bar {

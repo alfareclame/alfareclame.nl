@@ -5,10 +5,12 @@
 
   <url>
     <loc>https://alfareclame.nl/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/"/>
 
     <image:image>
@@ -193,10 +195,12 @@
 
   <url>
     <loc>https://alfareclame.nl/raambelettering-rotterdam/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/window-graphics-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fensterbeschriftung-rotterdam/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
     <image:image>
       <image:loc>https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg</image:loc>
@@ -215,10 +219,12 @@
 
   <url>
     <loc>https://alfareclame.nl/autoreclame-rotterdam/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/vehicle-wraps-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fahrzeugbeschriftung-rotterdam/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
     <image:image>
       <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
@@ -237,10 +243,12 @@
 
   <url>
     <loc>https://alfareclame.nl/gevelreclame-rotterdam/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/gevelreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/facade-signage-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fassadenwerbung-rotterdam/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/gevelreclame-rotterdam/"/>
     <image:image>
       <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
@@ -454,12 +462,48 @@
   </url>
 
   <url>
+    <loc>https://alfareclame.nl/bewegwijzering-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/bewegwijzering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/bewegwijzering-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/beurs-belettering-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/beurs-belettering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/beurs-belettering-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/parkeerborden-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/parkeerborden-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/parkeerborden-rotterdam/"/>
+  </url>
+
+  <url>
     <loc>https://alfareclame.nl/tarieven/</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/tarieven/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/tarieven/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/sectorprijslijst-rotterdam-2026/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/sectorprijslijst-rotterdam-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/sectorprijslijst-rotterdam-2026/"/>
   </url>
 
   <url>
@@ -553,6 +597,60 @@
   </url>
 
   <url>
+    <loc>https://alfareclame.nl/vinyl-vs-magneetstickers-auto/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/vinyl-vs-magneetstickers-auto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/vinyl-vs-magneetstickers-auto/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/3m-vs-avery-cast-vinyl/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/3m-vs-avery-cast-vinyl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/3m-vs-avery-cast-vinyl/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/partial-vs-full-body-wrap/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/partial-vs-full-body-wrap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/partial-vs-full-body-wrap/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/doosletters-vs-lichtbak/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/doosletters-vs-lichtbak/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/doosletters-vs-lichtbak/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/raamfolie-vs-etsfolie-privacy/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raamfolie-vs-etsfolie-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raamfolie-vs-etsfolie-privacy/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/gevelplaat-vs-doosletters-gevel/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/gevelplaat-vs-doosletters-gevel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/gevelplaat-vs-doosletters-gevel/"/>
+  </url>
+
+  <url>
     <loc>https://alfareclame.nl/blog/</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -586,6 +684,273 @@
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/blog/rgb-vs-cmyk-print-belettering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/blog/rgb-vs-cmyk-print-belettering/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/vakwoordenboek/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/vakwoordenboek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/vakwoordenboek/"/>
+  </url>
+
+  <!-- Conversational Q&A mega-hub (70+ vragen, 11 clusters, 2026-05-27) -->
+  <url>
+    <loc>https://alfareclame.nl/vraag-en-antwoord/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/vraag-en-antwoord/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/vraag-en-antwoord/"/>
+  </url>
+
+  <!-- Wijk-landings Rotterdam (9 hyper-local pages, 2026-05-27) -->
+  <url>
+    <loc>https://alfareclame.nl/signage-rotterdam-centrum/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-rotterdam-centrum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-rotterdam-centrum/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-rotterdam-noord/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-rotterdam-noord/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-rotterdam-noord/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-rotterdam-zuid/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-rotterdam-zuid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-rotterdam-zuid/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-kralingen-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-kralingen-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-kralingen-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-feijenoord/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-feijenoord/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-feijenoord/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-ijsselmonde-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-ijsselmonde-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-ijsselmonde-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-hoogvliet-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-hoogvliet-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-hoogvliet-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-delfshaven-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-delfshaven-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-delfshaven-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/signage-prins-alexander/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/signage-prins-alexander/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/signage-prins-alexander/"/>
+  </url>
+
+  <!-- ========================================================
+       MULTI-LANGUAGE COVERAGE (EN + DE) — 2 hubs + 6 services
+       Each non-NL URL declares the full nl/en/de/x-default alternate set.
+       ======================================================== -->
+
+  <url>
+    <loc>https://alfareclame.nl/en/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/en/window-graphics-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/window-graphics-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fensterbeschriftung-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/en/vehicle-wraps-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/vehicle-wraps-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fahrzeugbeschriftung-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/en/facade-signage-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/gevelreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/facade-signage-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fassadenwerbung-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/gevelreclame-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/de/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/de/fahrzeugbeschriftung-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/vehicle-wraps-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fahrzeugbeschriftung-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/autoreclame-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/de/fensterbeschriftung-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/window-graphics-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fensterbeschriftung-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/de/fassadenwerbung-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/gevelreclame-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alfareclame.nl/en/facade-signage-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://alfareclame.nl/de/fassadenwerbung-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/gevelreclame-rotterdam/"/>
+  </url>
+
+  <!-- Micro-niche occupation landings (sprint 7 — 2026-05-27) -->
+  <url>
+    <loc>https://alfareclame.nl/raambelettering-kapsalon-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-kapsalon-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-kapsalon-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/raambelettering-bakker-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-bakker-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-bakker-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/autoreclame-loodgieter-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/autoreclame-loodgieter-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/autoreclame-loodgieter-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/autoreclame-elektricien-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/autoreclame-elektricien-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/autoreclame-elektricien-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/gevelreclame-tandarts-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/gevelreclame-tandarts-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/gevelreclame-tandarts-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/gevelreclame-makelaar-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/gevelreclame-makelaar-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/gevelreclame-makelaar-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/lichtreclame-restaurant-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/lichtreclame-restaurant-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/lichtreclame-restaurant-rotterdam/"/>
+  </url>
+
+  <url>
+    <loc>https://alfareclame.nl/raambelettering-fysiotherapeut-rotterdam/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://alfareclame.nl/raambelettering-fysiotherapeut-rotterdam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alfareclame.nl/raambelettering-fysiotherapeut-rotterdam/"/>
   </url>
 
 </urlset>

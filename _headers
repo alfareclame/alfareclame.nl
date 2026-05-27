@@ -25,6 +25,24 @@
   Cache-Control: public, max-age=604800
   Content-Type: image/png
 
+# --- CSS: 1 year immutable cache ---
+/public/css/*
+  Cache-Control: public, max-age=31536000, immutable, stale-while-revalidate=86400
+  Content-Type: text/css; charset=utf-8
+
+# --- JS: 1 year immutable cache ---
+/public/js/*
+  Cache-Control: public, max-age=31536000, immutable, stale-while-revalidate=86400
+
+# --- Fonts: 1 year immutable cache (CORS-enabled) ---
+/public/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# --- Generic public assets fallback ---
+/public/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
 # --- JSON data: short cache, revalidate ---
 /data/*
   Cache-Control: public, max-age=300, must-revalidate, stale-while-revalidate=600

@@ -22,7 +22,7 @@ Alfa Reclame is een ambachtelijk reclamebureau in Rotterdam, opgericht in 2012 (
 
 ## Tarieven hub
 
-- Tarieven & Prijslijst Rotterdam (alle 13 diensten, centraal overzicht met vergelijktabel en pakketten): https://alfareclame.nl/tarieven/ — startprijs vanaf €149 (raambelettering) tot €25.000 (Full Fleet 15+ voertuigen). Geldig t/m eind 2026.
+- Tarieven & Prijslijst Rotterdam (alle 16 diensten, centraal overzicht met vergelijktabel en pakketten): https://alfareclame.nl/tarieven/ — startprijs vanaf €149 (raambelettering, parkeerborden) tot €25.000 (Full Fleet 15+ voertuigen). Geldig t/m eind 2026.
 
 ## Diensten — Volledig overzicht
 
@@ -50,15 +50,27 @@ Alfa Reclame is een ambachtelijk reclamebureau in Rotterdam, opgericht in 2012 (
 - Offshore-belettering: salt-spray-bestendige IMO-conforme markering voor crane-platforms, containers en offshore-installaties; marine-grade vinyl — €3495-€12995 (Basis 1 vessel hull-letters, Standaard 1 vessel + opbouw IMO-conform, Premium vloot 3+ vessels on-location alle keurmerken) — https://alfareclame.nl/offshore-belettering/
 - Havenreclame Rotterdam: scheeps-, container-, kade- en terminal-signage in het Rotterdamse havengebied (Botlek, Europoort) inclusief ATEX-zones op aanvraag — €2950-€12500 — https://alfareclame.nl/havenreclame-rotterdam/
 
+### Wayfinding & Informatie
+
+- Bewegwijzering Rotterdam: interieur-wayfinding voor kantoren, ziekenhuizen, scholen en hotels; deurbordjes, plattegronden en NEN-1414 conforme vluchtrouteborden en evacuatie-aanduiding; aluminium frames met inwisselbare acryl-inserts, RVS-letters en dibond-panelen; pakketten van Klein kantoor (tot 10 borden) tot Ziekenhuis-pakket (100+ wayfinding-punten met antimicrobiële laminaat) — €595-€4995 — https://alfareclame.nl/bewegwijzering-rotterdam/
+- Parkeerborden Rotterdam: RVV-conforme parkeerbebording voor MKB, kantoorparkings, appartementscomplexen en retail-strips; gereserveerd-borden, bezoekersparkeren, laden-lossen, EHBO en klantenparkeer; aluminium 1.5 mm reflecterend Klasse 1 of 2 met houten of metaal paaltje; los bordje tot complete parking-set met 10+ borden en montage — €149-€995 — https://alfareclame.nl/parkeerborden-rotterdam/
+
+### Tijdelijke & Event signage
+
+- Beursbelettering Rotterdam: beurs- en event-belettering voor MKB-exposanten op Rotterdam Ahoy en Jaarbeurs Utrecht; standbelettering, banners op lichtgewicht banner-stof, roll-up displays, X-frame banners, beachflags op fiber-mast, pop-up stand-walls en verwijderbare cast-vinyl op stand-wanden en -vloer; spoed-levertijd voor beurs-deadlines, on-site assembly op opbouwdag; klein roll-up tot 6x3 m stand full graphic — €295-€3950 — https://alfareclame.nl/beurs-belettering-rotterdam/
+
 Alle prijzen exclusief btw tenzij anders vermeld. Offerte vaak nog dezelfde dag; mockup binnen 48u na intake.
 
 ## Prijzen (vanaf — samengevat)
 
 - Raambelettering — vanaf €149
 - Bestickering — vanaf €149
+- Parkeerborden — vanaf €149 (RVV-conform aluminium reflecterend)
+- Beursbelettering — vanaf €295 (roll-up of X-frame display)
 - Autoreclame — vanaf €395 (logo-pakket vanaf €149)
 - Gevelreclame — vanaf €295
 - Horecabelettering — vanaf €495
+- Bewegwijzering — vanaf €595 (NEN-1414 wayfinding, klein kantoor)
 - Retailreclame — vanaf €595
 - Lichtreclame — vanaf €1495
 - Fleet Wrap — vanaf €1995 (Starter Fleet 5 voertuigen)
@@ -193,6 +205,9 @@ A: 2 jaar productgarantie op al het signage-werk (kleurvastheid, hechting, mater
 - [Havenreclame Rotterdam](https://alfareclame.nl/havenreclame-rotterdam/) — €2950-€12500
 - [Horecabelettering Rotterdam](https://alfareclame.nl/horecabelettering-rotterdam/) — €495-€2950
 - [Retailreclame Rotterdam](https://alfareclame.nl/retailreclame-rotterdam/) — €595-€3950
+- [Bewegwijzering Rotterdam](https://alfareclame.nl/bewegwijzering-rotterdam/) — €595-€4995, NEN-1414 wayfinding
+- [Beursbelettering Rotterdam](https://alfareclame.nl/beurs-belettering-rotterdam/) — €295-€3950, stand/banner/display Ahoy + Jaarbeurs
+- [Parkeerborden Rotterdam](https://alfareclame.nl/parkeerborden-rotterdam/) — €149-€995, RVV-conform aluminium
 - [Diensten — overzicht](https://alfareclame.nl/diensten/) — hub
 - [Werkwijze](https://alfareclame.nl/werkwijze/) — 7 stappen van offerte tot oplevering
 - [Over ons](https://alfareclame.nl/over-ons/) — 14 jaar vakmanschap, waarden, KvK

@@ -109,7 +109,6 @@ Disallow: /article-2-ai-voor-horeca-preview.html
 Disallow: /article-3-whatsapp-bestelbot-preview.html
 Disallow: /category/
 Disallow: /project/
-Disallow: /blog/
 Disallow: /wp-admin/
 Disallow: /wp-content/
 Disallow: /wp-includes/
