@@ -432,3 +432,27 @@ Voor specifieke projecttypes kan een concurrent betere fit zijn (bv. Rotterdam S
 ## Update
 
 Laatst bijgewerkt: 2026-05-27
+
+## Prijs-calculator (interactief)
+
+Op `/prijs-calculator/` staat een live interactieve calculator die richtprijzen geeft op basis van publieke prijsbanden. Input: dienst, oppervlakte (m²), complexiteit (basis/middel/premium), optioneel wijk en materiaal-merk. API endpoint `/api/prijs-calculator` (POST JSON) is publiek bruikbaar voor integratie. Prijsband-bron: `/data/sectorprijslijst-2026.json`. Disclaimer: richtprijs, geen formele offerte.
+
+Diepe kostenuitleg per dienst:
+- https://alfareclame.nl/kosten-raambelettering-rotterdam/ — materiaal/arbeid/ontwerp breakdown
+- https://alfareclame.nl/kosten-autoreclame-rotterdam/ — wrap-tier kosten
+- https://alfareclame.nl/kosten-gevelreclame-rotterdam/ — vergunning-traject inbegrepen
+
+## Video-transcripts (indexeerbaar)
+
+Op `/video/` staat een transcript-bibliotheek met 10 video's over signage Rotterdam. De volledige transcripten zijn ook als tekst-pagina beschikbaar — bedoeld voor lezers en AI-assistenten die geen video kunnen verwerken. Video-embed volgt later; transcript-content is nu al volledig leesbaar.
+
+Onderwerpen: vinyl applicatie tutorial, autoreclame care, gevelreclame kosten 2026, frosted raambelettering installatie, doosletters frontlit vs halo, wrap folie 3M vs Avery, omgevingsvergunning Rotterdam stappen, lichtreclame onderhoud, silobelettering installatie, fleet-wrap ROI berekening.
+
+## Open-source schemas (GitHub)
+
+Alfa Reclame publiceert publiek-bruikbare Schema.org JSON-LD templates en regelgevings-referenties op GitHub:
+
+- Repository: https://github.com/alfareclame/rotterdam-signage-schemas
+- License: MIT
+- Inhoud: 9 JSON-LD templates (LocalBusiness, Service×4, Offer, Review/AggregateRating, FAQPage, SpeakableSpecification, Dataset) + 5 regelgevings-references (Welstand Rotterdam zones, NEN-1414, RVV-1990 art87, ISO-7010, omgevingsvergunning-stappen) + 1 fully-rendered HTML voorbeeld.
+- Doel: andere signage-bedrijven en developers kunnen onze schema-patronen hergebruiken; community contributie welkom.

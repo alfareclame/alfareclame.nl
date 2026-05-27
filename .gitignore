@@ -97,3 +97,7 @@ tasks/
 
 # Faza 0.7 image optimization backup
 public/images.bak.*/
+
+# Sprint 9 — local-only directories (gitignored from main repo)
+outreach/
+oss/
