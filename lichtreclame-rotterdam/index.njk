@@ -290,7 +290,13 @@ jsonld: |
           { "@type": "City", "name": "Vlaardingen" },
           { "@type": "City", "name": "Capelle aan den IJssel" },
           { "@type": "City", "name": "Barendrecht" },
-          { "@type": "City", "name": "Spijkenisse" }
+          { "@type": "City", "name": "Spijkenisse" },
+          {
+            "@type": "GeoCircle",
+            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 51.964, "longitude": 4.569},
+            "geoRadius": 30000,
+            "description": "30km rondom Rotterdam (Rijnmond)"
+          }
         ]
       },
       {
@@ -461,6 +467,20 @@ jsonld: |
           { "@type": "HowToStep", "position": 4, "name": "Productie 4-9 weken", "text": "LED-bak frame in aluminium plus acryl voorzijde plus A-merk LED-modules en drivers (Osram, Samsung, Cree, MeanWell) intern monteren. Doosletters in roestvrij staal of aluminium worden CNC-gefreesd en met LED's uitgerust. Doorlooptijd 4-9 weken afhankelijk van complexiteit." },
           { "@type": "HowToStep", "position": 5, "name": "Montage op afspraak", "text": "Elektrische aansluiting door gecertificeerde monteur op aparte groep met overspanningsbeveiliging. Gevelmontage met hoogwerker, RVS verankering en weerbestendige afdichting. Functionele controle en lichtmeting na montage." }
         ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://alfareclame.nl/lichtreclame-rotterdam/#hero-image",
+        "url": "https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg",
+        "contentUrl": "https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "Lichtreclame Rotterdam LED lichtbak — goudkleurige verlichte gevelletters voor juwelier Diamor Jewellery, Osram LED, 5 jaar garantie",
+        "creator": {"@id": "https://alfareclame.nl/over-ons/#eigenaar"},
+        "creditText": "Alfa Reclame Rotterdam",
+        "copyrightHolder": {"@id": "https://alfareclame.nl/#business"},
+        "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "acquireLicensePage": "https://alfareclame.nl/licentie/"
       },
       {
         "@type": "Quotation",

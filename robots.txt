@@ -118,7 +118,7 @@ Disallow: /author/
 Disallow: /feed/
 
 # --- Sitemap locations ---
-Sitemap: https://alfareclame.nl/sitemap.xml
+Sitemap: https://alfareclame.nl/sitemap-index.xml
 
 # --- Host preference ---
 Host: https://alfareclame.nl

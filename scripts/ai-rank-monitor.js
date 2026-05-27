@@ -46,7 +46,7 @@ const COST_CAP_USD = 2.0;  // abort entire run if estimated cost exceeds this
 // ---------------------------------------------------------------------------
 
 function parseArgs(argv) {
-  const args = { provider: 'all', query: null, dryRun: false };
+  const args = { provider: 'all', query: null, dryRun: false, mock: false };
   for (let i = 2; i < argv.length; i++) {
     if (argv[i] === '--provider' && argv[i + 1]) {
       args.provider = argv[++i];
@@ -54,6 +54,8 @@ function parseArgs(argv) {
       args.query = argv[++i];
     } else if (argv[i] === '--dry-run') {
       args.dryRun = true;
+    } else if (argv[i] === '--mock') {
+      args.mock = true;
     }
   }
   return args;
@@ -138,6 +140,65 @@ function findAlfaInRawText(text) {
  */
 function checkAlfaUrlCited(text) {
   return /alfareclame\.nl/i.test(text);
+}
+
+// ---------------------------------------------------------------------------
+// Mock mode
+// ---------------------------------------------------------------------------
+
+const MOCK_COMPANIES_POOL = [
+  'Alfa Reclame',
+  'Bosman Reklame',
+  'RealStar Reclame',
+  'Van Beek Belettering',
+  'Rotterdam Signpainters',
+  'NED Sign',
+  'BSB Belettering',
+  'Reclame Kanjers',
+  'Letterfreak',
+  'Communication Partners',
+];
+
+const MOCK_MODELS = {
+  openai:     'gpt-4o-mini',
+  anthropic:  'claude-haiku-4-5-20251001',
+  perplexity: 'sonar',
+};
+
+/**
+ * Returns a deterministic-ish mock result for a given provider+query combo.
+ * Alfa Reclame alternates between positions 1-4 across queries.
+ */
+function mockResponse(provider, query, queryIndex) {
+  const alfaPos = (queryIndex % 4) + 1; // 1, 2, 3, or 4
+  const pool = MOCK_COMPANIES_POOL.filter((c) => c !== 'Alfa Reclame');
+
+  // Shuffle pool deterministically based on query+provider
+  const seed = (queryIndex * 31 + provider.length * 7) % pool.length;
+  const rotated = [...pool.slice(seed), ...pool.slice(0, seed)];
+  const others = rotated.slice(0, 4); // pick 4 others
+
+  // Insert Alfa Reclame at alfaPos (1-based)
+  const companies = [...others];
+  companies.splice(alfaPos - 1, 0, 'Alfa Reclame');
+
+  const rawText = companies
+    .map((name, i) => `${i + 1}. ${name} — vakkundige reclameservice in Rotterdam.`)
+    .join('\n');
+
+  const latencyMs = 800 + Math.floor(Math.random() * 700); // 800-1500ms
+  const promptTokens = 300;
+  const completionTokens = 200;
+
+  return {
+    rawText,
+    promptTokens,
+    completionTokens,
+    latencyMs,
+    model: MOCK_MODELS[provider] || provider,
+    companies,
+    alfaPos,
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -341,15 +402,17 @@ async function main() {
       process.stderr.write(`WARNING: unknown provider "${provider}" — skipping\n`);
       continue;
     }
-    const envKey = PROVIDER_ENV[provider];
-    if (!process.env[envKey]) {
-      process.stderr.write(`WARNING: ${envKey} not set — skipping provider "${provider}"\n`);
-      continue;
+    if (!args.mock) {
+      const envKey = PROVIDER_ENV[provider];
+      if (!process.env[envKey]) {
+        process.stderr.write(`WARNING: ${envKey} not set — skipping provider "${provider}"\n`);
+        continue;
+      }
     }
     activeProviders.push(provider);
   }
 
-  if (activeProviders.length === 0 && !args.dryRun) {
+  if (activeProviders.length === 0 && !args.dryRun && !args.mock) {
     process.stderr.write(
       'ERROR: no providers available (all API keys missing). ' +
         'Set OPENAI_API_KEY, ANTHROPIC_API_KEY, and/or PERPLEXITY_API_KEY.\n'
@@ -358,7 +421,7 @@ async function main() {
   }
 
   // Cost estimate guard
-  if (!args.dryRun && activeProviders.length > 0) {
+  if (!args.dryRun && !args.mock && activeProviders.length > 0) {
     const estimate = estimateTotalCost(activeQueries.length, activeProviders);
     if (estimate > COST_CAP_USD) {
       process.stderr.write(
@@ -377,7 +440,7 @@ async function main() {
   console.log(
     `AI Rank Monitor — ${activeQueries.length} quer${activeQueries.length === 1 ? 'y' : 'ies'} ` +
       `× ${activeProviders.length} provider${activeProviders.length === 1 ? '' : 's'}` +
-      (args.dryRun ? ' [DRY RUN]' : '')
+      (args.mock ? ' [MOCK]' : args.dryRun ? ' [DRY RUN]' : '')
   );
   console.log(`Providers: ${activeProviders.length ? activeProviders.join(', ') : '(none — dry run)'}`);
   console.log('');
@@ -391,12 +454,49 @@ async function main() {
   const timestamp = new Date().toISOString();
   const errors = [];
 
-  for (const query of activeQueries) {
+  for (let qi = 0; qi < activeQueries.length; qi++) {
+    const query = activeQueries[qi];
     const prompt = PROMPT_TEMPLATE.replace('{query}', query.text);
 
     for (const provider of activeProviders) {
       if (args.dryRun) {
         console.log(`  [DRY RUN] ${provider} ← "${query.text}"`);
+        continue;
+      }
+
+      if (args.mock) {
+        // Mock mode: generate fake response, skip real API call
+        process.stdout.write(`  [MOCK] ${provider.padEnd(10)} ← "${query.text}" ... `);
+        const mock = mockResponse(provider, query.text, qi);
+        const costUsd = estimateCostUsd(provider, mock.promptTokens, mock.completionTokens);
+
+        const record = {
+          timestamp,
+          query_id:          query.id,
+          query_text:        query.text,
+          provider,
+          model:             mock.model,
+          alfa_position:     mock.alfaPos,
+          alfa_mentioned:    true,
+          alfa_url_cited:    false,
+          parsed_companies:  mock.companies,
+          latency_ms:        mock.latencyMs,
+          prompt_tokens:     mock.promptTokens,
+          completion_tokens: mock.completionTokens,
+          cost_usd:          Math.round(costUsd * 1e8) / 1e8,
+          raw_response_text: mock.rawText,
+          mock:              true,
+        };
+
+        appendRecord(record);
+
+        stats[provider].positions.push(mock.alfaPos);
+        stats[provider].totalCostUsd += costUsd;
+
+        console.log(
+          `#${mock.alfaPos}  (${mock.latencyMs}ms, ` +
+            `${mock.promptTokens}+${mock.completionTokens}tok) [mock]`
+        );
         continue;
       }
 
@@ -488,6 +588,9 @@ async function main() {
 
   if (args.dryRun) {
     console.log('\nDry run complete — no API calls made, no records written.');
+  } else if (args.mock) {
+    console.log(`\nMock run complete — ${activeQueries.length * activeProviders.length} records appended to: ${HISTORY_FILE}`);
+    console.log('Run `node scripts/ai-rank-diff.js` to generate comparison report.');
   } else {
     console.log(`\nRecords appended to: ${HISTORY_FILE}`);
     console.log('Run `node scripts/ai-rank-diff.js` to generate comparison report.');

@@ -190,7 +190,13 @@ jsonld: |
           { "@type": "City", "name": "Vlaardingen" },
           { "@type": "City", "name": "Capelle aan den IJssel" },
           { "@type": "City", "name": "Barendrecht" },
-          { "@type": "City", "name": "Spijkenisse" }
+          { "@type": "City", "name": "Spijkenisse" },
+          {
+            "@type": "GeoCircle",
+            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 51.964, "longitude": 4.569},
+            "geoRadius": 30000,
+            "description": "30km rondom Rotterdam (Rijnmond)"
+          }
         ]
       },
       {
@@ -321,6 +327,20 @@ jsonld: |
             }
           }
         ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://alfareclame.nl/doosletters-rotterdam/#hero-image",
+        "url": "https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg",
+        "contentUrl": "https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "Doosletters Rotterdam channel letters — verlichte 3D gevelletters voor bedrijfspand, CNC-gefreesd aluminium, A-merk LED",
+        "creator": {"@id": "https://alfareclame.nl/over-ons/#eigenaar"},
+        "creditText": "Alfa Reclame Rotterdam",
+        "copyrightHolder": {"@id": "https://alfareclame.nl/#business"},
+        "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "acquireLicensePage": "https://alfareclame.nl/licentie/"
       },
       {
         "@type": "WebPage",

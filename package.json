@@ -7,9 +7,11 @@
     "build": "eleventy",
     "serve": "eleventy --serve",
     "watch": "eleventy --watch",
-    "ci": "npm ci && npm run build"
+    "ci": "npm ci && npm run build",
+    "cheatsheet": "node scripts/generate-cheatsheet-pdf.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "pdfkit": "^0.15.2"
   }
 }

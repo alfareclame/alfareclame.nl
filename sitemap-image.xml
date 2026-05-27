@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ===== HOMEPAGE ===== -->
+  <url>
+    <loc>https://alfareclame.nl/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:caption>Raamfolie raambelettering met vliegtuigthema voor reisagentschap Yilmaz Havalem, Rotterdam — Alfa Reclame</image:caption>
+      <image:title>Raambelettering Yilmaz Havalem Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yohnny-cake.jpg</image:loc>
+      <image:caption>Winkelfolie etalageraam Yohnny Cake bakkerij cafe Rotterdam — handlettering en logo op groot etalageraam</image:caption>
+      <image:title>Raambelettering Yohnny Cake bakkerij Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
+      <image:caption>Autoreclame bestelbusbestickering VW Transporter I-Bo Warmte Techniek Rotterdam met partner-logos</image:caption>
+      <image:title>Autoreclame I-Bo Warmte Techniek Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/logo-v2.webp</image:loc>
+      <image:caption>Alfa Reclame Rotterdam — reclamebureau logo, signage vakwerk sinds 2012</image:caption>
+      <image:title>Alfa Reclame Rotterdam logo</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:caption>Gevelreclame neon-groene freesletters op bedrijfspand Benjamin Furniture Rotterdam</image:caption>
+      <image:title>Gevelreclame Benjamin Furniture Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg</image:loc>
+      <image:caption>Autoreclame VW Transporter full-colour belettering Oranje Stucadoor Rotterdam</image:caption>
+      <image:title>Autoreclame Oranje Stucadoor Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/dermamedi-lijn.jpg</image:loc>
+      <image:caption>Raambelettering DermaMedi laser- en huidtherapie kliniek Rotterdam, inclusief openingstijden-paneel</image:caption>
+      <image:title>Raambelettering DermaMedi kliniek Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:caption>Grootformaat silobelettering IOP Industrial Rotterdam havengebied — logo-belettering op industriesilo op hoogte</image:caption>
+      <image:title>Silobelettering IOP Industrial Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <url>
+    <loc>https://alfareclame.nl/portfolio/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/barge-master.jpg</image:loc>
+      <image:caption>Offshore crane-platform belettering Barge Master Rotterdamse haven — grootformaat industrieel signage B2B</image:caption>
+      <image:title>Offshore belettering Barge Master Rotterdam haven</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/istanbul-reisbureau-montage.jpg</image:loc>
+      <image:caption>Turkish Airlines raamdecoratie Istanbul Reisbureau Rotterdam — complete storefront raambelettering met wereldbol-illustratie</image:caption>
+      <image:title>Raambelettering Istanbul Reisbureau Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:caption>Grootformaat geveltekens neon-groene freesletters Benjamin Furniture Rotterdam — gevelreclame 3D letters</image:caption>
+      <image:title>Gevelreclame 3D letters Benjamin Furniture Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:caption>Lichtbak raambelettering en volledige huisstijl-uitvoering Yilmaz Havalem financieel adviescentrum Rotterdam</image:caption>
+      <image:title>Complete storefront signage Yilmaz Havalem Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/cc-cable-communication.jpg</image:loc>
+      <image:caption>Autoreclame Ford Transit bedrijfswagen klassieke belettering C&amp;C Cable Communication Rotterdam</image:caption>
+      <image:title>Autoreclame CC Cable Communication Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
+      <image:caption>VW Transporter dienstenlijst en partner-logos I-Bo Warmte Techniek Rotterdam — Vaillant Remeha Nefit Intergas</image:caption>
+      <image:title>Autoreclame I-Bo Warmte Techniek Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/il-mare-pizzeria.jpg</image:loc>
+      <image:caption>Lichtbak en raambelettering met pasta pizza display Il Mare Pizzeria Rotterdam — horecabelettering</image:caption>
+      <image:title>Horecabelettering Il Mare Pizzeria Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:caption>Logo-belettering op industriesilo IOP Industrial Rotterdam — grootformaat signage op hoogte</image:caption>
+      <image:title>Silobelettering IOP Industrial Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/dermamedi-lijn.jpg</image:loc>
+      <image:caption>Professionele raambelettering laser- en huidtherapie kliniek DermaMedi Rotterdam inclusief openingstijden-paneel</image:caption>
+      <image:title>Raambelettering DermaMedi kliniek Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/aras-partners.jpg</image:loc>
+      <image:caption>Klassieke gouden raambelettering administratiekantoor Aras &amp; Partners Rotterdam — gilded etsfolie</image:caption>
+      <image:title>Raambelettering Aras Partners kantoor Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/de-groene-tuin.jpg</image:loc>
+      <image:caption>Geveltekst met logo voor kinderdagverblijf en BSO De Groene Tuin Rotterdam — gevelreclame educatie</image:caption>
+      <image:title>Gevelreclame De Groene Tuin kinderdagverblijf Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg</image:loc>
+      <image:caption>LED-verlichte lichtbak met goudkleurig logo voor sieraden- en horlogewinkel Diamor Jewellery Rotterdam</image:caption>
+      <image:title>Lichtreclame Diamor Jewellery Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg</image:loc>
+      <image:caption>VW Transporter full-colour belettering stucadoorsbedrijf Oranje Stucadoor Rotterdam — autoreclame</image:caption>
+      <image:title>Autoreclame Oranje Stucadoor Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yohnny-cake.jpg</image:loc>
+      <image:caption>Etalage-raambelettering antique en handmade cafe Yohnny Cake Rotterdam — handlettering en logo</image:caption>
+      <image:title>Raambelettering Yohnny Cake cafe Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/fietswinkel-rotterdam.jpg</image:loc>
+      <image:caption>Mercedes Vito met grote web-URL in blauw over de zijkant Fietswinkel Rotterdam — autoreclame</image:caption>
+      <image:title>Autoreclame Fietswinkel Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== RAAMBELETTERING ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/raambelettering-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg</image:loc>
+      <image:caption>Raambelettering etalage Yohnny Cake cafe Rotterdam — handlettering en logo op groot etalageraam, professionele folietechniek</image:caption>
+      <image:title>Raambelettering cafe Rotterdam vakman</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/dermamedi-lijn.jpg</image:loc>
+      <image:caption>Raambelettering DermaMedi laserbehandeling kliniek Rotterdam — professionele zorginstelling raamfolie met openingstijden</image:caption>
+      <image:title>Raambelettering zorginstelling Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/aras-partners.jpg</image:loc>
+      <image:caption>Klassieke gouden gilded etsfolie raambelettering Aras Partners accountantskantoor Rotterdam</image:caption>
+      <image:title>Raambelettering kantoor Rotterdam gouden etsfolie</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:caption>Volledige storefront raambelettering reisagentschap Yilmaz Havalem Rotterdam — lichtbak en raamfolie combinatie</image:caption>
+      <image:title>Storefront raambelettering reisagentschap Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/istanbul-reisbureau-montage.jpg</image:loc>
+      <image:caption>Turkish Airlines raamdecoratie Istanbul Reisbureau Rotterdam — complete storefront met wereldbol illustratie</image:caption>
+      <image:title>Raambelettering reisagentschap Rotterdam storefront</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== AUTORECLAME ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/autoreclame-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
+      <image:caption>Bedrijfswagen belettering VW Transporter I-Bo Warmte Techniek Rotterdam — autoreclame met dienstenlijst en partner-logos</image:caption>
+      <image:title>Autoreclame bestelbus Rotterdam vakman</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg</image:loc>
+      <image:caption>Full-colour belettering stucadoorsbedrijf Oranje Stucadoor Rotterdam — volledige VW Transporter belettering</image:caption>
+      <image:title>Autoreclame stucadoor Rotterdam full-colour</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/cc-cable-communication.jpg</image:loc>
+      <image:caption>Ford Transit klassieke belettering C&amp;C Cable Communication Rotterdam — professionele autoreclame</image:caption>
+      <image:title>Autoreclame bedrijfsbus Rotterdam klassiek</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/fietswinkel-rotterdam.jpg</image:loc>
+      <image:caption>Mercedes Vito autoreclame met web-URL Fietswinkel Rotterdam — grote zijdecoratie belettering</image:caption>
+      <image:title>Autoreclame Mercedes Vito Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== GEVELRECLAME ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/gevelreclame-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:caption>Neon-groene 3D freesletters geveltekens Benjamin Furniture Rotterdam — aluminium gevelreclame</image:caption>
+      <image:title>Gevelreclame 3D freesletters Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/de-groene-tuin.jpg</image:loc>
+      <image:caption>Geveltekst met logo kinderdagverblijf De Groene Tuin Rotterdam — educatie gevelreclame</image:caption>
+      <image:title>Gevelreclame kinderdagverblijf Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/il-mare-pizzeria.jpg</image:loc>
+      <image:caption>Lichtbak gevelreclame Il Mare Pizzeria Rotterdam — horeca gevel met verlicht bord</image:caption>
+      <image:title>Gevelreclame lichtbak horeca Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:caption>Complete storefront gevelreclame Yilmaz Havalem Rotterdam — lichtbak en belettering combinatie</image:caption>
+      <image:title>Complete storefront gevelreclame Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== LICHTRECLAME ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/lichtreclame-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg</image:loc>
+      <image:caption>LED-verlichte lichtbak met goudkleurig logo juwelier Diamor Jewellery Rotterdam — professionele lichtreclame</image:caption>
+      <image:title>Lichtreclame LED lichtbak juwelier Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/il-mare-pizzeria.jpg</image:loc>
+      <image:caption>Verlichte lichtbak gevelreclame Il Mare Pizzeria Rotterdam — LED horeca bord met pasta pizza motief</image:caption>
+      <image:title>Lichtreclame horeca Rotterdam LED</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:caption>Lichtbak combinatie raambelettering Yilmaz Havalem Rotterdam — verlichte gevelreclame volledig pakket</image:caption>
+      <image:title>Lichtreclame lichtbak Rotterdam reisagentschap</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== DOOSLETTERS ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/doosletters-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yilmaz-havalem.jpg</image:loc>
+      <image:caption>Channel letters doosletters gevelreclame Rotterdam — verlichte 3D letters voor bedrijfspand</image:caption>
+      <image:title>Doosletters channel letters Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:caption>3D aluminium freesletters gevelreclame Benjamin Furniture Rotterdam — doosletters groot formaat</image:caption>
+      <image:title>Doosletters aluminium freesletters Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg</image:loc>
+      <image:caption>LED-verlichte channel letters juwelier Rotterdam — luxe doosletters goudkleurig</image:caption>
+      <image:title>Doosletters LED verlicht juwelier Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== OVER ONS ===== -->
+  <url>
+    <loc>https://alfareclame.nl/over-ons/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/og-image.jpg</image:loc>
+      <image:caption>Alfa Reclame Rotterdam — reclamebureau eigenaar 14 jaar vakmanschap signage Rotterdam, 500+ projecten</image:caption>
+      <image:title>Alfa Reclame Rotterdam eigenaar vakmanschap</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/logo-v2.webp</image:loc>
+      <image:caption>Alfa Reclame Rotterdam logo — reclamebureau voor MKB signage raambelettering autoreclame gevelreclame</image:caption>
+      <image:title>Alfa Reclame Rotterdam logo</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== RECLAMEBUREAU ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/reclamebureau-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/og-image.jpg</image:loc>
+      <image:caption>Alfa Reclame — full-service reclamebureau Rotterdam voor MKB: raambelettering, autoreclame, gevelreclame, 14 jaar vakwerk</image:caption>
+      <image:title>Reclamebureau Rotterdam Alfa Reclame vakwerk</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== KENNISBANK ===== -->
+  <url>
+    <loc>https://alfareclame.nl/kennisbank-rotterdam-signage/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/img/logo.webp</image:loc>
+      <image:caption>Alfa Reclame Rotterdam kennisbank signage 2026 — 200+ feiten over materialen, technieken en vergunningen</image:caption>
+      <image:title>Kennisbank Rotterdam Signage 2026 logo</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== SILOBELETTERING ===== -->
+  <url>
+    <loc>https://alfareclame.nl/silobelettering/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:caption>Logo-belettering op industriesilo IOP Industrial Rotterdam havengebied — silobelettering tot 30 meter hoogte</image:caption>
+      <image:title>Silobelettering Rotterdam havengebied 30 meter</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== OFFSHORE BELETTERING ===== -->
+  <url>
+    <loc>https://alfareclame.nl/offshore-belettering/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/barge-master.jpg</image:loc>
+      <image:caption>Offshore crane-platform belettering Barge Master Rotterdam haven — grootformaat industrieel signage B2B maritiem</image:caption>
+      <image:title>Offshore belettering Barge Master Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== HAVENRECLAME ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/havenreclame-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/barge-master.jpg</image:loc>
+      <image:caption>Havenreclame Barge Master Rotterdam — scheepsbelettering en industrieel signage in het havengebied</image:caption>
+      <image:title>Havenreclame Rotterdam scheepsbelettering</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/iop-silo.jpg</image:loc>
+      <image:caption>Industrieel signage silo IOP Industrial Rotterdam Botlek — grootformaat havengebied belettering</image:caption>
+      <image:title>Havenreclame industrieel silo Rotterdam</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== FLEET WRAP ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/fleet-wrap-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/i-bo-warmte-techniek.jpg</image:loc>
+      <image:caption>Fleet wrap bedrijfswagen I-Bo Warmte Techniek Rotterdam — wagenpark belettering VW Transporter</image:caption>
+      <image:title>Fleet wrap Rotterdam wagenpark belettering</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/oranje-stucadoor.jpg</image:loc>
+      <image:caption>Wagenpark belettering Oranje Stucadoor Rotterdam — fleet wrap full-colour VW Transporter</image:caption>
+      <image:title>Fleet wrap stucadoor Rotterdam full-colour</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== HORECABELETTERING ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/horecabelettering-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/il-mare-pizzeria.jpg</image:loc>
+      <image:caption>Horecabelettering Il Mare Pizzeria Rotterdam — lichtbak en raambelettering voor restaurant</image:caption>
+      <image:title>Horecabelettering restaurant Rotterdam lichtbak</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/yohnny-cake.jpg</image:loc>
+      <image:caption>Raambelettering etalage Yohnny Cake cafe Rotterdam — horeca raamfolie met handlettering</image:caption>
+      <image:title>Horecabelettering cafe Rotterdam etalage</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- ===== RETAILRECLAME ROTTERDAM ===== -->
+  <url>
+    <loc>https://alfareclame.nl/retailreclame-rotterdam/</loc>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/diamor-jewellery.jpg</image:loc>
+      <image:caption>Retailreclame juwelier Diamor Jewellery Rotterdam — LED lichtbak voor sieraden- en horlogewinkel</image:caption>
+      <image:title>Retailreclame juwelier Rotterdam LED lichtbak</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg</image:loc>
+      <image:caption>Retailreclame meubelzaak Benjamin Furniture Rotterdam — 3D freesletters gevelreclame</image:caption>
+      <image:title>Retailreclame meubelzaak Rotterdam 3D letters</image:title>
+      <image:license>https://alfareclame.nl/licentie/</image:license>
+      <image:geo_location>Rotterdam, Netherlands</image:geo_location>
+    </image:image>
+  </url>
+
+</urlset>

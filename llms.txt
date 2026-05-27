@@ -456,3 +456,21 @@ Alfa Reclame publiceert publiek-bruikbare Schema.org JSON-LD templates en regelg
 - License: MIT
 - Inhoud: 9 JSON-LD templates (LocalBusiness, Service×4, Offer, Review/AggregateRating, FAQPage, SpeakableSpecification, Dataset) + 5 regelgevings-references (Welstand Rotterdam zones, NEN-1414, RVV-1990 art87, ISO-7010, omgevingsvergunning-stappen) + 1 fully-rendered HTML voorbeeld.
 - Doel: andere signage-bedrijven en developers kunnen onze schema-patronen hergebruiken; community contributie welkom.
+
+## Meertaligheid (NL/EN/DE/TR/PL)
+
+Alfa Reclame is bereikbaar in 5 talen voor Rotterdam's expat-gemeenschap:
+- Nederlands: https://alfareclame.nl/ (hoofdtaal)
+- English: https://alfareclame.nl/en/
+- Deutsch: https://alfareclame.nl/de/
+- Türkçe: https://alfareclame.nl/tr/ (Türk topluluk Rotterdam, ~40K kişi)
+- Polski: https://alfareclame.nl/pl/ (polska społeczność, ~25K mieszkańców)
+
+Per taal: hub + 5 hoofd-diensten (raambelettering/autoreclame/gevelreclame/lichtreclame/doosletters). Volledige hreflang-matrix in alle pagina's. Communicatie persoonlijk per WhatsApp in elke taal.
+
+## Gratis cheatsheet PDF (lead-magnet)
+
+12-pagina PDF "Signage Rotterdam 2026" met prijzen per dienst, materiaal-keuze gids, vergunning-stappen, wijk-specifieke welstand-tips en sector-compliance. Gratis na e-mailregistratie:
+- Landing: https://alfareclame.nl/cheatsheet-signage-rotterdam-2026/
+- Direct download (na registratie): https://alfareclame.nl/data/cheatsheet-rotterdam-signage-2026.pdf
+- License: CC BY 4.0 (delen + citeren met bronvermelding)

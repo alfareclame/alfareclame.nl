@@ -192,7 +192,13 @@ jsonld: |
           { "@type": "City", "name": "Vlaardingen" },
           { "@type": "City", "name": "Capelle aan den IJssel" },
           { "@type": "City", "name": "Barendrecht" },
-          { "@type": "City", "name": "Spijkenisse" }
+          { "@type": "City", "name": "Spijkenisse" },
+          {
+            "@type": "GeoCircle",
+            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 51.964, "longitude": 4.569},
+            "geoRadius": 30000,
+            "description": "30km rondom Rotterdam (Rijnmond)"
+          }
         ]
       },
       {
@@ -364,6 +370,20 @@ jsonld: |
           { "@type": "HowToStep", "position": 4, "name": "Productie 3-5 werkdagen", "text": "Vinyl plot van A-merk snijfolie (3M, Avery, Hexis, Orafol) plus uitwiedt en transferfolie aanbrengen voor montage-klare lay-out." },
           { "@type": "HowToStep", "position": 5, "name": "Montage op afspraak", "text": "Bubbelvrije montage op uw winkelraam door de eigenaar zelf, ook 's avonds of in het weekend zonder meerprijs voor winkels en horeca." }
         ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://alfareclame.nl/raambelettering-rotterdam/#hero-image",
+        "url": "https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg",
+        "contentUrl": "https://alfareclame.nl/public/images/raambelettering/raambelettering-yohnny-cake-cafe-rotterdam.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "Raambelettering Rotterdam vakman — professionele folieteksten en logo-applicatie op etalageraam, A-merk vinyl, 2 jaar garantie",
+        "creator": {"@id": "https://alfareclame.nl/over-ons/#eigenaar"},
+        "creditText": "Alfa Reclame Rotterdam",
+        "copyrightHolder": {"@id": "https://alfareclame.nl/#business"},
+        "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "acquireLicensePage": "https://alfareclame.nl/licentie/"
       },
       {
         "@type": "Quotation",

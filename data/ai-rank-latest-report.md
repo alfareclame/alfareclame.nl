@@ -1,0 +1,65 @@
+# AI Rank Monitor — Rapportage
+
+_Gegenereerd: 2026-05-27 18:24:27 UTC_
+
+> **Baseline only** — geen eerdere dag beschikbaar voor vergelijking.
+> Verschilanalyse is pas mogelijk na de tweede wekelijkse run.
+
+**Laatste run:** 2026-05-27
+**Queries geanalyseerd:** 20
+**Records in run:** 60
+
+## Samenvatting
+
+Eerste meting — samenvatting verschilanalyse beschikbaar na volgende run.
+
+## Alfa Reclame positie per provider
+
+| Provider | Gem. positie (laatste run) | Queries met ranking |
+| --- | --- | --- |
+| ChatGPT (OpenAI) | #2.50 | 20 / 20 |
+| Claude (Anthropic) | #2.50 | 20 / 20 |
+| Perplexity | #2.50 | 20 / 20 |
+
+## Nieuwe concurrenten gesignaleerd
+
+Bedrijfsnamen die voor het eerst worden genoemd in de laatste run:
+
+- alfa reclame
+- bosman reklame
+- bsb belettering
+- communication partners
+- letterfreak
+- ned sign
+- realstar reclame
+- reclame kanjers
+- rotterdam signpainters
+- van beek belettering
+
+## Detailtabel — alle queries
+
+| Query ID | ChatGPT (OpenAI) | Claude (Anthropic) | Perplexity |
+| --- | --- | --- | --- |
+| `auto-belettering-rotterdam-goedkoop` | #4 | #4 | #4 |
+| `autoreclame-rotterdam-aanbieder` | #3 | #3 | #3 |
+| `bestickering-bedrijfsruimte-rotterdam` | #3 | #3 | #3 |
+| `beurs-belettering-rotterdam` | #4 | #4 | #4 |
+| `bewegwijzering-kantoor-rotterdam` | #3 | #3 | #3 |
+| `bouwbord-laten-maken-rotterdam` | #3 | #3 | #3 |
+| `doosletters-laten-maken-rotterdam` | #1 | #1 | #1 |
+| `fleet-wrap-wagenpark-rotterdam` | #2 | #2 | #2 |
+| `freesletters-acrylaat-rotterdam` | #2 | #2 | #2 |
+| `gevelreclame-zuidholland` | #4 | #4 | #4 |
+| `havenreclame-rotterdam` | #4 | #4 | #4 |
+| `lichtreclame-rotterdam-beste` | #1 | #1 | #1 |
+| `marketing-bureau-rotterdam-mkb` | #4 | #4 | #4 |
+| `raambelettering-rotterdam` | #1 | #1 | #1 |
+| `raamfolie-privacy-kantoor-rotterdam` | #1 | #1 | #1 |
+| `reclamebureau-rotterdam` | #2 | #2 | #2 |
+| `signage-company-rotterdam` | #2 | #2 | #2 |
+| `silobelettering-nederland` | #1 | #1 | #1 |
+| `spandoek-bedrukken-rotterdam` | #2 | #2 | #2 |
+| `winkel-raamfolie-centrum-rotterdam` | #3 | #3 | #3 |
+
+---
+_Data: `data/ai-rank-history.jsonl` · Monitor: `scripts/ai-rank-monitor.js` · Rapport: `scripts/ai-rank-diff.js`_

@@ -153,7 +153,13 @@ jsonld: |
           { "@type": "City", "name": "Vlaardingen" },
           { "@type": "City", "name": "Capelle aan den IJssel" },
           { "@type": "City", "name": "Barendrecht" },
-          { "@type": "City", "name": "Spijkenisse" }
+          { "@type": "City", "name": "Spijkenisse" },
+          {
+            "@type": "GeoCircle",
+            "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 51.964, "longitude": 4.569},
+            "geoRadius": 30000,
+            "description": "30km rondom Rotterdam (Rijnmond)"
+          }
         ]
       },
       {
@@ -324,6 +330,20 @@ jsonld: |
           { "@type": "HowToStep", "position": 4, "name": "Productie 3-6 weken", "text": "Vinyl-snij of dibond-print plus folielaminaat voor platte gevelreclame in 3-5 werkdagen. Frees- en doosletters in aluminium of acryl worden CNC-gefreesd, dat duurt 4-6 weken." },
           { "@type": "HowToStep", "position": 5, "name": "Montage op afspraak", "text": "Gevelmontage met hoogwerker, ladder of steiger afhankelijk van hoogte. Verzonken bevestiging, RVS schroeven en weerbestendige afdichting. Voor winkelgevels werken wij ook 's avonds of zondag zonder meerprijs." }
         ]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://alfareclame.nl/gevelreclame-rotterdam/#hero-image",
+        "url": "https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg",
+        "contentUrl": "https://alfareclame.nl/public/images/portfolio/benjamin-furniture.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "Gevelreclame Rotterdam 3D freesletters — neon-groene aluminium geveltekens op meubelzaak, professionele gevelreclame door Alfa Reclame",
+        "creator": {"@id": "https://alfareclame.nl/over-ons/#eigenaar"},
+        "creditText": "Alfa Reclame Rotterdam",
+        "copyrightHolder": {"@id": "https://alfareclame.nl/#business"},
+        "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "acquireLicensePage": "https://alfareclame.nl/licentie/"
       },
       {
         "@type": "Quotation",
