@@ -1,17 +1,20 @@
-{
+﻿{
   "name": "alfareclame-nl",
   "version": "1.0.0",
   "private": true,
   "description": "Alfa Reclame Rotterdam — statische signage-site (Eleventy)",
   "scripts": {
-    "build": "eleventy",
+    "build:related": "node scripts/internal-link-builder.js",
+    "build": "npm run build:related && eleventy",
     "serve": "eleventy --serve",
     "watch": "eleventy --watch",
     "ci": "npm ci && npm run build",
-    "cheatsheet": "node scripts/generate-cheatsheet-pdf.js"
+    "cheatsheet": "node scripts/generate-cheatsheet-pdf.js",
+    "images:avif": "node scripts/generate-avif-images.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "pdfkit": "^0.15.2"
+    "pdfkit": "^0.15.2",
+    "sharp": "^0.33.5"
   }
 }

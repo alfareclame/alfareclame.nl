@@ -1,0 +1,18 @@
+<style>
+.related-pages{margin:48px 0 24px;padding:24px;background:#F5F5F7;border-radius:12px}
+.related-pages h2{font-size:18px;margin:0 0 16px;font-weight:600;color:#1D1D1F}
+.related-pages__list{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.related-pages__link{color:#0071E3;text-decoration:none;font-size:15px;line-height:1.5}
+.related-pages__link:hover{text-decoration:underline}
+</style>
+{% set related = relatedPages[page.url].related if relatedPages and relatedPages[page.url] else [] %}
+{% if related and related.length >= 3 %}
+<aside class="related-pages" aria-labelledby="related-heading">
+  <h2 id="related-heading">{% if pageLang == 'en' %}Related pages{% elif pageLang == 'de' %}Verwandte Seiten{% elif pageLang == 'tr' %}İlgili sayfalar{% elif pageLang == 'pl' %}Powiązane strony{% else %}Gerelateerde pagina's{% endif %}</h2>
+  <ul class="related-pages__list">
+    {% for rel in related %}
+    <li><a href="{{ rel.url }}" class="related-pages__link">{{ rel.title }}</a></li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

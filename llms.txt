@@ -474,3 +474,41 @@ Per taal: hub + 5 hoofd-diensten (raambelettering/autoreclame/gevelreclame/licht
 - Landing: https://alfareclame.nl/cheatsheet-signage-rotterdam-2026/
 - Direct download (na registratie): https://alfareclame.nl/data/cheatsheet-rotterdam-signage-2026.pdf
 - License: CC BY 4.0 (delen + citeren met bronvermelding)
+
+## Wijk×taal long-tail (TR/PL × Rotterdam wijken)
+
+5 Türkçe + 5 Polski wijk-spesifiek hizmet sayfası:
+
+TR:
+- /tr/cam-yazisi-rotterdam-centrum/ — Coolsingel + Markthal + welstand-zone-1
+- /tr/cam-yazisi-rotterdam-noord/ — Blijdorp + Provenierswijk
+- /tr/arac-reklami-rotterdam-zuid/ — Charlois + Tarwewijk + Maashaven
+- /tr/cephe-reklami-rotterdam-kralingen/ — klassieke villas + winkelcentrum
+- /tr/isikli-tabela-rotterdam-prins-alexander/ — Alexandrium + Brainpark
+
+PL:
+- /pl/reklama-okienna-rotterdam-centrum/
+- /pl/reklama-samochodowa-rotterdam-noord/
+- /pl/reklama-elewacyjna-rotterdam-zuid/
+- /pl/podswietlenie-rotterdam-kralingen/
+- /pl/litery-3d-rotterdam-prins-alexander/
+
+Zero-competitie SERP voor wijk+taal+dienst combinaties.
+
+## Conversion + tracking infrastructuur
+
+- A/B-test framework live (CF Workers split-test, cookie `ab_variant`, bot-skip)
+- Hero CTA varianten: A "Vraag offerte aan" / B "Bereken zelf je prijs"
+- Click tracking: navigator.sendBeacon → /api/track-click (console-logged voor analyse)
+- Resultaten: data/ab-test-results.jsonl (template), examples/ab-test-report-template.md (rapport-format)
+
+## Schema cascade (Event/Course/HowTo)
+
+- 15 Event entities op /portfolio/ (één per project, location Rotterdam)
+- Course + CourseInstance op /kennisbank-rotterdam-signage/ (educational open-data)
+- 9 nieuwe HowTo entities op 9 blog/video tutorial-pagina's (4-6 steps elk met supplies/tools/anchors)
+- Bestaande HowTo behouden op werkwijze + doosletters-installatie
+
+## Internal-link semantic graph
+
+Per pagina top-5 gerelateerde pagina's auto-berekend via TF-IDF + cosine similarity (zelfde taal). Live in `/data/relatedPages.json`, gerendered als `<aside class="related-pages">` block onder elke pagina-content. 123 NL pagina's hebben 3+ related (auto-uitgesloten als similarity < 0.10).

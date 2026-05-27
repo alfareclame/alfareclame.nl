@@ -86,6 +86,42 @@ export async function onRequest(context) {
     });
   }
 
-  // Not a dead URL — fall through to the next function / static asset.
+  // Not a dead URL — apply A/B split on homepage GET requests, then fall through.
+  const url = new URL(context.request.url);
+  const path = url.pathname;
+  const ua = context.request.headers.get('user-agent') || '';
+
+  const isBot = /bot|crawl|spider|googlebot|bingbot|yandex|chatgpt|claudebot|gptbot|perplexity/i.test(ua);
+  const isHomepage = path === '/' || path === '/index.html';
+  const isGET = context.request.method === 'GET';
+  const isSkippedPath =
+    path.startsWith('/api/') ||
+    path.startsWith('/admin/') ||
+    path.startsWith('/data/');
+
+  if (isGET && isHomepage && !isBot && !isSkippedPath) {
+    const cookieHeader = context.request.headers.get('cookie') || '';
+    let variant = (cookieHeader.match(/ab_variant=([AB])/) || [])[1];
+
+    if (!variant) {
+      // First visit — assign variant, set 30-day cookie
+      variant = Math.random() < 0.5 ? 'A' : 'B';
+      const response = await context.next();
+      const newResponse = new Response(response.body, response);
+      newResponse.headers.append(
+        'set-cookie',
+        `ab_variant=${variant}; Path=/; Max-Age=2592000; SameSite=Lax`
+      );
+      newResponse.headers.set('x-ab-variant', variant);
+      return newResponse;
+    }
+
+    // Returning visitor with existing cookie — pass header through
+    const response = await context.next();
+    const newResponse = new Response(response.body, response);
+    newResponse.headers.set('x-ab-variant', variant);
+    return newResponse;
+  }
+
   return context.next();
 }

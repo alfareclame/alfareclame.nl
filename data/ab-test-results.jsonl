@@ -1,0 +1,1 @@
+{"_comment":"A/B test click log. Each line is a JSONL record: {type,event,variant,page,ts,logged_at,cf_country}. Written by CF wrangler tail capture or future D1 integration. Sprint 11 initial — empty data file."}

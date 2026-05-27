@@ -787,13 +787,34 @@ pageStyles: |
             Ontwerp, productie &eacute;n montage in eigen beheer. 14 jaar Rotterdam, A-merk vinyl van 3M, Avery Dennison, Hexis en Orafol. Twee jaar garantie op materiaal &eacute;n montage &mdash; vaste prijs vooraf, gratis mockup binnen 48 uur.
           </p>
           <div class="flex flex--gap-4" style="flex-wrap:wrap;">
-            <a class="btn btn-primary" href="/offerte/" aria-label="Vraag een gratis offerte aan bij Alfa Reclame">
-              Vraag gratis offerte
-            </a>
+            <div class="hero-cta-wrapper" data-ab-test="hero-cta" style="display:inline-flex;">
+              <a class="btn btn-primary" href="/offerte/" aria-label="Vraag een gratis offerte aan bij Alfa Reclame" data-ab-variant="A">
+                Vraag gratis offerte
+              </a>
+              <a class="btn btn-primary" href="/prijs-calculator/" aria-label="Bereken zelf uw prijs bij Alfa Reclame" data-ab-variant="B" style="display:none">
+                Bereken zelf je prijs
+              </a>
+            </div>
             <a class="btn btn-whatsapp" href="https://wa.me/31624741597?text=Hallo%2C%20ik%20wil%20graag%20een%20offerte%20aanvragen." target="_blank" rel="noopener noreferrer" aria-label="App Alfa Reclame via WhatsApp">
               WhatsApp ons
             </a>
           </div>
+          <script>
+(function(){
+  var m = document.cookie.match(/ab_variant=([AB])/);
+  var v = m ? m[1] : 'A';
+  document.querySelectorAll('[data-ab-test="hero-cta"] [data-ab-variant]').forEach(function(el){
+    el.style.display = (el.getAttribute('data-ab-variant') === v) ? '' : 'none';
+  });
+  document.querySelectorAll('[data-ab-test="hero-cta"] [data-ab-variant="' + v + '"]').forEach(function(el){
+    el.addEventListener('click', function(){
+      try {
+        navigator.sendBeacon('/api/track-click', JSON.stringify({event:'hero_cta_click', variant: v, page: location.pathname, ts: Date.now()}));
+      } catch(e){}
+    });
+  });
+})();
+</script>
         </div>
 
         <!-- Right: 3-photo collage -->

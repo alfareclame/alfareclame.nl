@@ -16,6 +16,7 @@
   X-Permitted-Cross-Domain-Policies: none
   Alt-Svc: h3=":443"; ma=86400
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Vary: Accept-Encoding
 
 # --- Generic image path (e.g. /img/) ---
 /img/*
