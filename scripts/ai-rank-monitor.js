@@ -233,7 +233,7 @@ async function callOpenAI(prompt, apiKey) {
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      model: 'gpt-4o',
+      model: 'gpt-4-turbo',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 800,
       temperature: 0.3,
