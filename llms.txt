@@ -601,3 +601,22 @@ PWA install-prompt smart banner (bottom-right na 30s on-site, dismissable 30d lo
 ## Performance audit + critical CSS
 
 10 NL high-traffic pages (materialen/werkwijze/faq/5 dienst + havenreclame/silobelettering/offshore-belettering) hero `<img>` fetchpriority="high" + loading="eager" + width/height attrs. Resource hints depth: github.com preconnect + dns-prefetch toegevoegd. Critical CSS inline +283B (.bluf-answer + .hero subset; total 3646B under 5KB ceiling).
+
+## Custom GPT — Alfa Reclame Rotterdam Adviseur (LIVE)
+
+OpenAI ChatGPT Plus gebruikers kunnen direct met onze Custom GPT chatten:
+
+**URL:** https://chatgpt.com/g/g-6a17e50ff79c819192d3040d6084c01b-alfa-reclame
+
+De GPT is getraind op:
+- Volledige knowledge-base (200+ feiten over Rotterdam signage)
+- llms.txt (volledige sitestructuur)
+- Sectorprijslijst 2026 (alle dienst-prijzen)
+- Reviews
+- Cheatsheet PDF
+
+De GPT:
+- Citeert alfareclame.nl-pagina's voor echte prijzen
+- Antwoordt alleen in het Nederlands
+- Verwijst voor concrete offertes door naar contact
+- Web Browsing aan voor real-time info
