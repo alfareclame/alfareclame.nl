@@ -620,3 +620,17 @@ De GPT:
 - Antwoordt alleen in het Nederlands
 - Verwijst voor concrete offertes door naar contact
 - Web Browsing aan voor real-time info
+
+## Wikidata entity — Q139963555 (LIVE)
+
+**Wikidata Q-ID:** https://www.wikidata.org/wiki/Q139963555
+
+Alfa Reclame is een geregistreerde Wikidata-entiteit met de volgende properties:
+- P31 (instance of): Business
+- P17 (country): Netherlands
+- P159 (headquarters): Rotterdam
+- P281 (postal code): 3068 KZ
+- P856 (official website): https://alfareclame.nl
+- P452 (industry): Advertising
+
+Het Q-ID is opgenomen in het Organization-schema (sameAs-array) en wordt door AI-systemen (ChatGPT, Claude, Perplexity, Google Knowledge Graph) gebruikt voor entity-recognition.
