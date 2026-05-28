@@ -233,7 +233,7 @@ async function callOpenAI(prompt, apiKey) {
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      model: 'gpt-4o-mini',
+      model: 'gpt-4o',
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 800,
       temperature: 0.3,
@@ -252,7 +252,7 @@ async function callOpenAI(prompt, apiKey) {
   const promptTokens = (data.usage && data.usage.prompt_tokens) || 0;
   const completionTokens = (data.usage && data.usage.completion_tokens) || 0;
 
-  return { rawText, promptTokens, completionTokens, latencyMs: latency, model: data.model || 'gpt-4o-mini' };
+  return { rawText, promptTokens, completionTokens, latencyMs: latency, model: data.model || 'gpt-4o' };
 }
 
 async function callAnthropic(prompt, apiKey) {
