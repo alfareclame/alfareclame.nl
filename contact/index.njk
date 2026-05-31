@@ -362,7 +362,7 @@ pageScripts: |
 
       if (submitBtn) {
         submitBtn.disabled = false;
-        submitBtn.textContent = submitBtn.dataset._label || 'Verstuur aanvraag →';
+        submitBtn.textContent = submitBtn.dataset._label || 'Gratis offerte aanvragen →';
       }
       setTimeout(() => {
         if (contactStatus && contactStatus.dataset.state !== 'success') {
@@ -613,7 +613,10 @@ jsonld: |
               <textarea id="fm" name="message" placeholder="Beschrijf kort uw project. Bijvoorbeeld: 'Ik heb een winkel in Rotterdam Zuid en wil raambelettering met mijn logo en openingstijden.' Vermeld ook uw tijdlijn als u die heeft." required></textarea>
             </div>
             <input type="text" name="_hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;pointer-events:none;">
-            <button type="submit" class="form-submit">Verstuur aanvraag &rarr;</button>
+            <button type="submit" class="form-submit">Gratis offerte aanvragen &rarr;</button>
+            <p class="form-microcopy" style="margin-top:var(--space-3); font-size:.9375rem; opacity:.85;">
+              <strong>Binnen 1 uur reactie</strong> op werkdagen &middot; vrijblijvend &amp; gratis &middot; vertrouwd door 40+ Rotterdamse ondernemers (4,9&#9733;)
+            </p>
             <p class="form-note" id="contactFormStatus" role="status" aria-live="polite">Uw gegevens worden uitsluitend gebruikt voor het beantwoorden van uw aanvraag. Geen nieuwsbrief, geen marketing. Zie onze <a href="/privacybeleid/">privacyverklaring</a>.</p>
           </form>
         </div>
