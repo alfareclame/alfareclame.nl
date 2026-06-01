@@ -17,9 +17,10 @@
 <meta name="geo.position" content="51.96473;4.56910">
 <meta name="ICBM" content="51.96473, 4.56910">
 
-<link rel="canonical" href="{{ canonical }}">
-<link rel="alternate" hreflang="nl-NL" href="{{ canonical }}">
-<link rel="alternate" hreflang="x-default" href="{{ canonical }}">
+{%- set canonicalUrl = canonical or ("https://alfareclame.nl" + page.url) %}
+<link rel="canonical" href="{{ canonicalUrl }}">
+<link rel="alternate" hreflang="nl-NL" href="{{ canonicalUrl }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonicalUrl }}">
 
 <link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
@@ -57,6 +58,11 @@
 
 <style>
 {{ pageStyles | trim | safe }}
+.related-pages{margin:48px 0 24px;padding:24px;background:#F5F5F7;border-radius:12px}
+.related-pages h2{font-size:18px;margin:0 0 16px;font-weight:600;color:#1D1D1F}
+.related-pages__list{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.related-pages__link{color:#0071E3;text-decoration:none;font-size:15px;line-height:1.5}
+.related-pages__link:hover{text-decoration:underline}
 </style>
 </head>
 <body>

@@ -47,6 +47,7 @@ jobs:
             --exclude-all-private
             --exclude '^https?://(?:www\.)?(?:localhost|127\.0\.0\.1)'
             --exclude 'wa\.me'
+            --exclude 'maps\.app\.goo\.gl'
             --exclude 'mailto:'
             --exclude 'tel:'
             --exclude 'fonts\.(?:googleapis|gstatic)\.com'
