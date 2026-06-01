@@ -41,6 +41,7 @@ jobs:
           blacklist: |
             node_modules
             google26dfc393f11fd085.html
+            stories
 
       - name: Summary
         if: always()
