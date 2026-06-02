@@ -1,0 +1,18 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in collections.all %}
+{%- set isHtml = item.url and item.outputPath and item.outputPath.endsWith(".html") %}
+{%- set isNoindex = item.data.robots and ("noindex" in item.data.robots) %}
+{%- set isStory = item.url and ("/stories/" in item.url) %}
+{%- if isHtml and not isNoindex and not isStory and not item.data.excludeFromSitemap %}
+  <url>
+    <loc>https://alfareclame.nl{{ item.url }}</loc>
+    <lastmod>{{ item.inputPath | gitLastModified }}</lastmod>
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>
