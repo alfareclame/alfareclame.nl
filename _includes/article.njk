@@ -19,8 +19,14 @@
 
 {%- set canonicalUrl = canonical or ("https://alfareclame.nl" + page.url) %}
 <link rel="canonical" href="{{ canonicalUrl }}">
-<link rel="alternate" hreflang="nl-NL" href="{{ canonicalUrl }}">
+{%- if alternates %}
+{%- for alt in alternates %}
+<link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ alt.href }}">
+{%- endfor %}
+{%- else %}
+<link rel="alternate" hreflang="nl" href="{{ canonicalUrl }}">
 <link rel="alternate" hreflang="x-default" href="{{ canonicalUrl }}">
+{%- endif %}
 
 <link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/public/images/favicon-192.png">
