@@ -28,6 +28,9 @@ const GONE_EXACT = new Set([
   '/overcoming-digital-transformation-challenges',
   '/maximizing-roi-with-data-driven-marketing-campaigns',
   '/emerging-trends-in-web-design-2025',
+  // Removed video sitemap (pages were transcripts, no hosted video) — 410 so
+  // Google drops it instead of serving the soft-200 catch-all HTML.
+  '/sitemap-video.xml',
 ]);
 
 // Dead legacy taxonomy prefixes (WordPress remnants).

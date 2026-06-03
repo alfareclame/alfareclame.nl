@@ -4,6 +4,7 @@
     "/",
     "/index.html",
     "/api/*",
+    "/sitemap-video.xml",
     "/category/*",
     "/project/*",
     "/portfolio_category/*",
