@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'sitemap.xml'
+      - 'sitemap.njk'
+      - 'sitemap-*.njk'
       - 'sitemap-*.xml'
   workflow_dispatch:
 
@@ -27,8 +28,18 @@ jobs:
         with:
           node-version: 24
 
-      - name: Wait for CF Pages deploy
-        run: sleep 90
+      - name: Wait for CF Pages deploy and fetch live sitemap
+        run: |
+          for i in $(seq 1 12); do
+            if curl -sSf -o sitemap.xml "https://alfareclame.nl/sitemap.xml"; then
+              echo "Live sitemap fetched on attempt $i ($(wc -l < sitemap.xml) lines)"
+              exit 0
+            fi
+            echo "Attempt $i/12: sitemap not ready (CF Pages still deploying), waiting 15s..."
+            sleep 15
+          done
+          echo "ERROR: live sitemap not reachable after 3 minutes"
+          exit 1
 
       - run: node scripts/sitemap-submit.mjs
 
