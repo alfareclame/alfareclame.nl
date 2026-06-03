@@ -25,20 +25,6 @@ jsonld: |
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "VideoObject",
-        "@id": "https://alfareclame.nl/video/gevelreclame-kosten-uitleg-2026/#video",
-        "name": "Gevelreclame Kosten Uitleg 2026",
-        "description": "Transcript van YouTube-video over gevelreclame kosten 2026: kostenverdeling materiaal, arbeid, vergunning en installatie. Circa 1.900 woorden.",
-        "uploadDate": "2026-05-27",
-        "duration": "PT13M",
-        "thumbnailUrl": "https://alfareclame.nl/public/images/logo-v2.webp",
-        "contentUrl": "https://alfareclame.nl/video/gevelreclame-kosten-uitleg-2026/",
-        "embedUrl": "",
-        "inLanguage": "nl",
-        "publisher": { "@id": "https://alfareclame.nl/#business" },
-        "transcript": "Gevelreclame kost in Rotterdam 2026 tussen 150 en 8000+ euro. Vier kostenposten: materiaal 30-40%, arbeid 25-35%, vergunning 10-20%, installatie 15-25%. Vergunning gemeente Rotterdam: 150-400 euro leges plus 195-550 euro begeleiding. Monumentenpanden 30-50% duurder."
-      },
-      {
         "@type": "Article",
         "@id": "https://alfareclame.nl/video/gevelreclame-kosten-uitleg-2026/#article",
         "headline": "Gevelreclame Kosten Uitleg 2026",
@@ -46,16 +32,35 @@ jsonld: |
         "datePublished": "2026-05-27",
         "dateModified": "2026-05-27",
         "inLanguage": "nl-NL",
-        "author": { "@id": "https://alfareclame.nl/#eigenaar" },
-        "publisher": { "@id": "https://alfareclame.nl/#business" },
+        "author": {
+          "@id": "https://alfareclame.nl/#eigenaar"
+        },
+        "publisher": {
+          "@id": "https://alfareclame.nl/#business"
+        },
         "wordCount": 1900
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alfareclame.nl/" },
-          { "@type": "ListItem", "position": 2, "name": "Video-bibliotheek", "item": "https://alfareclame.nl/video/" },
-          { "@type": "ListItem", "position": 3, "name": "Gevelreclame Kosten 2026", "item": "https://alfareclame.nl/video/gevelreclame-kosten-uitleg-2026/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://alfareclame.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Video-bibliotheek",
+            "item": "https://alfareclame.nl/video/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gevelreclame Kosten 2026",
+            "item": "https://alfareclame.nl/video/gevelreclame-kosten-uitleg-2026/"
+          }
         ]
       },
       {
@@ -64,20 +69,62 @@ jsonld: |
         "url": "https://alfareclame.nl/video/gevelreclame-kosten-uitleg-2026/",
         "name": "Gevelreclame Kosten Uitleg 2026",
         "inLanguage": "nl-NL",
-        "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".bluf-answer"] }
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            "h1",
+            ".bluf-answer"
+          ]
+        }
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          {"@type":"Question","name":"Wat kost gevelreclame in Rotterdam in 2026?","acceptedAnswer":{"@type":"Answer","text":"Raambelettering van 150 tot 850 euro; doosletters van 1.450 tot 3.800 euro per set; lichtreclame van 750 tot 8.000 euro. Vergunning en installatie komen er bovenop."}},
-          {"@type":"Question","name":"Hoeveel kost een omgevingsvergunning voor gevelreclame?","acceptedAnswer":{"@type":"Answer","text":"Gemeente Rotterdam rekent 150 tot 400 euro aan leges, plus 195 tot 550 euro begeleidingskosten. Totaal 350 tot 1.350 euro."}},
-          {"@type":"Question","name":"Is gevelreclame op een monumentenpand duurder?","acceptedAnswer":{"@type":"Answer","text":"Ja, 30 tot 50 procent duurder door strengere welstandseisen. Halo-lit doosletters zijn de meest geaccepteerde verlichtingsvorm op monumentenpanden."}},
-          {"@type":"Question","name":"Zijn er schaalvoordelen bij meerdere vestigingen?","acceptedAnswer":{"@type":"Answer","text":"Ja, bij 5 of meer vestigingen met identieke gevelreclame rekent u op 15 tot 25 procent lagere kosten per eenheid."}},
-          {"@type":"Question","name":"Wat is vergunningsvrije gevelreclame?","acceptedAnswer":{"@type":"Answer","text":"Raamstickers die minder dan 25 procent van het glasoppervlak beslaan en geen lichtbron bevatten, zijn in de meeste gevallen vergunningsvrij in Rotterdam."}}
+          {
+            "@type": "Question",
+            "name": "Wat kost gevelreclame in Rotterdam in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Raambelettering van 150 tot 850 euro; doosletters van 1.450 tot 3.800 euro per set; lichtreclame van 750 tot 8.000 euro. Vergunning en installatie komen er bovenop."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoeveel kost een omgevingsvergunning voor gevelreclame?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gemeente Rotterdam rekent 150 tot 400 euro aan leges, plus 195 tot 550 euro begeleidingskosten. Totaal 350 tot 1.350 euro."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is gevelreclame op een monumentenpand duurder?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, 30 tot 50 procent duurder door strengere welstandseisen. Halo-lit doosletters zijn de meest geaccepteerde verlichtingsvorm op monumentenpanden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Zijn er schaalvoordelen bij meerdere vestigingen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, bij 5 of meer vestigingen met identieke gevelreclame rekent u op 15 tot 25 procent lagere kosten per eenheid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wat is vergunningsvrije gevelreclame?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Raamstickers die minder dan 25 procent van het glasoppervlak beslaan en geen lichtbron bevatten, zijn in de meeste gevallen vergunningsvrij in Rotterdam."
+            }
+          }
         ]
       }
     ]
   }
+
 pageStyles: |
   :root{--white:#FFFFFF;--surface:#F5F5F7;--ink:#1D1D1F;--ink-muted:#6E6E73;--ink-subtle:#86868B;--rule:rgba(0,0,0,0.08);--ai-accent:#4F46E5;--ai-accent-bg:rgba(79,70,229,0.06);--ai-accent-border:rgba(79,70,229,0.15);--sans:Inter,-apple-system,sans-serif}
   *{box-sizing:border-box;margin:0;padding:0}

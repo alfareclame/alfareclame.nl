@@ -25,20 +25,6 @@ jsonld: |
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "VideoObject",
-        "@id": "https://alfareclame.nl/video/autoreclame-care-handleiding/#video",
-        "name": "Onderhoud Autoreclame — Wassen, Wax en Levensduur",
-        "description": "Transcript van YouTube-video over autoreclame onderhoud: correct wassen, wax-vrije producten, krassen repareren en maximale levensduur folie. Circa 1.700 woorden.",
-        "uploadDate": "2026-05-27",
-        "duration": "PT11M",
-        "thumbnailUrl": "https://alfareclame.nl/public/images/logo-v2.webp",
-        "contentUrl": "https://alfareclame.nl/video/autoreclame-care-handleiding/",
-        "embedUrl": "",
-        "inLanguage": "nl",
-        "publisher": { "@id": "https://alfareclame.nl/#business" },
-        "transcript": "Autoreclame onderhoud: handwas is de veiligste methode. Tunnelwasstraten met borstels zijn schadelijk. Wax en polish zijn verboden op folie. Cast vinyl 3M IJ180Cv3 heeft outdoor-levensduur 7 jaar; calendered vinyl 3-5 jaar."
-      },
-      {
         "@type": "Article",
         "@id": "https://alfareclame.nl/video/autoreclame-care-handleiding/#article",
         "headline": "Onderhoud Autoreclame — Wassen, Wax en Levensduur",
@@ -46,16 +32,35 @@ jsonld: |
         "datePublished": "2026-05-27",
         "dateModified": "2026-05-27",
         "inLanguage": "nl-NL",
-        "author": { "@id": "https://alfareclame.nl/#eigenaar" },
-        "publisher": { "@id": "https://alfareclame.nl/#business" },
+        "author": {
+          "@id": "https://alfareclame.nl/#eigenaar"
+        },
+        "publisher": {
+          "@id": "https://alfareclame.nl/#business"
+        },
         "wordCount": 1700
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://alfareclame.nl/" },
-          { "@type": "ListItem", "position": 2, "name": "Video-bibliotheek", "item": "https://alfareclame.nl/video/" },
-          { "@type": "ListItem", "position": 3, "name": "Autoreclame Onderhoud", "item": "https://alfareclame.nl/video/autoreclame-care-handleiding/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://alfareclame.nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Video-bibliotheek",
+            "item": "https://alfareclame.nl/video/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Autoreclame Onderhoud",
+            "item": "https://alfareclame.nl/video/autoreclame-care-handleiding/"
+          }
         ]
       },
       {
@@ -64,16 +69,57 @@ jsonld: |
         "url": "https://alfareclame.nl/video/autoreclame-care-handleiding/",
         "name": "Onderhoud Autoreclame — Wassen, Wax en Levensduur",
         "inLanguage": "nl-NL",
-        "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".bluf-answer"] }
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            "h1",
+            ".bluf-answer"
+          ]
+        }
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          {"@type":"Question","name":"Mag ik autoreclame in een tunnelwasstraat wassen?","acceptedAnswer":{"@type":"Answer","text":"Contactwasstraten met roterende borstels zijn afgeraden. Contactloze wasstraten op minimaal 30 cm afstand zijn acceptabel. Handwas is altijd de veiligste methode."}},
-          {"@type":"Question","name":"Welke wasproducten zijn veilig voor autofolie?","acceptedAnswer":{"@type":"Answer","text":"Gebruik een milde autoshampoo zonder wax. Vermijd producten met solventen of abrasieve polijstmiddelen."}},
-          {"@type":"Question","name":"Waarom is wax schadelijk voor autoreclame?","acceptedAnswer":{"@type":"Answer","text":"Wax dringt in de folie-randen en ondermijnt de hechting van de lijm. Na herhaald waxen laten randen los en ontstaat corrosie."}},
-          {"@type":"Question","name":"Hoe lang gaat autoreclame mee?","acceptedAnswer":{"@type":"Answer","text":"Cast vinyl gaat bij goed onderhoud 5-7 jaar mee. Calendered vinyl 3-4 jaar."}},
-          {"@type":"Question","name":"Kan een kras in autoreclame worden gerepareerd?","acceptedAnswer":{"@type":"Answer","text":"Kleine krassen zijn te repareren met een matching vinyl patch. Diepe krassen vereisen vervanging van het folie-paneel."}}
+          {
+            "@type": "Question",
+            "name": "Mag ik autoreclame in een tunnelwasstraat wassen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Contactwasstraten met roterende borstels zijn afgeraden. Contactloze wasstraten op minimaal 30 cm afstand zijn acceptabel. Handwas is altijd de veiligste methode."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Welke wasproducten zijn veilig voor autofolie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gebruik een milde autoshampoo zonder wax. Vermijd producten met solventen of abrasieve polijstmiddelen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Waarom is wax schadelijk voor autoreclame?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wax dringt in de folie-randen en ondermijnt de hechting van de lijm. Na herhaald waxen laten randen los en ontstaat corrosie."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hoe lang gaat autoreclame mee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cast vinyl gaat bij goed onderhoud 5-7 jaar mee. Calendered vinyl 3-4 jaar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kan een kras in autoreclame worden gerepareerd?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kleine krassen zijn te repareren met een matching vinyl patch. Diepe krassen vereisen vervanging van het folie-paneel."
+            }
+          }
         ]
       },
       {
@@ -83,13 +129,28 @@ jsonld: |
         "description": "Stap-voor-stap onderhoudshandleiding voor autoreclame folie: correct wassen, wax vermijden en kleine beschadigingen repareren.",
         "totalTime": "PT45M",
         "supply": [
-          {"@type": "HowToSupply", "name": "Milde autoshampoo zonder wax"},
-          {"@type": "HowToSupply", "name": "Zachte microvezel washandschoen"},
-          {"@type": "HowToSupply", "name": "Matching vinyl patch voor kleine reparaties"}
+          {
+            "@type": "HowToSupply",
+            "name": "Milde autoshampoo zonder wax"
+          },
+          {
+            "@type": "HowToSupply",
+            "name": "Zachte microvezel washandschoen"
+          },
+          {
+            "@type": "HowToSupply",
+            "name": "Matching vinyl patch voor kleine reparaties"
+          }
         ],
         "tool": [
-          {"@type": "HowToTool", "name": "Emmer en waterslang"},
-          {"@type": "HowToTool", "name": "Pluisvrije droogdoek of blower"}
+          {
+            "@type": "HowToTool",
+            "name": "Emmer en waterslang"
+          },
+          {
+            "@type": "HowToTool",
+            "name": "Pluisvrije droogdoek of blower"
+          }
         ],
         "step": [
           {
@@ -124,6 +185,7 @@ jsonld: |
       }
     ]
   }
+
 pageStyles: |
   :root{--white:#FFFFFF;--surface:#F5F5F7;--ink:#1D1D1F;--ink-muted:#6E6E73;--ink-subtle:#86868B;--rule:rgba(0,0,0,0.08);--ai-accent:#4F46E5;--ai-accent-bg:rgba(79,70,229,0.06);--ai-accent-border:rgba(79,70,229,0.15);--sans:'Inter',-apple-system,sans-serif}
   *{box-sizing:border-box;margin:0;padding:0}
