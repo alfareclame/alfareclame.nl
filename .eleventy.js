@@ -36,7 +36,6 @@ module.exports = function (eleventyConfig) {
     "_headers",
     "_routes.json",
     "sitemap.xml",
-    "sitemap-video.xml",
     "sitemap-image.xml",
     "sitemap-index.xml",
     "sitemap-stories.xml",
