@@ -4,28 +4,28 @@
     "related": [
       {
         "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.49
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.483
       },
       {
         "url": "/video/wrap-folie-merken-3m-vs-avery/",
-        "title": "[Transcript] Wrap folie merken: 3M IJ180Cv3 vs Avery MPI 1105 vergeleken | Alfa Reclame Rotterdam",
-        "similarity": 0.266
-      },
-      {
-        "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.231
+        "title": "Wrap Folie: 3M IJ180Cv3 vs Avery MPI 1105 Vergeleken",
+        "similarity": 0.28
       },
       {
         "url": "/materialen/",
-        "title": "",
-        "similarity": 0.218
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.27
+      },
+      {
+        "url": "/avery-vs-hexis-vinyl/",
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.234
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.212
+        "similarity": 0.214
       }
     ]
   },
@@ -34,27 +34,27 @@
     "related": [
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.491
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.475
       },
       {
         "url": "/3m-vs-orafol-vinyl/",
-        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.357
+        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.381
       },
       {
         "url": "/materialen/",
-        "title": "",
-        "similarity": 0.225
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.216
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.315
       },
       {
         "url": "/cast-vs-calendered-vinyl/",
-        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing & Keuze | Alfa Reclame",
+        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing &amp; Keuze",
+        "similarity": 0.219
+      },
+      {
+        "url": "/3m-vs-avery-cast-vinyl/",
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
         "similarity": 0.214
       }
     ]
@@ -65,27 +65,27 @@
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.357
+        "similarity": 0.381
       },
       {
         "url": "/materialen/",
-        "title": "",
-        "similarity": 0.261
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.308
       },
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.213
+      },
+      {
+        "url": "/cast-vs-calendered-vinyl/",
+        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing &amp; Keuze",
         "similarity": 0.202
       },
       {
         "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.201
-      },
-      {
-        "url": "/cast-vs-calendered-vinyl/",
-        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing & Keuze | Alfa Reclame",
-        "similarity": 0.191
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.185
       }
     ]
   },
@@ -95,22 +95,22 @@
       {
         "url": "/notariskantoor-reclame/",
         "title": "Reclame voor Notariskantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.178
+        "similarity": 0.18
       },
       {
         "url": "/uitvaartonderneming-reclame/",
         "title": "Reclame voor Uitvaartonderneming | Alfa Reclame Rotterdam",
-        "similarity": 0.157
-      },
-      {
-        "url": "/tandartspraktijk-reclame/",
-        "title": "Reclame voor Tandartspraktijk | Alfa Reclame Rotterdam",
-        "similarity": 0.132
+        "similarity": 0.166
       },
       {
         "url": "/advocatenkantoor-reclame/",
         "title": "Reclame voor Advocatenkantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.127
+        "similarity": 0.131
+      },
+      {
+        "url": "/tandartspraktijk-reclame/",
+        "title": "Reclame voor Tandartspraktijk | Alfa Reclame Rotterdam",
+        "similarity": 0.107
       }
     ]
   },
@@ -125,24 +125,28 @@
       {
         "url": "/uitvaartonderneming-reclame/",
         "title": "Reclame voor Uitvaartonderneming | Alfa Reclame Rotterdam",
-        "similarity": 0.198
+        "similarity": 0.204
       },
       {
         "url": "/accountantskantoor-reclame/",
         "title": "Reclame voor Accountantskantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.127
+        "similarity": 0.131
+      },
+      {
+        "url": "/ingenieursbureau-reclame/",
+        "title": "Reclame voor Ingenieursbureau | Alfa Reclame Rotterdam",
+        "similarity": 0.108
       },
       {
         "url": "/tandartspraktijk-reclame/",
         "title": "Reclame voor Tandartspraktijk | Alfa Reclame Rotterdam",
-        "similarity": 0.112
-      },
-      {
-        "url": "/gevelreclame-centrum-rotterdam/",
-        "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.102
+        "similarity": 0.104
       }
     ]
+  },
+  "/algemene-voorwaarden/": {
+    "pageLang": "nl",
+    "related": []
   },
   "/architectenbureau-reclame/": {
     "pageLang": "nl",
@@ -150,7 +154,37 @@
       {
         "url": "/ingenieursbureau-reclame/",
         "title": "Reclame voor Ingenieursbureau | Alfa Reclame Rotterdam",
-        "similarity": 0.119
+        "similarity": 0.111
+      }
+    ]
+  },
+  "/autobelettering-rotterdam/": {
+    "pageLang": "nl",
+    "related": [
+      {
+        "url": "/blog/levensduur-autobelettering/",
+        "title": "Levensduur Autobelettering — Garantie, Vervangen en Kosten",
+        "similarity": 0.222
+      },
+      {
+        "url": "/snijfolie-vs-printfolie/",
+        "title": "Snijfolie vs Printfolie — Wat Past bij Uw Project?",
+        "similarity": 0.171
+      },
+      {
+        "url": "/autoreclame-rotterdam/",
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.161
+      },
+      {
+        "url": "/zandstraalfolie-rotterdam/",
+        "title": "Zandstraalfolie Rotterdam — Privacy &amp; Decoratief Etsfolie",
+        "similarity": 0.13
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.117
       }
     ]
   },
@@ -160,12 +194,12 @@
       {
         "url": "/autoreclame-loodgieter-rotterdam/",
         "title": "Autoreclame voor Loodgieters in Rotterdam | Alfa Reclame",
-        "similarity": 0.197
+        "similarity": 0.193
       },
       {
         "url": "/autoreclame-schilder-rotterdam/",
         "title": "Autoreclame voor Schilders in Rotterdam | Alfa Reclame",
-        "similarity": 0.133
+        "similarity": 0.126
       }
     ]
   },
@@ -175,17 +209,17 @@
       {
         "url": "/lichtreclame-hoogvliet-rotterdam/",
         "title": "Lichtreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.574
-      },
-      {
-        "url": "/signage-hoogvliet-rotterdam/",
-        "title": "Signage Hoogvliet Rotterdam — Light Industrial & Retail | Alfa Reclame",
-        "similarity": 0.382
+        "similarity": 0.552
       },
       {
         "url": "/signage-hoogvliet/",
-        "title": "Signage Hoogvliet & Pernis | Industriële Reclame Rotterdam Haven",
-        "similarity": 0.379
+        "title": "Signage Hoogvliet &amp; Pernis — Haven Industriereclame",
+        "similarity": 0.372
+      },
+      {
+        "url": "/signage-hoogvliet-rotterdam/",
+        "title": "Signage Hoogvliet Rotterdam — Industrial &amp; Retail",
+        "similarity": 0.366
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
@@ -195,7 +229,7 @@
       {
         "url": "/autoreclame-ijsselmonde-rotterdam/",
         "title": "Autoreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.138
+        "similarity": 0.132
       }
     ]
   },
@@ -205,27 +239,27 @@
       {
         "url": "/lichtreclame-ijsselmonde-rotterdam/",
         "title": "Lichtreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.554
+        "similarity": 0.565
       },
       {
         "url": "/signage-ijsselmonde/",
-        "title": "Signage IJsselmonde Rotterdam — Beverwaard, Groene Hilledijk & Autodealer | Alfa Reclame",
-        "similarity": 0.422
+        "title": "Signage IJsselmonde Rotterdam — Beverwaard &amp; Retail",
+        "similarity": 0.499
       },
       {
         "url": "/signage-ijsselmonde-rotterdam/",
-        "title": "Signage IJsselmonde Rotterdam — Automotive & Garage Signage | Alfa Reclame",
-        "similarity": 0.414
+        "title": "Signage IJsselmonde Rotterdam — Automotive &amp; Garage",
+        "similarity": 0.419
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.241
+        "similarity": 0.221
       },
       {
         "url": "/autoreclame-hoogvliet-rotterdam/",
         "title": "Autoreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.138
+        "similarity": 0.132
       }
     ]
   },
@@ -235,12 +269,12 @@
       {
         "url": "/autoreclame-elektricien-rotterdam/",
         "title": "Autoreclame voor Elektriciens in Rotterdam | Alfa Reclame",
-        "similarity": 0.197
+        "similarity": 0.193
       },
       {
         "url": "/autoreclame-schilder-rotterdam/",
         "title": "Autoreclame voor Schilders in Rotterdam | Alfa Reclame",
-        "similarity": 0.125
+        "similarity": 0.118
       }
     ]
   },
@@ -250,27 +284,27 @@
       {
         "url": "/raambelettering-noord-rotterdam/",
         "title": "Raambelettering Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.606
+        "similarity": 0.618
       },
       {
         "url": "/reclame-rotterdam-noord/",
         "title": "Reclamebureau Rotterdam Noord | Alfa Reclame Rotterdam",
-        "similarity": 0.471
+        "similarity": 0.504
       },
       {
         "url": "/bestickering-noord-rotterdam/",
         "title": "Bestickering Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.397
+        "similarity": 0.406
       },
       {
         "url": "/signage-rotterdam-noord/",
-        "title": "Signage Rotterdam Noord — Kantoorbestickering & Horecabelettering Bergweg | Alfa Reclame",
-        "similarity": 0.301
+        "title": "Signage Rotterdam Noord — Kantoor &amp; Horecabelettering",
+        "similarity": 0.32
       },
       {
         "url": "/signage-overschie-rotterdam/",
-        "title": "Signage Overschie Rotterdam — Spaanse Polder, Schieoevers &amp; MKB | Alfa Reclame",
-        "similarity": 0.248
+        "title": "Signage Overschie Rotterdam — Spaanse Polder &amp; MKB",
+        "similarity": 0.253
       }
     ]
   },
@@ -279,28 +313,28 @@
     "related": [
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.49
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.483
       },
       {
         "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.264
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.286
       },
       {
         "url": "/video/wrap-folie-merken-3m-vs-avery/",
-        "title": "[Transcript] Wrap folie merken: 3M IJ180Cv3 vs Avery MPI 1105 vergeleken | Alfa Reclame Rotterdam",
-        "similarity": 0.261
-      },
-      {
-        "url": "/partial-vs-full-body-wrap/",
-        "title": "Partial Wrap vs Full Body Wrap — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.222
+        "title": "Wrap Folie: 3M IJ180Cv3 vs Avery MPI 1105 Vergeleken",
+        "similarity": 0.252
       },
       {
         "url": "/fleet-wrap-rotterdam/",
-        "title": "",
-        "similarity": 0.192
+        "title": "Fleet Wrap Rotterdam — Wagenpark | Alfa Reclame",
+        "similarity": 0.222
+      },
+      {
+        "url": "/materialen/",
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.208
       }
     ]
   },
@@ -309,28 +343,28 @@
     "related": [
       {
         "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.135
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.136
       },
       {
         "url": "/autoreclame-elektricien-rotterdam/",
         "title": "Autoreclame voor Elektriciens in Rotterdam | Alfa Reclame",
-        "similarity": 0.133
-      },
-      {
-        "url": "/lichtreclame-winkel-rotterdam/",
-        "title": "Lichtreclame voor Winkels in Rotterdam | Alfa Reclame",
-        "similarity": 0.127
+        "similarity": 0.126
       },
       {
         "url": "/autoreclame-loodgieter-rotterdam/",
         "title": "Autoreclame voor Loodgieters in Rotterdam | Alfa Reclame",
-        "similarity": 0.125
+        "similarity": 0.118
       },
       {
         "url": "/kosten-autoreclame-rotterdam/",
-        "title": "Kosten Autoreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.125
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
+        "similarity": 0.117
+      },
+      {
+        "url": "/lichtreclame-winkel-rotterdam/",
+        "title": "Lichtreclame voor Winkels in Rotterdam | Alfa Reclame",
+        "similarity": 0.115
       }
     ]
   },
@@ -340,27 +374,27 @@
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.53
+        "similarity": 0.539
       },
       {
         "url": "/reclame-rotterdam-zuid/",
         "title": "Reclamebureau Rotterdam Zuid | Alfa Reclame Rotterdam",
-        "similarity": 0.417
-      },
-      {
-        "url": "/doosletters-zuid-rotterdam/",
-        "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.399
+        "similarity": 0.434
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.393
+        "similarity": 0.412
+      },
+      {
+        "url": "/doosletters-zuid-rotterdam/",
+        "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
+        "similarity": 0.409
       },
       {
         "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.361
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.374
       }
     ]
   },
@@ -370,27 +404,27 @@
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.491
+        "similarity": 0.475
       },
       {
         "url": "/materialen/",
-        "title": "",
-        "similarity": 0.247
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.341
       },
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.231
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.21
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.234
       },
       {
         "url": "/3m-vs-orafol-vinyl/",
-        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.202
+        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.213
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.211
       }
     ]
   },
@@ -400,27 +434,27 @@
       {
         "url": "/raambelettering-noord-rotterdam/",
         "title": "Raambelettering Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.453
+        "similarity": 0.467
       },
       {
         "url": "/reclame-rotterdam-noord/",
         "title": "Reclamebureau Rotterdam Noord | Alfa Reclame Rotterdam",
-        "similarity": 0.398
+        "similarity": 0.418
       },
       {
         "url": "/autoreclame-noord-rotterdam/",
         "title": "Autoreclame Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.397
+        "similarity": 0.406
       },
       {
         "url": "/bestickering-rotterdam/",
-        "title": "",
-        "similarity": 0.361
+        "title": "Bestickering Rotterdam — Vinyl &amp; Wraps | Alfa Reclame",
+        "similarity": 0.378
       },
       {
         "url": "/signage-rotterdam-noord/",
-        "title": "Signage Rotterdam Noord — Kantoorbestickering & Horecabelettering Bergweg | Alfa Reclame",
-        "similarity": 0.238
+        "title": "Signage Rotterdam Noord — Kantoor &amp; Horecabelettering",
+        "similarity": 0.255
       }
     ]
   },
@@ -430,27 +464,27 @@
       {
         "url": "/bestickering-noord-rotterdam/",
         "title": "Bestickering Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.361
+        "similarity": 0.378
+      },
+      {
+        "url": "/raambestickering-rotterdam/",
+        "title": "Raambestickering Rotterdam — Glasfolie &amp; Prints",
+        "similarity": 0.197
+      },
+      {
+        "url": "/diensten/",
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.164
       },
       {
         "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.133
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.151
       },
       {
-        "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.131
-      },
-      {
-        "url": "/3m-vs-orafol-vinyl/",
-        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.125
-      },
-      {
-        "url": "/zandstraalfolie-rotterdam/",
-        "title": "Zandstraalfolie Rotterdam — Privacy &amp; Decoratief Etsfolie | Alfa Reclame",
-        "similarity": 0.116
+        "url": "/materialen/",
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.126
       }
     ]
   },
@@ -463,23 +497,23 @@
     "related": [
       {
         "url": "/raambelettering-fysiotherapeut-rotterdam/",
-        "title": "Raambelettering voor Fysiotherapie in Rotterdam | Alfa Reclame",
-        "similarity": 0.277
+        "title": "Raambelettering voor Fysiotherapeuten Rotterdam",
+        "similarity": 0.288
       },
       {
         "url": "/zorginstelling-reclame/",
-        "title": "Signage voor Zorginstellingen — Huisarts, Tandarts, Fysio, Apotheek | Alfa Reclame",
-        "similarity": 0.145
+        "title": "Signage voor Zorginstellingen Rotterdam | Alfa Reclame",
+        "similarity": 0.165
       },
       {
         "url": "/gevelreclame-kantoor-rotterdam/",
         "title": "Gevelreclame voor Kantoren in Rotterdam | Alfa Reclame",
-        "similarity": 0.134
+        "similarity": 0.135
       },
       {
         "url": "/gevelreclame-tandarts-rotterdam/",
         "title": "Gevelreclame voor Tandartsen in Rotterdam | Alfa Reclame",
-        "similarity": 0.116
+        "similarity": 0.117
       }
     ]
   },
@@ -488,28 +522,28 @@
     "related": [
       {
         "url": "/partial-vs-full-body-wrap/",
-        "title": "Partial Wrap vs Full Body Wrap — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.336
+        "title": "Partial Wrap vs Full Body Wrap Rotterdam 2026",
+        "similarity": 0.341
       },
       {
         "url": "/cast-vs-calendered-vinyl/",
-        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing & Keuze | Alfa Reclame",
-        "similarity": 0.31
+        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing &amp; Keuze",
+        "similarity": 0.313
       },
       {
         "url": "/blog/levensduur-autobelettering/",
         "title": "Levensduur Autobelettering — Garantie, Vervangen en Kosten",
-        "similarity": 0.234
+        "similarity": 0.236
       },
       {
         "url": "/kosten-autoreclame-rotterdam/",
-        "title": "Kosten Autoreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
         "similarity": 0.181
       },
       {
-        "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.178
+        "url": "/autoreclame-rotterdam/",
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.16
       }
     ]
   },
@@ -518,8 +552,8 @@
     "related": [
       {
         "url": "/vinyl-vs-magneetstickers-auto/",
-        "title": "Vinyl Carwrap vs Magneetstickers Auto — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.112
+        "title": "Vinyl Carwrap vs Magneetstickers Auto — Vergelijking",
+        "similarity": 0.118
       }
     ]
   },
@@ -529,27 +563,27 @@
       {
         "url": "/blog/vergunning-gevelreclame-rotterdam/",
         "title": "Vergunning Gevelreclame Rotterdam — Complete Gids 2026",
-        "similarity": 0.173
+        "similarity": 0.188
+      },
+      {
+        "url": "/frontlit-vs-halolit-doosletters/",
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.162
       },
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.162
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.149
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.147
+        "similarity": 0.143
       },
       {
-        "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.147
-      },
-      {
-        "url": "/doosletters-zuid-rotterdam/",
-        "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.133
+        "url": "/werkwijze/",
+        "title": "Werkwijze — Offerte tot Oplevering | Alfa Reclame",
+        "similarity": 0.137
       }
     ]
   },
@@ -558,8 +592,8 @@
     "related": [
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.135
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.12
       }
     ]
   },
@@ -568,23 +602,28 @@
     "related": [
       {
         "url": "/video/lichtreclame-onderhoud-checklist/",
-        "title": "[Transcript] Lichtreclame onderhoud checklist: reinigen, LED-check en modules vervangen | Alfa Reclame Rotterdam",
-        "similarity": 0.433
+        "title": "Lichtreclame Onderhoud Checklist — LED &amp; Modules",
+        "similarity": 0.478
       },
       {
         "url": "/blog/levensduur-autobelettering/",
         "title": "Levensduur Autobelettering — Garantie, Vervangen en Kosten",
-        "similarity": 0.201
+        "similarity": 0.196
       },
       {
         "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.157
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.169
       },
       {
         "url": "/blog/autoreclame-tco-3-jaar/",
-        "title": "Autoreclame TCO over 3 Jaar &mdash; Cast vs Calendered, Partial vs Full Wrap",
-        "similarity": 0.105
+        "title": "Autoreclame TCO: Cast vs Calendered, Partial vs Full Wrap",
+        "similarity": 0.109
+      },
+      {
+        "url": "/video/vergunning-aanvragen-rotterdam-stappen/",
+        "title": "Omgevingsvergunning Reclame Rotterdam Aanvragen 2026",
+        "similarity": 0.103
       }
     ]
   },
@@ -594,17 +633,17 @@
       {
         "url": "/blog/levensduur-autobelettering/",
         "title": "Levensduur Autobelettering — Garantie, Vervangen en Kosten",
-        "similarity": 0.135
+        "similarity": 0.133
       },
       {
         "url": "/blog/rgb-vs-cmyk-print-belettering/",
-        "title": "RGB vs CMYK in Print en Belettering — Waarom Logo Anders Oogt",
-        "similarity": 0.115
+        "title": "RGB vs CMYK Belettering — Waarom Logo Anders Oogt",
+        "similarity": 0.121
       },
       {
         "url": "/blog/vergunning-gevelreclame-rotterdam/",
         "title": "Vergunning Gevelreclame Rotterdam — Complete Gids 2026",
-        "similarity": 0.11
+        "similarity": 0.106
       }
     ]
   },
@@ -613,28 +652,28 @@
     "related": [
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.31
-      },
-      {
-        "url": "/blog/lichtbak-energie-besparing-led-vs-tl/",
-        "title": "Lichtbak Energiebesparing &mdash; LED vs TL Vergeleken voor 2026",
-        "similarity": 0.159
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.272
       },
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.158
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.215
+      },
+      {
+        "url": "/blog/lichtbak-energie-besparing-led-vs-tl/",
+        "title": "Lichtbak Energiebesparing — LED vs TL 2026",
+        "similarity": 0.159
       },
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
-        "similarity": 0.14
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
+        "similarity": 0.144
       },
       {
         "url": "/frontlit-vs-edgelit-lichtbak/",
         "title": "Frontlit vs Edge-lit Lichtbak 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.14
+        "similarity": 0.141
       }
     ]
   },
@@ -643,28 +682,28 @@
     "related": [
       {
         "url": "/blog/autoreclame-tco-3-jaar/",
-        "title": "Autoreclame TCO over 3 Jaar &mdash; Cast vs Calendered, Partial vs Full Wrap",
-        "similarity": 0.234
+        "title": "Autoreclame TCO: Cast vs Calendered, Partial vs Full Wrap",
+        "similarity": 0.236
+      },
+      {
+        "url": "/autobelettering-rotterdam/",
+        "title": "Autobelettering Rotterdam — Logo &amp; Tekst op Auto",
+        "similarity": 0.222
       },
       {
         "url": "/blog/gevelreclame-onderhoud-checklist/",
-        "title": "Gevelreclame Onderhoud Checklist 2026 &mdash; Schoonmaken, Controleren, Vervangen",
-        "similarity": 0.201
+        "title": "Gevelreclame Onderhoud Checklist 2026 — Vinyl &amp; LED",
+        "similarity": 0.196
       },
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.164
-      },
-      {
-        "url": "/blog/vergunning-gevelreclame-rotterdam/",
-        "title": "Vergunning Gevelreclame Rotterdam — Complete Gids 2026",
-        "similarity": 0.154
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.166
       },
       {
         "url": "/cast-vs-calendered-vinyl/",
-        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing & Keuze | Alfa Reclame",
-        "similarity": 0.154
+        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing &amp; Keuze",
+        "similarity": 0.16
       }
     ]
   },
@@ -673,28 +712,28 @@
     "related": [
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
         "similarity": 0.207
       },
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.178
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.166
       },
       {
         "url": "/blog/led-vs-neon-lichtbak-vergelijking/",
-        "title": "LED-strip vs Neon Lichtbak &mdash; Vergelijking Energie, Levensduur &amp; Look",
+        "title": "LED-strip vs Neon Lichtbak — Energie &amp; Levensduur",
         "similarity": 0.159
       },
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
         "similarity": 0.149
       },
       {
         "url": "/blog/autoreclame-tco-3-jaar/",
-        "title": "Autoreclame TCO over 3 Jaar &mdash; Cast vs Calendered, Partial vs Full Wrap",
-        "similarity": 0.125
+        "title": "Autoreclame TCO: Cast vs Calendered, Partial vs Full Wrap",
+        "similarity": 0.123
       }
     ]
   },
@@ -703,28 +742,28 @@
     "related": [
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.343
-      },
-      {
-        "url": "/blog/led-vs-neon-lichtbak-vergelijking/",
-        "title": "LED-strip vs Neon Lichtbak &mdash; Vergelijking Energie, Levensduur &amp; Look",
-        "similarity": 0.31
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.384
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.245
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.275
+      },
+      {
+        "url": "/blog/led-vs-neon-lichtbak-vergelijking/",
+        "title": "LED-strip vs Neon Lichtbak — Energie &amp; Levensduur",
+        "similarity": 0.272
       },
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.223
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.271
       },
       {
         "url": "/frontlit-vs-edgelit-lichtbak/",
         "title": "Frontlit vs Edge-lit Lichtbak 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.214
+        "similarity": 0.236
       }
     ]
   },
@@ -732,29 +771,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.173
-      },
-      {
         "url": "/perforated-vs-clear-window-film/",
-        "title": "Geperforeerde vs Transparante Raamfolie | Alfa Reclame Rotterdam",
-        "similarity": 0.166
+        "title": "Geperforeerde vs Transparante Raamfolie Rotterdam",
+        "similarity": 0.183
       },
       {
         "url": "/raamfolie-vs-etsfolie-privacy/",
-        "title": "Raamfolie vs Etsfolie Privacy — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.149
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.181
+      },
+      {
+        "url": "/video/raambelettering-frosted-installeren/",
+        "title": "Raambelettering Frosted Folie Installeren — Handleiding",
+        "similarity": 0.176
+      },
+      {
+        "url": "/3m-vs-orafol-vinyl/",
+        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.131
       },
       {
         "url": "/etched-vs-frosted-glass/",
-        "title": "Gegraveerd Glas vs Matfolie (Frosted) — Welke Glasbehandeling Past Bij U? | Alfa Reclame",
-        "similarity": 0.128
-      },
-      {
-        "url": "/vinyl-vs-verf-gevel/",
-        "title": "Vinyl Belettering vs Verf op Gevel — Welke Kiest u Wanneer? | Alfa Reclame",
-        "similarity": 0.125
+        "title": "Gegraveerd Glas vs Matfolie — Vergelijking Rotterdam",
+        "similarity": 0.123
       }
     ]
   },
@@ -762,19 +801,14 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/raster-vs-solid-print/",
-        "title": "Rasterdruk vs Solid Print — Wanneer Kies Je Welke Druktechniek? | Alfa Reclame",
-        "similarity": 0.123
-      },
-      {
         "url": "/blog/",
-        "title": "Insights & Vakkennis Rotterdam Signage | Alfa Reclame Blog",
-        "similarity": 0.115
+        "title": "Signage Vakkennis Blog — Rotterdam | Alfa Reclame",
+        "similarity": 0.121
       },
       {
-        "url": "/uv-print-vs-screenprint/",
-        "title": "UV-print vs Screenprint Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.11
+        "url": "/raster-vs-solid-print/",
+        "title": "Rasterdruk vs Solid Print — Druktechniek Vergelijking",
+        "similarity": 0.114
       }
     ]
   },
@@ -783,28 +817,28 @@
     "related": [
       {
         "url": "/spandoeken-rotterdam/",
-        "title": "Spandoeken Rotterdam — Frontlit, Blockout &amp; Mesh | Alfa Reclame",
-        "similarity": 0.478
+        "title": "Spandoeken Rotterdam — Frontlit, Blockout &amp; Mesh",
+        "similarity": 0.497
       },
       {
         "url": "/vlaggen-vs-spandoeken/",
-        "title": "Vlaggen vs Spandoeken — Welke Buitenreclame Past Bij Uw Actie? | Alfa Reclame Rotterdam",
-        "similarity": 0.175
+        "title": "Vlaggen vs Spandoeken — Buitenreclame Rotterdam",
+        "similarity": 0.203
       },
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.14
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.158
       },
       {
         "url": "/frontlit-vs-edgelit-lichtbak/",
         "title": "Frontlit vs Edge-lit Lichtbak 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.138
+        "similarity": 0.156
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.129
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.152
       }
     ]
   },
@@ -813,8 +847,8 @@
     "related": [
       {
         "url": "/blog/doosletters-installatie-stappen/",
-        "title": "Doosletters Installatie &mdash; Stappenplan Survey, Vergunning, Montage &amp; Oplevering",
-        "similarity": 0.173
+        "title": "Doosletters Installatie: Survey, Vergunning &amp; Montage",
+        "similarity": 0.188
       },
       {
         "url": "/blog/levensduur-autobelettering/",
@@ -823,18 +857,18 @@
       },
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.15
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.148
       },
       {
-        "url": "/kies-uw-signage-partner-rotterdam/",
-        "title": "",
-        "similarity": 0.118
+        "url": "/blog/",
+        "title": "Signage Vakkennis Blog — Rotterdam | Alfa Reclame",
+        "similarity": 0.106
       },
       {
-        "url": "/gevelreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.111
+        "url": "/video/vergunning-aanvragen-rotterdam-stappen/",
+        "title": "Omgevingsvergunning Reclame Rotterdam Aanvragen 2026",
+        "similarity": 0.105
       }
     ]
   },
@@ -843,20 +877,14 @@
     "related": [
       {
         "url": "/fleet-wrap-rotterdam/",
-        "title": "",
-        "similarity": 0.191
+        "title": "Fleet Wrap Rotterdam — Wagenpark | Alfa Reclame",
+        "similarity": 0.179
       }
     ]
   },
   "/bouwborden-rotterdam/": {
     "pageLang": "nl",
-    "related": [
-      {
-        "url": "/bestickering-rotterdam/",
-        "title": "",
-        "similarity": 0.109
-      }
-    ]
+    "related": []
   },
   "/branches/": {
     "pageLang": "nl",
@@ -867,28 +895,28 @@
     "related": [
       {
         "url": "/blog/autoreclame-tco-3-jaar/",
-        "title": "Autoreclame TCO over 3 Jaar &mdash; Cast vs Calendered, Partial vs Full Wrap",
-        "similarity": 0.31
+        "title": "Autoreclame TCO: Cast vs Calendered, Partial vs Full Wrap",
+        "similarity": 0.313
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.214
+        "similarity": 0.219
       },
       {
         "url": "/3m-vs-orafol-vinyl/",
-        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.191
+        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.202
       },
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.186
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.192
       },
       {
-        "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.169
+        "url": "/blog/levensduur-autobelettering/",
+        "title": "Levensduur Autobelettering — Garantie, Vervangen en Kosten",
+        "similarity": 0.16
       }
     ]
   },
@@ -896,14 +924,19 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.122
+        "url": "/offerte/",
+        "title": "Offerte Aanvragen Rotterdam — Transparante Prijzen",
+        "similarity": 0.129
+      },
+      {
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.125
       },
       {
         "url": "/sectorprijslijst-rotterdam-2026/",
-        "title": "Sectorprijslijst Signage Rotterdam 2026 — MKB Marktdata | Alfa Reclame",
-        "similarity": 0.105
+        "title": "Sectorprijslijst Signage Rotterdam 2026 — Marktdata",
+        "similarity": 0.111
       }
     ]
   },
@@ -911,14 +944,14 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.152
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.186
       },
       {
         "url": "/offerte/",
-        "title": "",
-        "similarity": 0.138
+        "title": "Offerte Aanvragen Rotterdam — Transparante Prijzen",
+        "similarity": 0.172
       }
     ]
   },
@@ -926,83 +959,33 @@
     "pageLang": "nl",
     "related": []
   },
-  "/de/fahrzeugbeschriftung-rotterdam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/de/fassadenwerbung-rotterdam/",
-        "title": "",
-        "similarity": 0.309
-      },
-      {
-        "url": "/de/fensterbeschriftung-rotterdam/",
-        "title": "",
-        "similarity": 0.297
-      }
-    ]
-  },
-  "/de/fassadenwerbung-rotterdam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/de/fensterbeschriftung-rotterdam/",
-        "title": "",
-        "similarity": 0.313
-      },
-      {
-        "url": "/de/fahrzeugbeschriftung-rotterdam/",
-        "title": "",
-        "similarity": 0.309
-      },
-      {
-        "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.174
-      },
-      {
-        "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.128
-      }
-    ]
-  },
-  "/de/fensterbeschriftung-rotterdam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/de/fassadenwerbung-rotterdam/",
-        "title": "",
-        "similarity": 0.313
-      },
-      {
-        "url": "/de/fahrzeugbeschriftung-rotterdam/",
-        "title": "",
-        "similarity": 0.297
-      }
-    ]
-  },
   "/diensten/": {
     "pageLang": "nl",
     "related": [
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.207
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.259
+      },
+      {
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.177
+      },
+      {
+        "url": "/bestickering-rotterdam/",
+        "title": "Bestickering Rotterdam — Vinyl &amp; Wraps | Alfa Reclame",
+        "similarity": 0.164
+      },
+      {
+        "url": "/tarieven/",
+        "title": "Tarieven &amp; Prijslijst Reclame Rotterdam — Diensten",
+        "similarity": 0.152
       },
       {
         "url": "/faq/",
-        "title": "",
-        "similarity": 0.175
-      },
-      {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.116
-      },
-      {
-        "url": "/over-ons/",
-        "title": "",
-        "similarity": 0.105
+        "title": "Veelgestelde Vragen — FAQ Signage Rotterdam | Alfa Reclame",
+        "similarity": 0.146
       }
     ]
   },
@@ -1012,27 +995,27 @@
       {
         "url": "/gevelreclame-centrum-rotterdam/",
         "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.464
+        "similarity": 0.457
+      },
+      {
+        "url": "/frontlit-vs-halolit-doosletters/",
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.403
+      },
+      {
+        "url": "/doosletters-rotterdam/",
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.376
       },
       {
         "url": "/reclame-rotterdam-centrum/",
         "title": "Reclamebureau Rotterdam Centrum | Alfa Reclame Rotterdam",
-        "similarity": 0.371
+        "similarity": 0.373
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.367
-      },
-      {
-        "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.365
-      },
-      {
-        "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.358
+        "similarity": 0.354
       }
     ]
   },
@@ -1042,27 +1025,27 @@
       {
         "url": "/raambelettering-prins-alexander-rotterdam/",
         "title": "Raambelettering Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.764
+        "similarity": 0.775
       },
       {
         "url": "/lichtreclame-prins-alexander-rotterdam/",
         "title": "Lichtreclame Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.733
+        "similarity": 0.746
       },
       {
         "url": "/signage-prins-alexander/",
-        "title": "Signage Prins Alexander Rotterdam — Kantoorpark & Alexandrium | Alfa Reclame",
-        "similarity": 0.556
+        "title": "Signage Prins Alexander — Kantoorpark &amp; Alexandrium",
+        "similarity": 0.56
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.186
+        "similarity": 0.177
       },
       {
         "url": "/doosletters-zuid-rotterdam/",
         "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.185
+        "similarity": 0.172
       }
     ]
   },
@@ -1071,28 +1054,28 @@
     "related": [
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.408
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.496
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.365
+        "similarity": 0.376
       },
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.324
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.307
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.259
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.282
       },
       {
-        "url": "/doosletters-vs-freesletters/",
-        "title": "Doosletters vs Freesletters — Verlicht of CNC-Gefreesd? | Alfa Reclame Rotterdam",
-        "similarity": 0.23
+        "url": "/halo-vs-flush-mount-doosletters/",
+        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking",
+        "similarity": 0.232
       }
     ]
   },
@@ -1102,27 +1085,27 @@
       {
         "url": "/freesletters-rotterdam/",
         "title": "Freesletters Rotterdam — 3D Gevelletters CNC | Alfa Reclame",
-        "similarity": 0.436
+        "similarity": 0.408
       },
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
         "similarity": 0.23
       },
       {
         "url": "/gevelreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.178
+        "title": "Gevelreclame Rotterdam — 3D &amp; Lichtbak | Alfa Reclame",
+        "similarity": 0.19
       },
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
-        "similarity": 0.168
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
+        "similarity": 0.184
       },
       {
         "url": "/gevelplaat-vs-doosletters-gevel/",
-        "title": "Gevelplaat vs Doosletters Gevel — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.13
+        "title": "Gevelplaat vs Doosletters — Vergelijking 2026",
+        "similarity": 0.14
       }
     ]
   },
@@ -1131,28 +1114,28 @@
     "related": [
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.311
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.293
       },
       {
         "url": "/gevelplaat-vs-doosletters-gevel/",
-        "title": "Gevelplaat vs Doosletters Gevel — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.298
-      },
-      {
-        "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.223
+        "title": "Gevelplaat vs Doosletters — Vergelijking 2026",
+        "similarity": 0.292
       },
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.208
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.206
       },
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.201
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.205
+      },
+      {
+        "url": "/doosletters-vs-freesletters/",
+        "title": "Doosletters vs Freesletters Rotterdam — Vergelijking",
+        "similarity": 0.184
       }
     ]
   },
@@ -1162,72 +1145,27 @@
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.594
+        "similarity": 0.603
       },
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.468
+        "similarity": 0.48
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.399
+        "similarity": 0.409
       },
       {
         "url": "/reclame-rotterdam-zuid/",
         "title": "Reclamebureau Rotterdam Zuid | Alfa Reclame Rotterdam",
-        "similarity": 0.387
+        "similarity": 0.406
       },
       {
         "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.329
-      }
-    ]
-  },
-  "/en/facade-signage-rotterdam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/en/vehicle-wraps-rotterdam/",
-        "title": "",
-        "similarity": 0.38
-      },
-      {
-        "url": "/en/window-graphics-rotterdam/",
-        "title": "",
-        "similarity": 0.303
-      }
-    ]
-  },
-  "/en/vehicle-wraps-rotterdam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/en/window-graphics-rotterdam/",
-        "title": "",
-        "similarity": 0.417
-      },
-      {
-        "url": "/en/facade-signage-rotterdam/",
-        "title": "",
-        "similarity": 0.38
-      }
-    ]
-  },
-  "/en/window-graphics-rotterdam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/en/vehicle-wraps-rotterdam/",
-        "title": "",
-        "similarity": 0.417
-      },
-      {
-        "url": "/en/facade-signage-rotterdam/",
-        "title": "",
-        "similarity": 0.303
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.349
       }
     ]
   },
@@ -1236,18 +1174,18 @@
     "related": [
       {
         "url": "/raamfolie-vs-etsfolie-privacy/",
-        "title": "Raamfolie vs Etsfolie Privacy — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.141
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.133
       },
       {
         "url": "/magneet-vs-statisch-folie/",
-        "title": "Magneetfolie vs Statische Folie — Welke Verwijderbare Reclame Past Bij U? | Alfa Reclame",
-        "similarity": 0.14
+        "title": "Magneetfolie vs Statische Folie — Rotterdam",
+        "similarity": 0.129
       },
       {
         "url": "/blog/raambelettering-frosted-vs-eenrichting/",
-        "title": "Raambelettering Frosted vs Eenrichtingsfolie &mdash; Welke Kies Je Wanneer?",
-        "similarity": 0.128
+        "title": "Frosted vs Eenrichtingsfolie — Welke Raamfolie Kies Je?",
+        "similarity": 0.123
       }
     ]
   },
@@ -1256,13 +1194,13 @@
     "related": [
       {
         "url": "/vraag-en-antwoord/",
-        "title": "Vraag & Antwoord — 70+ vragen over signage Rotterdam | Alfa Reclame",
-        "similarity": 0.311
+        "title": "Vraag &amp; Antwoord — 70+ Signage Vragen | Rotterdam",
+        "similarity": 0.283
       },
       {
         "url": "/diensten/",
-        "title": "",
-        "similarity": 0.175
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.146
       }
     ]
   },
@@ -1271,28 +1209,28 @@
     "related": [
       {
         "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.192
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.222
       },
       {
         "url": "/video/fleet-wrap-kosten-berekenen-mkb/",
-        "title": "[Transcript] Fleet wrap kosten berekenen voor MKB: ROI en brand-impressions | Alfa Reclame Rotterdam",
-        "similarity": 0.192
+        "title": "Fleet Wrap Kosten Berekenen MKB — ROI &amp; Impressions",
+        "similarity": 0.212
       },
       {
         "url": "/bouwbedrijf-reclame/",
-        "title": "Reclame voor Bouwbedrijven — Wagenpark, Bouwhek & Werfsignage | Alfa Reclame",
-        "similarity": 0.191
+        "title": "Reclame voor Bouwbedrijven — Wagenpark &amp; Werfsignage",
+        "similarity": 0.179
       },
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.149
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.159
       },
       {
         "url": "/partial-vs-full-body-wrap/",
-        "title": "Partial Wrap vs Full Body Wrap — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.136
+        "title": "Partial Wrap vs Full Body Wrap Rotterdam 2026",
+        "similarity": 0.152
       }
     ]
   },
@@ -1300,29 +1238,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/doosletters-vs-freesletters/",
-        "title": "Doosletters vs Freesletters — Verlicht of CNC-Gefreesd? | Alfa Reclame Rotterdam",
-        "similarity": 0.436
+        "url": "/gevelreclame-rotterdam/",
+        "title": "Gevelreclame Rotterdam — 3D &amp; Lichtbak | Alfa Reclame",
+        "similarity": 0.449
       },
       {
-        "url": "/gevelreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.41
+        "url": "/doosletters-vs-freesletters/",
+        "title": "Doosletters vs Freesletters Rotterdam — Vergelijking",
+        "similarity": 0.408
       },
       {
         "url": "/gevelplaat-vs-doosletters-gevel/",
-        "title": "Gevelplaat vs Doosletters Gevel — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.162
+        "title": "Gevelplaat vs Doosletters — Vergelijking 2026",
+        "similarity": 0.183
       },
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.133
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.116
       },
       {
         "url": "/reclameborden-rotterdam/",
-        "title": "Reclameborden Rotterdam — Bedrijfsbord, Dibond &amp; Gevelbord | Alfa Reclame",
-        "similarity": 0.112
+        "title": "Reclameborden Rotterdam — Dibond, Gevelbord &amp; Bedrijfsbord",
+        "similarity": 0.116
       }
     ]
   },
@@ -1331,28 +1269,28 @@
     "related": [
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.323
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.345
       },
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.224
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.247
       },
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.214
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.236
       },
       {
         "url": "/lichtbakken-rotterdam/",
-        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED | Alfa Reclame",
-        "similarity": 0.212
+        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED",
+        "similarity": 0.206
       },
       {
         "url": "/halo-vs-flush-mount-doosletters/",
-        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking | Alfa Reclame Rotterdam",
-        "similarity": 0.175
+        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking",
+        "similarity": 0.18
       }
     ]
   },
@@ -1361,27 +1299,27 @@
     "related": [
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.408
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.496
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.388
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.424
       },
       {
         "url": "/halo-vs-flush-mount-doosletters/",
-        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking | Alfa Reclame Rotterdam",
-        "similarity": 0.381
+        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking",
+        "similarity": 0.408
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.358
+        "similarity": 0.403
       },
       {
-        "url": "/lichtreclame-rotterdam/",
-        "title": "",
+        "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
         "similarity": 0.271
       }
     ]
@@ -1391,28 +1329,28 @@
     "related": [
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
-        "similarity": 0.298
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
+        "similarity": 0.292
       },
       {
         "url": "/gevelreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.189
+        "title": "Gevelreclame Rotterdam — 3D &amp; Lichtbak | Alfa Reclame",
+        "similarity": 0.258
       },
       {
         "url": "/gevelreclame-makelaar-rotterdam/",
         "title": "Gevelreclame voor Makelaars in Rotterdam | Alfa Reclame",
-        "similarity": 0.18
-      },
-      {
-        "url": "/doosletters-centrum-rotterdam/",
-        "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.175
+        "similarity": 0.187
       },
       {
         "url": "/freesletters-rotterdam/",
         "title": "Freesletters Rotterdam — 3D Gevelletters CNC | Alfa Reclame",
-        "similarity": 0.162
+        "similarity": 0.183
+      },
+      {
+        "url": "/doosletters-centrum-rotterdam/",
+        "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
+        "similarity": 0.17
       }
     ]
   },
@@ -1422,27 +1360,27 @@
       {
         "url": "/reclame-rotterdam-centrum/",
         "title": "Reclamebureau Rotterdam Centrum | Alfa Reclame Rotterdam",
-        "similarity": 0.481
+        "similarity": 0.474
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.464
+        "similarity": 0.457
       },
       {
         "url": "/signage-rotterdam-centrum/",
-        "title": "Signage Rotterdam Centrum — Belettering & Reclame Coolsingel | Alfa Reclame",
-        "similarity": 0.464
+        "title": "Signage Rotterdam Centrum — Belettering Coolsingel",
+        "similarity": 0.454
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.457
+        "similarity": 0.443
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.15
+        "similarity": 0.146
       }
     ]
   },
@@ -1451,23 +1389,23 @@
     "related": [
       {
         "url": "/signage-hillegersberg-rotterdam/",
-        "title": "Signage Hillegersberg Rotterdam — Bergse Dorpsstraat, Plaslaan &amp; MKB | Alfa Reclame",
-        "similarity": 0.412
+        "title": "Signage Hillegersberg Rotterdam — Bergse Dorpsstraat",
+        "similarity": 0.424
       },
       {
         "url": "/gevelreclame-kralingen-rotterdam/",
         "title": "Gevelreclame Kralingen Rotterdam | Alfa Reclame",
-        "similarity": 0.123
+        "similarity": 0.116
       },
       {
         "url": "/gevelreclame-centrum-rotterdam/",
         "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.112
+        "similarity": 0.105
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.107
+        "similarity": 0.103
       }
     ]
   },
@@ -1476,23 +1414,23 @@
     "related": [
       {
         "url": "/naamplaten-rotterdam/",
-        "title": "Naamplaten Rotterdam — RVS, Messing &amp; Acrylaat | Alfa Reclame",
-        "similarity": 0.169
+        "title": "Naamplaten Rotterdam — RVS, Messing &amp; Acrylaat",
+        "similarity": 0.168
       },
       {
         "url": "/bewegwijzering-rotterdam/",
-        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595 | Alfa Reclame",
-        "similarity": 0.134
+        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595",
+        "similarity": 0.135
       },
       {
         "url": "/gevelreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.116
+        "title": "Gevelreclame Rotterdam — 3D &amp; Lichtbak | Alfa Reclame",
+        "similarity": 0.109
       },
       {
         "url": "/lichtreclame-winkel-rotterdam/",
         "title": "Lichtreclame voor Winkels in Rotterdam | Alfa Reclame",
-        "similarity": 0.114
+        "similarity": 0.102
       }
     ]
   },
@@ -1506,23 +1444,23 @@
       },
       {
         "url": "/signage-kralingen-rotterdam/",
-        "title": "Signage Kralingen Rotterdam — Kantoren, Horeca & Lakeside | Alfa Reclame",
-        "similarity": 0.507
+        "title": "Signage Kralingen Rotterdam — Kantoren &amp; Horeca",
+        "similarity": 0.52
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.135
+        "similarity": 0.13
       },
       {
         "url": "/gevelreclame-centrum-rotterdam/",
         "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.127
+        "similarity": 0.12
       },
       {
         "url": "/gevelreclame-hillegersberg-rotterdam/",
         "title": "Gevelreclame Hillegersberg Rotterdam | Alfa Reclame",
-        "similarity": 0.123
+        "similarity": 0.116
       }
     ]
   },
@@ -1531,8 +1469,8 @@
     "related": [
       {
         "url": "/gevelplaat-vs-doosletters-gevel/",
-        "title": "Gevelplaat vs Doosletters Gevel — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.18
+        "title": "Gevelplaat vs Doosletters — Vergelijking 2026",
+        "similarity": 0.187
       },
       {
         "url": "/gevelreclame-tandarts-rotterdam/",
@@ -1547,27 +1485,37 @@
       {
         "url": "/freesletters-rotterdam/",
         "title": "Freesletters Rotterdam — 3D Gevelletters CNC | Alfa Reclame",
-        "similarity": 0.41
-      },
-      {
-        "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.24
+        "similarity": 0.449
       },
       {
         "url": "/gevelplaat-vs-doosletters-gevel/",
-        "title": "Gevelplaat vs Doosletters Gevel — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.189
+        "title": "Gevelplaat vs Doosletters — Vergelijking 2026",
+        "similarity": 0.258
+      },
+      {
+        "url": "/lichtreclame-rotterdam/",
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.231
       },
       {
         "url": "/doosletters-vs-freesletters/",
-        "title": "Doosletters vs Freesletters — Verlicht of CNC-Gefreesd? | Alfa Reclame Rotterdam",
-        "similarity": 0.178
+        "title": "Doosletters vs Freesletters Rotterdam — Vergelijking",
+        "similarity": 0.19
       },
       {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.178
+        "url": "/doosletters-vs-lichtbak/",
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
+        "similarity": 0.182
+      }
+    ]
+  },
+  "/gevelreclame-spijkenisse/": {
+    "pageLang": "nl",
+    "related": [
+      {
+        "url": "/reclamebureau-spijkenisse/",
+        "title": "Reclamebureau Spijkenisse — Voorne-Putten Signage",
+        "similarity": 0.352
       }
     ]
   },
@@ -1576,23 +1524,23 @@
     "related": [
       {
         "url": "/zorginstelling-reclame/",
-        "title": "Signage voor Zorginstellingen — Huisarts, Tandarts, Fysio, Apotheek | Alfa Reclame",
-        "similarity": 0.181
+        "title": "Signage voor Zorginstellingen Rotterdam | Alfa Reclame",
+        "similarity": 0.192
       },
       {
         "url": "/gevelplaat-vs-doosletters-gevel/",
-        "title": "Gevelplaat vs Doosletters Gevel — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.161
+        "title": "Gevelplaat vs Doosletters — Vergelijking 2026",
+        "similarity": 0.165
       },
       {
         "url": "/tandartspraktijk-reclame/",
         "title": "Reclame voor Tandartspraktijk | Alfa Reclame Rotterdam",
-        "similarity": 0.119
+        "similarity": 0.125
       },
       {
         "url": "/bewegwijzering-rotterdam/",
-        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595 | Alfa Reclame",
-        "similarity": 0.116
+        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595",
+        "similarity": 0.117
       },
       {
         "url": "/gevelreclame-makelaar-rotterdam/",
@@ -1607,27 +1555,27 @@
       {
         "url": "/doosletters-zuid-rotterdam/",
         "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.594
+        "similarity": 0.603
       },
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.505
+        "similarity": 0.518
       },
       {
         "url": "/reclame-rotterdam-zuid/",
         "title": "Reclamebureau Rotterdam Zuid | Alfa Reclame Rotterdam",
-        "similarity": 0.401
+        "similarity": 0.429
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.393
+        "similarity": 0.412
       },
       {
         "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.326
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.352
       }
     ]
   },
@@ -1636,28 +1584,28 @@
     "related": [
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.381
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.408
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.27
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.289
       },
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.216
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.232
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.213
+        "similarity": 0.212
       },
       {
-        "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.179
+        "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.197
       }
     ]
   },
@@ -1671,42 +1619,42 @@
       {
         "url": "/lichtreclame-restaurant-rotterdam/",
         "title": "Lichtreclame voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.157
+        "similarity": 0.205
       },
       {
         "url": "/raambelettering-restaurant-rotterdam/",
         "title": "Raambelettering voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.106
+        "similarity": 0.109
       }
     ]
   },
-  "/index/": {
+  "/": {
     "pageLang": "nl",
     "related": [
       {
-        "url": "/offerte/",
-        "title": "",
-        "similarity": 0.346
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.251
-      },
-      {
         "url": "/over-ons/",
-        "title": "",
-        "similarity": 0.227
+        "title": "Over Alfa Reclame — 14 Jaar Reclamebureau Rotterdam",
+        "similarity": 0.37
+      },
+      {
+        "url": "/offerte/",
+        "title": "Offerte Aanvragen Rotterdam — Transparante Prijzen",
+        "similarity": 0.338
       },
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.192
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.328
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.231
       },
       {
         "url": "/contact/",
-        "title": "",
-        "similarity": 0.152
+        "title": "Contact — Offerte Signage Rotterdam | Alfa Reclame",
+        "similarity": 0.186
       }
     ]
   },
@@ -1716,22 +1664,22 @@
       {
         "url": "/architectenbureau-reclame/",
         "title": "Reclame voor Architectenbureau | Alfa Reclame Rotterdam",
-        "similarity": 0.119
+        "similarity": 0.111
       },
       {
         "url": "/uitvaartonderneming-reclame/",
         "title": "Reclame voor Uitvaartonderneming | Alfa Reclame Rotterdam",
-        "similarity": 0.106
+        "similarity": 0.111
+      },
+      {
+        "url": "/advocatenkantoor-reclame/",
+        "title": "Reclame voor Advocatenkantoor | Alfa Reclame Rotterdam",
+        "similarity": 0.108
       },
       {
         "url": "/notariskantoor-reclame/",
         "title": "Reclame voor Notariskantoor | Alfa Reclame Rotterdam",
         "similarity": 0.103
-      },
-      {
-        "url": "/advocatenkantoor-reclame/",
-        "title": "Reclame voor Advocatenkantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.101
       }
     ]
   },
@@ -1740,48 +1688,42 @@
     "related": [
       {
         "url": "/sectorprijslijst-rotterdam-2026/",
-        "title": "Sectorprijslijst Signage Rotterdam 2026 — MKB Marktdata | Alfa Reclame",
-        "similarity": 0.234
+        "title": "Sectorprijslijst Signage Rotterdam 2026 — Marktdata",
+        "similarity": 0.235
       }
     ]
   },
   "/kies-uw-signage-partner-rotterdam/": {
     "pageLang": "nl",
-    "related": [
-      {
-        "url": "/blog/vergunning-gevelreclame-rotterdam/",
-        "title": "Vergunning Gevelreclame Rotterdam — Complete Gids 2026",
-        "similarity": 0.118
-      }
-    ]
+    "related": []
   },
   "/kosten-autoreclame-rotterdam/": {
     "pageLang": "nl",
     "related": [
       {
         "url": "/kosten-raambelettering-rotterdam/",
-        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.65
+        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.597
       },
       {
         "url": "/kosten-gevelreclame-rotterdam/",
-        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.533
+        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.491
       },
       {
         "url": "/blog/autoreclame-tco-3-jaar/",
-        "title": "Autoreclame TCO over 3 Jaar &mdash; Cast vs Calendered, Partial vs Full Wrap",
+        "title": "Autoreclame TCO: Cast vs Calendered, Partial vs Full Wrap",
         "similarity": 0.181
       },
       {
-        "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.171
+        "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.153
       },
       {
-        "url": "/video/fleet-wrap-kosten-berekenen-mkb/",
-        "title": "[Transcript] Fleet wrap kosten berekenen voor MKB: ROI en brand-impressions | Alfa Reclame Rotterdam",
-        "similarity": 0.148
+        "url": "/autoreclame-rotterdam/",
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.141
       }
     ]
   },
@@ -1790,28 +1732,28 @@
     "related": [
       {
         "url": "/kosten-raambelettering-rotterdam/",
-        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.618
+        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.603
       },
       {
         "url": "/kosten-autoreclame-rotterdam/",
-        "title": "Kosten Autoreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.533
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
+        "similarity": 0.491
       },
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.219
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.23
       },
       {
         "url": "/prijs-calculator/",
         "title": "Prijs-calculator Reclame Rotterdam | Alfa Reclame",
-        "similarity": 0.166
+        "similarity": 0.17
       },
       {
-        "url": "/gevelreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.117
+        "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.125
       }
     ]
   },
@@ -1819,29 +1761,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/kosten-autoreclame-rotterdam/",
-        "title": "Kosten Autoreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.65
-      },
-      {
         "url": "/kosten-gevelreclame-rotterdam/",
-        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.618
+        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.603
       },
       {
-        "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.168
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.155
+        "url": "/kosten-autoreclame-rotterdam/",
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
+        "similarity": 0.597
       },
       {
         "url": "/prijs-calculator/",
         "title": "Prijs-calculator Reclame Rotterdam | Alfa Reclame",
-        "similarity": 0.146
+        "similarity": 0.221
+      },
+      {
+        "url": "/video/gevelreclame-kosten-uitleg-2026/",
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.177
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.16
       }
     ]
   },
@@ -1850,37 +1792,43 @@
     "related": [
       {
         "url": "/uv-print-vs-screenprint/",
-        "title": "UV-print vs Screenprint Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.119
+        "title": "UV-print vs Screenprint Vergelijking Rotterdam 2026",
+        "similarity": 0.133
       }
     ]
   },
   "/licentie/": {
     "pageLang": "nl",
-    "related": []
+    "related": [
+      {
+        "url": "/sitemap/",
+        "title": "",
+        "similarity": 0.223
+      }
+    ]
   },
   "/lichtbakken-rotterdam/": {
     "pageLang": "nl",
     "related": [
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.239
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.289
       },
       {
         "url": "/frontlit-vs-edgelit-lichtbak/",
         "title": "Frontlit vs Edge-lit Lichtbak 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.212
+        "similarity": 0.206
       },
       {
         "url": "/lichtreclame-restaurant-rotterdam/",
         "title": "Lichtreclame voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.163
+        "similarity": 0.165
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.15
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.161
       },
       {
         "url": "/lichtreclame-winkel-rotterdam/",
@@ -1895,27 +1843,27 @@
       {
         "url": "/autoreclame-hoogvliet-rotterdam/",
         "title": "Autoreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.574
+        "similarity": 0.552
       },
       {
         "url": "/signage-hoogvliet-rotterdam/",
-        "title": "Signage Hoogvliet Rotterdam — Light Industrial & Retail | Alfa Reclame",
-        "similarity": 0.345
+        "title": "Signage Hoogvliet Rotterdam — Industrial &amp; Retail",
+        "similarity": 0.351
       },
       {
         "url": "/signage-hoogvliet/",
-        "title": "Signage Hoogvliet & Pernis | Industriële Reclame Rotterdam Haven",
-        "similarity": 0.331
+        "title": "Signage Hoogvliet &amp; Pernis — Haven Industriereclame",
+        "similarity": 0.337
       },
       {
         "url": "/lichtreclame-ijsselmonde-rotterdam/",
         "title": "Lichtreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.18
+        "similarity": 0.176
       },
       {
         "url": "/lichtreclame-prins-alexander-rotterdam/",
         "title": "Lichtreclame Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.156
+        "similarity": 0.151
       }
     ]
   },
@@ -1925,26 +1873,26 @@
       {
         "url": "/autoreclame-ijsselmonde-rotterdam/",
         "title": "Autoreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.554
-      },
-      {
-        "url": "/signage-ijsselmonde-rotterdam/",
-        "title": "Signage IJsselmonde Rotterdam — Automotive & Garage Signage | Alfa Reclame",
-        "similarity": 0.428
+        "similarity": 0.565
       },
       {
         "url": "/signage-ijsselmonde/",
-        "title": "Signage IJsselmonde Rotterdam — Beverwaard, Groene Hilledijk & Autodealer | Alfa Reclame",
-        "similarity": 0.422
+        "title": "Signage IJsselmonde Rotterdam — Beverwaard &amp; Retail",
+        "similarity": 0.506
+      },
+      {
+        "url": "/signage-ijsselmonde-rotterdam/",
+        "title": "Signage IJsselmonde Rotterdam — Automotive &amp; Garage",
+        "similarity": 0.438
       },
       {
         "url": "/lichtreclame-hoogvliet-rotterdam/",
         "title": "Lichtreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.18
+        "similarity": 0.176
       },
       {
-        "url": "/lichtreclame-prins-alexander-rotterdam/",
-        "title": "Lichtreclame Prins Alexander Rotterdam | Alfa Reclame",
+        "url": "/lichtreclame-rotterdam/",
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
         "similarity": 0.165
       }
     ]
@@ -1955,27 +1903,27 @@
       {
         "url": "/raambelettering-prins-alexander-rotterdam/",
         "title": "Raambelettering Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.74
+        "similarity": 0.758
       },
       {
         "url": "/doosletters-prins-alexander-rotterdam/",
         "title": "Doosletters Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.733
+        "similarity": 0.746
       },
       {
         "url": "/signage-prins-alexander/",
-        "title": "Signage Prins Alexander Rotterdam — Kantoorpark & Alexandrium | Alfa Reclame",
-        "similarity": 0.528
+        "title": "Signage Prins Alexander — Kantoorpark &amp; Alexandrium",
+        "similarity": 0.538
+      },
+      {
+        "url": "/lichtreclame-rotterdam/",
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.163
       },
       {
         "url": "/lichtreclame-ijsselmonde-rotterdam/",
         "title": "Lichtreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.165
-      },
-      {
-        "url": "/lichtreclame-hoogvliet-rotterdam/",
-        "title": "Lichtreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.156
+        "similarity": 0.161
       }
     ]
   },
@@ -1985,27 +1933,27 @@
       {
         "url": "/lichtreclame-winkel-rotterdam/",
         "title": "Lichtreclame voor Winkels in Rotterdam | Alfa Reclame",
-        "similarity": 0.476
+        "similarity": 0.481
       },
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.373
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.394
       },
       {
         "url": "/raambelettering-restaurant-rotterdam/",
         "title": "Raambelettering voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.304
-      },
-      {
-        "url": "/lichtbakken-rotterdam/",
-        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED | Alfa Reclame",
-        "similarity": 0.163
+        "similarity": 0.299
       },
       {
         "url": "/horecabelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.157
+        "title": "Horecabelettering Rotterdam — Raam, Gevel &amp; Menubord",
+        "similarity": 0.205
+      },
+      {
+        "url": "/lichtbakken-rotterdam/",
+        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED",
+        "similarity": 0.165
       }
     ]
   },
@@ -2015,27 +1963,27 @@
       {
         "url": "/lichtreclame-restaurant-rotterdam/",
         "title": "Lichtreclame voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.373
+        "similarity": 0.394
       },
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.343
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.384
       },
       {
         "url": "/lichtreclame-winkel-rotterdam/",
         "title": "Lichtreclame voor Winkels in Rotterdam | Alfa Reclame",
-        "similarity": 0.329
+        "similarity": 0.347
       },
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.324
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.307
       },
       {
-        "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
-        "similarity": 0.311
+        "url": "/video/doosletters-led-front-vs-halo/",
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.3
       }
     ]
   },
@@ -2045,27 +1993,27 @@
       {
         "url": "/lichtreclame-restaurant-rotterdam/",
         "title": "Lichtreclame voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.476
+        "similarity": 0.481
       },
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.329
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.347
       },
       {
         "url": "/blog/lichtreclame-kosten-rotterdam-2026/",
-        "title": "Lichtreclame Kosten Rotterdam 2026 &mdash; Lichtbak, Doosletter, Neon &amp; LED",
-        "similarity": 0.146
+        "title": "Lichtreclame Kosten Rotterdam 2026 — Lichtbak, LED",
+        "similarity": 0.144
       },
       {
         "url": "/lichtbakken-rotterdam/",
-        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED | Alfa Reclame",
+        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED",
         "similarity": 0.138
       },
       {
-        "url": "/autoreclame-schilder-rotterdam/",
-        "title": "Autoreclame voor Schilders in Rotterdam | Alfa Reclame",
-        "similarity": 0.127
+        "url": "/materialen/",
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.125
       }
     ]
   },
@@ -2074,13 +2022,13 @@
     "related": [
       {
         "url": "/etched-vs-frosted-glass/",
-        "title": "Gegraveerd Glas vs Matfolie (Frosted) — Welke Glasbehandeling Past Bij U? | Alfa Reclame",
-        "similarity": 0.14
+        "title": "Gegraveerd Glas vs Matfolie — Vergelijking Rotterdam",
+        "similarity": 0.129
       },
       {
         "url": "/magneetborden-rotterdam/",
-        "title": "Magneetborden Auto Rotterdam — Verwijderbare Magneetreclame | Alfa Reclame",
-        "similarity": 0.128
+        "title": "Magneetborden Auto Rotterdam — Verwijderbare Reclame",
+        "similarity": 0.108
       }
     ]
   },
@@ -2088,14 +2036,14 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/magneet-vs-statisch-folie/",
-        "title": "Magneetfolie vs Statische Folie — Welke Verwijderbare Reclame Past Bij U? | Alfa Reclame",
-        "similarity": 0.128
+        "url": "/vinyl-vs-magneetstickers-auto/",
+        "title": "Vinyl Carwrap vs Magneetstickers Auto — Vergelijking",
+        "similarity": 0.109
       },
       {
-        "url": "/vinyl-vs-magneetstickers-auto/",
-        "title": "Vinyl Carwrap vs Magneetstickers Auto — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.113
+        "url": "/magneet-vs-statisch-folie/",
+        "title": "Magneetfolie vs Statische Folie — Rotterdam",
+        "similarity": 0.108
       }
     ]
   },
@@ -2103,29 +2051,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/3m-vs-orafol-vinyl/",
-        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.261
-      },
-      {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.247
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.236
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.341
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.225
+        "similarity": 0.315
+      },
+      {
+        "url": "/3m-vs-orafol-vinyl/",
+        "title": "3M vs Orafol Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.308
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.302
       },
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.218
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.27
       }
     ]
   },
@@ -2135,7 +2083,7 @@
       {
         "url": "/gevelreclame-kantoor-rotterdam/",
         "title": "Gevelreclame voor Kantoren in Rotterdam | Alfa Reclame",
-        "similarity": 0.169
+        "similarity": 0.168
       }
     ]
   },
@@ -2150,12 +2098,12 @@
       {
         "url": "/uitvaartonderneming-reclame/",
         "title": "Reclame voor Uitvaartonderneming | Alfa Reclame Rotterdam",
-        "similarity": 0.184
+        "similarity": 0.188
       },
       {
         "url": "/accountantskantoor-reclame/",
         "title": "Reclame voor Accountantskantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.178
+        "similarity": 0.18
       },
       {
         "url": "/ingenieursbureau-reclame/",
@@ -2168,24 +2116,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.346
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.338
+      },
+      {
+        "url": "/contact/",
+        "title": "Contact — Offerte Signage Rotterdam | Alfa Reclame",
+        "similarity": 0.172
       },
       {
         "url": "/prijs-calculator/",
         "title": "Prijs-calculator Reclame Rotterdam | Alfa Reclame",
-        "similarity": 0.142
+        "similarity": 0.15
       },
       {
-        "url": "/contact/",
-        "title": "",
-        "similarity": 0.138
+        "url": "/cheatsheet-signage-rotterdam-2026/",
+        "title": "Gratis Signage Cheatsheet Rotterdam 2026 — PDF",
+        "similarity": 0.129
       },
       {
-        "url": "/kosten-gevelreclame-rotterdam/",
-        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.112
+        "url": "/perforated-vs-clear-window-film/",
+        "title": "Geperforeerde vs Transparante Raamfolie Rotterdam",
+        "similarity": 0.114
       }
     ]
   },
@@ -2194,8 +2147,18 @@
     "related": [
       {
         "url": "/reclamebureau-vlaardingen/",
-        "title": "",
-        "similarity": 0.125
+        "title": "Reclamebureau Vlaardingen — Marine &amp; MKB Signage",
+        "similarity": 0.162
+      },
+      {
+        "url": "/tarieven/",
+        "title": "Tarieven &amp; Prijslijst Reclame Rotterdam — Diensten",
+        "similarity": 0.144
+      },
+      {
+        "url": "/silobelettering/",
+        "title": "Silobelettering Rotterdam — tot 30 meter | Alfa Reclame",
+        "similarity": 0.101
       }
     ]
   },
@@ -2203,29 +2166,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.227
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.37
       },
       {
         "url": "/reviews/",
-        "title": "",
-        "similarity": 0.226
+        "title": "Reviews Alfa Reclame — 4.9 sterren, 25+ Google",
+        "similarity": 0.263
       },
       {
         "url": "/portfolio/",
-        "title": "",
-        "similarity": 0.138
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.131
+        "title": "Portfolio — 29 Signage Projecten Rotterdam | Alfa Reclame",
+        "similarity": 0.176
       },
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.109
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.155
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.118
       }
     ]
   },
@@ -2238,28 +2201,28 @@
     "related": [
       {
         "url": "/blog/autoreclame-tco-3-jaar/",
-        "title": "Autoreclame TCO over 3 Jaar &mdash; Cast vs Calendered, Partial vs Full Wrap",
-        "similarity": 0.336
+        "title": "Autoreclame TCO: Cast vs Calendered, Partial vs Full Wrap",
+        "similarity": 0.341
       },
       {
         "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.222
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.208
       },
       {
         "url": "/video/fleet-wrap-kosten-berekenen-mkb/",
-        "title": "[Transcript] Fleet wrap kosten berekenen voor MKB: ROI en brand-impressions | Alfa Reclame Rotterdam",
-        "similarity": 0.177
-      },
-      {
-        "url": "/video/wrap-folie-merken-3m-vs-avery/",
-        "title": "[Transcript] Wrap folie merken: 3M IJ180Cv3 vs Avery MPI 1105 vergeleken | Alfa Reclame Rotterdam",
-        "similarity": 0.162
+        "title": "Fleet Wrap Kosten Berekenen MKB — ROI &amp; Impressions",
+        "similarity": 0.176
       },
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
         "similarity": 0.16
+      },
+      {
+        "url": "/video/wrap-folie-merken-3m-vs-avery/",
+        "title": "Wrap Folie: 3M IJ180Cv3 vs Avery MPI 1105 Vergeleken",
+        "similarity": 0.157
       }
     ]
   },
@@ -2268,28 +2231,28 @@
     "related": [
       {
         "url": "/raamfolie-vs-etsfolie-privacy/",
-        "title": "Raamfolie vs Etsfolie Privacy — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.184
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.189
       },
       {
         "url": "/blog/raambelettering-frosted-vs-eenrichting/",
-        "title": "Raambelettering Frosted vs Eenrichtingsfolie &mdash; Welke Kies Je Wanneer?",
-        "similarity": 0.166
+        "title": "Frosted vs Eenrichtingsfolie — Welke Raamfolie Kies Je?",
+        "similarity": 0.183
       },
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.137
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.139
       },
       {
         "url": "/tarieven/",
-        "title": "",
-        "similarity": 0.132
+        "title": "Tarieven &amp; Prijslijst Reclame Rotterdam — Diensten",
+        "similarity": 0.134
       },
       {
-        "url": "/frontlit-vs-edgelit-lichtbak/",
-        "title": "Frontlit vs Edge-lit Lichtbak 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.114
+        "url": "/raambestickering-rotterdam/",
+        "title": "Raambestickering Rotterdam — Glasfolie &amp; Prints",
+        "similarity": 0.12
       }
     ]
   },
@@ -2299,12 +2262,12 @@
       {
         "url": "/pl/gabinet-stomatologiczny-reklama/",
         "title": "",
-        "similarity": 0.454
+        "similarity": 0.451
       },
       {
         "url": "/pl/kancelaria-adwokacka-reklama/",
         "title": "",
-        "similarity": 0.43
+        "similarity": 0.429
       },
       {
         "url": "/pl/restauracja-reklama/",
@@ -2314,12 +2277,12 @@
       {
         "url": "/pl/kancelaria-notarialna-reklama/",
         "title": "",
-        "similarity": 0.366
+        "similarity": 0.364
       },
       {
         "url": "/tr/kuafor-salonu-reklam/",
         "title": "",
-        "similarity": 0.155
+        "similarity": 0.151
       }
     ]
   },
@@ -2329,27 +2292,27 @@
       {
         "url": "/pl/kancelaria-adwokacka-reklama/",
         "title": "",
-        "similarity": 0.557
+        "similarity": 0.554
       },
       {
         "url": "/pl/fryzjer-reklama/",
         "title": "",
-        "similarity": 0.454
+        "similarity": 0.451
       },
       {
         "url": "/pl/kancelaria-notarialna-reklama/",
         "title": "",
-        "similarity": 0.431
+        "similarity": 0.425
       },
       {
         "url": "/pl/restauracja-reklama/",
         "title": "",
-        "similarity": 0.414
+        "similarity": 0.412
       },
       {
-        "url": "/tr/restoran-reklam/",
+        "url": "/sitemap/",
         "title": "",
-        "similarity": 0.135
+        "similarity": 0.139
       }
     ]
   },
@@ -2359,17 +2322,17 @@
       {
         "url": "/pl/kancelaria-notarialna-reklama/",
         "title": "",
-        "similarity": 0.572
+        "similarity": 0.568
       },
       {
         "url": "/pl/gabinet-stomatologiczny-reklama/",
         "title": "",
-        "similarity": 0.557
+        "similarity": 0.554
       },
       {
         "url": "/pl/fryzjer-reklama/",
         "title": "",
-        "similarity": 0.43
+        "similarity": 0.429
       },
       {
         "url": "/pl/restauracja-reklama/",
@@ -2379,7 +2342,7 @@
       {
         "url": "/tr/avukatlik-burosu-reklam/",
         "title": "",
-        "similarity": 0.187
+        "similarity": 0.173
       }
     ]
   },
@@ -2389,27 +2352,27 @@
       {
         "url": "/pl/kancelaria-adwokacka-reklama/",
         "title": "",
-        "similarity": 0.572
+        "similarity": 0.568
       },
       {
         "url": "/pl/gabinet-stomatologiczny-reklama/",
         "title": "",
-        "similarity": 0.431
+        "similarity": 0.425
       },
       {
         "url": "/pl/fryzjer-reklama/",
         "title": "",
-        "similarity": 0.366
+        "similarity": 0.364
       },
       {
         "url": "/pl/restauracja-reklama/",
         "title": "",
-        "similarity": 0.35
+        "similarity": 0.348
       },
       {
         "url": "/tr/restoran-reklam/",
         "title": "",
-        "similarity": 0.125
+        "similarity": 0.119
       }
     ]
   },
@@ -2419,7 +2382,7 @@
       {
         "url": "/pl/gabinet-stomatologiczny-reklama/",
         "title": "",
-        "similarity": 0.414
+        "similarity": 0.412
       },
       {
         "url": "/pl/kancelaria-adwokacka-reklama/",
@@ -2434,12 +2397,12 @@
       {
         "url": "/pl/kancelaria-notarialna-reklama/",
         "title": "",
-        "similarity": 0.35
+        "similarity": 0.348
       },
       {
         "url": "/tr/restoran-reklam/",
         "title": "",
-        "similarity": 0.179
+        "similarity": 0.171
       }
     ]
   },
@@ -2447,14 +2410,14 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/halo-vs-flush-mount-doosletters/",
-        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking | Alfa Reclame Rotterdam",
-        "similarity": 0.117
-      },
-      {
         "url": "/freesletters-rotterdam/",
         "title": "Freesletters Rotterdam — 3D Gevelletters CNC | Alfa Reclame",
-        "similarity": 0.103
+        "similarity": 0.11
+      },
+      {
+        "url": "/halo-vs-flush-mount-doosletters/",
+        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking",
+        "similarity": 0.101
       }
     ]
   },
@@ -2463,8 +2426,8 @@
     "related": [
       {
         "url": "/over-ons/",
-        "title": "",
-        "similarity": 0.138
+        "title": "Over Alfa Reclame — 14 Jaar Reclamebureau Rotterdam",
+        "similarity": 0.176
       }
     ]
   },
@@ -2472,31 +2435,35 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/kosten-gevelreclame-rotterdam/",
-        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.166
+        "url": "/kosten-raambelettering-rotterdam/",
+        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.221
       },
       {
-        "url": "/kosten-raambelettering-rotterdam/",
-        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.146
+        "url": "/kosten-gevelreclame-rotterdam/",
+        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.17
       },
       {
         "url": "/offerte/",
-        "title": "",
-        "similarity": 0.142
+        "title": "Offerte Aanvragen Rotterdam — Transparante Prijzen",
+        "similarity": 0.15
       },
       {
         "url": "/kosten-autoreclame-rotterdam/",
-        "title": "Kosten Autoreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.125
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
+        "similarity": 0.123
       },
       {
         "url": "/sectorprijslijst-rotterdam-2026/",
-        "title": "Sectorprijslijst Signage Rotterdam 2026 — MKB Marktdata | Alfa Reclame",
-        "similarity": 0.116
+        "title": "Sectorprijslijst Signage Rotterdam 2026 — Marktdata",
+        "similarity": 0.119
       }
     ]
+  },
+  "/privacybeleid/": {
+    "pageLang": "nl",
+    "related": []
   },
   "/raambelettering-bakker-rotterdam/": {
     "pageLang": "nl",
@@ -2504,12 +2471,17 @@
       {
         "url": "/raambelettering-kapsalon-rotterdam/",
         "title": "Raambelettering voor Kapsalons in Rotterdam | Alfa Reclame",
-        "similarity": 0.246
+        "similarity": 0.243
       },
       {
         "url": "/raambelettering-restaurant-rotterdam/",
         "title": "Raambelettering voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.136
+        "similarity": 0.131
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.105
       }
     ]
   },
@@ -2519,27 +2491,27 @@
       {
         "url": "/gevelreclame-centrum-rotterdam/",
         "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.457
+        "similarity": 0.443
       },
       {
         "url": "/reclame-rotterdam-centrum/",
         "title": "Reclamebureau Rotterdam Centrum | Alfa Reclame Rotterdam",
-        "similarity": 0.409
+        "similarity": 0.412
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.367
+        "similarity": 0.354
       },
       {
         "url": "/signage-rotterdam-centrum/",
-        "title": "Signage Rotterdam Centrum — Belettering & Reclame Coolsingel | Alfa Reclame",
-        "similarity": 0.343
+        "title": "Signage Rotterdam Centrum — Belettering Coolsingel",
+        "similarity": 0.333
       },
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.183
+        "similarity": 0.173
       }
     ]
   },
@@ -2548,23 +2520,23 @@
     "related": [
       {
         "url": "/bewegwijzering-rotterdam/",
-        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595 | Alfa Reclame",
-        "similarity": 0.277
+        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595",
+        "similarity": 0.288
       },
       {
         "url": "/raamfolie-vs-etsfolie-privacy/",
-        "title": "Raamfolie vs Etsfolie Privacy — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.171
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.168
       },
       {
         "url": "/zorginstelling-reclame/",
-        "title": "Signage voor Zorginstellingen — Huisarts, Tandarts, Fysio, Apotheek | Alfa Reclame",
-        "similarity": 0.12
+        "title": "Signage voor Zorginstellingen Rotterdam | Alfa Reclame",
+        "similarity": 0.134
       },
       {
-        "url": "/zandstraalfolie-rotterdam/",
-        "title": "Zandstraalfolie Rotterdam — Privacy &amp; Decoratief Etsfolie | Alfa Reclame",
-        "similarity": 0.102
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.109
       }
     ]
   },
@@ -2574,22 +2546,22 @@
       {
         "url": "/raambelettering-restaurant-rotterdam/",
         "title": "Raambelettering voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.361
+        "similarity": 0.359
       },
       {
         "url": "/raambelettering-bakker-rotterdam/",
         "title": "Raambelettering voor Bakkerijen in Rotterdam | Alfa Reclame",
-        "similarity": 0.246
+        "similarity": 0.243
       },
       {
         "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.128
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.146
       },
       {
         "url": "/raambelettering-schoonheidssalon-rotterdam/",
-        "title": "Raambelettering voor Schoonheidssalons in Rotterdam | Alfa Reclame",
-        "similarity": 0.108
+        "title": "Raambelettering voor Schoonheidssalons Rotterdam",
+        "similarity": 0.103
       }
     ]
   },
@@ -2603,23 +2575,23 @@
       },
       {
         "url": "/signage-kralingen-rotterdam/",
-        "title": "Signage Kralingen Rotterdam — Kantoren, Horeca & Lakeside | Alfa Reclame",
-        "similarity": 0.412
-      },
-      {
-        "url": "/raambelettering-zuid-rotterdam/",
-        "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.17
+        "title": "Signage Kralingen Rotterdam — Kantoren &amp; Horeca",
+        "similarity": 0.41
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.168
+        "similarity": 0.149
       },
       {
-        "url": "/raambelettering-noord-rotterdam/",
-        "title": "Raambelettering Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.151
+        "url": "/raambelettering-zuid-rotterdam/",
+        "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
+        "similarity": 0.149
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.14
       }
     ]
   },
@@ -2629,27 +2601,27 @@
       {
         "url": "/reclame-rotterdam-noord/",
         "title": "Reclamebureau Rotterdam Noord | Alfa Reclame Rotterdam",
-        "similarity": 0.644
+        "similarity": 0.69
       },
       {
         "url": "/autoreclame-noord-rotterdam/",
         "title": "Autoreclame Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.606
+        "similarity": 0.618
       },
       {
         "url": "/bestickering-noord-rotterdam/",
         "title": "Bestickering Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.453
+        "similarity": 0.467
       },
       {
         "url": "/signage-rotterdam-noord/",
-        "title": "Signage Rotterdam Noord — Kantoorbestickering & Horecabelettering Bergweg | Alfa Reclame",
-        "similarity": 0.312
+        "title": "Signage Rotterdam Noord — Kantoor &amp; Horecabelettering",
+        "similarity": 0.333
       },
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.177
+        "similarity": 0.15
       }
     ]
   },
@@ -2659,27 +2631,27 @@
       {
         "url": "/doosletters-prins-alexander-rotterdam/",
         "title": "Doosletters Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.764
+        "similarity": 0.775
       },
       {
         "url": "/lichtreclame-prins-alexander-rotterdam/",
         "title": "Lichtreclame Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.74
+        "similarity": 0.758
       },
       {
         "url": "/signage-prins-alexander/",
-        "title": "Signage Prins Alexander Rotterdam — Kantoorpark & Alexandrium | Alfa Reclame",
-        "similarity": 0.565
-      },
-      {
-        "url": "/raambelettering-zuid-rotterdam/",
-        "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.145
+        "title": "Signage Prins Alexander — Kantoorpark &amp; Alexandrium",
+        "similarity": 0.567
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.143
+        "similarity": 0.127
+      },
+      {
+        "url": "/raambelettering-zuid-rotterdam/",
+        "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
+        "similarity": 0.126
       }
     ]
   },
@@ -2689,27 +2661,27 @@
       {
         "url": "/raambelettering-kapsalon-rotterdam/",
         "title": "Raambelettering voor Kapsalons in Rotterdam | Alfa Reclame",
-        "similarity": 0.361
+        "similarity": 0.359
       },
       {
         "url": "/lichtreclame-restaurant-rotterdam/",
         "title": "Lichtreclame voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.304
+        "similarity": 0.299
+      },
+      {
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.135
       },
       {
         "url": "/raambelettering-bakker-rotterdam/",
         "title": "Raambelettering voor Bakkerijen in Rotterdam | Alfa Reclame",
-        "similarity": 0.136
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.129
+        "similarity": 0.131
       },
       {
         "url": "/raambelettering-schoonheidssalon-rotterdam/",
-        "title": "Raambelettering voor Schoonheidssalons in Rotterdam | Alfa Reclame",
-        "similarity": 0.12
+        "title": "Raambelettering voor Schoonheidssalons Rotterdam",
+        "similarity": 0.114
       }
     ]
   },
@@ -2717,29 +2689,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.264
-      },
-      {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.251
-      },
-      {
         "url": "/materialen/",
-        "title": "",
-        "similarity": 0.236
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.302
+      },
+      {
+        "url": "/autoreclame-rotterdam/",
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.286
+      },
+      {
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.231
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.216
+        "similarity": 0.214
       },
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.21
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.211
       }
     ]
   },
@@ -2747,24 +2719,24 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.139
+        "url": "/raamfolie-vs-etsfolie-privacy/",
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.137
       },
       {
-        "url": "/raamfolie-vs-etsfolie-privacy/",
-        "title": "Raamfolie vs Etsfolie Privacy — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.138
+        "url": "/raambelettering-rotterdam/",
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.135
       },
       {
         "url": "/raambelettering-restaurant-rotterdam/",
         "title": "Raambelettering voor Restaurants in Rotterdam | Alfa Reclame",
-        "similarity": 0.12
+        "similarity": 0.114
       },
       {
         "url": "/raambelettering-kapsalon-rotterdam/",
         "title": "Raambelettering voor Kapsalons in Rotterdam | Alfa Reclame",
-        "similarity": 0.108
+        "similarity": 0.103
       }
     ]
   },
@@ -2774,27 +2746,57 @@
       {
         "url": "/reclame-rotterdam-zuid/",
         "title": "Reclamebureau Rotterdam Zuid | Alfa Reclame Rotterdam",
-        "similarity": 0.532
+        "similarity": 0.556
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.53
+        "similarity": 0.539
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.505
+        "similarity": 0.518
       },
       {
         "url": "/doosletters-zuid-rotterdam/",
         "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.468
+        "similarity": 0.48
       },
       {
         "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.427
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.448
+      }
+    ]
+  },
+  "/raambestickering-rotterdam/": {
+    "pageLang": "nl",
+    "related": [
+      {
+        "url": "/bestickering-rotterdam/",
+        "title": "Bestickering Rotterdam — Vinyl &amp; Wraps | Alfa Reclame",
+        "similarity": 0.197
+      },
+      {
+        "url": "/zandstraalfolie-rotterdam/",
+        "title": "Zandstraalfolie Rotterdam — Privacy &amp; Decoratief Etsfolie",
+        "similarity": 0.188
+      },
+      {
+        "url": "/snijfolie-vs-printfolie/",
+        "title": "Snijfolie vs Printfolie — Wat Past bij Uw Project?",
+        "similarity": 0.166
+      },
+      {
+        "url": "/perforated-vs-clear-window-film/",
+        "title": "Geperforeerde vs Transparante Raamfolie Rotterdam",
+        "similarity": 0.12
+      },
+      {
+        "url": "/raamfolie-vs-etsfolie-privacy/",
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.117
       }
     ]
   },
@@ -2803,28 +2805,28 @@
     "related": [
       {
         "url": "/zandstraalfolie-rotterdam/",
-        "title": "Zandstraalfolie Rotterdam — Privacy &amp; Decoratief Etsfolie | Alfa Reclame",
-        "similarity": 0.298
+        "title": "Zandstraalfolie Rotterdam — Privacy &amp; Decoratief Etsfolie",
+        "similarity": 0.296
       },
       {
         "url": "/perforated-vs-clear-window-film/",
-        "title": "Geperforeerde vs Transparante Raamfolie | Alfa Reclame Rotterdam",
-        "similarity": 0.184
-      },
-      {
-        "url": "/raambelettering-fysiotherapeut-rotterdam/",
-        "title": "Raambelettering voor Fysiotherapie in Rotterdam | Alfa Reclame",
-        "similarity": 0.171
+        "title": "Geperforeerde vs Transparante Raamfolie Rotterdam",
+        "similarity": 0.189
       },
       {
         "url": "/blog/raambelettering-frosted-vs-eenrichting/",
-        "title": "Raambelettering Frosted vs Eenrichtingsfolie &mdash; Welke Kies Je Wanneer?",
-        "similarity": 0.149
+        "title": "Frosted vs Eenrichtingsfolie — Welke Raamfolie Kies Je?",
+        "similarity": 0.181
+      },
+      {
+        "url": "/raambelettering-fysiotherapeut-rotterdam/",
+        "title": "Raambelettering voor Fysiotherapeuten Rotterdam",
+        "similarity": 0.168
       },
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
-        "similarity": 0.145
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
+        "similarity": 0.157
       }
     ]
   },
@@ -2833,13 +2835,13 @@
     "related": [
       {
         "url": "/uv-print-vs-screenprint/",
-        "title": "UV-print vs Screenprint Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.273
+        "title": "UV-print vs Screenprint Vergelijking Rotterdam 2026",
+        "similarity": 0.27
       },
       {
         "url": "/blog/rgb-vs-cmyk-print-belettering/",
-        "title": "RGB vs CMYK in Print en Belettering — Waarom Logo Anders Oogt",
-        "similarity": 0.123
+        "title": "RGB vs CMYK Belettering — Waarom Logo Anders Oogt",
+        "similarity": 0.114
       }
     ]
   },
@@ -2849,27 +2851,27 @@
       {
         "url": "/gevelreclame-centrum-rotterdam/",
         "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.481
+        "similarity": 0.474
       },
       {
         "url": "/signage-rotterdam-centrum/",
-        "title": "Signage Rotterdam Centrum — Belettering & Reclame Coolsingel | Alfa Reclame",
-        "similarity": 0.455
+        "title": "Signage Rotterdam Centrum — Belettering Coolsingel",
+        "similarity": 0.461
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.409
+        "similarity": 0.412
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.371
+        "similarity": 0.373
       },
       {
         "url": "/reclamebureau-ridderkerk/",
-        "title": "Reclamebureau Ridderkerk — Signage, belettering &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.178
+        "title": "Reclamebureau Ridderkerk — Signage &amp; Belettering",
+        "similarity": 0.183
       }
     ]
   },
@@ -2879,26 +2881,26 @@
       {
         "url": "/raambelettering-noord-rotterdam/",
         "title": "Raambelettering Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.644
+        "similarity": 0.69
       },
       {
         "url": "/autoreclame-noord-rotterdam/",
         "title": "Autoreclame Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.471
+        "similarity": 0.504
       },
       {
         "url": "/bestickering-noord-rotterdam/",
         "title": "Bestickering Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.398
+        "similarity": 0.418
       },
       {
         "url": "/signage-rotterdam-noord/",
-        "title": "Signage Rotterdam Noord — Kantoorbestickering & Horecabelettering Bergweg | Alfa Reclame",
-        "similarity": 0.327
+        "title": "Signage Rotterdam Noord — Kantoor &amp; Horecabelettering",
+        "similarity": 0.353
       },
       {
-        "url": "/reclame-rotterdam-zuid/",
-        "title": "Reclamebureau Rotterdam Zuid | Alfa Reclame Rotterdam",
+        "url": "/reclamebureau-rotterdam/",
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
         "similarity": 0.142
       }
     ]
@@ -2909,27 +2911,27 @@
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.532
+        "similarity": 0.556
+      },
+      {
+        "url": "/signage-rotterdam-zuid/",
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.441
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.417
-      },
-      {
-        "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.412
+        "similarity": 0.434
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.401
+        "similarity": 0.429
       },
       {
         "url": "/doosletters-zuid-rotterdam/",
         "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.387
+        "similarity": 0.406
       }
     ]
   },
@@ -2938,18 +2940,18 @@
     "related": [
       {
         "url": "/stoepborden-rotterdam/",
-        "title": "Stoepborden Rotterdam — A-bord &amp; Sandwichbord | Alfa Reclame",
-        "similarity": 0.124
+        "title": "Stoepborden Rotterdam — A-bord &amp; Sandwichbord",
+        "similarity": 0.118
       },
       {
         "url": "/freesletters-rotterdam/",
         "title": "Freesletters Rotterdam — 3D Gevelletters CNC | Alfa Reclame",
-        "similarity": 0.112
+        "similarity": 0.116
       },
       {
         "url": "/uv-print-vs-screenprint/",
-        "title": "UV-print vs Screenprint Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.1
+        "title": "UV-print vs Screenprint Vergelijking Rotterdam 2026",
+        "similarity": 0.101
       }
     ]
   },
@@ -2958,18 +2960,28 @@
     "related": [
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.138
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.167
+      },
+      {
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.111
+      },
+      {
+        "url": "/diensten/",
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.108
       },
       {
         "url": "/reclamebureau-schiedam/",
-        "title": "",
-        "similarity": 0.117
+        "title": "Reclamebureau Schiedam — Signage &amp; Belettering",
+        "similarity": 0.107
       },
       {
         "url": "/reclamebureau-ridderkerk/",
-        "title": "Reclamebureau Ridderkerk — Signage, belettering &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.115
+        "title": "Reclamebureau Ridderkerk — Signage &amp; Belettering",
+        "similarity": 0.105
       }
     ]
   },
@@ -2978,8 +2990,13 @@
     "related": [
       {
         "url": "/reclamebureau-krimpen-aan-den-ijssel/",
-        "title": "Reclamebureau Krimpen aan den IJssel — Signage &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.301
+        "title": "Reclamebureau Krimpen aan den IJssel — Signage",
+        "similarity": 0.328
+      },
+      {
+        "url": "/reclamebureau-rotterdam/",
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.123
       }
     ]
   },
@@ -2988,18 +3005,13 @@
     "related": [
       {
         "url": "/reclamebureau-capelle-aan-den-ijssel/",
-        "title": "",
-        "similarity": 0.301
+        "title": "Reclamebureau Capelle aan den IJssel — MKB Signage",
+        "similarity": 0.328
       },
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.105
-      },
-      {
-        "url": "/reclamebureau-schiedam/",
-        "title": "",
-        "similarity": 0.105
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.129
       }
     ]
   },
@@ -3009,27 +3021,27 @@
       {
         "url": "/reclame-rotterdam-centrum/",
         "title": "Reclamebureau Rotterdam Centrum | Alfa Reclame Rotterdam",
-        "similarity": 0.178
+        "similarity": 0.183
+      },
+      {
+        "url": "/reclamebureau-rotterdam/",
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.144
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.147
+        "similarity": 0.139
       },
       {
         "url": "/gevelreclame-centrum-rotterdam/",
         "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.144
+        "similarity": 0.136
       },
       {
-        "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.117
-      },
-      {
-        "url": "/reclamebureau-barendrecht/",
-        "title": "Reclamebureau Barendrecht — Signage, belettering &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.115
+        "url": "/doosletters-centrum-rotterdam/",
+        "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
+        "similarity": 0.107
       }
     ]
   },
@@ -3037,29 +3049,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/diensten/",
-        "title": "",
-        "similarity": 0.207
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.328
       },
       {
-        "url": "/index/",
-        "title": "",
-        "similarity": 0.192
+        "url": "/diensten/",
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.259
       },
       {
         "url": "/reclamebureau-vlaardingen/",
-        "title": "",
-        "similarity": 0.186
-      },
-      {
-        "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.145
+        "title": "Reclamebureau Vlaardingen — Marine &amp; MKB Signage",
+        "similarity": 0.197
       },
       {
         "url": "/reclamebureau-schiedam/",
-        "title": "",
-        "similarity": 0.143
+        "title": "Reclamebureau Schiedam — Signage &amp; Belettering",
+        "similarity": 0.181
+      },
+      {
+        "url": "/reclamebureau-barendrecht/",
+        "title": "Reclamebureau Barendrecht — Signage &amp; Belettering",
+        "similarity": 0.167
       }
     ]
   },
@@ -3068,28 +3080,23 @@
     "related": [
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.143
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.181
       },
       {
-        "url": "/reclamebureau-barendrecht/",
-        "title": "Reclamebureau Barendrecht — Signage, belettering &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.117
-      },
-      {
-        "url": "/signage-overschie-rotterdam/",
-        "title": "Signage Overschie Rotterdam — Spaanse Polder, Schieoevers &amp; MKB | Alfa Reclame",
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
         "similarity": 0.11
       },
       {
-        "url": "/reclamebureau-ridderkerk/",
-        "title": "Reclamebureau Ridderkerk — Signage, belettering &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.106
+        "url": "/reclamebureau-barendrecht/",
+        "title": "Reclamebureau Barendrecht — Signage &amp; Belettering",
+        "similarity": 0.107
       },
       {
-        "url": "/reclamebureau-krimpen-aan-den-ijssel/",
-        "title": "Reclamebureau Krimpen aan den IJssel — Signage &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.105
+        "url": "/diensten/",
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.106
       }
     ]
   },
@@ -3097,9 +3104,19 @@
     "pageLang": "nl",
     "related": [
       {
+        "url": "/gevelreclame-spijkenisse/",
+        "title": "Gevelreclame Spijkenisse — Nissewaard Belettering",
+        "similarity": 0.352
+      },
+      {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.127
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.166
+      },
+      {
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.101
       }
     ]
   },
@@ -3108,13 +3125,13 @@
     "related": [
       {
         "url": "/reclamebureau-rotterdam/",
-        "title": "",
-        "similarity": 0.186
+        "title": "Reclamebureau Rotterdam — Signage voor MKB | Alfa Reclame",
+        "similarity": 0.197
       },
       {
         "url": "/offshore-belettering/",
-        "title": "",
-        "similarity": 0.125
+        "title": "Offshore belettering Rotterdam — haven | Alfa Reclame",
+        "similarity": 0.162
       }
     ]
   },
@@ -3123,8 +3140,8 @@
     "related": [
       {
         "url": "/signage-hoogvliet-rotterdam/",
-        "title": "Signage Hoogvliet Rotterdam — Light Industrial & Retail | Alfa Reclame",
-        "similarity": 0.144
+        "title": "Signage Hoogvliet Rotterdam — Industrial &amp; Retail",
+        "similarity": 0.133
       }
     ]
   },
@@ -3133,8 +3150,8 @@
     "related": [
       {
         "url": "/over-ons/",
-        "title": "",
-        "similarity": 0.226
+        "title": "Over Alfa Reclame — 14 Jaar Reclamebureau Rotterdam",
+        "similarity": 0.263
       }
     ]
   },
@@ -3144,17 +3161,17 @@
       {
         "url": "/kennisbank-rotterdam-signage/",
         "title": "Kennisbank Rotterdam Signage 2026 | Alfa Reclame",
-        "similarity": 0.234
+        "similarity": 0.235
       },
       {
         "url": "/prijs-calculator/",
         "title": "Prijs-calculator Reclame Rotterdam | Alfa Reclame",
-        "similarity": 0.116
+        "similarity": 0.119
       },
       {
         "url": "/cheatsheet-signage-rotterdam-2026/",
-        "title": "",
-        "similarity": 0.105
+        "title": "Gratis Signage Cheatsheet Rotterdam 2026 — PDF",
+        "similarity": 0.111
       }
     ]
   },
@@ -3168,17 +3185,17 @@
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.262
+        "similarity": 0.267
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.166
+        "similarity": 0.168
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.112
+        "similarity": 0.115
       }
     ]
   },
@@ -3188,12 +3205,7 @@
       {
         "url": "/gevelreclame-hillegersberg-rotterdam/",
         "title": "Gevelreclame Hillegersberg Rotterdam | Alfa Reclame",
-        "similarity": 0.412
-      },
-      {
-        "url": "/autoreclame-schilder-rotterdam/",
-        "title": "Autoreclame voor Schilders in Rotterdam | Alfa Reclame",
-        "similarity": 0.102
+        "similarity": 0.424
       }
     ]
   },
@@ -3203,17 +3215,17 @@
       {
         "url": "/autoreclame-hoogvliet-rotterdam/",
         "title": "Autoreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.379
+        "similarity": 0.372
       },
       {
         "url": "/lichtreclame-hoogvliet-rotterdam/",
         "title": "Lichtreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.331
+        "similarity": 0.337
       },
       {
         "url": "/signage-hoogvliet-rotterdam/",
-        "title": "Signage Hoogvliet Rotterdam — Light Industrial & Retail | Alfa Reclame",
-        "similarity": 0.229
+        "title": "Signage Hoogvliet Rotterdam — Industrial &amp; Retail",
+        "similarity": 0.231
       }
     ]
   },
@@ -3223,22 +3235,22 @@
       {
         "url": "/autoreclame-hoogvliet-rotterdam/",
         "title": "Autoreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.382
+        "similarity": 0.366
       },
       {
         "url": "/lichtreclame-hoogvliet-rotterdam/",
         "title": "Lichtreclame Hoogvliet Rotterdam | Alfa Reclame",
-        "similarity": 0.345
+        "similarity": 0.351
       },
       {
         "url": "/signage-hoogvliet/",
-        "title": "Signage Hoogvliet & Pernis | Industriële Reclame Rotterdam Haven",
-        "similarity": 0.229
+        "title": "Signage Hoogvliet &amp; Pernis — Haven Industriereclame",
+        "similarity": 0.231
       },
       {
         "url": "/retailreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.144
+        "title": "Retailreclame Rotterdam — Etalage &amp; Gevel",
+        "similarity": 0.133
       }
     ]
   },
@@ -3246,24 +3258,24 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/autoreclame-ijsselmonde-rotterdam/",
-        "title": "Autoreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.422
-      },
-      {
         "url": "/lichtreclame-ijsselmonde-rotterdam/",
         "title": "Lichtreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.422
+        "similarity": 0.506
+      },
+      {
+        "url": "/autoreclame-ijsselmonde-rotterdam/",
+        "title": "Autoreclame IJsselmonde Rotterdam | Alfa Reclame",
+        "similarity": 0.499
       },
       {
         "url": "/signage-ijsselmonde-rotterdam/",
-        "title": "Signage IJsselmonde Rotterdam — Automotive & Garage Signage | Alfa Reclame",
-        "similarity": 0.356
+        "title": "Signage IJsselmonde Rotterdam — Automotive &amp; Garage",
+        "similarity": 0.416
       },
       {
         "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.153
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.183
       }
     ]
   },
@@ -3273,22 +3285,22 @@
       {
         "url": "/lichtreclame-ijsselmonde-rotterdam/",
         "title": "Lichtreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.428
+        "similarity": 0.438
       },
       {
         "url": "/autoreclame-ijsselmonde-rotterdam/",
         "title": "Autoreclame IJsselmonde Rotterdam | Alfa Reclame",
-        "similarity": 0.414
+        "similarity": 0.419
       },
       {
         "url": "/signage-ijsselmonde/",
-        "title": "Signage IJsselmonde Rotterdam — Beverwaard, Groene Hilledijk & Autodealer | Alfa Reclame",
-        "similarity": 0.356
+        "title": "Signage IJsselmonde Rotterdam — Beverwaard &amp; Retail",
+        "similarity": 0.416
       },
       {
         "url": "/signage-rotterdam-zuid/",
-        "title": "Signage Rotterdam Zuid — Retail, Autoreclame & Buurtwinkel | Alfa Reclame",
-        "similarity": 0.128
+        "title": "Signage Rotterdam Zuid — Retail &amp; Autoreclame",
+        "similarity": 0.127
       }
     ]
   },
@@ -3298,17 +3310,17 @@
       {
         "url": "/gevelreclame-kralingen-rotterdam/",
         "title": "Gevelreclame Kralingen Rotterdam | Alfa Reclame",
-        "similarity": 0.507
+        "similarity": 0.52
       },
       {
         "url": "/raambelettering-kralingen-rotterdam/",
         "title": "Raambelettering Kralingen Rotterdam | Alfa Reclame",
-        "similarity": 0.412
+        "similarity": 0.41
       },
       {
         "url": "/signage-rotterdam-noord/",
-        "title": "Signage Rotterdam Noord — Kantoorbestickering & Horecabelettering Bergweg | Alfa Reclame",
-        "similarity": 0.12
+        "title": "Signage Rotterdam Noord — Kantoor &amp; Horecabelettering",
+        "similarity": 0.11
       }
     ]
   },
@@ -3318,12 +3330,7 @@
       {
         "url": "/autoreclame-noord-rotterdam/",
         "title": "Autoreclame Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.248
-      },
-      {
-        "url": "/reclamebureau-schiedam/",
-        "title": "",
-        "similarity": 0.11
+        "similarity": 0.253
       }
     ]
   },
@@ -3333,17 +3340,17 @@
       {
         "url": "/raambelettering-prins-alexander-rotterdam/",
         "title": "Raambelettering Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.565
+        "similarity": 0.567
       },
       {
         "url": "/doosletters-prins-alexander-rotterdam/",
         "title": "Doosletters Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.556
+        "similarity": 0.56
       },
       {
         "url": "/lichtreclame-prins-alexander-rotterdam/",
         "title": "Lichtreclame Prins Alexander Rotterdam | Alfa Reclame",
-        "similarity": 0.528
+        "similarity": 0.538
       }
     ]
   },
@@ -3351,29 +3358,24 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/gevelreclame-centrum-rotterdam/",
-        "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.464
-      },
-      {
         "url": "/reclame-rotterdam-centrum/",
         "title": "Reclamebureau Rotterdam Centrum | Alfa Reclame Rotterdam",
-        "similarity": 0.455
+        "similarity": 0.461
+      },
+      {
+        "url": "/gevelreclame-centrum-rotterdam/",
+        "title": "Gevelreclame Rotterdam Centrum | Alfa Reclame",
+        "similarity": 0.454
       },
       {
         "url": "/raambelettering-centrum-rotterdam/",
         "title": "Raambelettering Centrum Rotterdam | Alfa Reclame",
-        "similarity": 0.343
+        "similarity": 0.333
       },
       {
         "url": "/doosletters-centrum-rotterdam/",
         "title": "Doosletters Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.337
-      },
-      {
-        "url": "/reclamebureau-ridderkerk/",
-        "title": "Reclamebureau Ridderkerk — Signage, belettering &amp; lichtreclame | Alfa Reclame",
-        "similarity": 0.11
+        "similarity": 0.327
       }
     ]
   },
@@ -3383,27 +3385,27 @@
       {
         "url": "/reclame-rotterdam-noord/",
         "title": "Reclamebureau Rotterdam Noord | Alfa Reclame Rotterdam",
-        "similarity": 0.327
+        "similarity": 0.353
       },
       {
         "url": "/raambelettering-noord-rotterdam/",
         "title": "Raambelettering Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.312
+        "similarity": 0.333
       },
       {
         "url": "/autoreclame-noord-rotterdam/",
         "title": "Autoreclame Noord Rotterdam | Alfa Reclame",
-        "similarity": 0.301
+        "similarity": 0.32
       },
       {
         "url": "/bestickering-noord-rotterdam/",
         "title": "Bestickering Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.238
+        "similarity": 0.255
       },
       {
         "url": "/signage-kralingen-rotterdam/",
-        "title": "Signage Kralingen Rotterdam — Kantoren, Horeca & Lakeside | Alfa Reclame",
-        "similarity": 0.12
+        "title": "Signage Kralingen Rotterdam — Kantoren &amp; Horeca",
+        "similarity": 0.11
       }
     ]
   },
@@ -3413,27 +3415,27 @@
       {
         "url": "/raambelettering-zuid-rotterdam/",
         "title": "Raambelettering Zuid Rotterdam | Alfa Reclame",
-        "similarity": 0.427
+        "similarity": 0.448
       },
       {
         "url": "/reclame-rotterdam-zuid/",
         "title": "Reclamebureau Rotterdam Zuid | Alfa Reclame Rotterdam",
-        "similarity": 0.412
+        "similarity": 0.441
       },
       {
         "url": "/autoreclame-zuid-rotterdam/",
         "title": "Autoreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.361
-      },
-      {
-        "url": "/doosletters-zuid-rotterdam/",
-        "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.329
+        "similarity": 0.374
       },
       {
         "url": "/gevelreclame-zuid-rotterdam/",
         "title": "Gevelreclame Rotterdam Zuid | Alfa Reclame",
-        "similarity": 0.326
+        "similarity": 0.352
+      },
+      {
+        "url": "/doosletters-zuid-rotterdam/",
+        "title": "Doosletters Rotterdam Zuid | Alfa Reclame",
+        "similarity": 0.349
       }
     ]
   },
@@ -3442,28 +3444,53 @@
     "related": [
       {
         "url": "/video/silobelettering-installatie-werkwijze/",
-        "title": "[Transcript] Silobelettering installatie werkwijze: werken op hoogte | Alfa Reclame Rotterdam",
-        "similarity": 0.242
+        "title": "Silobelettering Installatie Werkwijze — Werken op Hoogte",
+        "similarity": 0.275
       },
       {
         "url": "/raambelettering-rotterdam/",
-        "title": "",
-        "similarity": 0.154
-      },
-      {
-        "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.12
-      },
-      {
-        "url": "/3m-vs-hexis-vinyl/",
-        "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.109
+        "title": "Raambelettering Rotterdam — vanaf €149 | Alfa Reclame",
+        "similarity": 0.127
       },
       {
         "url": "/materialen/",
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.112
+      },
+      {
+        "url": "/offshore-belettering/",
+        "title": "Offshore belettering Rotterdam — haven | Alfa Reclame",
+        "similarity": 0.101
+      }
+    ]
+  },
+  "/sitemap/": {
+    "pageLang": "nl",
+    "related": [
+      {
+        "url": "/licentie/",
+        "title": "Beeldlicentie | Alfa Reclame Rotterdam",
+        "similarity": 0.223
+      },
+      {
+        "url": "/pl/kancelaria-adwokacka-reklama/",
         "title": "",
-        "similarity": 0.104
+        "similarity": 0.141
+      },
+      {
+        "url": "/pl/gabinet-stomatologiczny-reklama/",
+        "title": "",
+        "similarity": 0.139
+      },
+      {
+        "url": "/pl/restauracja-reklama/",
+        "title": "",
+        "similarity": 0.119
+      },
+      {
+        "url": "/pl/fryzjer-reklama/",
+        "title": "",
+        "similarity": 0.115
       }
     ]
   },
@@ -3471,14 +3498,29 @@
     "pageLang": "nl",
     "related": [
       {
+        "url": "/autobelettering-rotterdam/",
+        "title": "Autobelettering Rotterdam — Logo &amp; Tekst op Auto",
+        "similarity": 0.171
+      },
+      {
+        "url": "/raambestickering-rotterdam/",
+        "title": "Raambestickering Rotterdam — Glasfolie &amp; Prints",
+        "similarity": 0.166
+      },
+      {
         "url": "/vinyl-vs-verf-gevel/",
-        "title": "Vinyl Belettering vs Verf op Gevel — Welke Kiest u Wanneer? | Alfa Reclame",
-        "similarity": 0.128
+        "title": "Vinyl Belettering vs Verf op Gevel — Welke Kiest u?",
+        "similarity": 0.141
       },
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.121
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.127
+      },
+      {
+        "url": "/cast-vs-calendered-vinyl/",
+        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing &amp; Keuze",
+        "similarity": 0.102
       }
     ]
   },
@@ -3487,18 +3529,18 @@
     "related": [
       {
         "url": "/blog/spandoeken-prijzen-rotterdam-2026/",
-        "title": "Spandoeken Prijzen Rotterdam 2026 &mdash; Frontlit, Blockout &amp; Mesh per m&sup2;",
-        "similarity": 0.478
+        "title": "Spandoeken Prijzen Rotterdam 2026 — Frontlit &amp; Mesh",
+        "similarity": 0.497
       },
       {
         "url": "/vlaggen-vs-spandoeken/",
-        "title": "Vlaggen vs Spandoeken — Welke Buitenreclame Past Bij Uw Actie? | Alfa Reclame Rotterdam",
-        "similarity": 0.248
+        "title": "Vlaggen vs Spandoeken — Buitenreclame Rotterdam",
+        "similarity": 0.258
       },
       {
         "url": "/lichtbakken-rotterdam/",
-        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED | Alfa Reclame",
-        "similarity": 0.109
+        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED",
+        "similarity": 0.107
       }
     ]
   },
@@ -3507,13 +3549,13 @@
     "related": [
       {
         "url": "/reclameborden-rotterdam/",
-        "title": "Reclameborden Rotterdam — Bedrijfsbord, Dibond &amp; Gevelbord | Alfa Reclame",
-        "similarity": 0.124
+        "title": "Reclameborden Rotterdam — Dibond, Gevelbord &amp; Bedrijfsbord",
+        "similarity": 0.118
       },
       {
         "url": "/lichtbakken-rotterdam/",
-        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED | Alfa Reclame",
-        "similarity": 0.105
+        "title": "Lichtbakken Rotterdam — Frontlit &amp; Backlit LED",
+        "similarity": 0.101
       }
     ]
   },
@@ -3521,24 +3563,24 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/accountantskantoor-reclame/",
-        "title": "Reclame voor Accountantskantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.132
-      },
-      {
         "url": "/gevelreclame-tandarts-rotterdam/",
         "title": "Gevelreclame voor Tandartsen in Rotterdam | Alfa Reclame",
-        "similarity": 0.119
+        "similarity": 0.125
+      },
+      {
+        "url": "/accountantskantoor-reclame/",
+        "title": "Reclame voor Accountantskantoor | Alfa Reclame Rotterdam",
+        "similarity": 0.107
+      },
+      {
+        "url": "/zorginstelling-reclame/",
+        "title": "Signage voor Zorginstellingen Rotterdam | Alfa Reclame",
+        "similarity": 0.107
       },
       {
         "url": "/advocatenkantoor-reclame/",
         "title": "Reclame voor Advocatenkantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.112
-      },
-      {
-        "url": "/zorginstelling-reclame/",
-        "title": "Signage voor Zorginstellingen — Huisarts, Tandarts, Fysio, Apotheek | Alfa Reclame",
-        "similarity": 0.101
+        "similarity": 0.104
       }
     ]
   },
@@ -3546,19 +3588,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/perforated-vs-clear-window-film/",
-        "title": "Geperforeerde vs Transparante Raamfolie | Alfa Reclame Rotterdam",
-        "similarity": 0.132
+        "url": "/diensten/",
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.152
       },
       {
-        "url": "/bestickering-rotterdam/",
-        "title": "",
-        "similarity": 0.113
+        "url": "/offshore-belettering/",
+        "title": "Offshore belettering Rotterdam — haven | Alfa Reclame",
+        "similarity": 0.144
+      },
+      {
+        "url": "/perforated-vs-clear-window-film/",
+        "title": "Geperforeerde vs Transparante Raamfolie Rotterdam",
+        "similarity": 0.134
       },
       {
         "url": "/kosten-raambelettering-rotterdam/",
-        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.109
+        "title": "Kosten Raambelettering Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.117
+      },
+      {
+        "url": "/kosten-autoreclame-rotterdam/",
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
+        "similarity": 0.107
       }
     ]
   },
@@ -3568,52 +3620,27 @@
       {
         "url": "/tr/restoran-reklam/",
         "title": "",
-        "similarity": 0.423
+        "similarity": 0.454
       },
       {
         "url": "/tr/kuafor-salonu-reklam/",
         "title": "",
-        "similarity": 0.38
-      },
-      {
-        "url": "/tr/noter-burosu-reklam/",
-        "title": "",
-        "similarity": 0.374
-      },
-      {
-        "url": "/tr/dis-hekimi-reklam/",
-        "title": "",
-        "similarity": 0.215
+        "similarity": 0.408
       },
       {
         "url": "/pl/kancelaria-adwokacka-reklama/",
         "title": "",
-        "similarity": 0.187
-      }
-    ]
-  },
-  "/tr/dis-hekimi-reklam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/tr/noter-burosu-reklam/",
-        "title": "",
-        "similarity": 0.318
+        "similarity": 0.173
       },
       {
-        "url": "/tr/avukatlik-burosu-reklam/",
+        "url": "/pl/gabinet-stomatologiczny-reklama/",
         "title": "",
-        "similarity": 0.215
+        "similarity": 0.122
       },
       {
-        "url": "/tr/restoran-reklam/",
+        "url": "/pl/restauracja-reklama/",
         "title": "",
-        "similarity": 0.188
-      },
-      {
-        "url": "/tr/kuafor-salonu-reklam/",
-        "title": "",
-        "similarity": 0.145
+        "similarity": 0.113
       }
     ]
   },
@@ -3623,52 +3650,27 @@
       {
         "url": "/tr/restoran-reklam/",
         "title": "",
-        "similarity": 0.39
+        "similarity": 0.428
       },
       {
         "url": "/tr/avukatlik-burosu-reklam/",
         "title": "",
-        "similarity": 0.38
+        "similarity": 0.408
       },
       {
         "url": "/pl/fryzjer-reklama/",
         "title": "",
-        "similarity": 0.155
+        "similarity": 0.151
       },
       {
-        "url": "/tr/dis-hekimi-reklam/",
+        "url": "/pl/gabinet-stomatologiczny-reklama/",
         "title": "",
-        "similarity": 0.145
+        "similarity": 0.117
       },
       {
-        "url": "/tr/noter-burosu-reklam/",
+        "url": "/pl/kancelaria-adwokacka-reklama/",
         "title": "",
-        "similarity": 0.142
-      }
-    ]
-  },
-  "/tr/noter-burosu-reklam/": {
-    "pageLang": "nl",
-    "related": [
-      {
-        "url": "/tr/avukatlik-burosu-reklam/",
-        "title": "",
-        "similarity": 0.374
-      },
-      {
-        "url": "/tr/dis-hekimi-reklam/",
-        "title": "",
-        "similarity": 0.318
-      },
-      {
-        "url": "/tr/restoran-reklam/",
-        "title": "",
-        "similarity": 0.184
-      },
-      {
-        "url": "/tr/kuafor-salonu-reklam/",
-        "title": "",
-        "similarity": 0.142
+        "similarity": 0.114
       }
     ]
   },
@@ -3678,27 +3680,27 @@
       {
         "url": "/tr/avukatlik-burosu-reklam/",
         "title": "",
-        "similarity": 0.423
+        "similarity": 0.454
       },
       {
         "url": "/tr/kuafor-salonu-reklam/",
         "title": "",
-        "similarity": 0.39
-      },
-      {
-        "url": "/tr/dis-hekimi-reklam/",
-        "title": "",
-        "similarity": 0.188
-      },
-      {
-        "url": "/tr/noter-burosu-reklam/",
-        "title": "",
-        "similarity": 0.184
+        "similarity": 0.428
       },
       {
         "url": "/pl/restauracja-reklama/",
         "title": "",
-        "similarity": 0.179
+        "similarity": 0.171
+      },
+      {
+        "url": "/pl/gabinet-stomatologiczny-reklama/",
+        "title": "",
+        "similarity": 0.128
+      },
+      {
+        "url": "/pl/kancelaria-adwokacka-reklama/",
+        "title": "",
+        "similarity": 0.125
       }
     ]
   },
@@ -3712,22 +3714,22 @@
       {
         "url": "/advocatenkantoor-reclame/",
         "title": "Reclame voor Advocatenkantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.198
+        "similarity": 0.204
       },
       {
         "url": "/notariskantoor-reclame/",
         "title": "Reclame voor Notariskantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.184
+        "similarity": 0.188
       },
       {
         "url": "/accountantskantoor-reclame/",
         "title": "Reclame voor Accountantskantoor | Alfa Reclame Rotterdam",
-        "similarity": 0.157
+        "similarity": 0.166
       },
       {
         "url": "/ingenieursbureau-reclame/",
         "title": "Reclame voor Ingenieursbureau | Alfa Reclame Rotterdam",
-        "similarity": 0.106
+        "similarity": 0.111
       }
     ]
   },
@@ -3736,28 +3738,23 @@
     "related": [
       {
         "url": "/raster-vs-solid-print/",
-        "title": "Rasterdruk vs Solid Print — Wanneer Kies Je Welke Druktechniek? | Alfa Reclame",
-        "similarity": 0.273
+        "title": "Rasterdruk vs Solid Print — Druktechniek Vergelijking",
+        "similarity": 0.27
+      },
+      {
+        "url": "/latex-vs-eco-solvent-print/",
+        "title": "Latex vs Eco-solvent Print Vergelijking Rotterdam",
+        "similarity": 0.133
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.129
-      },
-      {
-        "url": "/latex-vs-eco-solvent-print/",
-        "title": "Latex vs Eco-solvent Printen Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.119
-      },
-      {
-        "url": "/blog/rgb-vs-cmyk-print-belettering/",
-        "title": "RGB vs CMYK in Print en Belettering — Waarom Logo Anders Oogt",
-        "similarity": 0.11
+        "similarity": 0.128
       },
       {
         "url": "/reclameborden-rotterdam/",
-        "title": "Reclameborden Rotterdam — Bedrijfsbord, Dibond &amp; Gevelbord | Alfa Reclame",
-        "similarity": 0.1
+        "title": "Reclameborden Rotterdam — Dibond, Gevelbord &amp; Bedrijfsbord",
+        "similarity": 0.101
       }
     ]
   },
@@ -3766,8 +3763,13 @@
     "related": [
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.119
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.138
+      },
+      {
+        "url": "/video/doosletters-led-front-vs-halo/",
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.1
       }
     ]
   },
@@ -3775,29 +3777,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.335
+        "url": "/video/lichtreclame-onderhoud-checklist/",
+        "title": "Lichtreclame Onderhoud Checklist — LED &amp; Modules",
+        "similarity": 0.287
       },
       {
-        "url": "/video/lichtreclame-onderhoud-checklist/",
-        "title": "[Transcript] Lichtreclame onderhoud checklist: reinigen, LED-check en modules vervangen | Alfa Reclame Rotterdam",
-        "similarity": 0.317
+        "url": "/video/gevelreclame-kosten-uitleg-2026/",
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.236
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.218
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.18
+      },
+      {
+        "url": "/blog/gevelreclame-onderhoud-checklist/",
+        "title": "Gevelreclame Onderhoud Checklist 2026 — Vinyl &amp; LED",
+        "similarity": 0.169
       },
       {
         "url": "/video/vinyl-applicatie-tutorial/",
-        "title": "[Transcript] Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.204
-      },
-      {
-        "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.188
+        "title": "Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding",
+        "similarity": 0.152
       }
     ]
   },
@@ -3806,28 +3808,28 @@
     "related": [
       {
         "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.388
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.424
       },
       {
         "url": "/frontlit-vs-edgelit-lichtbak/",
         "title": "Frontlit vs Edge-lit Lichtbak 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.323
+        "similarity": 0.345
       },
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.281
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.3
       },
       {
         "url": "/halo-vs-flush-mount-doosletters/",
-        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking | Alfa Reclame Rotterdam",
-        "similarity": 0.27
+        "title": "Halo-lit vs Flush-mount Doosletters Vergelijking",
+        "similarity": 0.289
       },
       {
         "url": "/doosletters-rotterdam/",
-        "title": "",
-        "similarity": 0.259
+        "title": "Doosletters Rotterdam — Channel Letters | Alfa Reclame",
+        "similarity": 0.282
       }
     ]
   },
@@ -3835,29 +3837,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.213
+        "url": "/fleet-wrap-rotterdam/",
+        "title": "Fleet Wrap Rotterdam — Wagenpark | Alfa Reclame",
+        "similarity": 0.212
       },
       {
-        "url": "/fleet-wrap-rotterdam/",
-        "title": "",
-        "similarity": 0.192
+        "url": "/video/gevelreclame-kosten-uitleg-2026/",
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.193
       },
       {
         "url": "/partial-vs-full-body-wrap/",
-        "title": "Partial Wrap vs Full Body Wrap — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.177
+        "title": "Partial Wrap vs Full Body Wrap Rotterdam 2026",
+        "similarity": 0.176
       },
       {
         "url": "/video/wrap-folie-merken-3m-vs-avery/",
-        "title": "[Transcript] Wrap folie merken: 3M IJ180Cv3 vs Avery MPI 1105 vergeleken | Alfa Reclame Rotterdam",
-        "similarity": 0.17
+        "title": "Wrap Folie: 3M IJ180Cv3 vs Avery MPI 1105 Vergeleken",
+        "similarity": 0.153
       },
       {
         "url": "/kosten-autoreclame-rotterdam/",
-        "title": "Kosten Autoreclame Rotterdam 2026 — Volledige uitleg | Alfa Reclame",
-        "similarity": 0.148
+        "title": "Kosten Autoreclame Rotterdam 2026 — Prijsoverzicht",
+        "similarity": 0.13
       }
     ]
   },
@@ -3865,29 +3867,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.335
-      },
-      {
         "url": "/video/vinyl-applicatie-tutorial/",
-        "title": "[Transcript] Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.261
+        "title": "Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding",
+        "similarity": 0.243
       },
       {
-        "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.247
+        "url": "/video/autoreclame-care-handleiding/",
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.236
+      },
+      {
+        "url": "/kosten-gevelreclame-rotterdam/",
+        "title": "Kosten Gevelreclame Rotterdam 2026 — Volledige uitleg",
+        "similarity": 0.23
       },
       {
         "url": "/video/silobelettering-installatie-werkwijze/",
-        "title": "[Transcript] Silobelettering installatie werkwijze: werken op hoogte | Alfa Reclame Rotterdam",
-        "similarity": 0.239
+        "title": "Silobelettering Installatie Werkwijze — Werken op Hoogte",
+        "similarity": 0.214
       },
       {
         "url": "/video/vergunning-aanvragen-rotterdam-stappen/",
-        "title": "[Transcript] Omgevingsvergunning reclame Rotterdam aanvragen: stap-voor-stap handleiding 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.227
+        "title": "Omgevingsvergunning Reclame Rotterdam Aanvragen 2026",
+        "similarity": 0.21
       }
     ]
   },
@@ -3896,28 +3898,28 @@
     "related": [
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.195
-      },
-      {
-        "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.18
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.158
       },
       {
         "url": "/video/vinyl-applicatie-tutorial/",
-        "title": "[Transcript] Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.145
+        "title": "Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding",
+        "similarity": 0.146
+      },
+      {
+        "url": "/video/autoreclame-care-handleiding/",
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.131
       },
       {
         "url": "/video/lichtreclame-onderhoud-checklist/",
-        "title": "[Transcript] Lichtreclame onderhoud checklist: reinigen, LED-check en modules vervangen | Alfa Reclame Rotterdam",
-        "similarity": 0.128
+        "title": "Lichtreclame Onderhoud Checklist — LED &amp; Modules",
+        "similarity": 0.121
       },
       {
         "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.109
+        "title": "Raambelettering Frosted Folie Installeren — Handleiding",
+        "similarity": 0.108
       }
     ]
   },
@@ -3926,28 +3928,28 @@
     "related": [
       {
         "url": "/blog/gevelreclame-onderhoud-checklist/",
-        "title": "Gevelreclame Onderhoud Checklist 2026 &mdash; Schoonmaken, Controleren, Vervangen",
-        "similarity": 0.433
+        "title": "Gevelreclame Onderhoud Checklist 2026 — Vinyl &amp; LED",
+        "similarity": 0.478
       },
       {
         "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.317
-      },
-      {
-        "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.209
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.287
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.205
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.202
+      },
+      {
+        "url": "/video/gevelreclame-kosten-uitleg-2026/",
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.184
       },
       {
         "url": "/lichtreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.151
+        "title": "Lichtreclame Rotterdam — LED &amp; Doosletters",
+        "similarity": 0.178
       }
     ]
   },
@@ -3956,28 +3958,28 @@
     "related": [
       {
         "url": "/video/vinyl-applicatie-tutorial/",
-        "title": "[Transcript] Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.447
+        "title": "Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding",
+        "similarity": 0.384
       },
       {
         "url": "/video/vergunning-aanvragen-rotterdam-stappen/",
-        "title": "[Transcript] Omgevingsvergunning reclame Rotterdam aanvragen: stap-voor-stap handleiding 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.407
+        "title": "Omgevingsvergunning Reclame Rotterdam Aanvragen 2026",
+        "similarity": 0.322
       },
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.247
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.206
+      },
+      {
+        "url": "/blog/raambelettering-frosted-vs-eenrichting/",
+        "title": "Frosted vs Eenrichtingsfolie — Welke Raamfolie Kies Je?",
+        "similarity": 0.176
       },
       {
         "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.188
-      },
-      {
-        "url": "/video/silobelettering-installatie-werkwijze/",
-        "title": "[Transcript] Silobelettering installatie werkwijze: werken op hoogte | Alfa Reclame Rotterdam",
-        "similarity": 0.177
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.14
       }
     ]
   },
@@ -3986,28 +3988,28 @@
     "related": [
       {
         "url": "/silobelettering/",
-        "title": "",
-        "similarity": 0.242
+        "title": "Silobelettering Rotterdam — tot 30 meter | Alfa Reclame",
+        "similarity": 0.275
       },
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.239
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.214
       },
       {
-        "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.177
-      },
-      {
-        "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.154
+        "url": "/blog/doosletters-installatie-stappen/",
+        "title": "Doosletters Installatie: Survey, Vergunning &amp; Montage",
+        "similarity": 0.134
       },
       {
         "url": "/video/vinyl-applicatie-tutorial/",
-        "title": "[Transcript] Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.142
+        "title": "Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding",
+        "similarity": 0.115
+      },
+      {
+        "url": "/video/wrap-folie-merken-3m-vs-avery/",
+        "title": "Wrap Folie: 3M IJ180Cv3 vs Avery MPI 1105 Vergeleken",
+        "similarity": 0.114
       }
     ]
   },
@@ -4015,29 +4017,29 @@
     "pageLang": "nl",
     "related": [
       {
-        "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.407
+        "url": "/video/vinyl-applicatie-tutorial/",
+        "title": "Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding",
+        "similarity": 0.355
       },
       {
-        "url": "/video/vinyl-applicatie-tutorial/",
-        "title": "[Transcript] Vinyl Applicatie op Raam — Stap-voor-Stap Handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.375
+        "url": "/video/raambelettering-frosted-installeren/",
+        "title": "Raambelettering Frosted Folie Installeren — Handleiding",
+        "similarity": 0.322
       },
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.227
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.21
       },
       {
         "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.171
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.132
       },
       {
         "url": "/video/doosletters-led-front-vs-halo/",
-        "title": "[Transcript] Doosletters frontlit vs halo-lit LED: welke past bij jouw merk? | Alfa Reclame Rotterdam",
-        "similarity": 0.142
+        "title": "Doosletters Frontlit vs Halo-lit LED — Vergelijking",
+        "similarity": 0.126
       }
     ]
   },
@@ -4046,28 +4048,28 @@
     "related": [
       {
         "url": "/video/raambelettering-frosted-installeren/",
-        "title": "[Transcript] Raambelettering met frosted folie installeren: stap-voor-stap handleiding | Alfa Reclame Rotterdam",
-        "similarity": 0.447
+        "title": "Raambelettering Frosted Folie Installeren — Handleiding",
+        "similarity": 0.384
       },
       {
         "url": "/video/vergunning-aanvragen-rotterdam-stappen/",
-        "title": "[Transcript] Omgevingsvergunning reclame Rotterdam aanvragen: stap-voor-stap handleiding 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.375
+        "title": "Omgevingsvergunning Reclame Rotterdam Aanvragen 2026",
+        "similarity": 0.355
       },
       {
         "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.261
+        "title": "Gevelreclame Kosten Uitleg 2026 — Transcript Rotterdam",
+        "similarity": 0.243
       },
       {
         "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.204
+        "title": "Autoreclame Onderhoud — Wassen, Wax &amp; Levensduur",
+        "similarity": 0.152
       },
       {
         "url": "/video/",
         "title": "Video-bibliotheek — Transcripts | Alfa Reclame Rotterdam",
-        "similarity": 0.145
+        "similarity": 0.146
       }
     ]
   },
@@ -4076,28 +4078,28 @@
     "related": [
       {
         "url": "/3m-vs-avery-cast-vinyl/",
-        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.266
+        "title": "3M IJ180Cv3 vs Avery SW900 — cast vinyl vergelijking",
+        "similarity": 0.28
       },
       {
         "url": "/autoreclame-rotterdam/",
-        "title": "",
-        "similarity": 0.261
+        "title": "Autoreclame Rotterdam vanaf &euro;395 | Alfa Reclame",
+        "similarity": 0.252
       },
       {
-        "url": "/video/gevelreclame-kosten-uitleg-2026/",
-        "title": "",
-        "similarity": 0.183
-      },
-      {
-        "url": "/video/autoreclame-care-handleiding/",
-        "title": "",
-        "similarity": 0.174
+        "url": "/materialen/",
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.179
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.17
+        "similarity": 0.178
+      },
+      {
+        "url": "/avery-vs-hexis-vinyl/",
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.172
       }
     ]
   },
@@ -4106,23 +4108,23 @@
     "related": [
       {
         "url": "/vinyl-vs-verf-gevel/",
-        "title": "Vinyl Belettering vs Verf op Gevel — Welke Kiest u Wanneer? | Alfa Reclame",
-        "similarity": 0.187
-      },
-      {
-        "url": "/magneetborden-rotterdam/",
-        "title": "Magneetborden Auto Rotterdam — Verwijderbare Magneetreclame | Alfa Reclame",
-        "similarity": 0.113
+        "title": "Vinyl Belettering vs Verf op Gevel — Welke Kiest u?",
+        "similarity": 0.165
       },
       {
         "url": "/blog/carwrap-degradatie-noord-zee-klimaat/",
-        "title": "Carwrap Degradatie in Noordzee-Klimaat &mdash; Rotterdam Haven UV en Zoutspray",
-        "similarity": 0.112
+        "title": "Carwrap Degradatie Noordzee-Klimaat Rotterdam Haven",
+        "similarity": 0.118
+      },
+      {
+        "url": "/magneetborden-rotterdam/",
+        "title": "Magneetborden Auto Rotterdam — Verwijderbare Reclame",
+        "similarity": 0.109
       },
       {
         "url": "/cast-vs-calendered-vinyl/",
-        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing & Keuze | Alfa Reclame",
-        "similarity": 0.102
+        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing &amp; Keuze",
+        "similarity": 0.105
       }
     ]
   },
@@ -4131,28 +4133,28 @@
     "related": [
       {
         "url": "/vinyl-vs-magneetstickers-auto/",
-        "title": "Vinyl Carwrap vs Magneetstickers Auto — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.187
-      },
-      {
-        "url": "/frontlit-vs-halolit-doosletters/",
-        "title": "",
-        "similarity": 0.176
+        "title": "Vinyl Carwrap vs Magneetstickers Auto — Vergelijking",
+        "similarity": 0.165
       },
       {
         "url": "/doosletters-vs-lichtbak/",
-        "title": "Doosletters vs Lichtbak — vergelijking lichtreclame 2026 | Alfa Reclame",
-        "similarity": 0.154
+        "title": "Doosletters vs Lichtbak — Vergelijking 2026",
+        "similarity": 0.161
       },
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.148
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.154
       },
       {
-        "url": "/cast-vs-calendered-vinyl/",
-        "title": "Cast vs Calendered Vinyl — Verschil, Toepassing & Keuze | Alfa Reclame",
-        "similarity": 0.135
+        "url": "/frontlit-vs-halolit-doosletters/",
+        "title": "Front-lit vs Halo-lit Doosletters Rotterdam",
+        "similarity": 0.146
+      },
+      {
+        "url": "/snijfolie-vs-printfolie/",
+        "title": "Snijfolie vs Printfolie — Wat Past bij Uw Project?",
+        "similarity": 0.141
       }
     ]
   },
@@ -4161,8 +4163,8 @@
     "related": [
       {
         "url": "/vlaggen-vs-spandoeken/",
-        "title": "Vlaggen vs Spandoeken — Welke Buitenreclame Past Bij Uw Actie? | Alfa Reclame Rotterdam",
-        "similarity": 0.191
+        "title": "Vlaggen vs Spandoeken — Buitenreclame Rotterdam",
+        "similarity": 0.198
       }
     ]
   },
@@ -4171,23 +4173,23 @@
     "related": [
       {
         "url": "/spandoeken-rotterdam/",
-        "title": "Spandoeken Rotterdam — Frontlit, Blockout &amp; Mesh | Alfa Reclame",
-        "similarity": 0.248
-      },
-      {
-        "url": "/vlaggen-vlaggenmasten-rotterdam/",
-        "title": "Vlaggen &amp; Vlaggenmasten Rotterdam — Drukken + Montage | Alfa Reclame",
-        "similarity": 0.191
+        "title": "Spandoeken Rotterdam — Frontlit, Blockout &amp; Mesh",
+        "similarity": 0.258
       },
       {
         "url": "/blog/spandoeken-prijzen-rotterdam-2026/",
-        "title": "Spandoeken Prijzen Rotterdam 2026 &mdash; Frontlit, Blockout &amp; Mesh per m&sup2;",
-        "similarity": 0.175
+        "title": "Spandoeken Prijzen Rotterdam 2026 — Frontlit &amp; Mesh",
+        "similarity": 0.203
+      },
+      {
+        "url": "/vlaggen-vlaggenmasten-rotterdam/",
+        "title": "Vlaggen &amp; Vlaggenmasten Rotterdam — Drukken + Montage",
+        "similarity": 0.198
       },
       {
         "url": "/3m-vs-hexis-vinyl/",
         "title": "3M vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.107
+        "similarity": 0.105
       }
     ]
   },
@@ -4196,57 +4198,73 @@
     "related": [
       {
         "url": "/faq/",
-        "title": "",
-        "similarity": 0.311
+        "title": "Veelgestelde Vragen — FAQ Signage Rotterdam | Alfa Reclame",
+        "similarity": 0.283
       },
       {
         "url": "/fleet-wrap-rotterdam/",
-        "title": "",
-        "similarity": 0.12
+        "title": "Fleet Wrap Rotterdam — Wagenpark | Alfa Reclame",
+        "similarity": 0.13
+      },
+      {
+        "url": "/diensten/",
+        "title": "Diensten — Reclamebureau Rotterdam | Alfa Reclame",
+        "similarity": 0.111
       },
       {
         "url": "/video/fleet-wrap-kosten-berekenen-mkb/",
-        "title": "[Transcript] Fleet wrap kosten berekenen voor MKB: ROI en brand-impressions | Alfa Reclame Rotterdam",
+        "title": "Fleet Wrap Kosten Berekenen MKB — ROI &amp; Impressions",
         "similarity": 0.107
       },
       {
-        "url": "/partial-vs-full-body-wrap/",
-        "title": "Partial Wrap vs Full Body Wrap — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.101
+        "url": "/",
+        "title": "Reclamebureau Rotterdam — Signage Sinds 2012 | Alfa Reclame",
+        "similarity": 0.106
       }
     ]
   },
   "/werkwijze/": {
     "pageLang": "nl",
-    "related": []
+    "related": [
+      {
+        "url": "/blog/doosletters-installatie-stappen/",
+        "title": "Doosletters Installatie: Survey, Vergunning &amp; Montage",
+        "similarity": 0.137
+      },
+      {
+        "url": "/video/silobelettering-installatie-werkwijze/",
+        "title": "Silobelettering Installatie Werkwijze — Werken op Hoogte",
+        "similarity": 0.107
+      }
+    ]
   },
   "/zandstraalfolie-rotterdam/": {
     "pageLang": "nl",
     "related": [
       {
         "url": "/raamfolie-vs-etsfolie-privacy/",
-        "title": "Raamfolie vs Etsfolie Privacy — vergelijking 2026 | Alfa Reclame",
-        "similarity": 0.298
+        "title": "Raamfolie vs Etsfolie — Privacy Vergelijking Rotterdam",
+        "similarity": 0.296
+      },
+      {
+        "url": "/raambestickering-rotterdam/",
+        "title": "Raambestickering Rotterdam — Glasfolie &amp; Prints",
+        "similarity": 0.188
       },
       {
         "url": "/materialen/",
-        "title": "",
-        "similarity": 0.123
+        "title": "Materialen — 3M, Avery, Hexis | Alfa Reclame",
+        "similarity": 0.137
+      },
+      {
+        "url": "/autobelettering-rotterdam/",
+        "title": "Autobelettering Rotterdam — Logo &amp; Tekst op Auto",
+        "similarity": 0.13
       },
       {
         "url": "/avery-vs-hexis-vinyl/",
-        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame Rotterdam",
-        "similarity": 0.118
-      },
-      {
-        "url": "/bestickering-rotterdam/",
-        "title": "",
-        "similarity": 0.116
-      },
-      {
-        "url": "/raambelettering-fysiotherapeut-rotterdam/",
-        "title": "Raambelettering voor Fysiotherapie in Rotterdam | Alfa Reclame",
-        "similarity": 0.102
+        "title": "Avery vs Hexis Vinyl Vergelijking 2026 | Alfa Reclame",
+        "similarity": 0.117
       }
     ]
   },
@@ -4256,30 +4274,42 @@
       {
         "url": "/gevelreclame-tandarts-rotterdam/",
         "title": "Gevelreclame voor Tandartsen in Rotterdam | Alfa Reclame",
-        "similarity": 0.181
+        "similarity": 0.192
       },
       {
         "url": "/bewegwijzering-rotterdam/",
-        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595 | Alfa Reclame",
-        "similarity": 0.145
+        "title": "Bewegwijzering Rotterdam — NEN-1414 vanaf €595",
+        "similarity": 0.165
       },
       {
         "url": "/raambelettering-fysiotherapeut-rotterdam/",
-        "title": "Raambelettering voor Fysiotherapie in Rotterdam | Alfa Reclame",
-        "similarity": 0.12
+        "title": "Raambelettering voor Fysiotherapeuten Rotterdam",
+        "similarity": 0.134
       },
       {
         "url": "/tandartspraktijk-reclame/",
         "title": "Reclame voor Tandartspraktijk | Alfa Reclame Rotterdam",
-        "similarity": 0.101
+        "similarity": 0.107
       }
     ]
+  },
+  "/de/fahrzeugbeschriftung-rotterdam/": {
+    "pageLang": "de",
+    "related": []
   },
   "/de/fahrzeugbeschriftung-rotterdam-zuid/": {
     "pageLang": "de",
     "related": []
   },
+  "/de/fassadenwerbung-rotterdam/": {
+    "pageLang": "de",
+    "related": []
+  },
   "/de/fassadenwerbung-rotterdam-kralingen/": {
+    "pageLang": "de",
+    "related": []
+  },
+  "/de/fensterbeschriftung-rotterdam/": {
     "pageLang": "de",
     "related": []
   },
@@ -4299,13 +4329,33 @@
     "pageLang": "de",
     "related": []
   },
-  "/en/facade-signage-rotterdam-kralingen/": {
+  "/en/facade-signage-rotterdam/": {
     "pageLang": "en",
     "related": [
       {
         "url": "/en/",
-        "title": "Signage Rotterdam — Design, Production & Installation Since 2012 | Alfa Reclame",
-        "similarity": 0.177
+        "title": "Signage Rotterdam — Design &amp; Installation Since 2012",
+        "similarity": 0.186
+      },
+      {
+        "url": "/en/facade-signage-rotterdam-kralingen/",
+        "title": "Facade Signage Rotterdam Kralingen | Alfa Reclame",
+        "similarity": 0.166
+      }
+    ]
+  },
+  "/en/facade-signage-rotterdam-kralingen/": {
+    "pageLang": "en",
+    "related": [
+      {
+        "url": "/en/facade-signage-rotterdam/",
+        "title": "Facade Signage Rotterdam — From €295 | Alfa Reclame",
+        "similarity": 0.166
+      },
+      {
+        "url": "/en/",
+        "title": "Signage Rotterdam — Design &amp; Installation Since 2012",
+        "similarity": 0.16
       }
     ]
   },
@@ -4317,15 +4367,61 @@
     "pageLang": "en",
     "related": [
       {
+        "url": "/en/facade-signage-rotterdam/",
+        "title": "Facade Signage Rotterdam — From €295 | Alfa Reclame",
+        "similarity": 0.186
+      },
+      {
         "url": "/en/facade-signage-rotterdam-kralingen/",
         "title": "Facade Signage Rotterdam Kralingen | Alfa Reclame",
-        "similarity": 0.177
+        "similarity": 0.16
+      },
+      {
+        "url": "/en/window-graphics-rotterdam/",
+        "title": "Window Graphics Rotterdam — From €149 | Alfa Reclame",
+        "similarity": 0.127
+      },
+      {
+        "url": "/en/vehicle-wraps-rotterdam/",
+        "title": "Vehicle Wraps Rotterdam — Cars, Vans & Fleet | Alfa Reclame",
+        "similarity": 0.11
+      }
+    ]
+  },
+  "/en/vehicle-wraps-rotterdam/": {
+    "pageLang": "en",
+    "related": [
+      {
+        "url": "/en/vehicle-wraps-rotterdam-zuid/",
+        "title": "Vehicle Wraps Rotterdam Zuid | Alfa Reclame",
+        "similarity": 0.195
+      },
+      {
+        "url": "/en/",
+        "title": "Signage Rotterdam — Design &amp; Installation Since 2012",
+        "similarity": 0.11
       }
     ]
   },
   "/en/vehicle-wraps-rotterdam-zuid/": {
     "pageLang": "en",
-    "related": []
+    "related": [
+      {
+        "url": "/en/vehicle-wraps-rotterdam/",
+        "title": "Vehicle Wraps Rotterdam — Cars, Vans & Fleet | Alfa Reclame",
+        "similarity": 0.195
+      }
+    ]
+  },
+  "/en/window-graphics-rotterdam/": {
+    "pageLang": "en",
+    "related": [
+      {
+        "url": "/en/",
+        "title": "Signage Rotterdam — Design &amp; Installation Since 2012",
+        "similarity": 0.127
+      }
+    ]
   },
   "/en/window-graphics-rotterdam-centrum/": {
     "pageLang": "en",
@@ -4494,7 +4590,12 @@
       {
         "url": "/tr/cam-yazisi-rotterdam/",
         "title": "Cam Yazısı Rotterdam — €250'den | 3M Vinil | Alfa Reclame",
-        "similarity": 0.183
+        "similarity": 0.209
+      },
+      {
+        "url": "/tr/",
+        "title": "Rotterdam Reklam ve Tabela Uzmanı — Alfa Reclame | 14+ Yıl Deneyim",
+        "similarity": 0.102
       }
     ]
   },
@@ -4506,24 +4607,24 @@
     "pageLang": "tr",
     "related": [
       {
-        "url": "/tr/cam-yazisi-rotterdam-centrum/",
-        "title": "Cam Yazısı Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.184
-      },
-      {
         "url": "/tr/arac-reklami-rotterdam/",
         "title": "Araç Reklamı Rotterdam — €350'den | 3M Wrap | Alfa Reclame",
-        "similarity": 0.183
+        "similarity": 0.209
       },
       {
         "url": "/tr/",
         "title": "Rotterdam Reklam ve Tabela Uzmanı — Alfa Reclame | 14+ Yıl Deneyim",
-        "similarity": 0.177
+        "similarity": 0.193
+      },
+      {
+        "url": "/tr/cam-yazisi-rotterdam-centrum/",
+        "title": "Cam Yazısı Rotterdam Centrum | Alfa Reclame",
+        "similarity": 0.18
       },
       {
         "url": "/tr/cam-yazisi-rotterdam-noord/",
         "title": "Cam Yazısı Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.159
+        "similarity": 0.161
       }
     ]
   },
@@ -4533,12 +4634,12 @@
       {
         "url": "/tr/cam-yazisi-rotterdam/",
         "title": "Cam Yazısı Rotterdam — €250'den | 3M Vinil | Alfa Reclame",
-        "similarity": 0.184
+        "similarity": 0.18
       },
       {
         "url": "/tr/cam-yazisi-rotterdam-noord/",
         "title": "Cam Yazısı Rotterdam Noord | Alfa Reclame",
-        "similarity": 0.114
+        "similarity": 0.113
       }
     ]
   },
@@ -4548,12 +4649,12 @@
       {
         "url": "/tr/cam-yazisi-rotterdam/",
         "title": "Cam Yazısı Rotterdam — €250'den | 3M Vinil | Alfa Reclame",
-        "similarity": 0.159
+        "similarity": 0.161
       },
       {
         "url": "/tr/cam-yazisi-rotterdam-centrum/",
         "title": "Cam Yazısı Rotterdam Centrum | Alfa Reclame",
-        "similarity": 0.114
+        "similarity": 0.113
       }
     ]
   },
@@ -4561,19 +4662,19 @@
     "pageLang": "tr",
     "related": [
       {
-        "url": "/tr/",
-        "title": "Rotterdam Reklam ve Tabela Uzmanı — Alfa Reclame | 14+ Yıl Deneyim",
-        "similarity": 0.242
-      },
-      {
         "url": "/tr/isikli-tabela-rotterdam/",
         "title": "Işıklı Tabela Rotterdam — LED Tabela | Alfa Reclame",
-        "similarity": 0.227
+        "similarity": 0.215
+      },
+      {
+        "url": "/tr/",
+        "title": "Rotterdam Reklam ve Tabela Uzmanı — Alfa Reclame | 14+ Yıl Deneyim",
+        "similarity": 0.21
       },
       {
         "url": "/tr/kutu-harf-rotterdam/",
         "title": "Kutu Harf Rotterdam — 3D Harf | LED | Alfa Reclame",
-        "similarity": 0.173
+        "similarity": 0.189
       }
     ]
   },
@@ -4581,28 +4682,43 @@
     "pageLang": "tr",
     "related": []
   },
+  "/tr/dis-hekimi-reklam/": {
+    "pageLang": "tr",
+    "related": [
+      {
+        "url": "/tr/noter-burosu-reklam/",
+        "title": "Noter Bürosu Tabela & Reklam Rotterdam | Alfa Reclame",
+        "similarity": 0.106
+      }
+    ]
+  },
   "/tr/": {
     "pageLang": "tr",
     "related": [
       {
         "url": "/tr/cephe-reklami-rotterdam/",
         "title": "Cephe Reklamı Rotterdam — Tabela | Alfa Reclame",
-        "similarity": 0.242
+        "similarity": 0.21
       },
       {
         "url": "/tr/cam-yazisi-rotterdam/",
         "title": "Cam Yazısı Rotterdam — €250'den | 3M Vinil | Alfa Reclame",
-        "similarity": 0.177
+        "similarity": 0.193
       },
       {
         "url": "/tr/isikli-tabela-rotterdam/",
         "title": "Işıklı Tabela Rotterdam — LED Tabela | Alfa Reclame",
-        "similarity": 0.172
+        "similarity": 0.148
       },
       {
         "url": "/tr/kutu-harf-rotterdam/",
         "title": "Kutu Harf Rotterdam — 3D Harf | LED | Alfa Reclame",
-        "similarity": 0.105
+        "similarity": 0.112
+      },
+      {
+        "url": "/tr/arac-reklami-rotterdam/",
+        "title": "Araç Reklamı Rotterdam — €350'den | 3M Wrap | Alfa Reclame",
+        "similarity": 0.102
       }
     ]
   },
@@ -4612,29 +4728,18 @@
       {
         "url": "/tr/cephe-reklami-rotterdam/",
         "title": "Cephe Reklamı Rotterdam — Tabela | Alfa Reclame",
-        "similarity": 0.227
+        "similarity": 0.215
       },
       {
         "url": "/tr/",
         "title": "Rotterdam Reklam ve Tabela Uzmanı — Alfa Reclame | 14+ Yıl Deneyim",
-        "similarity": 0.172
-      },
-      {
-        "url": "/tr/isikli-tabela-rotterdam-prins-alexander/",
-        "title": "Işıklı Tabela Rotterdam Prins Alexander | Alfa Reclame",
-        "similarity": 0.111
+        "similarity": 0.148
       }
     ]
   },
   "/tr/isikli-tabela-rotterdam-prins-alexander/": {
     "pageLang": "tr",
-    "related": [
-      {
-        "url": "/tr/isikli-tabela-rotterdam/",
-        "title": "Işıklı Tabela Rotterdam — LED Tabela | Alfa Reclame",
-        "similarity": 0.111
-      }
-    ]
+    "related": []
   },
   "/tr/kutu-harf-rotterdam/": {
     "pageLang": "tr",
@@ -4642,12 +4747,22 @@
       {
         "url": "/tr/cephe-reklami-rotterdam/",
         "title": "Cephe Reklamı Rotterdam — Tabela | Alfa Reclame",
-        "similarity": 0.173
+        "similarity": 0.189
       },
       {
         "url": "/tr/",
         "title": "Rotterdam Reklam ve Tabela Uzmanı — Alfa Reclame | 14+ Yıl Deneyim",
-        "similarity": 0.105
+        "similarity": 0.112
+      }
+    ]
+  },
+  "/tr/noter-burosu-reklam/": {
+    "pageLang": "tr",
+    "related": [
+      {
+        "url": "/tr/dis-hekimi-reklam/",
+        "title": "Diş Hekimi Tabela & Reklam Rotterdam | Alfa Reclame",
+        "similarity": 0.106
       }
     ]
   }

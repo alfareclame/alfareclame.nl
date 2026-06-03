@@ -60,6 +60,7 @@ function collectNjk(dir, files) {
 
 /** Parse YAML front-matter block (simple inline, no external dep) */
 function parseFrontMatter(src) {
+  src = src.replace(/\r\n/g, '\n').replace(/\r/g, '\n'); // normalize CRLF — \r broke value/URL parsing
   if (!src.startsWith('---')) return { meta: {}, body: src };
   const end = src.indexOf('\n---', 3);
   if (end === -1) return { meta: {}, body: src };
@@ -161,7 +162,7 @@ function cosineSim(a, b) {
 /** Derive URL slug from file path relative to ROOT */
 function slugFromPath(filePath) {
   let rel = path.relative(ROOT, filePath).replace(/\\/g, '/');
-  rel = rel.replace(/\/index\.njk$/, '/').replace(/\.njk$/, '/');
+  rel = rel.replace(/index\.njk$/, '').replace(/\.njk$/, '/'); // root index.njk -> '' -> '/'
   if (!rel.startsWith('/')) rel = '/' + rel;
   return rel;
 }
