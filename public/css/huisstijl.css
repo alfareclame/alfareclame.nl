@@ -1828,5 +1828,14 @@ h6, .h6 {
 
 
 /* =============================================================================
+   RELATED PAGES — internal-link aside (base.njk service/landing pages)
+   ============================================================================= */
+.related-pages{max-width:1200px;margin:0 auto;padding:var(--space-7) 24px var(--space-8);border-top:1px solid var(--rule)}
+.related-pages h2{font-size:var(--text-xl);font-weight:700;letter-spacing:var(--tracking-tight);color:var(--ink);margin:0 0 var(--space-5)}
+.related-pages__list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--space-3)}
+.related-pages__link{display:block;padding:var(--space-3) var(--space-4);background:var(--surface-mute);border:1px solid var(--rule);border-radius:var(--radius-sm);color:var(--ink-soft);font-size:var(--text-sm);font-weight:500;line-height:1.4;transition:border-color var(--transition-fast),background var(--transition-fast)}
+.related-pages__link:hover{background:var(--surface);border-color:var(--brand-deep)}
+
+/* =============================================================================
    EOF — huisstijl.css  |  Alfa Reclame  |  2026-05-20 Sprint 3
    ============================================================================= */

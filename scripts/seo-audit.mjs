@@ -66,7 +66,10 @@ for (const f of files) {
   if (!title || !title.trim()) report.titleMissing.push(rel);
   else if (dispLen(title) > 60) report.titleTooLong.push(`${rel} (${dispLen(title)})`);
 
-  const desc = attr(html, /<meta\s+name=["']description["']\s+content=["']([\s\S]*?)["']/i);
+  // Backreference \1 closes on the OPENING quote char only — a naive ["'] closing class
+  // stops at apostrophes inside the text (e.g. Rotterdam'da → false 9-char reading).
+  const dm = html.match(/<meta\s+name=["']description["']\s+content=(["'])([\s\S]*?)\1/i);
+  const desc = dm ? dm[2] : null;
   if (desc === null || !desc.trim()) report.descMissing.push(rel);
   else {
     const L = dispLen(desc);

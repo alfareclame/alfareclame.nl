@@ -3,9 +3,9 @@
 <aside class="related-pages" aria-labelledby="related-heading">
   <h2 id="related-heading">{% if pageLang == 'en' %}Related pages{% elif pageLang == 'de' %}Verwandte Seiten{% elif pageLang == 'tr' %}İlgili sayfalar{% elif pageLang == 'pl' %}Powiązane strony{% else %}Gerelateerde pagina's{% endif %}</h2>
   <ul class="related-pages__list">
-    {% for rel in related %}
+    {% for rel in related %}{% if rel.title and rel.url != '/sitemap/' %}
     <li><a href="{{ rel.url }}" class="related-pages__link">{{ rel.title }}</a></li>
-    {% endfor %}
+    {% endif %}{% endfor %}
   </ul>
 </aside>
 {% endif %}
