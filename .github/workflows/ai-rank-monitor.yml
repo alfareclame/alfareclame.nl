@@ -21,9 +21,8 @@ on:
         required: false
         default: 'all'
 
-  # Uncomment to enable weekly cron (maandag 09:00 UTC = ~10:00 CET):
-  # schedule:
-  #   - cron: '0 9 * * 1'
+  schedule:
+    - cron: '0 9 * * 1'   # maandag 09:00 UTC = ~10:00 CET
 
 # Prevent overlapping runs (e.g. manual + scheduled at same time)
 concurrency:
